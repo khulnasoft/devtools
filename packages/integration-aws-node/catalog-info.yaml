@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-integration-aws-node
+  title: '@devtools/integration-aws-node'
+  description: Helpers for fetching AWS account credentials
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

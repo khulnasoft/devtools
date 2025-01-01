@@ -1,0 +1,54 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "main": "dist/index.cjs.js",
+  "types": "src/index.ts",
+  "private": true,
+  "devtools": {
+    "role": "backend"
+  },
+  "scripts": {
+    "start": "devtools-cli package start",
+    "build": "devtools-cli package build",
+    "lint": "devtools-cli package lint",
+    "test": "devtools-cli package test",
+    "clean": "devtools-cli package clean",
+    "build-image": "docker build ../.. -f Dockerfile --tag devtools"
+  },
+  "dependencies": {
+    "@devtools/backend-defaults": "^{{version '@devtools/backend-defaults'}}",
+    "@devtools/config": "^{{version '@devtools/config'}}",
+    "@devtools/plugin-app-backend": "^{{version '@devtools/plugin-app-backend'}}",
+    "@devtools/plugin-auth-backend": "^{{version '@devtools/plugin-auth-backend'}}",
+    "@devtools/plugin-auth-backend-module-github-provider": "^{{version '@devtools/plugin-auth-backend-module-github-provider'}}",
+    "@devtools/plugin-auth-backend-module-guest-provider": "^{{version '@devtools/plugin-auth-backend-module-guest-provider'}}",
+    "@devtools/plugin-auth-node": "^{{version '@devtools/plugin-auth-node'}}",
+    "@devtools/plugin-catalog-backend": "^{{version '@devtools/plugin-catalog-backend'}}",
+    "@devtools/plugin-catalog-backend-module-logs": "^{{version '@devtools/plugin-catalog-backend-module-logs'}}",
+    "@devtools/plugin-catalog-backend-module-scaffolder-entity-model": "^{{version '@devtools/plugin-catalog-backend-module-scaffolder-entity-model'}}",
+    "@devtools/plugin-kubernetes-backend": "^{{version '@devtools/plugin-kubernetes-backend'}}",
+    "@devtools/plugin-permission-backend": "^{{version '@devtools/plugin-permission-backend'}}",
+    "@devtools/plugin-permission-backend-module-allow-all-policy": "^{{version '@devtools/plugin-permission-backend-module-allow-all-policy'}}",
+    "@devtools/plugin-permission-common": "^{{version '@devtools/plugin-permission-common'}}",
+    "@devtools/plugin-permission-node": "^{{version '@devtools/plugin-permission-node'}}",
+    "@devtools/plugin-proxy-backend": "^{{version '@devtools/plugin-proxy-backend'}}",
+    "@devtools/plugin-scaffolder-backend": "^{{version '@devtools/plugin-scaffolder-backend'}}",
+    "@devtools/plugin-scaffolder-backend-module-github": "^{{version '@devtools/plugin-scaffolder-backend-module-github'}}",
+    "@devtools/plugin-search-backend": "^{{version '@devtools/plugin-search-backend'}}",
+    "@devtools/plugin-search-backend-module-catalog": "^{{version '@devtools/plugin-search-backend-module-catalog'}}",
+    "@devtools/plugin-search-backend-module-pg": "^{{version '@devtools/plugin-search-backend-module-pg'}}",
+    "@devtools/plugin-search-backend-module-techdocs": "^{{version '@devtools/plugin-search-backend-module-techdocs'}}",
+    "@devtools/plugin-search-backend-node": "^{{version '@devtools/plugin-search-backend-node'}}",
+    "@devtools/plugin-techdocs-backend": "^{{version '@devtools/plugin-techdocs-backend'}}",
+    "app": "link:../app",
+    "better-sqlite3": "^9.0.0",
+    "node-gyp": "^10.0.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@devtools/cli": "^{{version '@devtools/cli'}}"
+  },
+  "files": [
+    "dist"
+  ]
+}

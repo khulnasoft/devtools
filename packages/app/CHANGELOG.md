@@ -1,0 +1,11559 @@
+# example-app
+
+## 0.2.105-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-react@1.15.1-next.0
+  - @devtools/plugin-home@0.8.4-next.1
+  - @devtools/plugin-scaffolder-react@1.14.3-next.1
+  - @devtools/plugin-scaffolder@1.27.4-next.1
+  - @devtools/plugin-api-docs@0.12.3-next.0
+  - @devtools/plugin-catalog@1.26.1-next.0
+  - @devtools/plugin-catalog-graph@0.4.15-next.0
+  - @devtools/plugin-catalog-import@0.12.9-next.0
+  - @devtools/plugin-kubernetes@0.12.3-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.21-next.0
+  - @devtools/plugin-org@0.6.35-next.0
+  - @devtools/plugin-search@1.4.22-next.0
+  - @devtools/plugin-techdocs@1.12.1-next.0
+  - @devtools/plugin-user-settings@0.8.18-next.0
+  - @devtools/cli@0.29.5-next.0
+  - @devtools/integration-react@1.2.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.12
+  - @devtools/plugin-devtools@0.1.22
+  - @devtools/plugin-notifications@0.5.0
+  - @devtools/plugin-signals@0.0.14
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.20-next.0
+
+## 0.2.105-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.8.4-next.0
+  - @devtools/cli@0.29.5-next.0
+  - @devtools/plugin-scaffolder-react@1.14.3-next.0
+  - @devtools/plugin-scaffolder@1.27.4-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.20-next.0
+  - @devtools/app-defaults@1.5.15
+  - @devtools/catalog-model@1.7.2
+  - @devtools/config@1.3.1
+  - @devtools/core-app-api@1.15.3
+  - @devtools/core-components@0.16.2
+  - @devtools/core-plugin-api@1.10.2
+  - @devtools/frontend-app-api@0.10.3
+  - @devtools/integration-react@1.2.2
+  - @devtools/theme@0.6.3
+  - @devtools/plugin-api-docs@0.12.2
+  - @devtools/plugin-auth-react@0.1.10
+  - @devtools/plugin-catalog@1.26.0
+  - @devtools/plugin-catalog-common@1.1.2
+  - @devtools/plugin-catalog-graph@0.4.14
+  - @devtools/plugin-catalog-import@0.12.8
+  - @devtools/plugin-catalog-react@1.15.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.12
+  - @devtools/plugin-devtools@0.1.22
+  - @devtools/plugin-kubernetes@0.12.2
+  - @devtools/plugin-kubernetes-cluster@0.0.20
+  - @devtools/plugin-notifications@0.5.0
+  - @devtools/plugin-org@0.6.34
+  - @devtools/plugin-permission-react@0.4.29
+  - @devtools/plugin-search@1.4.21
+  - @devtools/plugin-search-common@1.2.16
+  - @devtools/plugin-search-react@1.8.4
+  - @devtools/plugin-signals@0.0.14
+  - @devtools/plugin-techdocs@1.12.0
+  - @devtools/plugin-techdocs-react@1.2.12
+  - @devtools/plugin-user-settings@0.8.17
+
+## 0.2.104
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-react@1.15.0
+  - @devtools/cli@0.29.4
+  - @devtools/plugin-home@0.8.3
+  - @devtools/plugin-techdocs@1.12.0
+  - @devtools/core-app-api@1.15.3
+  - @devtools/plugin-catalog@1.26.0
+  - @devtools/plugin-scaffolder-react@1.14.2
+  - @devtools/plugin-scaffolder@1.27.2
+  - @devtools/plugin-search-react@1.8.4
+  - @devtools/plugin-search@1.4.21
+  - @devtools/plugin-notifications@0.5.0
+  - @devtools/theme@0.6.3
+  - @devtools/plugin-api-docs@0.12.2
+  - @devtools/core-components@0.16.2
+  - @devtools/plugin-catalog-graph@0.4.14
+  - @devtools/plugin-catalog-import@0.12.8
+  - @devtools/plugin-kubernetes@0.12.2
+  - @devtools/plugin-kubernetes-cluster@0.0.20
+  - @devtools/plugin-org@0.6.34
+  - @devtools/plugin-user-settings@0.8.17
+  - @devtools/app-defaults@1.5.15
+  - @devtools/catalog-model@1.7.2
+  - @devtools/config@1.3.1
+  - @devtools/core-plugin-api@1.10.2
+  - @devtools/frontend-app-api@0.10.3
+  - @devtools/integration-react@1.2.2
+  - @devtools/plugin-auth-react@0.1.10
+  - @devtools/plugin-catalog-common@1.1.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.12
+  - @devtools/plugin-devtools@0.1.22
+  - @devtools/plugin-permission-react@0.4.29
+  - @devtools/plugin-search-common@1.2.16
+  - @devtools/plugin-signals@0.0.14
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.19
+  - @devtools/plugin-techdocs-react@1.2.12
+
+## 0.2.104-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@1.26.0-next.2
+  - @devtools/plugin-notifications@0.5.0-next.2
+  - @devtools/cli@0.29.3-next.2
+  - @devtools/plugin-catalog-react@1.14.3-next.2
+  - @devtools/plugin-scaffolder-react@1.14.2-next.2
+  - @devtools/plugin-scaffolder@1.27.2-next.2
+  - @devtools/plugin-api-docs@0.12.2-next.2
+  - @devtools/plugin-catalog-graph@0.4.14-next.2
+  - @devtools/plugin-catalog-import@0.12.8-next.2
+  - @devtools/plugin-org@0.6.34-next.2
+  - @devtools/plugin-user-settings@0.8.17-next.2
+  - @devtools/app-defaults@1.5.15-next.2
+  - @devtools/catalog-model@1.7.2-next.0
+  - @devtools/config@1.3.1-next.0
+  - @devtools/core-app-api@1.15.3-next.1
+  - @devtools/core-components@0.16.2-next.2
+  - @devtools/core-plugin-api@1.10.2-next.0
+  - @devtools/frontend-app-api@0.10.3-next.2
+  - @devtools/integration-react@1.2.2-next.1
+  - @devtools/theme@0.6.3-next.0
+  - @devtools/plugin-auth-react@0.1.10-next.2
+  - @devtools/plugin-catalog-common@1.1.2-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.12-next.2
+  - @devtools/plugin-devtools@0.1.22-next.2
+  - @devtools/plugin-home@0.8.3-next.2
+  - @devtools/plugin-kubernetes@0.12.2-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.20-next.2
+  - @devtools/plugin-permission-react@0.4.29-next.0
+  - @devtools/plugin-search@1.4.21-next.2
+  - @devtools/plugin-search-common@1.2.16-next.0
+  - @devtools/plugin-search-react@1.8.4-next.2
+  - @devtools/plugin-signals@0.0.14-next.2
+  - @devtools/plugin-techdocs@1.11.3-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.19-next.2
+  - @devtools/plugin-techdocs-react@1.2.12-next.2
+
+## 0.2.104-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.8.3-next.1
+  - @devtools/plugin-catalog-react@1.14.3-next.1
+  - @devtools/plugin-scaffolder-react@1.14.2-next.1
+  - @devtools/cli@0.29.3-next.1
+  - @devtools/core-components@0.16.2-next.1
+  - @devtools/plugin-api-docs@0.12.2-next.1
+  - @devtools/plugin-catalog@1.25.2-next.1
+  - @devtools/plugin-catalog-graph@0.4.14-next.1
+  - @devtools/plugin-catalog-import@0.12.8-next.1
+  - @devtools/plugin-kubernetes@0.12.2-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.20-next.1
+  - @devtools/plugin-org@0.6.34-next.1
+  - @devtools/plugin-scaffolder@1.27.2-next.1
+  - @devtools/plugin-search@1.4.21-next.1
+  - @devtools/plugin-techdocs@1.11.3-next.1
+  - @devtools/plugin-user-settings@0.8.17-next.1
+  - @devtools/app-defaults@1.5.15-next.1
+  - @devtools/catalog-model@1.7.1
+  - @devtools/config@1.3.0
+  - @devtools/core-app-api@1.15.3-next.0
+  - @devtools/core-plugin-api@1.10.1
+  - @devtools/frontend-app-api@0.10.3-next.1
+  - @devtools/integration-react@1.2.2-next.0
+  - @devtools/theme@0.6.3-next.0
+  - @devtools/plugin-auth-react@0.1.10-next.1
+  - @devtools/plugin-catalog-common@1.1.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.12-next.1
+  - @devtools/plugin-devtools@0.1.22-next.1
+  - @devtools/plugin-notifications@0.4.2-next.1
+  - @devtools/plugin-permission-react@0.4.28
+  - @devtools/plugin-search-common@1.2.15
+  - @devtools/plugin-search-react@1.8.4-next.1
+  - @devtools/plugin-signals@0.0.14-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.19-next.1
+  - @devtools/plugin-techdocs-react@1.2.12-next.1
+
+## 0.2.104-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.29.3-next.0
+  - @devtools/core-app-api@1.15.3-next.0
+  - @devtools/plugin-scaffolder-react@1.14.2-next.0
+  - @devtools/plugin-scaffolder@1.27.2-next.0
+  - @devtools/plugin-search-react@1.8.4-next.0
+  - @devtools/plugin-search@1.4.21-next.0
+  - @devtools/plugin-catalog-react@1.14.3-next.0
+  - @devtools/plugin-techdocs@1.11.3-next.0
+  - @devtools/plugin-home@0.8.3-next.0
+  - @devtools/theme@0.6.3-next.0
+  - @devtools/plugin-api-docs@0.12.2-next.0
+  - @devtools/app-defaults@1.5.15-next.0
+  - @devtools/catalog-model@1.7.1
+  - @devtools/config@1.3.0
+  - @devtools/core-components@0.16.2-next.0
+  - @devtools/core-plugin-api@1.10.1
+  - @devtools/frontend-app-api@0.10.3-next.0
+  - @devtools/integration-react@1.2.2-next.0
+  - @devtools/plugin-auth-react@0.1.10-next.0
+  - @devtools/plugin-catalog@1.25.2-next.0
+  - @devtools/plugin-catalog-common@1.1.1
+  - @devtools/plugin-catalog-graph@0.4.14-next.0
+  - @devtools/plugin-catalog-import@0.12.8-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.12-next.0
+  - @devtools/plugin-devtools@0.1.22-next.0
+  - @devtools/plugin-kubernetes@0.12.2-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.20-next.0
+  - @devtools/plugin-notifications@0.4.2-next.0
+  - @devtools/plugin-org@0.6.34-next.0
+  - @devtools/plugin-permission-react@0.4.28
+  - @devtools/plugin-search-common@1.2.15
+  - @devtools/plugin-signals@0.0.14-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.19-next.0
+  - @devtools/plugin-techdocs-react@1.2.12-next.0
+  - @devtools/plugin-user-settings@0.8.17-next.0
+
+## 0.2.103
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.29.0
+  - @devtools/plugin-catalog@1.25.0
+  - @devtools/plugin-api-docs@0.12.0
+  - @devtools/config@1.3.0
+  - @devtools/theme@0.6.1
+  - @devtools/plugin-notifications@0.4.0
+  - @devtools/plugin-techdocs@1.11.1
+  - @devtools/plugin-search@1.4.19
+  - @devtools/plugin-org@0.6.32
+  - @devtools/plugin-scaffolder-react@1.14.0
+  - @devtools/plugin-catalog-react@1.14.1
+  - @devtools/plugin-scaffolder@1.27.0
+  - @devtools/plugin-catalog-import@0.12.6
+  - @devtools/core-components@0.16.0
+  - @devtools/plugin-kubernetes@0.12.0
+  - @devtools/plugin-home@0.8.1
+  - @devtools/plugin-techdocs-react@1.2.10
+  - @devtools/core-app-api@1.15.2
+  - @devtools/plugin-signals@0.0.12
+  - @devtools/plugin-kubernetes-cluster@0.0.18
+  - @devtools/app-defaults@1.5.13
+  - @devtools/catalog-model@1.7.1
+  - @devtools/core-plugin-api@1.10.1
+  - @devtools/frontend-app-api@0.10.1
+  - @devtools/integration-react@1.2.1
+  - @devtools/plugin-auth-react@0.1.8
+  - @devtools/plugin-catalog-common@1.1.1
+  - @devtools/plugin-catalog-graph@0.4.12
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.10
+  - @devtools/plugin-devtools@0.1.20
+  - @devtools/plugin-permission-react@0.4.28
+  - @devtools/plugin-search-common@1.2.15
+  - @devtools/plugin-search-react@1.8.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.17
+  - @devtools/plugin-user-settings@0.8.15
+
+## 0.2.103-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@1.25.0-next.3
+  - @devtools/cli@0.29.0-next.3
+  - @devtools/plugin-search@1.4.19-next.3
+  - @devtools/plugin-techdocs@1.11.1-next.3
+  - @devtools/plugin-scaffolder-react@1.14.0-next.3
+  - @devtools/plugin-scaffolder@1.27.0-next.3
+  - @devtools/core-components@0.16.0-next.2
+  - @devtools/plugin-catalog-react@1.14.1-next.3
+  - @devtools/plugin-api-docs@0.11.12-next.3
+  - @devtools/plugin-catalog-graph@0.4.12-next.3
+  - @devtools/plugin-catalog-import@0.12.6-next.3
+  - @devtools/plugin-org@0.6.32-next.3
+  - @devtools/plugin-user-settings@0.8.15-next.3
+  - @devtools/app-defaults@1.5.13-next.2
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.15.1
+  - @devtools/core-plugin-api@1.10.0
+  - @devtools/frontend-app-api@0.10.1-next.2
+  - @devtools/integration-react@1.2.0
+  - @devtools/theme@0.6.1-next.0
+  - @devtools/plugin-auth-react@0.1.8-next.2
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.10-next.2
+  - @devtools/plugin-devtools@0.1.20-next.2
+  - @devtools/plugin-home@0.8.1-next.3
+  - @devtools/plugin-kubernetes@0.12.0-next.3
+  - @devtools/plugin-kubernetes-cluster@0.0.18-next.3
+  - @devtools/plugin-notifications@0.3.3-next.2
+  - @devtools/plugin-permission-react@0.4.27
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-search-react@1.8.2-next.2
+  - @devtools/plugin-signals@0.0.12-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.17-next.2
+  - @devtools/plugin-techdocs-react@1.2.10-next.2
+
+## 0.2.103-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.29.0-next.2
+  - @devtools/plugin-catalog-import@0.12.6-next.2
+  - @devtools/plugin-scaffolder@1.26.3-next.2
+  - @devtools/plugin-catalog@1.24.1-next.2
+  - @devtools/plugin-catalog-graph@0.4.12-next.2
+  - @devtools/plugin-catalog-react@1.14.1-next.2
+  - @devtools/plugin-home@0.8.1-next.2
+  - @devtools/plugin-org@0.6.32-next.2
+  - @devtools/plugin-scaffolder-react@1.13.3-next.2
+  - @devtools/app-defaults@1.5.13-next.1
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.15.1
+  - @devtools/core-components@0.16.0-next.1
+  - @devtools/core-plugin-api@1.10.0
+  - @devtools/frontend-app-api@0.10.1-next.1
+  - @devtools/integration-react@1.2.0
+  - @devtools/theme@0.6.1-next.0
+  - @devtools/plugin-api-docs@0.11.12-next.2
+  - @devtools/plugin-auth-react@0.1.8-next.1
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.10-next.1
+  - @devtools/plugin-devtools@0.1.20-next.1
+  - @devtools/plugin-kubernetes@0.12.0-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.18-next.2
+  - @devtools/plugin-notifications@0.3.3-next.1
+  - @devtools/plugin-permission-react@0.4.27
+  - @devtools/plugin-search@1.4.19-next.2
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-search-react@1.8.2-next.1
+  - @devtools/plugin-signals@0.0.12-next.1
+  - @devtools/plugin-techdocs@1.11.1-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.17-next.1
+  - @devtools/plugin-techdocs-react@1.2.10-next.1
+  - @devtools/plugin-user-settings@0.8.15-next.2
+
+## 0.2.103-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.29.0-next.1
+  - @devtools/theme@0.6.1-next.0
+  - @devtools/plugin-techdocs@1.11.1-next.1
+  - @devtools/plugin-kubernetes@0.12.0-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.18-next.1
+  - @devtools/app-defaults@1.5.13-next.1
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.15.1
+  - @devtools/core-components@0.16.0-next.1
+  - @devtools/core-plugin-api@1.10.0
+  - @devtools/frontend-app-api@0.10.1-next.1
+  - @devtools/integration-react@1.2.0
+  - @devtools/plugin-api-docs@0.11.12-next.1
+  - @devtools/plugin-auth-react@0.1.8-next.1
+  - @devtools/plugin-catalog@1.24.1-next.1
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-catalog-graph@0.4.12-next.1
+  - @devtools/plugin-catalog-import@0.12.6-next.1
+  - @devtools/plugin-catalog-react@1.14.1-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.10-next.1
+  - @devtools/plugin-devtools@0.1.20-next.1
+  - @devtools/plugin-home@0.8.1-next.1
+  - @devtools/plugin-notifications@0.3.3-next.1
+  - @devtools/plugin-org@0.6.32-next.1
+  - @devtools/plugin-permission-react@0.4.27
+  - @devtools/plugin-scaffolder@1.26.3-next.1
+  - @devtools/plugin-scaffolder-react@1.13.3-next.1
+  - @devtools/plugin-search@1.4.19-next.1
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-search-react@1.8.2-next.1
+  - @devtools/plugin-signals@0.0.12-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.17-next.1
+  - @devtools/plugin-techdocs-react@1.2.10-next.1
+  - @devtools/plugin-user-settings@0.8.15-next.1
+
+## 0.2.103-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.29.0-next.0
+  - @devtools/plugin-api-docs@0.11.12-next.0
+  - @devtools/plugin-scaffolder-react@1.13.2-next.0
+  - @devtools/plugin-techdocs@1.11.1-next.0
+  - @devtools/core-components@0.16.0-next.0
+  - @devtools/plugin-home@0.8.1-next.0
+  - @devtools/plugin-scaffolder@1.26.2-next.0
+  - @devtools/plugin-techdocs-react@1.2.10-next.0
+  - @devtools/plugin-notifications@0.3.3-next.0
+  - @devtools/app-defaults@1.5.13-next.0
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.15.1
+  - @devtools/core-plugin-api@1.10.0
+  - @devtools/frontend-app-api@0.10.1-next.0
+  - @devtools/integration-react@1.2.0
+  - @devtools/theme@0.6.0
+  - @devtools/plugin-auth-react@0.1.8-next.0
+  - @devtools/plugin-catalog@1.24.1-next.0
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-catalog-graph@0.4.12-next.0
+  - @devtools/plugin-catalog-import@0.12.6-next.0
+  - @devtools/plugin-catalog-react@1.14.1-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.10-next.0
+  - @devtools/plugin-devtools@0.1.20-next.0
+  - @devtools/plugin-kubernetes@0.11.17-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.18-next.0
+  - @devtools/plugin-org@0.6.32-next.0
+  - @devtools/plugin-permission-react@0.4.27
+  - @devtools/plugin-search@1.4.19-next.0
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-search-react@1.8.2-next.0
+  - @devtools/plugin-signals@0.0.12-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.17-next.0
+  - @devtools/plugin-user-settings@0.8.15-next.0
+
+## 0.2.102
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.28.0
+  - @devtools/core-components@0.15.1
+  - @devtools/plugin-scaffolder@1.26.0
+  - @devtools/plugin-scaffolder-react@1.13.0
+  - @devtools/plugin-catalog@1.24.0
+  - @devtools/plugin-signals@0.0.11
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.16
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.9
+  - @devtools/integration-react@1.2.0
+  - @devtools/plugin-kubernetes-cluster@0.0.17
+  - @devtools/frontend-app-api@0.10.0
+  - @devtools/core-plugin-api@1.10.0
+  - @devtools/plugin-permission-react@0.4.27
+  - @devtools/plugin-catalog-import@0.12.5
+  - @devtools/plugin-techdocs-react@1.2.9
+  - @devtools/app-defaults@1.5.12
+  - @devtools/core-app-api@1.15.1
+  - @devtools/plugin-catalog-graph@0.4.11
+  - @devtools/plugin-catalog-react@1.14.0
+  - @devtools/plugin-notifications@0.3.2
+  - @devtools/plugin-user-settings@0.8.14
+  - @devtools/plugin-search-react@1.8.1
+  - @devtools/plugin-auth-react@0.1.7
+  - @devtools/plugin-kubernetes@0.11.16
+  - @devtools/plugin-api-docs@0.11.11
+  - @devtools/plugin-devtools@0.1.19
+  - @devtools/plugin-techdocs@1.11.0
+  - @devtools/theme@0.6.0
+  - @devtools/plugin-search@1.4.18
+  - @devtools/plugin-home@0.8.0
+  - @devtools/plugin-org@0.6.31
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-search-common@1.2.14
+
+## 0.2.102-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.28.0-next.2
+  - @devtools/plugin-scaffolder@1.26.0-next.2
+  - @devtools/plugin-catalog@1.24.0-next.2
+  - @devtools/plugin-catalog-react@1.14.0-next.2
+  - @devtools/plugin-home@0.8.0-next.2
+  - @devtools/plugin-techdocs@1.11.0-next.2
+  - @devtools/plugin-catalog-import@0.12.5-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.16-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.17-next.2
+  - @devtools/plugin-kubernetes@0.11.16-next.2
+  - @devtools/plugin-search@1.4.18-next.2
+  - @devtools/plugin-user-settings@0.8.14-next.2
+  - @devtools/theme@0.6.0-next.1
+  - @devtools/plugin-catalog-graph@0.4.11-next.2
+  - @devtools/app-defaults@1.5.12-next.2
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.15.1-next.1
+  - @devtools/core-components@0.15.1-next.2
+  - @devtools/core-plugin-api@1.10.0-next.1
+  - @devtools/frontend-app-api@0.10.0-next.2
+  - @devtools/integration-react@1.2.0-next.2
+  - @devtools/plugin-api-docs@0.11.11-next.2
+  - @devtools/plugin-auth-react@0.1.7-next.2
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.9-next.2
+  - @devtools/plugin-devtools@0.1.19-next.2
+  - @devtools/plugin-notifications@0.3.2-next.2
+  - @devtools/plugin-org@0.6.31-next.2
+  - @devtools/plugin-permission-react@0.4.27-next.1
+  - @devtools/plugin-scaffolder-react@1.13.0-next.2
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-search-react@1.8.1-next.2
+  - @devtools/plugin-signals@0.0.11-next.2
+  - @devtools/plugin-techdocs-react@1.2.9-next.2
+
+## 0.2.102-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.15.1-next.1
+  - @devtools/cli@0.28.0-next.1
+  - @devtools/plugin-scaffolder@1.26.0-next.1
+  - @devtools/plugin-signals@0.0.11-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.16-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.9-next.1
+  - @devtools/integration-react@1.2.0-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.17-next.1
+  - @devtools/frontend-app-api@0.10.0-next.1
+  - @devtools/core-plugin-api@1.10.0-next.1
+  - @devtools/plugin-permission-react@0.4.27-next.1
+  - @devtools/plugin-scaffolder-react@1.13.0-next.1
+  - @devtools/plugin-catalog-import@0.12.5-next.1
+  - @devtools/plugin-techdocs-react@1.2.9-next.1
+  - @devtools/app-defaults@1.5.12-next.1
+  - @devtools/core-app-api@1.15.1-next.1
+  - @devtools/plugin-catalog-graph@0.4.11-next.1
+  - @devtools/plugin-catalog-react@1.14.0-next.1
+  - @devtools/plugin-notifications@0.3.2-next.1
+  - @devtools/plugin-user-settings@0.8.14-next.1
+  - @devtools/plugin-search-react@1.8.1-next.1
+  - @devtools/plugin-auth-react@0.1.7-next.1
+  - @devtools/plugin-kubernetes@0.11.16-next.1
+  - @devtools/plugin-api-docs@0.11.11-next.1
+  - @devtools/plugin-devtools@0.1.19-next.1
+  - @devtools/plugin-techdocs@1.10.11-next.1
+  - @devtools/plugin-catalog@1.24.0-next.1
+  - @devtools/theme@0.5.8-next.0
+  - @devtools/plugin-search@1.4.18-next.1
+  - @devtools/plugin-home@0.7.12-next.1
+  - @devtools/plugin-org@0.6.31-next.1
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-search-common@1.2.14
+
+## 0.2.102-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.26.0-next.0
+  - @devtools/plugin-catalog@1.24.0-next.0
+  - @devtools/cli@0.28.0-next.0
+  - @devtools/plugin-scaffolder-react@1.13.0-next.0
+  - @devtools/plugin-api-docs@0.11.10-next.0
+  - @devtools/frontend-app-api@0.10.0-next.0
+  - @devtools/plugin-techdocs@1.10.10-next.0
+  - @devtools/app-defaults@1.5.12-next.0
+  - @devtools/core-components@0.15.1-next.0
+  - @devtools/core-plugin-api@1.10.0-next.0
+  - @devtools/plugin-catalog-graph@0.4.10-next.0
+  - @devtools/plugin-catalog-import@0.12.4-next.0
+  - @devtools/plugin-catalog-react@1.13.1-next.0
+  - @devtools/plugin-devtools@0.1.19-next.0
+  - @devtools/plugin-home@0.7.11-next.0
+  - @devtools/plugin-kubernetes@0.11.15-next.0
+  - @devtools/plugin-org@0.6.30-next.0
+  - @devtools/plugin-search@1.4.17-next.0
+  - @devtools/plugin-search-react@1.8.1-next.0
+  - @devtools/plugin-user-settings@0.8.13-next.0
+  - @devtools/catalog-model@1.7.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.15.1-next.0
+  - @devtools/integration-react@1.1.32-next.0
+  - @devtools/theme@0.5.7
+  - @devtools/plugin-auth-react@0.1.7-next.0
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.9-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.16-next.0
+  - @devtools/plugin-notifications@0.3.2-next.0
+  - @devtools/plugin-permission-react@0.4.27-next.0
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-signals@0.0.11-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.15-next.0
+  - @devtools/plugin-techdocs-react@1.2.9-next.0
+
+## 0.2.101
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.15.0
+  - @devtools/plugin-catalog-react@1.13.0
+  - @devtools/plugin-techdocs@1.10.9
+  - @devtools/plugin-catalog@1.23.0
+  - @devtools/plugin-home@0.7.10
+  - @devtools/cli@0.27.1
+  - @devtools/plugin-techdocs-react@1.2.8
+  - @devtools/core-app-api@1.15.0
+  - @devtools/frontend-app-api@0.9.0
+  - @devtools/plugin-catalog-import@0.12.3
+  - @devtools/plugin-catalog-graph@0.4.9
+  - @devtools/plugin-user-settings@0.8.12
+  - @devtools/plugin-search-react@1.8.0
+  - @devtools/plugin-kubernetes@0.11.14
+  - @devtools/plugin-scaffolder@1.25.0
+  - @devtools/plugin-api-docs@0.11.9
+  - @devtools/plugin-devtools@0.1.18
+  - @devtools/plugin-search@1.4.16
+  - @devtools/plugin-org@0.6.29
+  - @devtools/integration-react@1.1.31
+  - @devtools/plugin-notifications@0.3.1
+  - @devtools/catalog-model@1.7.0
+  - @devtools/plugin-scaffolder-react@1.12.0
+  - @devtools/app-defaults@1.5.11
+  - @devtools/plugin-catalog-common@1.1.0
+  - @devtools/core-plugin-api@1.9.4
+  - @devtools/theme@0.5.7
+  - @devtools/plugin-auth-react@0.1.6
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.8
+  - @devtools/plugin-kubernetes-cluster@0.0.15
+  - @devtools/plugin-permission-react@0.4.26
+  - @devtools/plugin-signals@0.0.10
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.14
+  - @devtools/config@1.2.0
+  - @devtools/plugin-search-common@1.2.14
+
+## 0.2.101-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.14.11-next.1
+  - @devtools/plugin-catalog-react@1.13.0-next.2
+  - @devtools/plugin-techdocs@1.10.9-next.2
+  - @devtools/plugin-catalog@1.23.0-next.2
+  - @devtools/plugin-home@0.7.10-next.2
+  - @devtools/cli@0.27.1-next.2
+  - @devtools/core-app-api@1.14.3-next.0
+  - @devtools/integration-react@1.1.31-next.0
+  - @devtools/plugin-scaffolder@1.25.0-next.2
+  - @devtools/plugin-notifications@0.3.1-next.2
+  - @devtools/plugin-scaffolder-react@1.12.0-next.2
+  - @devtools/app-defaults@1.5.11-next.1
+  - @devtools/plugin-catalog-import@0.12.3-next.2
+  - @devtools/plugin-search-react@1.8.0-next.2
+  - @devtools/core-plugin-api@1.9.4-next.0
+  - @devtools/frontend-app-api@0.9.0-next.2
+  - @devtools/theme@0.5.7-next.0
+  - @devtools/plugin-api-docs@0.11.9-next.2
+  - @devtools/plugin-auth-react@0.1.6-next.1
+  - @devtools/plugin-catalog-graph@0.4.9-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.8-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.15-next.2
+  - @devtools/plugin-kubernetes@0.11.14-next.2
+  - @devtools/plugin-org@0.6.29-next.2
+  - @devtools/plugin-permission-react@0.4.26-next.0
+  - @devtools/plugin-search@1.4.16-next.2
+  - @devtools/plugin-signals@0.0.10-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.14-next.2
+  - @devtools/plugin-techdocs-react@1.2.8-next.2
+  - @devtools/plugin-user-settings@0.8.12-next.2
+  - @devtools/plugin-devtools@0.1.18-next.2
+  - @devtools/catalog-model@1.6.0
+  - @devtools/config@1.2.0
+  - @devtools/plugin-catalog-common@1.0.26
+  - @devtools/plugin-search-common@1.2.14
+
+## 0.2.101-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.27.1-next.1
+  - @devtools/frontend-app-api@0.9.0-next.1
+  - @devtools/core-components@0.14.11-next.0
+  - @devtools/plugin-catalog-graph@0.4.9-next.1
+  - @devtools/plugin-scaffolder-react@1.12.0-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.8-next.0
+  - @devtools/plugin-signals@0.0.10-next.1
+  - @devtools/plugin-catalog-react@1.12.4-next.1
+  - @devtools/app-defaults@1.5.11-next.0
+  - @devtools/catalog-model@1.6.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.14.2
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-api-docs@0.11.9-next.1
+  - @devtools/plugin-auth-react@0.1.6-next.0
+  - @devtools/plugin-catalog@1.22.1-next.1
+  - @devtools/plugin-catalog-common@1.0.26
+  - @devtools/plugin-catalog-import@0.12.3-next.1
+  - @devtools/plugin-devtools@0.1.18-next.1
+  - @devtools/plugin-home@0.7.10-next.1
+  - @devtools/plugin-kubernetes@0.11.14-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.15-next.1
+  - @devtools/plugin-notifications@0.3.1-next.1
+  - @devtools/plugin-org@0.6.29-next.1
+  - @devtools/plugin-permission-react@0.4.25
+  - @devtools/plugin-scaffolder@1.25.0-next.1
+  - @devtools/plugin-search@1.4.16-next.1
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-search-react@1.8.0-next.1
+  - @devtools/plugin-techdocs@1.10.9-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.14-next.1
+  - @devtools/plugin-techdocs-react@1.2.8-next.1
+  - @devtools/plugin-user-settings@0.8.12-next.1
+
+## 0.2.101-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs-react@1.2.8-next.0
+  - @devtools/frontend-app-api@0.9.0-next.0
+  - @devtools/plugin-catalog-import@0.12.3-next.0
+  - @devtools/plugin-catalog-graph@0.4.9-next.0
+  - @devtools/plugin-catalog-react@1.12.4-next.0
+  - @devtools/plugin-user-settings@0.8.12-next.0
+  - @devtools/plugin-search-react@1.8.0-next.0
+  - @devtools/plugin-kubernetes@0.11.14-next.0
+  - @devtools/plugin-scaffolder@1.25.0-next.0
+  - @devtools/plugin-api-docs@0.11.9-next.0
+  - @devtools/plugin-devtools@0.1.18-next.0
+  - @devtools/plugin-techdocs@1.10.9-next.0
+  - @devtools/plugin-catalog@1.22.1-next.0
+  - @devtools/plugin-search@1.4.16-next.0
+  - @devtools/plugin-home@0.7.10-next.0
+  - @devtools/plugin-org@0.6.29-next.0
+  - @devtools/plugin-scaffolder-react@1.12.0-next.0
+  - @devtools/cli@0.27.1-next.0
+  - @devtools/plugin-signals@0.0.10-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.14-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.15-next.0
+  - @devtools/app-defaults@1.5.10
+  - @devtools/catalog-model@1.6.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.14.2
+  - @devtools/core-components@0.14.10
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-auth-react@0.1.5
+  - @devtools/plugin-catalog-common@1.0.26
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7
+  - @devtools/plugin-notifications@0.3.1-next.0
+  - @devtools/plugin-permission-react@0.4.25
+  - @devtools/plugin-search-common@1.2.14
+
+## 0.2.100
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@1.22.0
+  - @devtools/plugin-scaffolder@1.24.0
+  - @devtools/plugin-scaffolder-react@1.11.0
+  - @devtools/cli@0.27.0
+  - @devtools/plugin-notifications@0.3.0
+  - @devtools/plugin-catalog-react@1.12.3
+  - @devtools/plugin-search-react@1.7.14
+  - @devtools/plugin-home@0.7.9
+  - @devtools/plugin-techdocs@1.10.8
+  - @devtools/core-components@0.14.10
+  - @devtools/plugin-api-docs@0.11.8
+  - @devtools/frontend-app-api@0.8.0
+  - @devtools/plugin-catalog-graph@0.4.8
+  - @devtools/plugin-catalog-import@0.12.2
+  - @devtools/plugin-devtools@0.1.17
+  - @devtools/plugin-org@0.6.28
+  - @devtools/plugin-search@1.4.15
+  - @devtools/plugin-user-settings@0.8.11
+  - @devtools/plugin-search-common@1.2.14
+  - @devtools/plugin-kubernetes@0.11.13
+  - @devtools/core-app-api@1.14.2
+  - @devtools/plugin-auth-react@0.1.5
+  - @devtools/catalog-model@1.6.0
+  - @devtools/app-defaults@1.5.10
+  - @devtools/config@1.2.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-catalog-common@1.0.26
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7
+  - @devtools/plugin-kubernetes-cluster@0.0.14
+  - @devtools/plugin-permission-react@0.4.25
+  - @devtools/plugin-signals@0.0.9
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.13
+  - @devtools/plugin-techdocs-react@1.2.7
+
+## 0.2.100-next.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.24.0-next.3
+  - @devtools/plugin-notifications@0.3.0-next.1
+  - @devtools/cli@0.27.0-next.4
+  - @devtools/plugin-techdocs@1.10.8-next.3
+  - @devtools/plugin-api-docs@0.11.8-next.3
+  - @devtools/plugin-catalog@1.22.0-next.3
+  - @devtools/catalog-model@1.6.0-next.0
+  - @devtools/frontend-app-api@0.7.5-next.3
+  - @devtools/plugin-catalog-graph@0.4.8-next.4
+  - @devtools/plugin-catalog-import@0.12.2-next.3
+  - @devtools/plugin-catalog-react@1.12.3-next.3
+  - @devtools/plugin-devtools@0.1.17-next.3
+  - @devtools/plugin-home@0.7.9-next.3
+  - @devtools/plugin-kubernetes@0.11.13-next.3
+  - @devtools/plugin-org@0.6.28-next.3
+  - @devtools/plugin-search@1.4.15-next.3
+  - @devtools/plugin-search-react@1.7.14-next.3
+  - @devtools/plugin-user-settings@0.8.11-next.3
+  - @devtools/app-defaults@1.5.10-next.2
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.14.2-next.0
+  - @devtools/core-components@0.14.10-next.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30-next.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-auth-react@0.1.5-next.0
+  - @devtools/plugin-catalog-common@1.0.26-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.14-next.3
+  - @devtools/plugin-permission-react@0.4.25-next.1
+  - @devtools/plugin-scaffolder-react@1.11.0-next.3
+  - @devtools/plugin-search-common@1.2.14-next.1
+  - @devtools/plugin-signals@0.0.9-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.13-next.1
+  - @devtools/plugin-techdocs-react@1.2.7-next.1
+
+## 0.2.100-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.11.0-next.2
+  - @devtools/plugin-catalog@1.22.0-next.2
+  - @devtools/cli@0.27.0-next.3
+  - @devtools/frontend-app-api@0.7.5-next.2
+  - @devtools/plugin-search-common@1.2.14-next.1
+  - @devtools/plugin-search-react@1.7.14-next.2
+  - @devtools/plugin-search@1.4.15-next.2
+  - @devtools/plugin-api-docs@0.11.8-next.2
+  - @devtools/plugin-techdocs@1.10.8-next.2
+  - @devtools/plugin-scaffolder@1.24.0-next.2
+  - @devtools/plugin-catalog-react@1.12.3-next.2
+  - @devtools/plugin-catalog-graph@0.4.8-next.3
+  - @devtools/plugin-catalog-import@0.12.2-next.2
+  - @devtools/plugin-org@0.6.28-next.2
+  - @devtools/plugin-user-settings@0.8.11-next.2
+  - @devtools/plugin-devtools@0.1.17-next.2
+  - @devtools/plugin-home@0.7.9-next.2
+  - @devtools/plugin-kubernetes@0.11.13-next.2
+  - @devtools/plugin-catalog-common@1.0.26-next.1
+  - @devtools/plugin-permission-react@0.4.25-next.1
+  - @devtools/app-defaults@1.5.10-next.2
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.14.2-next.0
+  - @devtools/core-components@0.14.10-next.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30-next.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-auth-react@0.1.5-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.14-next.2
+  - @devtools/plugin-notifications@0.2.4-next.0
+  - @devtools/plugin-signals@0.0.9-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.13-next.0
+  - @devtools/plugin-techdocs-react@1.2.7-next.0
+
+## 0.2.100-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.27.0-next.2
+  - @devtools/plugin-catalog-graph@0.4.8-next.2
+  - @devtools/app-defaults@1.5.10-next.1
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.14.2-next.0
+  - @devtools/core-components@0.14.10-next.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/frontend-app-api@0.7.5-next.1
+  - @devtools/integration-react@1.1.30-next.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-api-docs@0.11.8-next.1
+  - @devtools/plugin-auth-react@0.1.5-next.0
+  - @devtools/plugin-catalog@1.21.2-next.1
+  - @devtools/plugin-catalog-common@1.0.26-next.0
+  - @devtools/plugin-catalog-import@0.12.2-next.1
+  - @devtools/plugin-catalog-react@1.12.3-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7-next.0
+  - @devtools/plugin-devtools@0.1.17-next.1
+  - @devtools/plugin-home@0.7.9-next.1
+  - @devtools/plugin-kubernetes@0.11.13-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.14-next.1
+  - @devtools/plugin-notifications@0.2.4-next.0
+  - @devtools/plugin-org@0.6.28-next.1
+  - @devtools/plugin-permission-react@0.4.25-next.0
+  - @devtools/plugin-scaffolder@1.23.1-next.1
+  - @devtools/plugin-scaffolder-react@1.11.0-next.1
+  - @devtools/plugin-search@1.4.15-next.1
+  - @devtools/plugin-search-common@1.2.14-next.0
+  - @devtools/plugin-search-react@1.7.14-next.1
+  - @devtools/plugin-signals@0.0.9-next.0
+  - @devtools/plugin-techdocs@1.10.8-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.13-next.0
+  - @devtools/plugin-techdocs-react@1.2.7-next.0
+  - @devtools/plugin-user-settings@0.8.11-next.1
+
+## 0.2.100-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs@1.10.8-next.1
+  - @devtools/plugin-catalog-react@1.12.3-next.1
+  - @devtools/frontend-app-api@0.7.5-next.1
+  - @devtools/plugin-kubernetes@0.11.13-next.1
+  - @devtools/cli@0.27.0-next.1
+  - @devtools/plugin-scaffolder@1.23.1-next.1
+  - @devtools/plugin-user-settings@0.8.11-next.1
+  - @devtools/plugin-search-react@1.7.14-next.1
+  - @devtools/plugin-catalog@1.21.2-next.1
+  - @devtools/plugin-search@1.4.15-next.1
+  - @devtools/plugin-api-docs@0.11.8-next.1
+  - @devtools/plugin-catalog-graph@0.4.8-next.1
+  - @devtools/plugin-catalog-import@0.12.2-next.1
+  - @devtools/plugin-home@0.7.9-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.14-next.1
+  - @devtools/plugin-org@0.6.28-next.1
+  - @devtools/plugin-scaffolder-react@1.11.0-next.1
+  - @devtools/plugin-catalog-common@1.0.26-next.0
+  - @devtools/plugin-permission-react@0.4.25-next.0
+  - @devtools/plugin-search-common@1.2.14-next.0
+  - @devtools/plugin-devtools@0.1.17-next.1
+  - @devtools/app-defaults@1.5.10-next.1
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.14.2-next.0
+  - @devtools/core-components@0.14.10-next.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30-next.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-auth-react@0.1.5-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7-next.0
+  - @devtools/plugin-notifications@0.2.4-next.0
+  - @devtools/plugin-signals@0.0.9-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.13-next.0
+  - @devtools/plugin-techdocs-react@1.2.7-next.0
+
+## 0.2.100-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.27.0-next.0
+  - @devtools/plugin-catalog-react@1.12.3-next.0
+  - @devtools/plugin-search-react@1.7.14-next.0
+  - @devtools/plugin-home@0.7.8-next.0
+  - @devtools/core-components@0.14.10-next.0
+  - @devtools/plugin-scaffolder-react@1.11.0-next.0
+  - @devtools/frontend-app-api@0.7.4-next.0
+  - @devtools/plugin-catalog-graph@0.4.8-next.0
+  - @devtools/plugin-scaffolder@1.23.1-next.0
+  - @devtools/core-app-api@1.14.1-next.0
+  - @devtools/plugin-auth-react@0.1.5-next.0
+  - @devtools/app-defaults@1.5.9-next.0
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/integration-react@1.1.30-next.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-api-docs@0.11.8-next.0
+  - @devtools/plugin-catalog@1.21.2-next.0
+  - @devtools/plugin-catalog-common@1.0.25
+  - @devtools/plugin-catalog-import@0.12.2-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.7-next.0
+  - @devtools/plugin-devtools@0.1.17-next.0
+  - @devtools/plugin-kubernetes@0.11.13-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.14-next.0
+  - @devtools/plugin-notifications@0.2.4-next.0
+  - @devtools/plugin-org@0.6.28-next.0
+  - @devtools/plugin-permission-react@0.4.24
+  - @devtools/plugin-search@1.4.15-next.0
+  - @devtools/plugin-search-common@1.2.13
+  - @devtools/plugin-signals@0.0.9-next.0
+  - @devtools/plugin-techdocs@1.10.8-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.13-next.0
+  - @devtools/plugin-techdocs-react@1.2.7-next.0
+  - @devtools/plugin-user-settings@0.8.10-next.0
+
+## 0.2.99
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.23.0
+  - @devtools/plugin-techdocs@1.10.7
+  - @devtools/plugin-techdocs-react@1.2.6
+  - @devtools/core-components@0.14.9
+  - @devtools/cli@0.26.11
+  - @devtools/core-app-api@1.14.0
+  - @devtools/frontend-app-api@0.7.3
+  - @devtools/plugin-org@0.6.27
+  - @devtools/plugin-catalog-react@1.12.2
+  - @devtools/plugin-catalog@1.21.1
+  - @devtools/plugin-notifications@0.2.3
+  - @devtools/plugin-home@0.7.7
+  - @devtools/plugin-scaffolder-react@1.10.0
+  - @devtools/plugin-permission-react@0.4.24
+  - @devtools/plugin-search@1.4.14
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.12
+  - @devtools/plugin-catalog-common@1.0.25
+  - @devtools/plugin-search-common@1.2.13
+  - @devtools/app-defaults@1.5.8
+  - @devtools/integration-react@1.1.29
+  - @devtools/plugin-api-docs@0.11.7
+  - @devtools/plugin-auth-react@0.1.4
+  - @devtools/plugin-catalog-graph@0.4.7
+  - @devtools/plugin-catalog-import@0.12.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.6
+  - @devtools/plugin-devtools@0.1.16
+  - @devtools/plugin-kubernetes@0.11.12
+  - @devtools/plugin-kubernetes-cluster@0.0.13
+  - @devtools/plugin-search-react@1.7.13
+  - @devtools/plugin-signals@0.0.8
+  - @devtools/plugin-user-settings@0.8.9
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/theme@0.5.6
+
+## 0.2.99-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs@1.10.7-next.2
+  - @devtools/core-components@0.14.9-next.1
+  - @devtools/plugin-search@1.4.14-next.2
+  - @devtools/app-defaults@1.5.8-next.2
+  - @devtools/cli@0.26.11-next.1
+  - @devtools/frontend-app-api@0.7.3-next.2
+  - @devtools/integration-react@1.1.29-next.0
+  - @devtools/plugin-api-docs@0.11.7-next.2
+  - @devtools/plugin-auth-react@0.1.4-next.1
+  - @devtools/plugin-catalog@1.21.1-next.2
+  - @devtools/plugin-catalog-graph@0.4.7-next.2
+  - @devtools/plugin-catalog-import@0.12.1-next.2
+  - @devtools/plugin-catalog-react@1.12.2-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.6-next.1
+  - @devtools/plugin-devtools@0.1.16-next.1
+  - @devtools/plugin-home@0.7.7-next.2
+  - @devtools/plugin-kubernetes@0.11.12-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.13-next.2
+  - @devtools/plugin-notifications@0.2.3-next.2
+  - @devtools/plugin-org@0.6.27-next.2
+  - @devtools/plugin-scaffolder@1.22.1-next.2
+  - @devtools/plugin-scaffolder-react@1.10.0-next.2
+  - @devtools/plugin-search-react@1.7.13-next.1
+  - @devtools/plugin-signals@0.0.8-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.12-next.1
+  - @devtools/plugin-techdocs-react@1.2.6-next.1
+  - @devtools/plugin-user-settings@0.8.9-next.2
+
+## 0.2.99-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-org@0.6.27-next.1
+  - @devtools/core-app-api@1.13.1-next.1
+  - @devtools/plugin-catalog-react@1.12.2-next.1
+  - @devtools/plugin-catalog@1.21.1-next.1
+  - @devtools/plugin-techdocs@1.10.7-next.1
+  - @devtools/plugin-notifications@0.2.3-next.1
+  - @devtools/plugin-home@0.7.7-next.1
+  - @devtools/plugin-scaffolder-react@1.10.0-next.1
+  - @devtools/plugin-scaffolder@1.22.1-next.1
+  - @devtools/cli@0.26.11-next.1
+  - @devtools/app-defaults@1.5.8-next.1
+  - @devtools/core-components@0.14.9-next.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/frontend-app-api@0.7.3-next.1
+  - @devtools/plugin-api-docs@0.11.7-next.1
+  - @devtools/plugin-catalog-graph@0.4.7-next.1
+  - @devtools/plugin-catalog-import@0.12.1-next.1
+  - @devtools/plugin-search@1.4.13-next.1
+  - @devtools/plugin-search-react@1.7.13-next.0
+  - @devtools/plugin-signals@0.0.8-next.0
+  - @devtools/plugin-user-settings@0.8.9-next.1
+  - @devtools/plugin-kubernetes@0.11.12-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.13-next.1
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/integration-react@1.1.29-next.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-auth-react@0.1.4-next.0
+  - @devtools/plugin-catalog-common@1.0.24
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.6-next.0
+  - @devtools/plugin-devtools@0.1.16-next.0
+  - @devtools/plugin-permission-react@0.4.23
+  - @devtools/plugin-search-common@1.2.12
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.12-next.0
+  - @devtools/plugin-techdocs-react@1.2.6-next.0
+
+## 0.2.99-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.22.0-next.0
+  - @devtools/plugin-techdocs-react@1.2.6-next.0
+  - @devtools/plugin-techdocs@1.10.7-next.0
+  - @devtools/core-components@0.14.9-next.0
+  - @devtools/core-app-api@1.13.0-next.0
+  - @devtools/frontend-app-api@0.7.2-next.0
+  - @devtools/cli@0.26.10-next.0
+  - @devtools/plugin-org@0.6.27-next.0
+  - @devtools/plugin-catalog-react@1.12.2-next.0
+  - @devtools/plugin-catalog@1.21.1-next.0
+  - @devtools/plugin-scaffolder-react@1.10.0-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.12-next.0
+  - @devtools/app-defaults@1.5.7-next.0
+  - @devtools/integration-react@1.1.29-next.0
+  - @devtools/plugin-api-docs@0.11.7-next.0
+  - @devtools/plugin-auth-react@0.1.4-next.0
+  - @devtools/plugin-catalog-graph@0.4.7-next.0
+  - @devtools/plugin-catalog-import@0.12.1-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.6-next.0
+  - @devtools/plugin-devtools@0.1.16-next.0
+  - @devtools/plugin-home@0.7.6-next.0
+  - @devtools/plugin-kubernetes@0.11.12-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.13-next.0
+  - @devtools/plugin-notifications@0.2.3-next.0
+  - @devtools/plugin-search@1.4.13-next.0
+  - @devtools/plugin-search-react@1.7.13-next.0
+  - @devtools/plugin-signals@0.0.8-next.0
+  - @devtools/plugin-user-settings@0.8.8-next.0
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-catalog-common@1.0.24
+  - @devtools/plugin-permission-react@0.4.23
+  - @devtools/plugin-search-common@1.2.12
+
+## 0.2.98
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.14.8
+  - @devtools/plugin-techdocs@1.10.6
+  - @devtools/plugin-api-docs@0.11.6
+  - @devtools/cli@0.26.7
+  - @devtools/plugin-scaffolder@1.21.0
+  - @devtools/plugin-catalog-import@0.12.0
+  - @devtools/plugin-kubernetes@0.11.11
+  - @devtools/plugin-search@1.4.12
+  - @devtools/plugin-catalog-graph@0.4.6
+  - @devtools/plugin-notifications@0.2.2
+  - @devtools/plugin-org@0.6.26
+  - @devtools/core-plugin-api@1.9.3
+  - @devtools/plugin-scaffolder-react@1.9.0
+  - @devtools/theme@0.5.6
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.11
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.5
+  - @devtools/plugin-kubernetes-cluster@0.0.12
+  - @devtools/plugin-permission-react@0.4.23
+  - @devtools/plugin-catalog-common@1.0.24
+  - @devtools/plugin-techdocs-react@1.2.5
+  - @devtools/plugin-catalog-react@1.12.1
+  - @devtools/plugin-search-common@1.2.12
+  - @devtools/plugin-user-settings@0.8.7
+  - @devtools/plugin-search-react@1.7.12
+  - @devtools/plugin-auth-react@0.1.3
+  - @devtools/plugin-devtools@0.1.15
+  - @devtools/plugin-catalog@1.21.0
+  - @devtools/plugin-signals@0.0.7
+  - @devtools/plugin-home@0.7.5
+  - @devtools/core-app-api@1.12.6
+  - @devtools/integration-react@1.1.28
+  - @devtools/app-defaults@1.5.6
+  - @devtools/frontend-app-api@0.7.1
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+
+## 0.2.98-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-graph@0.4.6-next.2
+  - @devtools/core-components@0.14.8-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.11-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.5-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.12-next.3
+  - @devtools/plugin-permission-react@0.4.23-next.1
+  - @devtools/plugin-scaffolder-react@1.8.7-next.3
+  - @devtools/plugin-catalog-common@1.0.24-next.0
+  - @devtools/plugin-catalog-import@0.12.0-next.3
+  - @devtools/plugin-techdocs-react@1.2.5-next.2
+  - @devtools/plugin-catalog-react@1.12.1-next.2
+  - @devtools/plugin-notifications@0.2.2-next.3
+  - @devtools/plugin-search-common@1.2.12-next.0
+  - @devtools/plugin-user-settings@0.8.7-next.2
+  - @devtools/plugin-search-react@1.7.12-next.2
+  - @devtools/plugin-auth-react@0.1.3-next.2
+  - @devtools/plugin-kubernetes@0.11.11-next.3
+  - @devtools/plugin-scaffolder@1.21.0-next.3
+  - @devtools/plugin-api-docs@0.11.6-next.2
+  - @devtools/plugin-devtools@0.1.15-next.2
+  - @devtools/plugin-techdocs@1.10.6-next.2
+  - @devtools/plugin-catalog@1.21.0-next.3
+  - @devtools/plugin-signals@0.0.7-next.2
+  - @devtools/plugin-search@1.4.12-next.3
+  - @devtools/plugin-home@0.7.5-next.2
+  - @devtools/plugin-org@0.6.26-next.2
+  - @devtools/integration-react@1.1.28-next.1
+  - @devtools/cli@0.26.7-next.3
+  - @devtools/app-defaults@1.5.6-next.2
+  - @devtools/frontend-app-api@0.7.1-next.2
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.12.6-next.0
+  - @devtools/core-plugin-api@1.9.3-next.0
+  - @devtools/theme@0.5.6-next.0
+
+## 0.2.98-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.14.8-next.1
+  - @devtools/plugin-api-docs@0.11.6-next.1
+  - @devtools/plugin-scaffolder@1.21.0-next.2
+  - @devtools/plugin-techdocs@1.10.6-next.1
+  - @devtools/plugin-org@0.6.26-next.1
+  - @devtools/core-plugin-api@1.9.3-next.0
+  - @devtools/plugin-catalog-graph@0.4.6-next.1
+  - @devtools/plugin-catalog@1.21.0-next.2
+  - @devtools/core-app-api@1.12.6-next.0
+  - @devtools/cli@0.26.7-next.2
+  - @devtools/app-defaults@1.5.6-next.1
+  - @devtools/frontend-app-api@0.7.1-next.1
+  - @devtools/integration-react@1.1.28-next.0
+  - @devtools/plugin-auth-react@0.1.3-next.1
+  - @devtools/plugin-catalog-import@0.12.0-next.2
+  - @devtools/plugin-catalog-react@1.12.1-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.5-next.1
+  - @devtools/plugin-devtools@0.1.15-next.1
+  - @devtools/plugin-home@0.7.5-next.1
+  - @devtools/plugin-kubernetes@0.11.11-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.12-next.2
+  - @devtools/plugin-notifications@0.2.2-next.2
+  - @devtools/plugin-scaffolder-react@1.8.7-next.2
+  - @devtools/plugin-search@1.4.12-next.2
+  - @devtools/plugin-search-react@1.7.12-next.1
+  - @devtools/plugin-signals@0.0.7-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.11-next.1
+  - @devtools/plugin-techdocs-react@1.2.5-next.1
+  - @devtools/plugin-user-settings@0.8.7-next.1
+  - @devtools/plugin-permission-react@0.4.23-next.0
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/theme@0.5.6-next.0
+  - @devtools/plugin-catalog-common@1.0.23
+  - @devtools/plugin-search-common@1.2.11
+
+## 0.2.98-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.26.7-next.1
+  - @devtools/plugin-catalog-import@0.12.0-next.1
+  - @devtools/plugin-kubernetes@0.11.11-next.1
+  - @devtools/plugin-search@1.4.12-next.1
+  - @devtools/plugin-notifications@0.2.2-next.1
+  - @devtools/plugin-scaffolder-react@1.8.7-next.1
+  - @devtools/plugin-scaffolder@1.20.2-next.1
+  - @devtools/plugin-catalog@1.20.1-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.12-next.1
+  - @devtools/plugin-catalog-react@1.12.1-next.0
+
+## 0.2.98-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs@1.10.6-next.0
+  - @devtools/plugin-notifications@0.2.2-next.0
+  - @devtools/plugin-scaffolder-react@1.8.6-next.0
+  - @devtools/theme@0.5.6-next.0
+  - @devtools/plugin-api-docs@0.11.6-next.0
+  - @devtools/cli@0.26.6-next.0
+  - @devtools/plugin-scaffolder@1.20.1-next.0
+  - @devtools/app-defaults@1.5.6-next.0
+  - @devtools/core-components@0.14.8-next.0
+  - @devtools/frontend-app-api@0.7.1-next.0
+  - @devtools/plugin-home@0.7.5-next.0
+  - @devtools/plugin-search-react@1.7.12-next.0
+  - @devtools/plugin-signals@0.0.7-next.0
+  - @devtools/plugin-techdocs-react@1.2.5-next.0
+  - @devtools/plugin-user-settings@0.8.7-next.0
+  - @devtools/catalog-model@1.5.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.12.5
+  - @devtools/core-plugin-api@1.9.2
+  - @devtools/integration-react@1.1.27
+  - @devtools/plugin-auth-react@0.1.3-next.0
+  - @devtools/plugin-catalog@1.20.1-next.0
+  - @devtools/plugin-catalog-common@1.0.23
+  - @devtools/plugin-catalog-graph@0.4.6-next.0
+  - @devtools/plugin-catalog-import@0.11.1-next.0
+  - @devtools/plugin-catalog-react@1.12.1-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.5-next.0
+  - @devtools/plugin-devtools@0.1.15-next.0
+  - @devtools/plugin-kubernetes@0.11.11-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.12-next.0
+  - @devtools/plugin-org@0.6.26-next.0
+  - @devtools/plugin-permission-react@0.4.22
+  - @devtools/plugin-search@1.4.12-next.0
+  - @devtools/plugin-search-common@1.2.11
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.11-next.0
+
+## 0.2.97
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.8.5
+  - @devtools/plugin-scaffolder@1.20.0
+  - @devtools/plugin-user-settings@0.8.6
+  - @devtools/plugin-catalog@1.20.0
+  - @devtools/plugin-notifications@0.2.1
+  - @devtools/plugin-api-docs@0.11.5
+  - @devtools/plugin-home@0.7.4
+  - @devtools/cli@0.26.5
+  - @devtools/core-components@0.14.7
+  - @devtools/catalog-model@1.5.0
+  - @devtools/plugin-techdocs@1.10.5
+  - @devtools/plugin-catalog-import@0.11.0
+  - @devtools/frontend-app-api@0.7.0
+  - @devtools/plugin-auth-react@0.1.2
+  - @devtools/plugin-catalog-react@1.12.0
+  - @devtools/theme@0.5.4
+  - @devtools/core-app-api@1.12.5
+  - @devtools/plugin-catalog-graph@0.4.5
+  - @devtools/plugin-search@1.4.11
+  - @devtools/plugin-org@0.6.25
+  - @devtools/app-defaults@1.5.5
+  - @devtools/integration-react@1.1.27
+  - @devtools/plugin-catalog-common@1.0.23
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.4
+  - @devtools/plugin-devtools@0.1.14
+  - @devtools/plugin-kubernetes@0.11.10
+  - @devtools/plugin-kubernetes-cluster@0.0.11
+  - @devtools/plugin-search-react@1.7.11
+  - @devtools/plugin-signals@0.0.6
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.10
+  - @devtools/plugin-techdocs-react@1.2.4
+
+## 0.2.97-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.26.5-next.1
+  - @devtools/frontend-app-api@0.7.0-next.2
+  - @devtools/plugin-techdocs@1.10.5-next.2
+  - @devtools/plugin-notifications@0.2.1-next.2
+  - @devtools/plugin-catalog-react@1.12.0-next.2
+  - @devtools/plugin-catalog@1.20.0-next.2
+  - @devtools/plugin-api-docs@0.11.5-next.2
+  - @devtools/core-components@0.14.7-next.2
+  - @devtools/plugin-scaffolder@1.19.4-next.2
+  - @devtools/plugin-search@1.4.11-next.2
+  - @devtools/plugin-org@0.6.25-next.2
+  - @devtools/plugin-search-react@1.7.11-next.1
+  - @devtools/plugin-catalog-graph@0.4.5-next.2
+  - @devtools/plugin-catalog-import@0.10.11-next.2
+  - @devtools/plugin-home@0.7.4-next.2
+  - @devtools/plugin-kubernetes@0.11.10-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.11-next.2
+  - @devtools/plugin-scaffolder-react@1.8.5-next.2
+  - @devtools/plugin-user-settings@0.8.6-next.2
+  - @devtools/integration-react@1.1.27-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.10-next.2
+
+## 0.2.97-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.8.5-next.1
+  - @devtools/plugin-scaffolder@1.19.4-next.1
+  - @devtools/plugin-notifications@0.2.1-next.1
+  - @devtools/core-components@0.14.6-next.1
+  - @devtools/plugin-catalog@1.19.1-next.1
+  - @devtools/plugin-catalog-react@1.11.4-next.1
+  - @devtools/app-defaults@1.5.5-next.1
+  - @devtools/cli@0.26.5-next.0
+  - @devtools/frontend-app-api@0.6.5-next.1
+  - @devtools/integration-react@1.1.26
+  - @devtools/plugin-api-docs@0.11.5-next.1
+  - @devtools/plugin-auth-react@0.1.2-next.1
+  - @devtools/plugin-catalog-graph@0.4.5-next.1
+  - @devtools/plugin-catalog-import@0.10.11-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.4-next.1
+  - @devtools/plugin-devtools@0.1.14-next.1
+  - @devtools/plugin-home@0.7.4-next.1
+  - @devtools/plugin-kubernetes@0.11.10-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.11-next.1
+  - @devtools/plugin-org@0.6.25-next.1
+  - @devtools/plugin-search@1.4.11-next.1
+  - @devtools/plugin-search-react@1.7.11-next.1
+  - @devtools/plugin-signals@0.0.6-next.1
+  - @devtools/plugin-techdocs@1.10.5-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.10-next.1
+  - @devtools/plugin-techdocs-react@1.2.4-next.1
+  - @devtools/plugin-user-settings@0.8.6-next.1
+
+## 0.2.97-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-notifications@0.2.1-next.0
+  - @devtools/plugin-api-docs@0.11.5-next.0
+  - @devtools/plugin-catalog@1.19.1-next.0
+  - @devtools/plugin-home@0.7.4-next.0
+  - @devtools/catalog-model@1.5.0-next.0
+  - @devtools/plugin-techdocs@1.10.5-next.0
+  - @devtools/cli@0.26.5-next.0
+  - @devtools/plugin-auth-react@0.1.1-next.0
+  - @devtools/theme@0.5.4-next.0
+  - @devtools/core-components@0.14.5-next.0
+  - @devtools/plugin-scaffolder-react@1.8.5-next.0
+  - @devtools/plugin-scaffolder@1.19.4-next.0
+  - @devtools/plugin-catalog-graph@0.4.5-next.0
+  - @devtools/plugin-catalog-import@0.10.11-next.0
+  - @devtools/plugin-devtools@0.1.14-next.0
+  - @devtools/plugin-org@0.6.25-next.0
+  - @devtools/plugin-search@1.4.11-next.0
+  - @devtools/plugin-user-settings@0.8.6-next.0
+  - @devtools/plugin-catalog-common@1.0.23-next.0
+  - @devtools/plugin-catalog-react@1.11.4-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.4-next.0
+  - @devtools/plugin-kubernetes@0.11.10-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.11-next.0
+  - @devtools/plugin-techdocs-react@1.2.4-next.0
+  - @devtools/app-defaults@1.5.5-next.0
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.12.4
+  - @devtools/core-plugin-api@1.9.2
+  - @devtools/frontend-app-api@0.6.5-next.0
+  - @devtools/integration-react@1.1.26
+  - @devtools/plugin-permission-react@0.4.22
+  - @devtools/plugin-search-common@1.2.11
+  - @devtools/plugin-search-react@1.7.11-next.0
+  - @devtools/plugin-signals@0.0.6-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.10-next.0
+
+## 0.2.96
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-github-pull-requests-board@0.2.0
+  - @devtools/plugin-azure-devops@0.4.3
+  - @devtools/plugin-catalog@1.19.0
+  - @devtools/plugin-techdocs-react@1.2.3
+  - @devtools/plugin-notifications@0.2.0
+  - @devtools/plugin-github-actions@0.6.15
+  - @devtools/cli@0.26.3
+  - @devtools/plugin-search-react@1.7.10
+  - @devtools/plugin-auth-react@0.1.0
+  - @devtools/plugin-catalog-react@1.11.3
+  - @devtools/plugin-gocd@0.1.40
+  - @devtools/frontend-app-api@0.6.4
+  - @devtools/plugin-scaffolder@1.19.3
+  - @devtools/plugin-graphiql@0.3.7
+  - @devtools/core-components@0.14.4
+  - @devtools/plugin-cloudbuild@0.5.1
+  - @devtools/core-app-api@1.12.4
+  - @devtools/app-defaults@1.5.4
+  - @devtools/core-plugin-api@1.9.2
+  - @devtools/theme@0.5.3
+  - @devtools/plugin-adr@0.6.17
+  - @devtools/plugin-airbrake@0.3.34
+  - @devtools/plugin-apache-airflow@0.2.24
+  - @devtools/plugin-api-docs@0.11.4
+  - @devtools/plugin-azure-sites@0.1.23
+  - @devtools/plugin-catalog-graph@0.4.4
+  - @devtools/plugin-catalog-import@0.10.10
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.3
+  - @devtools/plugin-code-coverage@0.2.27
+  - @devtools/plugin-cost-insights@0.12.23
+  - @devtools/plugin-dynatrace@10.0.3
+  - @devtools/plugin-entity-feedback@0.2.17
+  - @devtools/plugin-explore@0.4.20
+  - @devtools/plugin-gcalendar@0.3.27
+  - @devtools/plugin-gcp-projects@0.3.50
+  - @devtools/plugin-home@0.7.3
+  - @devtools/plugin-jenkins@0.9.9
+  - @devtools/plugin-kafka@0.3.34
+  - @devtools/plugin-kubernetes-cluster@0.0.10
+  - @devtools/plugin-kubernetes@0.11.9
+  - @devtools/plugin-lighthouse@0.4.19
+  - @devtools/plugin-microsoft-calendar@0.1.16
+  - @devtools/plugin-newrelic@0.3.49
+  - @devtools/plugin-nomad@0.1.15
+  - @devtools/plugin-octopus-deploy@0.2.16
+  - @devtools/plugin-org@0.6.24
+  - @devtools/plugin-pagerduty@0.7.6
+  - @devtools/plugin-permission-react@0.4.22
+  - @devtools/plugin-playlist@0.2.8
+  - @devtools/plugin-puppetdb@0.1.17
+  - @devtools/plugin-rollbar@0.4.34
+  - @devtools/plugin-scaffolder-react@1.8.4
+  - @devtools/plugin-search@1.4.10
+  - @devtools/plugin-sentry@0.5.19
+  - @devtools/plugin-shortcuts@0.3.23
+  - @devtools/plugin-signals@0.0.5
+  - @devtools/plugin-stack-overflow@0.1.29
+  - @devtools/plugin-stackstorm@0.1.15
+  - @devtools/plugin-tech-insights@0.3.26
+  - @devtools/plugin-tech-radar@0.7.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.9
+  - @devtools/plugin-techdocs@1.10.4
+  - @devtools/plugin-todo@0.2.38
+  - @devtools/plugin-user-settings@0.8.5
+  - @devtools/integration-react@1.1.26
+  - @devtools/plugin-badges@0.2.58
+  - @devtools/catalog-model@1.4.5
+  - @devtools/config@1.2.0
+  - @devtools/plugin-catalog-common@1.0.22
+  - @devtools/plugin-devtools@0.1.13
+  - @devtools/plugin-linguist@0.1.19
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-newrelic-dashboard@0.3.9
+  - @devtools/plugin-search-common@1.2.11
+
+## 0.2.96-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-azure-devops@0.4.3-next.1
+  - @devtools/plugin-catalog@1.19.0-next.1
+  - @devtools/cli@0.26.3-next.1
+  - @devtools/plugin-auth-react@0.1.0-next.1
+  - @devtools/plugin-scaffolder@1.19.3-next.1
+  - @devtools/core-app-api@1.12.4-next.0
+  - @devtools/frontend-app-api@0.6.4-next.1
+  - @devtools/plugin-scaffolder-react@1.8.4-next.1
+  - @devtools/plugin-cost-insights@0.12.23-next.1
+  - @devtools/plugin-signals@0.0.5-next.1
+  - @devtools/plugin-notifications@0.2.0-next.1
+  - @devtools/plugin-api-docs@0.11.4-next.1
+  - @devtools/plugin-catalog-graph@0.4.4-next.1
+  - @devtools/plugin-explore@0.4.20-next.1
+  - @devtools/plugin-org@0.6.24-next.1
+  - @devtools/plugin-user-settings@0.8.5-next.1
+  - @devtools/plugin-kubernetes@0.11.9-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.10-next.1
+  - @devtools/app-defaults@1.5.4-next.1
+  - @devtools/catalog-model@1.4.5
+  - @devtools/config@1.2.0
+  - @devtools/core-components@0.14.4-next.0
+  - @devtools/core-plugin-api@1.9.1
+  - @devtools/integration-react@1.1.26-next.0
+  - @devtools/theme@0.5.2
+  - @devtools/plugin-adr@0.6.17-next.1
+  - @devtools/plugin-airbrake@0.3.34-next.1
+  - @devtools/plugin-apache-airflow@0.2.24-next.0
+  - @devtools/plugin-azure-sites@0.1.23-next.1
+  - @devtools/plugin-badges@0.2.58-next.1
+  - @devtools/plugin-catalog-common@1.0.22
+  - @devtools/plugin-catalog-import@0.10.10-next.1
+  - @devtools/plugin-catalog-react@1.11.3-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.3-next.0
+  - @devtools/plugin-cloudbuild@0.5.1-next.1
+  - @devtools/plugin-code-coverage@0.2.27-next.1
+  - @devtools/plugin-devtools@0.1.13-next.1
+  - @devtools/plugin-dynatrace@10.0.3-next.1
+  - @devtools/plugin-entity-feedback@0.2.17-next.1
+  - @devtools/plugin-gcalendar@0.3.27-next.0
+  - @devtools/plugin-gcp-projects@0.3.50-next.0
+  - @devtools/plugin-github-actions@0.6.15-next.1
+  - @devtools/plugin-github-pull-requests-board@0.1.28-next.1
+  - @devtools/plugin-gocd@0.1.40-next.1
+  - @devtools/plugin-graphiql@0.3.7-next.1
+  - @devtools/plugin-home@0.7.3-next.1
+  - @devtools/plugin-jenkins@0.9.9-next.1
+  - @devtools/plugin-kafka@0.3.34-next.1
+  - @devtools/plugin-lighthouse@0.4.19-next.1
+  - @devtools/plugin-linguist@0.1.19-next.1
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.16-next.0
+  - @devtools/plugin-newrelic@0.3.49-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.9-next.1
+  - @devtools/plugin-nomad@0.1.15-next.1
+  - @devtools/plugin-octopus-deploy@0.2.16-next.1
+  - @devtools/plugin-pagerduty@0.7.6-next.1
+  - @devtools/plugin-permission-react@0.4.21
+  - @devtools/plugin-playlist@0.2.8-next.1
+  - @devtools/plugin-puppetdb@0.1.17-next.1
+  - @devtools/plugin-rollbar@0.4.34-next.1
+  - @devtools/plugin-search@1.4.10-next.1
+  - @devtools/plugin-search-common@1.2.11
+  - @devtools/plugin-search-react@1.7.10-next.1
+  - @devtools/plugin-sentry@0.5.19-next.1
+  - @devtools/plugin-shortcuts@0.3.23-next.0
+  - @devtools/plugin-stack-overflow@0.1.29-next.1
+  - @devtools/plugin-stackstorm@0.1.15-next.0
+  - @devtools/plugin-tech-insights@0.3.26-next.1
+  - @devtools/plugin-tech-radar@0.7.3-next.1
+  - @devtools/plugin-techdocs@1.10.4-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.9-next.0
+  - @devtools/plugin-techdocs-react@1.2.3-next.0
+  - @devtools/plugin-todo@0.2.38-next.1
+
+## 0.2.96-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-gocd@0.1.40-next.0
+  - @devtools/plugin-scaffolder@1.19.3-next.0
+  - @devtools/cli@0.26.3-next.0
+  - @devtools/plugin-github-pull-requests-board@0.1.28-next.0
+  - @devtools/core-components@0.14.4-next.0
+  - @devtools/plugin-catalog@1.19.0-next.0
+  - @devtools/app-defaults@1.5.4-next.0
+  - @devtools/catalog-model@1.4.5
+  - @devtools/config@1.2.0
+  - @devtools/core-app-api@1.12.3
+  - @devtools/core-plugin-api@1.9.1
+  - @devtools/frontend-app-api@0.6.4-next.0
+  - @devtools/integration-react@1.1.26-next.0
+  - @devtools/theme@0.5.2
+  - @devtools/plugin-adr@0.6.17-next.0
+  - @devtools/plugin-airbrake@0.3.34-next.0
+  - @devtools/plugin-apache-airflow@0.2.24-next.0
+  - @devtools/plugin-api-docs@0.11.4-next.0
+  - @devtools/plugin-azure-devops@0.4.3-next.0
+  - @devtools/plugin-azure-sites@0.1.23-next.0
+  - @devtools/plugin-badges@0.2.58-next.0
+  - @devtools/plugin-catalog-common@1.0.22
+  - @devtools/plugin-catalog-graph@0.4.4-next.0
+  - @devtools/plugin-catalog-import@0.10.10-next.0
+  - @devtools/plugin-catalog-react@1.11.3-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.3-next.0
+  - @devtools/plugin-cloudbuild@0.5.1-next.0
+  - @devtools/plugin-code-coverage@0.2.27-next.0
+  - @devtools/plugin-cost-insights@0.12.23-next.0
+  - @devtools/plugin-devtools@0.1.13-next.0
+  - @devtools/plugin-dynatrace@10.0.3-next.0
+  - @devtools/plugin-entity-feedback@0.2.17-next.0
+  - @devtools/plugin-explore@0.4.20-next.0
+  - @devtools/plugin-gcalendar@0.3.27-next.0
+  - @devtools/plugin-gcp-projects@0.3.50-next.0
+  - @devtools/plugin-github-actions@0.6.15-next.0
+  - @devtools/plugin-graphiql@0.3.7-next.0
+  - @devtools/plugin-home@0.7.3-next.0
+  - @devtools/plugin-jenkins@0.9.9-next.0
+  - @devtools/plugin-kafka@0.3.34-next.0
+  - @devtools/plugin-kubernetes@0.11.9-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.10-next.0
+  - @devtools/plugin-lighthouse@0.4.19-next.0
+  - @devtools/plugin-linguist@0.1.19-next.0
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.16-next.0
+  - @devtools/plugin-newrelic@0.3.49-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.9-next.0
+  - @devtools/plugin-nomad@0.1.15-next.0
+  - @devtools/plugin-notifications@0.1.3-next.0
+  - @devtools/plugin-octopus-deploy@0.2.16-next.0
+  - @devtools/plugin-org@0.6.24-next.0
+  - @devtools/plugin-pagerduty@0.7.6-next.0
+  - @devtools/plugin-permission-react@0.4.21
+  - @devtools/plugin-playlist@0.2.8-next.0
+  - @devtools/plugin-puppetdb@0.1.17-next.0
+  - @devtools/plugin-rollbar@0.4.34-next.0
+  - @devtools/plugin-scaffolder-react@1.8.4-next.0
+  - @devtools/plugin-search@1.4.10-next.0
+  - @devtools/plugin-search-common@1.2.11
+  - @devtools/plugin-search-react@1.7.10-next.0
+  - @devtools/plugin-sentry@0.5.19-next.0
+  - @devtools/plugin-shortcuts@0.3.23-next.0
+  - @devtools/plugin-signals@0.0.5-next.0
+  - @devtools/plugin-stack-overflow@0.1.29-next.0
+  - @devtools/plugin-stackstorm@0.1.15-next.0
+  - @devtools/plugin-tech-insights@0.3.26-next.0
+  - @devtools/plugin-tech-radar@0.7.3-next.0
+  - @devtools/plugin-techdocs@1.10.4-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.9-next.0
+  - @devtools/plugin-techdocs-react@1.2.3-next.0
+  - @devtools/plugin-todo@0.2.38-next.0
+  - @devtools/plugin-user-settings@0.8.5-next.0
+
+## 0.2.95
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-nomad@0.1.14
+  - @devtools/plugin-newrelic@0.3.48
+  - @devtools/plugin-tech-radar@0.7.2
+  - @devtools/plugin-entity-feedback@0.2.16
+  - @devtools/plugin-pagerduty@0.7.5
+  - @devtools/plugin-microsoft-calendar@0.1.15
+  - @devtools/plugin-gcp-projects@0.3.49
+  - @devtools/plugin-newrelic-dashboard@0.3.8
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.2
+  - @devtools/plugin-kubernetes-cluster@0.0.9
+  - @devtools/core-components@0.14.3
+  - @devtools/plugin-scaffolder-react@1.8.3
+  - @devtools/plugin-apache-airflow@0.2.23
+  - @devtools/plugin-catalog-import@0.10.9
+  - @devtools/plugin-github-actions@0.6.14
+  - @devtools/plugin-octopus-deploy@0.2.15
+  - @devtools/plugin-stack-overflow@0.1.28
+  - @devtools/plugin-techdocs-react@1.2.2
+  - @devtools/core-app-api@1.12.3
+  - @devtools/plugin-catalog-graph@0.4.3
+  - @devtools/plugin-catalog-react@1.11.2
+  - @devtools/plugin-code-coverage@0.2.26
+  - @devtools/plugin-cost-insights@0.12.22
+  - @devtools/plugin-notifications@0.1.2
+  - @devtools/plugin-tech-insights@0.3.25
+  - @devtools/plugin-user-settings@0.8.4
+  - @devtools/plugin-azure-devops@0.4.2
+  - @devtools/plugin-search-react@1.7.9
+  - @devtools/plugin-azure-sites@0.1.22
+  - @devtools/plugin-cloudbuild@0.5.0
+  - @devtools/plugin-lighthouse@0.4.18
+  - @devtools/plugin-scaffolder@1.19.2
+  - @devtools/plugin-stackstorm@0.1.14
+  - @devtools/plugin-dynatrace@10.0.2
+  - @devtools/plugin-gcalendar@0.3.26
+  - @devtools/plugin-shortcuts@0.3.22
+  - @devtools/plugin-airbrake@0.3.33
+  - @devtools/plugin-devtools@0.1.12
+  - @devtools/plugin-graphiql@0.3.6
+  - @devtools/plugin-linguist@0.1.18
+  - @devtools/plugin-playlist@0.2.7
+  - @devtools/plugin-puppetdb@0.1.16
+  - @devtools/plugin-techdocs@1.10.3
+  - @devtools/plugin-catalog@1.18.2
+  - @devtools/plugin-explore@0.4.19
+  - @devtools/plugin-jenkins@0.9.8
+  - @devtools/plugin-rollbar@0.4.33
+  - @devtools/plugin-badges@0.2.57
+  - @devtools/plugin-search@1.4.9
+  - @devtools/plugin-sentry@0.5.18
+  - @devtools/plugin-kafka@0.3.33
+  - @devtools/plugin-gocd@0.1.39
+  - @devtools/plugin-home@0.7.2
+  - @devtools/plugin-adr@0.6.16
+  - @devtools/plugin-org@0.6.23
+  - @devtools/cli@0.26.2
+  - @devtools/app-defaults@1.5.3
+  - @devtools/frontend-app-api@0.6.3
+  - @devtools/integration-react@1.1.25
+  - @devtools/plugin-api-docs@0.11.3
+  - @devtools/plugin-github-pull-requests-board@0.1.27
+  - @devtools/plugin-kubernetes@0.11.8
+  - @devtools/plugin-signals@0.0.4
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.8
+  - @devtools/plugin-todo@0.2.37
+  - @devtools/core-plugin-api@1.9.1
+  - @devtools/catalog-model@1.4.5
+  - @devtools/config@1.2.0
+  - @devtools/theme@0.5.2
+  - @devtools/plugin-catalog-common@1.0.22
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.21
+  - @devtools/plugin-search-common@1.2.11
+
+## 0.2.94
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-nomad@0.1.13
+  - @devtools/plugin-newrelic@0.3.47
+  - @devtools/plugin-tech-radar@0.7.1
+  - @devtools/plugin-entity-feedback@0.2.15
+  - @devtools/plugin-pagerduty@0.7.4
+  - @devtools/plugin-microsoft-calendar@0.1.14
+  - @devtools/plugin-gcp-projects@0.3.48
+  - @devtools/plugin-newrelic-dashboard@0.3.7
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.1
+  - @devtools/plugin-kubernetes-cluster@0.0.8
+  - @devtools/core-components@0.14.2
+  - @devtools/plugin-scaffolder-react@1.8.2
+  - @devtools/plugin-apache-airflow@0.2.22
+  - @devtools/plugin-catalog-import@0.10.8
+  - @devtools/plugin-github-actions@0.6.13
+  - @devtools/plugin-octopus-deploy@0.2.14
+  - @devtools/plugin-stack-overflow@0.1.27
+  - @devtools/plugin-techdocs-react@1.2.1
+  - @devtools/core-app-api@1.12.2
+  - @devtools/plugin-catalog-graph@0.4.2
+  - @devtools/plugin-catalog-react@1.11.1
+  - @devtools/plugin-code-coverage@0.2.25
+  - @devtools/plugin-cost-insights@0.12.21
+  - @devtools/plugin-notifications@0.1.1
+  - @devtools/plugin-tech-insights@0.3.24
+  - @devtools/plugin-user-settings@0.8.3
+  - @devtools/plugin-azure-devops@0.4.1
+  - @devtools/plugin-search-react@1.7.8
+  - @devtools/plugin-azure-sites@0.1.21
+  - @devtools/plugin-cloudbuild@0.4.2
+  - @devtools/plugin-lighthouse@0.4.17
+  - @devtools/plugin-scaffolder@1.19.1
+  - @devtools/plugin-stackstorm@0.1.13
+  - @devtools/plugin-dynatrace@10.0.1
+  - @devtools/plugin-gcalendar@0.3.25
+  - @devtools/plugin-shortcuts@0.3.21
+  - @devtools/plugin-airbrake@0.3.32
+  - @devtools/plugin-devtools@0.1.11
+  - @devtools/plugin-graphiql@0.3.5
+  - @devtools/plugin-linguist@0.1.17
+  - @devtools/plugin-playlist@0.2.6
+  - @devtools/plugin-puppetdb@0.1.15
+  - @devtools/plugin-techdocs@1.10.2
+  - @devtools/plugin-catalog@1.18.1
+  - @devtools/plugin-explore@0.4.18
+  - @devtools/plugin-jenkins@0.9.7
+  - @devtools/plugin-rollbar@0.4.32
+  - @devtools/plugin-badges@0.2.56
+  - @devtools/plugin-search@1.4.8
+  - @devtools/plugin-sentry@0.5.17
+  - @devtools/plugin-kafka@0.3.32
+  - @devtools/plugin-gocd@0.1.38
+  - @devtools/plugin-home@0.7.1
+  - @devtools/plugin-adr@0.6.15
+  - @devtools/plugin-org@0.6.22
+  - @devtools/cli@0.26.1
+  - @devtools/app-defaults@1.5.2
+  - @devtools/frontend-app-api@0.6.2
+  - @devtools/integration-react@1.1.25
+  - @devtools/plugin-api-docs@0.11.2
+  - @devtools/plugin-github-pull-requests-board@0.1.26
+  - @devtools/plugin-kubernetes@0.11.7
+  - @devtools/plugin-signals@0.0.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.7
+  - @devtools/plugin-todo@0.2.36
+  - @devtools/core-plugin-api@1.9.1
+  - @devtools/catalog-model@1.4.5
+  - @devtools/config@1.2.0
+  - @devtools/theme@0.5.2
+  - @devtools/plugin-catalog-common@1.0.22
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.21
+  - @devtools/plugin-search-common@1.2.11
+
+## 0.2.93
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-apache-airflow@0.2.21
+  - @devtools/plugin-catalog-import@0.10.7
+  - @devtools/cli@0.26.0
+  - @devtools/plugin-shortcuts@0.3.20
+  - @devtools/plugin-github-pull-requests-board@0.1.25
+  - @devtools/plugin-techdocs@1.10.1
+  - @devtools/config@1.2.0
+  - @devtools/plugin-adr@0.6.14
+  - @devtools/plugin-api-docs@0.11.1
+  - @devtools/core-components@0.14.1
+  - @devtools/plugin-notifications@0.1.0
+  - @devtools/plugin-stack-overflow@0.1.26
+  - @devtools/plugin-rollbar@0.4.31
+  - @devtools/plugin-search@1.4.7
+  - @devtools/theme@0.5.2
+  - @devtools/plugin-explore@0.4.17
+  - @devtools/integration-react@1.1.25
+  - @devtools/plugin-catalog@1.18.0
+  - @devtools/plugin-github-actions@0.6.12
+  - @devtools/plugin-dynatrace@10.0.0
+  - @devtools/plugin-scaffolder@1.19.0
+  - @devtools/plugin-techdocs-react@1.2.0
+  - @devtools/plugin-gcalendar@0.3.24
+  - @devtools/plugin-airbrake@0.3.31
+  - @devtools/plugin-catalog-react@1.11.0
+  - @devtools/plugin-azure-devops@0.4.0
+  - @devtools/plugin-user-settings@0.8.2
+  - @devtools/plugin-org@0.6.21
+  - @devtools/plugin-linguist@0.1.16
+  - @devtools/plugin-badges@0.2.55
+  - @devtools/plugin-cloudbuild@0.4.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.2.0
+  - @devtools/plugin-tech-radar@0.7.0
+  - @devtools/frontend-app-api@0.6.1
+  - @devtools/plugin-search-common@1.2.11
+  - @devtools/plugin-devtools@0.1.10
+  - @devtools/plugin-cost-insights@0.12.20
+  - @devtools/plugin-entity-feedback@0.2.14
+  - @devtools/plugin-kubernetes@0.11.6
+  - @devtools/plugin-stackstorm@0.1.12
+  - @devtools/plugin-scaffolder-react@1.8.1
+  - @devtools/plugin-azure-sites@0.1.20
+  - @devtools/plugin-playlist@0.2.5
+  - @devtools/plugin-home@0.7.0
+  - @devtools/plugin-signals@0.0.2
+  - @devtools/plugin-lighthouse@0.4.16
+  - @devtools/plugin-sentry@0.5.16
+  - @devtools/plugin-tech-insights@0.3.23
+  - @devtools/plugin-octopus-deploy@0.2.13
+  - @devtools/plugin-catalog-graph@0.4.1
+  - @devtools/plugin-kafka@0.3.31
+  - @devtools/plugin-jenkins@0.9.6
+  - @devtools/plugin-code-coverage@0.2.24
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.6
+  - @devtools/app-defaults@1.5.1
+  - @devtools/catalog-model@1.4.5
+  - @devtools/core-app-api@1.12.1
+  - @devtools/core-plugin-api@1.9.1
+  - @devtools/plugin-catalog-common@1.0.22
+  - @devtools/plugin-gcp-projects@0.3.47
+  - @devtools/plugin-gocd@0.1.37
+  - @devtools/plugin-graphiql@0.3.4
+  - @devtools/plugin-kubernetes-cluster@0.0.7
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.13
+  - @devtools/plugin-newrelic@0.3.46
+  - @devtools/plugin-newrelic-dashboard@0.3.6
+  - @devtools/plugin-nomad@0.1.12
+  - @devtools/plugin-pagerduty@0.7.3
+  - @devtools/plugin-permission-react@0.4.21
+  - @devtools/plugin-puppetdb@0.1.14
+  - @devtools/plugin-search-react@1.7.7
+  - @devtools/plugin-todo@0.2.35
+
+## 0.2.93-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs@1.10.1-next.2
+  - @devtools/plugin-search@1.4.7-next.2
+  - @devtools/plugin-scaffolder@1.19.0-next.2
+  - @devtools/plugin-techdocs-react@1.2.0-next.2
+  - @devtools/plugin-notifications@0.1.0-next.2
+  - @devtools/core-components@0.14.1-next.2
+  - @devtools/plugin-tech-radar@0.7.0-next.2
+  - @devtools/plugin-catalog-react@1.11.0-next.2
+  - @devtools/plugin-azure-devops@0.4.0-next.2
+  - @devtools/plugin-devtools@0.1.10-next.2
+  - @devtools/plugin-azure-sites@0.1.20-next.2
+  - @devtools/plugin-catalog@1.18.0-next.2
+  - @devtools/plugin-linguist@0.1.16-next.2
+  - @devtools/plugin-catalog-import@0.10.7-next.2
+  - @devtools/plugin-home@0.7.0-next.2
+  - @devtools/plugin-github-actions@0.6.12-next.2
+  - @devtools/cli@0.25.3-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.6-next.2
+  - @devtools/integration-react@1.1.25-next.2
+  - @devtools/plugin-github-pull-requests-board@0.1.25-next.2
+  - @devtools/app-defaults@1.5.1-next.2
+  - @devtools/frontend-app-api@0.6.1-next.2
+  - @devtools/plugin-adr@0.6.14-next.2
+  - @devtools/plugin-airbrake@0.3.31-next.2
+  - @devtools/plugin-apache-airflow@0.2.21-next.2
+  - @devtools/plugin-api-docs@0.11.1-next.2
+  - @devtools/plugin-badges@0.2.55-next.2
+  - @devtools/plugin-catalog-graph@0.4.1-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.9-next.2
+  - @devtools/plugin-cloudbuild@0.4.1-next.2
+  - @devtools/plugin-code-coverage@0.2.24-next.2
+  - @devtools/plugin-cost-insights@0.12.20-next.2
+  - @devtools/plugin-dynatrace@10.0.0-next.2
+  - @devtools/plugin-entity-feedback@0.2.14-next.2
+  - @devtools/plugin-explore@0.4.17-next.2
+  - @devtools/plugin-gcalendar@0.3.24-next.2
+  - @devtools/plugin-gcp-projects@0.3.47-next.2
+  - @devtools/plugin-gocd@0.1.37-next.2
+  - @devtools/plugin-graphiql@0.3.4-next.2
+  - @devtools/plugin-jenkins@0.9.6-next.2
+  - @devtools/plugin-kafka@0.3.31-next.2
+  - @devtools/plugin-kubernetes@0.11.6-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.7-next.2
+  - @devtools/plugin-lighthouse@0.4.16-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.13-next.2
+  - @devtools/plugin-newrelic@0.3.46-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.6-next.2
+  - @devtools/plugin-nomad@0.1.12-next.2
+  - @devtools/plugin-octopus-deploy@0.2.13-next.2
+  - @devtools/plugin-org@0.6.21-next.2
+  - @devtools/plugin-pagerduty@0.7.3-next.2
+  - @devtools/plugin-playlist@0.2.5-next.2
+  - @devtools/plugin-puppetdb@0.1.14-next.2
+  - @devtools/plugin-rollbar@0.4.31-next.2
+  - @devtools/plugin-scaffolder-react@1.8.1-next.2
+  - @devtools/plugin-search-react@1.7.7-next.2
+  - @devtools/plugin-sentry@0.5.16-next.2
+  - @devtools/plugin-shortcuts@0.3.20-next.2
+  - @devtools/plugin-signals@0.0.2-next.2
+  - @devtools/plugin-stack-overflow@0.1.26-next.2
+  - @devtools/plugin-stackstorm@0.1.12-next.2
+  - @devtools/plugin-tech-insights@0.3.23-next.2
+  - @devtools/plugin-todo@0.2.35-next.2
+  - @devtools/plugin-user-settings@0.8.2-next.2
+  - @devtools/catalog-model@1.4.5-next.0
+  - @devtools/config@1.2.0-next.1
+  - @devtools/core-app-api@1.12.1-next.1
+  - @devtools/core-plugin-api@1.9.1-next.1
+  - @devtools/theme@0.5.2-next.0
+  - @devtools/plugin-catalog-common@1.0.22-next.1
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.21-next.1
+  - @devtools/plugin-search-common@1.2.11-next.1
+
+## 0.2.93-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/config@1.2.0-next.1
+  - @devtools/core-components@0.14.1-next.1
+  - @devtools/plugin-github-actions@0.6.12-next.1
+  - @devtools/cli@0.25.3-next.1
+  - @devtools/plugin-catalog-react@1.10.1-next.1
+  - @devtools/plugin-entity-feedback@0.2.14-next.1
+  - @devtools/plugin-api-docs@0.11.1-next.1
+  - @devtools/plugin-notifications@0.1.0-next.1
+  - @devtools/plugin-catalog@1.17.1-next.1
+  - @devtools/plugin-azure-devops@0.4.0-next.1
+  - @devtools/plugin-org@0.6.21-next.1
+  - @devtools/core-app-api@1.12.1-next.1
+  - @devtools/core-plugin-api@1.9.1-next.1
+  - @devtools/frontend-app-api@0.6.1-next.1
+  - @devtools/integration-react@1.1.25-next.1
+  - @devtools/plugin-catalog-import@0.10.7-next.1
+  - @devtools/plugin-cost-insights@0.12.20-next.1
+  - @devtools/plugin-home@0.6.3-next.1
+  - @devtools/plugin-permission-react@0.4.21-next.1
+  - @devtools/plugin-stack-overflow@0.1.26-next.1
+  - @devtools/plugin-techdocs@1.10.1-next.1
+  - @devtools/plugin-techdocs-react@1.1.17-next.1
+  - @devtools/app-defaults@1.5.1-next.1
+  - @devtools/plugin-adr@0.6.14-next.1
+  - @devtools/plugin-airbrake@0.3.31-next.1
+  - @devtools/plugin-apache-airflow@0.2.21-next.1
+  - @devtools/plugin-azure-sites@0.1.20-next.1
+  - @devtools/plugin-badges@0.2.55-next.1
+  - @devtools/plugin-catalog-graph@0.4.1-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.9-next.1
+  - @devtools/plugin-cloudbuild@0.4.1-next.1
+  - @devtools/plugin-code-coverage@0.2.24-next.1
+  - @devtools/plugin-devtools@0.1.10-next.1
+  - @devtools/plugin-dynatrace@9.0.1-next.1
+  - @devtools/plugin-explore@0.4.17-next.1
+  - @devtools/plugin-gcalendar@0.3.24-next.1
+  - @devtools/plugin-gcp-projects@0.3.47-next.1
+  - @devtools/plugin-github-pull-requests-board@0.1.25-next.1
+  - @devtools/plugin-gocd@0.1.37-next.1
+  - @devtools/plugin-graphiql@0.3.4-next.1
+  - @devtools/plugin-jenkins@0.9.6-next.1
+  - @devtools/plugin-kafka@0.3.31-next.1
+  - @devtools/plugin-kubernetes@0.11.6-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.7-next.1
+  - @devtools/plugin-lighthouse@0.4.16-next.1
+  - @devtools/plugin-linguist@0.1.16-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.13-next.1
+  - @devtools/plugin-newrelic@0.3.46-next.1
+  - @devtools/plugin-newrelic-dashboard@0.3.6-next.1
+  - @devtools/plugin-nomad@0.1.12-next.1
+  - @devtools/plugin-octopus-deploy@0.2.13-next.1
+  - @devtools/plugin-pagerduty@0.7.3-next.1
+  - @devtools/plugin-playlist@0.2.5-next.1
+  - @devtools/plugin-puppetdb@0.1.14-next.1
+  - @devtools/plugin-rollbar@0.4.31-next.1
+  - @devtools/plugin-scaffolder@1.18.1-next.1
+  - @devtools/plugin-scaffolder-react@1.8.1-next.1
+  - @devtools/plugin-search@1.4.7-next.1
+  - @devtools/plugin-search-react@1.7.7-next.1
+  - @devtools/plugin-sentry@0.5.16-next.1
+  - @devtools/plugin-shortcuts@0.3.20-next.1
+  - @devtools/plugin-signals@0.0.2-next.1
+  - @devtools/plugin-stackstorm@0.1.12-next.1
+  - @devtools/plugin-tech-insights@0.3.23-next.1
+  - @devtools/plugin-tech-radar@0.6.14-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.6-next.1
+  - @devtools/plugin-todo@0.2.35-next.1
+  - @devtools/plugin-user-settings@0.8.2-next.1
+  - @devtools/catalog-model@1.4.5-next.0
+  - @devtools/theme@0.5.2-next.0
+  - @devtools/plugin-catalog-common@1.0.22-next.1
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.11-next.1
+
+## 0.2.93-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-github-pull-requests-board@0.1.25-next.0
+  - @devtools/plugin-adr@0.6.14-next.0
+  - @devtools/plugin-stack-overflow@0.1.26-next.0
+  - @devtools/theme@0.5.2-next.0
+  - @devtools/core-components@0.14.1-next.0
+  - @devtools/plugin-notifications@0.1.0-next.0
+  - @devtools/integration-react@1.1.25-next.0
+  - @devtools/cli@0.25.3-next.0
+  - @devtools/plugin-catalog-react@1.10.1-next.0
+  - @devtools/plugin-azure-devops@0.4.0-next.0
+  - @devtools/plugin-linguist@0.1.16-next.0
+  - @devtools/plugin-catalog@1.17.1-next.0
+  - @devtools/plugin-org@0.6.21-next.0
+  - @devtools/plugin-search-common@1.2.11-next.0
+  - @devtools/plugin-search@1.4.7-next.0
+  - @devtools/plugin-devtools@0.1.10-next.0
+  - @devtools/plugin-tech-radar@0.6.14-next.0
+  - @devtools/plugin-scaffolder-react@1.8.1-next.0
+  - @devtools/plugin-api-docs@0.11.1-next.0
+  - @devtools/plugin-cost-insights@0.12.20-next.0
+  - @devtools/plugin-home@0.6.3-next.0
+  - @devtools/plugin-scaffolder@1.18.1-next.0
+  - @devtools/plugin-shortcuts@0.3.20-next.0
+  - @devtools/plugin-signals@0.0.2-next.0
+  - @devtools/plugin-catalog-import@0.10.7-next.0
+  - @devtools/catalog-model@1.4.5-next.0
+  - @devtools/config@1.1.2-next.0
+  - @devtools/core-plugin-api@1.9.1-next.0
+  - @devtools/frontend-app-api@0.6.1-next.0
+  - @devtools/plugin-badges@0.2.55-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.9-next.0
+  - @devtools/plugin-code-coverage@0.2.24-next.0
+  - @devtools/plugin-entity-feedback@0.2.14-next.0
+  - @devtools/plugin-explore@0.4.17-next.0
+  - @devtools/plugin-gcalendar@0.3.24-next.0
+  - @devtools/plugin-gocd@0.1.37-next.0
+  - @devtools/plugin-jenkins@0.9.6-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.13-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.6-next.0
+  - @devtools/plugin-pagerduty@0.7.3-next.0
+  - @devtools/plugin-playlist@0.2.5-next.0
+  - @devtools/plugin-puppetdb@0.1.14-next.0
+  - @devtools/plugin-stackstorm@0.1.12-next.0
+  - @devtools/plugin-tech-insights@0.3.23-next.0
+  - @devtools/plugin-techdocs@1.10.1-next.0
+  - @devtools/plugin-todo@0.2.35-next.0
+  - @devtools/plugin-user-settings@0.8.2-next.0
+  - @devtools/app-defaults@1.5.1-next.0
+  - @devtools/plugin-azure-sites@0.1.20-next.0
+  - @devtools/plugin-search-react@1.7.7-next.0
+  - @devtools/plugin-techdocs-react@1.1.17-next.0
+  - @devtools/plugin-airbrake@0.3.31-next.0
+  - @devtools/plugin-apache-airflow@0.2.21-next.0
+  - @devtools/plugin-catalog-graph@0.4.1-next.0
+  - @devtools/plugin-cloudbuild@0.4.1-next.0
+  - @devtools/plugin-dynatrace@9.0.1-next.0
+  - @devtools/plugin-gcp-projects@0.3.47-next.0
+  - @devtools/plugin-github-actions@0.6.12-next.0
+  - @devtools/plugin-graphiql@0.3.4-next.0
+  - @devtools/plugin-kafka@0.3.31-next.0
+  - @devtools/plugin-kubernetes@0.11.6-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.7-next.0
+  - @devtools/plugin-lighthouse@0.4.16-next.0
+  - @devtools/plugin-newrelic@0.3.46-next.0
+  - @devtools/plugin-nomad@0.1.12-next.0
+  - @devtools/plugin-octopus-deploy@0.2.13-next.0
+  - @devtools/plugin-rollbar@0.4.31-next.0
+  - @devtools/plugin-sentry@0.5.16-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.6-next.0
+  - @devtools/core-app-api@1.12.1-next.0
+  - @devtools/plugin-catalog-common@1.0.22-next.0
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.21-next.0
+
+## 0.2.92
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-azure-devops@0.3.12
+  - @devtools/frontend-app-api@0.6.0
+  - @devtools/plugin-scaffolder-react@1.8.0
+  - @devtools/plugin-catalog-react@1.10.0
+  - @devtools/plugin-catalog-import@0.10.6
+  - @devtools/plugin-catalog-graph@0.4.0
+  - @devtools/plugin-catalog@1.17.0
+  - @devtools/plugin-azure-sites@0.1.19
+  - @devtools/plugin-api-docs@0.11.0
+  - @devtools/plugin-adr@0.6.13
+  - @devtools/app-defaults@1.5.0
+  - @devtools/plugin-gcp-projects@0.3.46
+  - @devtools/plugin-airbrake@0.3.30
+  - @devtools/plugin-scaffolder@1.18.0
+  - @devtools/plugin-devtools@0.1.9
+  - @devtools/cli@0.25.2
+  - @devtools/core-components@0.14.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.5
+  - @devtools/plugin-signals@0.0.1
+  - @devtools/plugin-kubernetes@0.11.5
+  - @devtools/plugin-notifications@0.0.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.8
+  - @devtools/plugin-microsoft-calendar@0.1.12
+  - @devtools/plugin-github-actions@0.6.11
+  - @devtools/plugin-octopus-deploy@0.2.12
+  - @devtools/plugin-techdocs-react@1.1.16
+  - @devtools/core-app-api@1.12.0
+  - @devtools/plugin-code-coverage@0.2.23
+  - @devtools/plugin-cost-insights@0.12.19
+  - @devtools/plugin-tech-insights@0.3.22
+  - @devtools/plugin-lighthouse@0.4.15
+  - @devtools/plugin-tech-radar@0.6.13
+  - @devtools/plugin-dynatrace@9.0.0
+  - @devtools/plugin-shortcuts@0.3.19
+  - @devtools/plugin-graphiql@0.3.3
+  - @devtools/plugin-linguist@0.1.15
+  - @devtools/plugin-newrelic@0.3.45
+  - @devtools/plugin-jenkins@0.9.5
+  - @devtools/plugin-rollbar@0.4.30
+  - @devtools/plugin-badges@0.2.54
+  - @devtools/plugin-sentry@0.5.15
+  - @devtools/plugin-nomad@0.1.11
+  - @devtools/plugin-home@0.6.2
+  - @devtools/catalog-model@1.4.4
+  - @devtools/plugin-explore@0.4.16
+  - @devtools/plugin-user-settings@0.8.1
+  - @devtools/plugin-techdocs@1.10.0
+  - @devtools/plugin-search@1.4.6
+  - @devtools/theme@0.5.1
+  - @devtools/core-plugin-api@1.9.0
+  - @devtools/plugin-playlist@0.2.4
+  - @devtools/plugin-apache-airflow@0.2.20
+  - @devtools/plugin-cloudbuild@0.4.0
+  - @devtools/plugin-entity-feedback@0.2.13
+  - @devtools/plugin-gcalendar@0.3.23
+  - @devtools/plugin-kafka@0.3.30
+  - @devtools/plugin-kubernetes-cluster@0.0.6
+  - @devtools/plugin-newrelic-dashboard@0.3.5
+  - @devtools/plugin-org@0.6.20
+  - @devtools/plugin-pagerduty@0.7.2
+  - @devtools/plugin-permission-react@0.4.20
+  - @devtools/plugin-puppetdb@0.1.13
+  - @devtools/plugin-search-react@1.7.6
+  - @devtools/plugin-stack-overflow@0.1.25
+  - @devtools/plugin-stackstorm@0.1.11
+  - @devtools/plugin-gocd@0.1.36
+  - @devtools/plugin-todo@0.2.34
+  - @devtools/config@1.1.1
+  - @devtools/integration-react@1.1.24
+  - @devtools/plugin-catalog-common@1.0.21
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.10
+
+## 0.2.92-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-api-docs@0.11.0-next.3
+  - @devtools/cli@0.25.2-next.3
+  - @devtools/plugin-kubernetes@0.11.5-next.3
+  - @devtools/theme@0.5.1-next.1
+  - @devtools/plugin-playlist@0.2.4-next.3
+  - @devtools/plugin-catalog@1.17.0-next.3
+  - @devtools/frontend-app-api@0.6.0-next.3
+  - @devtools/plugin-notifications@0.0.1-next.1
+  - @devtools/plugin-signals@0.0.1-next.3
+  - @devtools/core-components@0.14.0-next.2
+  - @devtools/plugin-catalog-react@1.10.0-next.3
+  - @devtools/plugin-gcp-projects@0.3.46-next.2
+  - @devtools/plugin-scaffolder-react@1.8.0-next.3
+  - @devtools/plugin-scaffolder@1.18.0-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.5-next.3
+  - @devtools/plugin-home@0.6.2-next.3
+  - @devtools/plugin-gcalendar@0.3.23-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.12-next.2
+  - @devtools/plugin-techdocs@1.10.0-next.3
+  - @devtools/plugin-catalog-import@0.10.6-next.3
+  - @devtools/plugin-github-actions@0.6.11-next.3
+  - @devtools/plugin-dynatrace@9.0.0-next.3
+  - @devtools/plugin-kubernetes-cluster@0.0.6-next.3
+  - @devtools/app-defaults@1.5.0-next.3
+  - @devtools/catalog-model@1.4.4-next.0
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.12.0-next.1
+  - @devtools/core-plugin-api@1.9.0-next.1
+  - @devtools/integration-react@1.1.24-next.2
+  - @devtools/plugin-adr@0.6.13-next.3
+  - @devtools/plugin-airbrake@0.3.30-next.3
+  - @devtools/plugin-apache-airflow@0.2.20-next.2
+  - @devtools/plugin-azure-devops@0.3.12-next.3
+  - @devtools/plugin-azure-sites@0.1.19-next.3
+  - @devtools/plugin-badges@0.2.54-next.3
+  - @devtools/plugin-catalog-common@1.0.21-next.0
+  - @devtools/plugin-catalog-graph@0.4.0-next.3
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.8-next.2
+  - @devtools/plugin-cloudbuild@0.4.0-next.3
+  - @devtools/plugin-code-coverage@0.2.23-next.3
+  - @devtools/plugin-cost-insights@0.12.19-next.3
+  - @devtools/plugin-devtools@0.1.9-next.3
+  - @devtools/plugin-entity-feedback@0.2.13-next.3
+  - @devtools/plugin-explore@0.4.16-next.3
+  - @devtools/plugin-gocd@0.1.36-next.3
+  - @devtools/plugin-graphiql@0.3.3-next.3
+  - @devtools/plugin-jenkins@0.9.5-next.3
+  - @devtools/plugin-kafka@0.3.30-next.3
+  - @devtools/plugin-lighthouse@0.4.15-next.3
+  - @devtools/plugin-linguist@0.1.15-next.3
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-newrelic@0.3.45-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.5-next.3
+  - @devtools/plugin-nomad@0.1.11-next.3
+  - @devtools/plugin-octopus-deploy@0.2.12-next.3
+  - @devtools/plugin-org@0.6.20-next.3
+  - @devtools/plugin-pagerduty@0.7.2-next.3
+  - @devtools/plugin-permission-react@0.4.20-next.1
+  - @devtools/plugin-puppetdb@0.1.13-next.3
+  - @devtools/plugin-rollbar@0.4.30-next.3
+  - @devtools/plugin-search@1.4.6-next.3
+  - @devtools/plugin-search-common@1.2.10
+  - @devtools/plugin-search-react@1.7.6-next.3
+  - @devtools/plugin-sentry@0.5.15-next.3
+  - @devtools/plugin-shortcuts@0.3.19-next.2
+  - @devtools/plugin-stack-overflow@0.1.25-next.3
+  - @devtools/plugin-stackstorm@0.1.11-next.2
+  - @devtools/plugin-tech-insights@0.3.22-next.3
+  - @devtools/plugin-tech-radar@0.6.13-next.3
+  - @devtools/plugin-techdocs-react@1.1.16-next.2
+  - @devtools/plugin-todo@0.2.34-next.3
+  - @devtools/plugin-user-settings@0.8.1-next.3
+
+## 0.2.92-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-azure-devops@0.3.12-next.2
+  - @devtools/plugin-azure-sites@0.1.19-next.2
+  - @devtools/core-components@0.14.0-next.1
+  - @devtools/plugin-catalog-graph@0.4.0-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.5-next.2
+  - @devtools/plugin-signals@0.0.1-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.8-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.12-next.1
+  - @devtools/plugin-catalog-import@0.10.6-next.2
+  - @devtools/plugin-github-actions@0.6.11-next.2
+  - @devtools/plugin-octopus-deploy@0.2.12-next.2
+  - @devtools/plugin-techdocs-react@1.1.16-next.1
+  - @devtools/app-defaults@1.5.0-next.2
+  - @devtools/core-app-api@1.12.0-next.1
+  - @devtools/plugin-code-coverage@0.2.23-next.2
+  - @devtools/plugin-cost-insights@0.12.19-next.2
+  - @devtools/plugin-tech-insights@0.3.22-next.2
+  - @devtools/plugin-lighthouse@0.4.15-next.2
+  - @devtools/plugin-scaffolder@1.18.0-next.2
+  - @devtools/plugin-tech-radar@0.6.13-next.2
+  - @devtools/plugin-dynatrace@9.0.0-next.2
+  - @devtools/plugin-shortcuts@0.3.19-next.1
+  - @devtools/plugin-airbrake@0.3.30-next.2
+  - @devtools/plugin-api-docs@0.10.4-next.2
+  - @devtools/plugin-devtools@0.1.9-next.2
+  - @devtools/plugin-graphiql@0.3.3-next.2
+  - @devtools/plugin-linguist@0.1.15-next.2
+  - @devtools/plugin-newrelic@0.3.45-next.1
+  - @devtools/plugin-catalog@1.17.0-next.2
+  - @devtools/plugin-jenkins@0.9.5-next.2
+  - @devtools/plugin-rollbar@0.4.30-next.2
+  - @devtools/plugin-badges@0.2.54-next.2
+  - @devtools/plugin-sentry@0.5.15-next.2
+  - @devtools/plugin-nomad@0.1.11-next.2
+  - @devtools/plugin-home@0.6.2-next.2
+  - @devtools/core-plugin-api@1.9.0-next.1
+  - @devtools/plugin-catalog-react@1.10.0-next.2
+  - @devtools/frontend-app-api@0.6.0-next.2
+  - @devtools/plugin-adr@0.6.13-next.2
+  - @devtools/plugin-apache-airflow@0.2.20-next.1
+  - @devtools/plugin-cloudbuild@0.4.0-next.2
+  - @devtools/plugin-entity-feedback@0.2.13-next.2
+  - @devtools/plugin-explore@0.4.16-next.2
+  - @devtools/plugin-gcalendar@0.3.23-next.1
+  - @devtools/plugin-kafka@0.3.30-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.6-next.2
+  - @devtools/plugin-kubernetes@0.11.5-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.5-next.2
+  - @devtools/plugin-org@0.6.20-next.2
+  - @devtools/plugin-pagerduty@0.7.2-next.2
+  - @devtools/plugin-permission-react@0.4.20-next.1
+  - @devtools/plugin-playlist@0.2.4-next.2
+  - @devtools/plugin-puppetdb@0.1.13-next.2
+  - @devtools/plugin-scaffolder-react@1.8.0-next.2
+  - @devtools/plugin-search-react@1.7.6-next.2
+  - @devtools/plugin-search@1.4.6-next.2
+  - @devtools/plugin-stack-overflow@0.1.25-next.2
+  - @devtools/plugin-stackstorm@0.1.11-next.1
+  - @devtools/plugin-techdocs@1.10.0-next.2
+  - @devtools/plugin-user-settings@0.8.1-next.2
+  - @devtools/theme@0.5.1-next.0
+  - @devtools/cli@0.25.2-next.2
+  - @devtools/plugin-notifications@0.0.1-next.0
+  - @devtools/integration-react@1.1.24-next.1
+  - @devtools/plugin-gcp-projects@0.3.46-next.1
+  - @devtools/plugin-gocd@0.1.36-next.2
+  - @devtools/plugin-todo@0.2.34-next.2
+  - @devtools/config@1.1.1
+  - @devtools/catalog-model@1.4.4-next.0
+  - @devtools/plugin-catalog-common@1.0.21-next.0
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.10
+
+## 0.2.92-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/frontend-app-api@0.6.0-next.1
+  - @devtools/plugin-scaffolder-react@1.8.0-next.1
+  - @devtools/plugin-adr@0.6.13-next.1
+  - @devtools/plugin-catalog-graph@0.3.4-next.1
+  - @devtools/core-components@0.14.0-next.0
+  - @devtools/plugin-scaffolder@1.18.0-next.1
+  - @devtools/cli@0.25.2-next.1
+  - @devtools/catalog-model@1.4.4-next.0
+  - @devtools/plugin-explore@0.4.16-next.1
+  - @devtools/plugin-catalog@1.17.0-next.1
+  - @devtools/core-plugin-api@1.8.3-next.0
+  - @devtools/app-defaults@1.4.8-next.1
+  - @devtools/core-app-api@1.11.4-next.0
+  - @devtools/plugin-techdocs@1.10.0-next.1
+  - @devtools/plugin-azure-sites@0.1.19-next.1
+  - @devtools/plugin-home@0.6.2-next.1
+  - @devtools/plugin-catalog-import@0.10.6-next.1
+  - @devtools/plugin-catalog-react@1.9.4-next.1
+  - @devtools/plugin-devtools@0.1.9-next.1
+  - @devtools/plugin-graphiql@0.3.3-next.1
+  - @devtools/plugin-linguist@0.1.15-next.1
+  - @devtools/plugin-search@1.4.6-next.1
+  - @devtools/plugin-search-react@1.7.6-next.1
+  - @devtools/plugin-stack-overflow@0.1.25-next.1
+  - @devtools/plugin-tech-radar@0.6.13-next.1
+  - @devtools/plugin-user-settings@0.8.1-next.1
+  - @devtools/integration-react@1.1.24-next.0
+  - @devtools/plugin-airbrake@0.3.30-next.1
+  - @devtools/plugin-apache-airflow@0.2.20-next.0
+  - @devtools/plugin-api-docs@0.10.4-next.1
+  - @devtools/plugin-azure-devops@0.3.12-next.1
+  - @devtools/plugin-badges@0.2.54-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.8-next.0
+  - @devtools/plugin-cloudbuild@0.4.0-next.1
+  - @devtools/plugin-code-coverage@0.2.23-next.1
+  - @devtools/plugin-cost-insights@0.12.19-next.1
+  - @devtools/plugin-dynatrace@8.0.4-next.1
+  - @devtools/plugin-entity-feedback@0.2.13-next.1
+  - @devtools/plugin-gcalendar@0.3.23-next.0
+  - @devtools/plugin-gcp-projects@0.3.46-next.0
+  - @devtools/plugin-github-actions@0.6.11-next.1
+  - @devtools/plugin-gocd@0.1.36-next.1
+  - @devtools/plugin-jenkins@0.9.5-next.1
+  - @devtools/plugin-kafka@0.3.30-next.1
+  - @devtools/plugin-kubernetes@0.11.5-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.6-next.1
+  - @devtools/plugin-lighthouse@0.4.15-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.12-next.0
+  - @devtools/plugin-newrelic@0.3.45-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.5-next.1
+  - @devtools/plugin-nomad@0.1.11-next.1
+  - @devtools/plugin-octopus-deploy@0.2.12-next.1
+  - @devtools/plugin-org@0.6.20-next.1
+  - @devtools/plugin-pagerduty@0.7.2-next.1
+  - @devtools/plugin-playlist@0.2.4-next.1
+  - @devtools/plugin-puppetdb@0.1.13-next.1
+  - @devtools/plugin-rollbar@0.4.30-next.1
+  - @devtools/plugin-sentry@0.5.15-next.1
+  - @devtools/plugin-shortcuts@0.3.19-next.0
+  - @devtools/plugin-signals@0.0.1-next.1
+  - @devtools/plugin-stackstorm@0.1.11-next.0
+  - @devtools/plugin-tech-insights@0.3.22-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.5-next.1
+  - @devtools/plugin-techdocs-react@1.1.16-next.0
+  - @devtools/plugin-todo@0.2.34-next.1
+  - @devtools/config@1.1.1
+  - @devtools/theme@0.5.0
+  - @devtools/plugin-catalog-common@1.0.21-next.0
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.20-next.0
+  - @devtools/plugin-search-common@1.2.10
+
+## 0.2.92-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-import@0.10.6-next.0
+  - @devtools/plugin-catalog-graph@0.3.4-next.0
+  - @devtools/plugin-catalog-react@1.9.4-next.0
+  - @devtools/plugin-catalog@1.17.0-next.0
+  - @devtools/plugin-adr@0.6.13-next.0
+  - @devtools/app-defaults@1.4.8-next.0
+  - @devtools/frontend-app-api@0.6.0-next.0
+  - @devtools/plugin-scaffolder-react@1.8.0-next.0
+  - @devtools/plugin-scaffolder@1.18.0-next.0
+  - @devtools/plugin-devtools@0.1.9-next.0
+  - @devtools/plugin-user-settings@0.8.1-next.0
+  - @devtools/plugin-tech-radar@0.6.13-next.0
+  - @devtools/plugin-graphiql@0.3.3-next.0
+  - @devtools/plugin-techdocs@1.9.4-next.0
+  - @devtools/plugin-search@1.4.6-next.0
+  - @devtools/plugin-api-docs@0.10.4-next.0
+  - @devtools/cli@0.25.2-next.0
+  - @devtools/plugin-stack-overflow@0.1.25-next.0
+  - @devtools/plugin-signals@0.0.1-next.0
+  - @devtools/plugin-home@0.6.2-next.0
+  - @devtools/plugin-cloudbuild@0.4.0-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.5-next.0
+  - @devtools/plugin-azure-devops@0.3.12-next.0
+  - @devtools/plugin-linguist@0.1.15-next.0
+  - @devtools/plugin-airbrake@0.3.30-next.0
+  - @devtools/plugin-azure-sites@0.1.19-next.0
+  - @devtools/plugin-badges@0.2.54-next.0
+  - @devtools/plugin-code-coverage@0.2.23-next.0
+  - @devtools/plugin-cost-insights@0.12.19-next.0
+  - @devtools/plugin-dynatrace@8.0.4-next.0
+  - @devtools/plugin-entity-feedback@0.2.13-next.0
+  - @devtools/plugin-explore@0.4.16-next.0
+  - @devtools/plugin-github-actions@0.6.11-next.0
+  - @devtools/plugin-gocd@0.1.36-next.0
+  - @devtools/plugin-jenkins@0.9.5-next.0
+  - @devtools/plugin-kafka@0.3.30-next.0
+  - @devtools/plugin-kubernetes@0.11.5-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.6-next.0
+  - @devtools/plugin-lighthouse@0.4.15-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.5-next.0
+  - @devtools/plugin-nomad@0.1.11-next.0
+  - @devtools/plugin-octopus-deploy@0.2.12-next.0
+  - @devtools/plugin-org@0.6.20-next.0
+  - @devtools/plugin-pagerduty@0.7.2-next.0
+  - @devtools/plugin-playlist@0.2.4-next.0
+  - @devtools/plugin-puppetdb@0.1.13-next.0
+  - @devtools/plugin-rollbar@0.4.30-next.0
+  - @devtools/plugin-sentry@0.5.15-next.0
+  - @devtools/plugin-tech-insights@0.3.22-next.0
+  - @devtools/plugin-todo@0.2.34-next.0
+  - @devtools/core-components@0.13.10
+  - @devtools/plugin-search-react@1.7.6-next.0
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.11.3
+  - @devtools/core-plugin-api@1.8.2
+  - @devtools/integration-react@1.1.23
+  - @devtools/theme@0.5.0
+  - @devtools/plugin-apache-airflow@0.2.19
+  - @devtools/plugin-catalog-common@1.0.20
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.7
+  - @devtools/plugin-gcalendar@0.3.22
+  - @devtools/plugin-gcp-projects@0.3.45
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.11
+  - @devtools/plugin-newrelic@0.3.44
+  - @devtools/plugin-permission-react@0.4.19
+  - @devtools/plugin-search-common@1.2.10
+  - @devtools/plugin-shortcuts@0.3.18
+  - @devtools/plugin-stackstorm@0.1.10
+  - @devtools/plugin-techdocs-react@1.1.15
+
+## 0.2.91
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-api-docs@0.10.3
+  - @devtools/plugin-scaffolder-react@1.7.1
+  - @devtools/core-components@0.13.10
+  - @devtools/plugin-user-settings@0.8.0
+  - @devtools/plugin-azure-sites@0.1.18
+  - @devtools/cli@0.25.1
+  - @devtools/core-plugin-api@1.8.2
+  - @devtools/plugin-octopus-deploy@0.2.11
+  - @devtools/frontend-app-api@0.5.0
+  - @devtools/plugin-kubernetes@0.11.4
+  - @devtools/plugin-home@0.6.1
+  - @devtools/plugin-scaffolder@1.17.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.4
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.7
+  - @devtools/plugin-kubernetes-cluster@0.0.5
+  - @devtools/plugin-microsoft-calendar@0.1.11
+  - @devtools/plugin-newrelic-dashboard@0.3.4
+  - @devtools/plugin-permission-react@0.4.19
+  - @devtools/plugin-entity-feedback@0.2.12
+  - @devtools/plugin-apache-airflow@0.2.19
+  - @devtools/plugin-github-actions@0.6.10
+  - @devtools/plugin-stack-overflow@0.1.24
+  - @devtools/plugin-techdocs-react@1.1.15
+  - @devtools/plugin-catalog-graph@0.3.3
+  - @devtools/plugin-catalog-react@1.9.3
+  - @devtools/plugin-code-coverage@0.2.22
+  - @devtools/plugin-cost-insights@0.12.18
+  - @devtools/plugin-tech-insights@0.3.21
+  - @devtools/plugin-azure-devops@0.3.11
+  - @devtools/plugin-gcp-projects@0.3.45
+  - @devtools/plugin-cloudbuild@0.3.29
+  - @devtools/plugin-lighthouse@0.4.14
+  - @devtools/plugin-stackstorm@0.1.10
+  - @devtools/plugin-tech-radar@0.6.12
+  - @devtools/plugin-dynatrace@8.0.3
+  - @devtools/plugin-gcalendar@0.3.22
+  - @devtools/plugin-pagerduty@0.7.1
+  - @devtools/plugin-shortcuts@0.3.18
+  - @devtools/plugin-airbrake@0.3.29
+  - @devtools/plugin-devtools@0.1.8
+  - @devtools/plugin-graphiql@0.3.2
+  - @devtools/plugin-linguist@0.1.14
+  - @devtools/plugin-newrelic@0.3.44
+  - @devtools/plugin-playlist@0.2.3
+  - @devtools/plugin-puppetdb@0.1.12
+  - @devtools/plugin-techdocs@1.9.3
+  - @devtools/plugin-catalog@1.16.1
+  - @devtools/plugin-explore@0.4.15
+  - @devtools/plugin-jenkins@0.9.4
+  - @devtools/plugin-rollbar@0.4.29
+  - @devtools/plugin-badges@0.2.53
+  - @devtools/plugin-search@1.4.5
+  - @devtools/plugin-sentry@0.5.14
+  - @devtools/plugin-kafka@0.3.29
+  - @devtools/plugin-nomad@0.1.10
+  - @devtools/plugin-gocd@0.1.35
+  - @devtools/plugin-todo@0.2.33
+  - @devtools/plugin-adr@0.6.12
+  - @devtools/plugin-org@0.6.19
+  - @devtools/plugin-catalog-import@0.10.5
+  - @devtools/plugin-search-react@1.7.5
+  - @devtools/app-defaults@1.4.7
+  - @devtools/integration-react@1.1.23
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.11.3
+  - @devtools/theme@0.5.0
+  - @devtools/plugin-catalog-common@1.0.20
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.10
+
+## 0.2.91-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-user-settings@0.8.0-next.2
+  - @devtools/plugin-octopus-deploy@0.2.11-next.2
+  - @devtools/frontend-app-api@0.4.1-next.2
+  - @devtools/plugin-home@0.6.1-next.2
+  - @devtools/plugin-scaffolder-react@1.7.1-next.2
+  - @devtools/plugin-scaffolder@1.17.1-next.2
+  - @devtools/plugin-linguist@0.1.14-next.2
+  - @devtools/plugin-catalog@1.16.1-next.2
+  - @devtools/plugin-catalog-import@0.10.5-next.2
+  - @devtools/plugin-graphiql@0.3.2-next.2
+  - @devtools/plugin-search@1.4.5-next.2
+  - @devtools/plugin-tech-radar@0.6.12-next.2
+  - @devtools/plugin-techdocs@1.9.3-next.2
+  - @devtools/plugin-adr@0.6.12-next.2
+  - @devtools/plugin-catalog-react@1.9.3-next.2
+  - @devtools/plugin-explore@0.4.15-next.2
+  - @devtools/plugin-search-react@1.7.5-next.2
+  - @devtools/plugin-stack-overflow@0.1.24-next.2
+  - @devtools/cli@0.25.1-next.1
+  - @devtools/plugin-pagerduty@0.7.1-next.2
+  - @devtools/plugin-api-docs@0.10.3-next.2
+  - @devtools/plugin-catalog-graph@0.3.3-next.2
+  - @devtools/plugin-org@0.6.19-next.2
+  - @devtools/plugin-airbrake@0.3.29-next.2
+  - @devtools/plugin-azure-devops@0.3.11-next.2
+  - @devtools/plugin-azure-sites@0.1.18-next.2
+  - @devtools/plugin-badges@0.2.53-next.2
+  - @devtools/plugin-cloudbuild@0.3.29-next.2
+  - @devtools/plugin-code-coverage@0.2.22-next.2
+  - @devtools/plugin-cost-insights@0.12.18-next.2
+  - @devtools/plugin-dynatrace@8.0.3-next.2
+  - @devtools/plugin-entity-feedback@0.2.12-next.2
+  - @devtools/plugin-github-actions@0.6.10-next.2
+  - @devtools/plugin-gocd@0.1.35-next.2
+  - @devtools/plugin-jenkins@0.9.4-next.2
+  - @devtools/plugin-kafka@0.3.29-next.2
+  - @devtools/plugin-kubernetes@0.11.4-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.5-next.2
+  - @devtools/plugin-lighthouse@0.4.14-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.4-next.2
+  - @devtools/plugin-nomad@0.1.10-next.2
+  - @devtools/plugin-playlist@0.2.3-next.2
+  - @devtools/plugin-puppetdb@0.1.12-next.2
+  - @devtools/plugin-rollbar@0.4.29-next.2
+  - @devtools/plugin-sentry@0.5.14-next.2
+  - @devtools/plugin-tech-insights@0.3.21-next.2
+  - @devtools/plugin-todo@0.2.33-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.4-next.1
+  - @devtools/integration-react@1.1.23-next.0
+  - @devtools/plugin-apache-airflow@0.2.19-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.7-next.1
+  - @devtools/plugin-devtools@0.1.8-next.1
+  - @devtools/plugin-gcalendar@0.3.22-next.1
+  - @devtools/plugin-gcp-projects@0.3.45-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.11-next.1
+  - @devtools/plugin-newrelic@0.3.44-next.1
+  - @devtools/plugin-shortcuts@0.3.18-next.1
+  - @devtools/plugin-stackstorm@0.1.10-next.1
+
+## 0.2.91-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-azure-sites@0.1.18-next.1
+  - @devtools/core-plugin-api@1.8.2-next.0
+  - @devtools/plugin-user-settings@0.8.0-next.1
+  - @devtools/plugin-kubernetes@0.11.4-next.1
+  - @devtools/core-components@0.13.10-next.1
+  - @devtools/app-defaults@1.4.7-next.1
+  - @devtools/cli@0.25.1-next.1
+  - @devtools/core-app-api@1.11.3-next.0
+  - @devtools/frontend-app-api@0.4.1-next.1
+  - @devtools/integration-react@1.1.23-next.0
+  - @devtools/plugin-adr@0.6.12-next.1
+  - @devtools/plugin-airbrake@0.3.29-next.1
+  - @devtools/plugin-apache-airflow@0.2.19-next.1
+  - @devtools/plugin-api-docs@0.10.3-next.1
+  - @devtools/plugin-azure-devops@0.3.11-next.1
+  - @devtools/plugin-badges@0.2.53-next.1
+  - @devtools/plugin-catalog@1.16.1-next.1
+  - @devtools/plugin-catalog-graph@0.3.3-next.1
+  - @devtools/plugin-catalog-import@0.10.5-next.1
+  - @devtools/plugin-catalog-react@1.9.3-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.7-next.1
+  - @devtools/plugin-cloudbuild@0.3.29-next.1
+  - @devtools/plugin-code-coverage@0.2.22-next.1
+  - @devtools/plugin-cost-insights@0.12.18-next.1
+  - @devtools/plugin-devtools@0.1.8-next.1
+  - @devtools/plugin-dynatrace@8.0.3-next.1
+  - @devtools/plugin-entity-feedback@0.2.12-next.1
+  - @devtools/plugin-explore@0.4.15-next.1
+  - @devtools/plugin-gcalendar@0.3.22-next.1
+  - @devtools/plugin-gcp-projects@0.3.45-next.1
+  - @devtools/plugin-github-actions@0.6.10-next.1
+  - @devtools/plugin-gocd@0.1.35-next.1
+  - @devtools/plugin-graphiql@0.3.2-next.1
+  - @devtools/plugin-home@0.6.1-next.1
+  - @devtools/plugin-jenkins@0.9.4-next.1
+  - @devtools/plugin-kafka@0.3.29-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.5-next.1
+  - @devtools/plugin-lighthouse@0.4.14-next.1
+  - @devtools/plugin-linguist@0.1.14-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.11-next.1
+  - @devtools/plugin-newrelic@0.3.44-next.1
+  - @devtools/plugin-newrelic-dashboard@0.3.4-next.1
+  - @devtools/plugin-nomad@0.1.10-next.1
+  - @devtools/plugin-octopus-deploy@0.2.11-next.1
+  - @devtools/plugin-org@0.6.19-next.1
+  - @devtools/plugin-pagerduty@0.7.1-next.1
+  - @devtools/plugin-permission-react@0.4.19-next.1
+  - @devtools/plugin-playlist@0.2.3-next.1
+  - @devtools/plugin-puppetdb@0.1.12-next.1
+  - @devtools/plugin-rollbar@0.4.29-next.1
+  - @devtools/plugin-scaffolder@1.17.1-next.1
+  - @devtools/plugin-scaffolder-react@1.7.1-next.1
+  - @devtools/plugin-search@1.4.5-next.1
+  - @devtools/plugin-search-react@1.7.5-next.1
+  - @devtools/plugin-sentry@0.5.14-next.1
+  - @devtools/plugin-shortcuts@0.3.18-next.1
+  - @devtools/plugin-stack-overflow@0.1.24-next.1
+  - @devtools/plugin-stackstorm@0.1.10-next.1
+  - @devtools/plugin-tech-insights@0.3.21-next.1
+  - @devtools/plugin-tech-radar@0.6.12-next.1
+  - @devtools/plugin-techdocs@1.9.3-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.4-next.1
+  - @devtools/plugin-techdocs-react@1.1.15-next.1
+  - @devtools/plugin-todo@0.2.33-next.1
+  - @devtools/config@1.1.1
+  - @devtools/catalog-model@1.4.3
+  - @devtools/theme@0.5.0
+  - @devtools/plugin-catalog-common@1.0.19
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.9
+
+## 0.2.91-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.7.1-next.0
+  - @devtools/core-components@0.13.10-next.0
+  - @devtools/cli@0.25.1-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.4-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.7-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.5-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.11-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.4-next.0
+  - @devtools/plugin-permission-react@0.4.19-next.0
+  - @devtools/plugin-entity-feedback@0.2.12-next.0
+  - @devtools/plugin-apache-airflow@0.2.19-next.0
+  - @devtools/plugin-github-actions@0.6.10-next.0
+  - @devtools/plugin-octopus-deploy@0.2.11-next.0
+  - @devtools/plugin-stack-overflow@0.1.24-next.0
+  - @devtools/plugin-techdocs-react@1.1.15-next.0
+  - @devtools/plugin-catalog-graph@0.3.3-next.0
+  - @devtools/plugin-catalog-react@1.9.3-next.0
+  - @devtools/plugin-code-coverage@0.2.22-next.0
+  - @devtools/plugin-cost-insights@0.12.18-next.0
+  - @devtools/plugin-tech-insights@0.3.21-next.0
+  - @devtools/plugin-user-settings@0.7.15-next.0
+  - @devtools/plugin-azure-devops@0.3.11-next.0
+  - @devtools/plugin-gcp-projects@0.3.45-next.0
+  - @devtools/plugin-azure-sites@0.1.18-next.0
+  - @devtools/plugin-cloudbuild@0.3.29-next.0
+  - @devtools/plugin-kubernetes@0.11.4-next.0
+  - @devtools/plugin-lighthouse@0.4.14-next.0
+  - @devtools/plugin-scaffolder@1.17.1-next.0
+  - @devtools/plugin-stackstorm@0.1.10-next.0
+  - @devtools/plugin-tech-radar@0.6.12-next.0
+  - @devtools/plugin-dynatrace@8.0.3-next.0
+  - @devtools/plugin-gcalendar@0.3.22-next.0
+  - @devtools/plugin-pagerduty@0.7.1-next.0
+  - @devtools/plugin-shortcuts@0.3.18-next.0
+  - @devtools/plugin-airbrake@0.3.29-next.0
+  - @devtools/plugin-api-docs@0.10.3-next.0
+  - @devtools/plugin-devtools@0.1.8-next.0
+  - @devtools/plugin-graphiql@0.3.2-next.0
+  - @devtools/plugin-linguist@0.1.14-next.0
+  - @devtools/plugin-newrelic@0.3.44-next.0
+  - @devtools/plugin-playlist@0.2.3-next.0
+  - @devtools/plugin-puppetdb@0.1.12-next.0
+  - @devtools/plugin-techdocs@1.9.3-next.0
+  - @devtools/plugin-catalog@1.16.1-next.0
+  - @devtools/plugin-explore@0.4.15-next.0
+  - @devtools/plugin-jenkins@0.9.4-next.0
+  - @devtools/plugin-rollbar@0.4.29-next.0
+  - @devtools/plugin-badges@0.2.53-next.0
+  - @devtools/plugin-search@1.4.5-next.0
+  - @devtools/plugin-sentry@0.5.14-next.0
+  - @devtools/plugin-kafka@0.3.29-next.0
+  - @devtools/plugin-nomad@0.1.10-next.0
+  - @devtools/plugin-gocd@0.1.35-next.0
+  - @devtools/plugin-home@0.6.1-next.0
+  - @devtools/plugin-todo@0.2.33-next.0
+  - @devtools/plugin-adr@0.6.12-next.0
+  - @devtools/plugin-org@0.6.19-next.0
+  - @devtools/app-defaults@1.4.7-next.0
+  - @devtools/frontend-app-api@0.4.1-next.0
+  - @devtools/integration-react@1.1.22
+  - @devtools/plugin-catalog-import@0.10.5-next.0
+  - @devtools/plugin-search-react@1.7.5-next.0
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.11.2
+  - @devtools/core-plugin-api@1.8.1
+  - @devtools/theme@0.5.0
+  - @devtools/plugin-catalog-common@1.0.19
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.9
+
+## 0.2.90
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-plugin-api@1.8.1
+  - @devtools/frontend-app-api@0.4.0
+  - @devtools/plugin-catalog-react@1.9.2
+  - @devtools/plugin-api-docs@0.10.2
+  - @devtools/core-components@0.13.9
+  - @devtools/cli@0.25.0
+  - @devtools/theme@0.5.0
+  - @devtools/plugin-scaffolder@1.17.0
+  - @devtools/plugin-home@0.6.0
+  - @devtools/plugin-catalog@1.16.0
+  - @devtools/plugin-scaffolder-react@1.7.0
+  - @devtools/plugin-kubernetes@0.11.3
+  - @devtools/plugin-org@0.6.18
+  - @devtools/plugin-github-actions@0.6.9
+  - @devtools/plugin-azure-devops@0.3.10
+  - @devtools/core-app-api@1.11.2
+  - @devtools/plugin-lighthouse@0.4.13
+  - @devtools/plugin-explore@0.4.14
+  - @devtools/plugin-catalog-import@0.10.4
+  - @devtools/plugin-user-settings@0.7.14
+  - @devtools/plugin-tech-radar@0.6.11
+  - @devtools/plugin-graphiql@0.3.1
+  - @devtools/plugin-techdocs@1.9.2
+  - @devtools/plugin-search@1.4.4
+  - @devtools/plugin-search-react@1.7.4
+  - @devtools/plugin-stack-overflow@0.1.23
+  - @devtools/plugin-adr@0.6.11
+  - @devtools/plugin-gcp-projects@0.3.44
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.3
+  - @devtools/plugin-pagerduty@0.7.0
+  - @devtools/app-defaults@1.4.6
+  - @devtools/integration-react@1.1.22
+  - @devtools/plugin-airbrake@0.3.28
+  - @devtools/plugin-apache-airflow@0.2.18
+  - @devtools/plugin-azure-sites@0.1.17
+  - @devtools/plugin-badges@0.2.52
+  - @devtools/plugin-catalog-graph@0.3.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.6
+  - @devtools/plugin-cloudbuild@0.3.28
+  - @devtools/plugin-code-coverage@0.2.21
+  - @devtools/plugin-cost-insights@0.12.17
+  - @devtools/plugin-devtools@0.1.7
+  - @devtools/plugin-dynatrace@8.0.2
+  - @devtools/plugin-entity-feedback@0.2.11
+  - @devtools/plugin-gcalendar@0.3.21
+  - @devtools/plugin-gocd@0.1.34
+  - @devtools/plugin-jenkins@0.9.3
+  - @devtools/plugin-kafka@0.3.28
+  - @devtools/plugin-kubernetes-cluster@0.0.4
+  - @devtools/plugin-linguist@0.1.13
+  - @devtools/plugin-microsoft-calendar@0.1.10
+  - @devtools/plugin-newrelic@0.3.43
+  - @devtools/plugin-newrelic-dashboard@0.3.3
+  - @devtools/plugin-nomad@0.1.9
+  - @devtools/plugin-octopus-deploy@0.2.10
+  - @devtools/plugin-permission-react@0.4.18
+  - @devtools/plugin-playlist@0.2.2
+  - @devtools/plugin-puppetdb@0.1.11
+  - @devtools/plugin-rollbar@0.4.28
+  - @devtools/plugin-sentry@0.5.13
+  - @devtools/plugin-shortcuts@0.3.17
+  - @devtools/plugin-stackstorm@0.1.9
+  - @devtools/plugin-tech-insights@0.3.20
+  - @devtools/plugin-techdocs-react@1.1.14
+  - @devtools/plugin-todo@0.2.32
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/plugin-catalog-common@1.0.19
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.9
+
+## 0.2.90-next.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.6.0-next.3
+  - @devtools/plugin-org@0.6.18-next.3
+  - @devtools/plugin-azure-devops@0.3.10-next.3
+  - @devtools/cli@0.25.0-next.3
+  - @devtools/plugin-api-docs@0.10.2-next.4
+  - @devtools/plugin-scaffolder-react@1.6.2-next.3
+  - @devtools/plugin-scaffolder@1.16.2-next.3
+  - @devtools/core-components@0.13.9-next.3
+  - @devtools/app-defaults@1.4.6-next.3
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.11.2-next.1
+  - @devtools/core-plugin-api@1.8.1-next.1
+  - @devtools/frontend-app-api@0.4.0-next.3
+  - @devtools/integration-react@1.1.22-next.1
+  - @devtools/theme@0.5.0-next.1
+  - @devtools/plugin-adr@0.6.11-next.3
+  - @devtools/plugin-airbrake@0.3.28-next.3
+  - @devtools/plugin-apache-airflow@0.2.18-next.3
+  - @devtools/plugin-azure-sites@0.1.17-next.3
+  - @devtools/plugin-badges@0.2.52-next.3
+  - @devtools/plugin-catalog@1.16.0-next.4
+  - @devtools/plugin-catalog-common@1.0.18
+  - @devtools/plugin-catalog-graph@0.3.2-next.3
+  - @devtools/plugin-catalog-import@0.10.4-next.4
+  - @devtools/plugin-catalog-react@1.9.2-next.3
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.6-next.3
+  - @devtools/plugin-cloudbuild@0.3.28-next.3
+  - @devtools/plugin-code-coverage@0.2.21-next.3
+  - @devtools/plugin-cost-insights@0.12.17-next.3
+  - @devtools/plugin-devtools@0.1.7-next.3
+  - @devtools/plugin-dynatrace@8.0.2-next.3
+  - @devtools/plugin-entity-feedback@0.2.11-next.3
+  - @devtools/plugin-explore@0.4.14-next.3
+  - @devtools/plugin-gcalendar@0.3.21-next.3
+  - @devtools/plugin-gcp-projects@0.3.44-next.3
+  - @devtools/plugin-github-actions@0.6.9-next.3
+  - @devtools/plugin-gocd@0.1.34-next.3
+  - @devtools/plugin-graphiql@0.3.1-next.4
+  - @devtools/plugin-jenkins@0.9.3-next.3
+  - @devtools/plugin-kafka@0.3.28-next.3
+  - @devtools/plugin-kubernetes@0.11.3-next.3
+  - @devtools/plugin-kubernetes-cluster@0.0.4-next.3
+  - @devtools/plugin-lighthouse@0.4.13-next.3
+  - @devtools/plugin-linguist@0.1.13-next.3
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.10-next.3
+  - @devtools/plugin-newrelic@0.3.43-next.3
+  - @devtools/plugin-newrelic-dashboard@0.3.3-next.3
+  - @devtools/plugin-nomad@0.1.9-next.3
+  - @devtools/plugin-octopus-deploy@0.2.10-next.3
+  - @devtools/plugin-pagerduty@0.7.0-next.3
+  - @devtools/plugin-permission-react@0.4.18-next.1
+  - @devtools/plugin-playlist@0.2.2-next.3
+  - @devtools/plugin-puppetdb@0.1.11-next.3
+  - @devtools/plugin-rollbar@0.4.28-next.3
+  - @devtools/plugin-search@1.4.4-next.4
+  - @devtools/plugin-search-common@1.2.8
+  - @devtools/plugin-search-react@1.7.4-next.3
+  - @devtools/plugin-sentry@0.5.13-next.3
+  - @devtools/plugin-shortcuts@0.3.17-next.3
+  - @devtools/plugin-stack-overflow@0.1.23-next.3
+  - @devtools/plugin-stackstorm@0.1.9-next.3
+  - @devtools/plugin-tech-insights@0.3.20-next.3
+  - @devtools/plugin-tech-radar@0.6.11-next.4
+  - @devtools/plugin-techdocs@1.9.2-next.4
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.3-next.3
+  - @devtools/plugin-techdocs-react@1.1.14-next.3
+  - @devtools/plugin-todo@0.2.32-next.3
+  - @devtools/plugin-user-settings@0.7.14-next.4
+
+## 0.2.90-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/frontend-app-api@0.4.0-next.2
+  - @devtools/cli@0.25.0-next.2
+  - @devtools/theme@0.5.0-next.1
+  - @devtools/plugin-kubernetes@0.11.3-next.2
+  - @devtools/plugin-lighthouse@0.4.13-next.2
+  - @devtools/plugin-catalog-import@0.10.4-next.3
+  - @devtools/plugin-user-settings@0.7.14-next.3
+  - @devtools/plugin-tech-radar@0.6.11-next.3
+  - @devtools/plugin-graphiql@0.3.1-next.3
+  - @devtools/plugin-techdocs@1.9.2-next.3
+  - @devtools/plugin-catalog@1.16.0-next.3
+  - @devtools/plugin-search@1.4.4-next.3
+  - @devtools/plugin-home@0.6.0-next.2
+  - @devtools/plugin-catalog-react@1.9.2-next.2
+  - @devtools/plugin-stack-overflow@0.1.23-next.2
+  - @devtools/plugin-search-react@1.7.4-next.2
+  - @devtools/plugin-explore@0.4.14-next.2
+  - @devtools/plugin-adr@0.6.11-next.2
+  - @devtools/plugin-scaffolder-react@1.6.2-next.2
+  - @devtools/app-defaults@1.4.6-next.2
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.11.2-next.1
+  - @devtools/core-components@0.13.9-next.2
+  - @devtools/core-plugin-api@1.8.1-next.1
+  - @devtools/integration-react@1.1.22-next.1
+  - @devtools/plugin-airbrake@0.3.28-next.2
+  - @devtools/plugin-apache-airflow@0.2.18-next.2
+  - @devtools/plugin-api-docs@0.10.2-next.3
+  - @devtools/plugin-azure-devops@0.3.10-next.2
+  - @devtools/plugin-azure-sites@0.1.17-next.2
+  - @devtools/plugin-badges@0.2.52-next.2
+  - @devtools/plugin-catalog-common@1.0.18
+  - @devtools/plugin-catalog-graph@0.3.2-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.6-next.2
+  - @devtools/plugin-cloudbuild@0.3.28-next.2
+  - @devtools/plugin-code-coverage@0.2.21-next.2
+  - @devtools/plugin-cost-insights@0.12.17-next.2
+  - @devtools/plugin-devtools@0.1.7-next.2
+  - @devtools/plugin-dynatrace@8.0.2-next.2
+  - @devtools/plugin-entity-feedback@0.2.11-next.2
+  - @devtools/plugin-gcalendar@0.3.21-next.2
+  - @devtools/plugin-gcp-projects@0.3.44-next.2
+  - @devtools/plugin-github-actions@0.6.9-next.2
+  - @devtools/plugin-gocd@0.1.34-next.2
+  - @devtools/plugin-jenkins@0.9.3-next.2
+  - @devtools/plugin-kafka@0.3.28-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.4-next.2
+  - @devtools/plugin-linguist@0.1.13-next.2
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.10-next.2
+  - @devtools/plugin-newrelic@0.3.43-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.3-next.2
+  - @devtools/plugin-nomad@0.1.9-next.2
+  - @devtools/plugin-octopus-deploy@0.2.10-next.2
+  - @devtools/plugin-org@0.6.18-next.2
+  - @devtools/plugin-pagerduty@0.7.0-next.2
+  - @devtools/plugin-permission-react@0.4.18-next.1
+  - @devtools/plugin-playlist@0.2.2-next.2
+  - @devtools/plugin-puppetdb@0.1.11-next.2
+  - @devtools/plugin-rollbar@0.4.28-next.2
+  - @devtools/plugin-scaffolder@1.16.2-next.2
+  - @devtools/plugin-search-common@1.2.8
+  - @devtools/plugin-sentry@0.5.13-next.2
+  - @devtools/plugin-shortcuts@0.3.17-next.2
+  - @devtools/plugin-stackstorm@0.1.9-next.2
+  - @devtools/plugin-tech-insights@0.3.20-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.3-next.2
+  - @devtools/plugin-techdocs-react@1.1.14-next.2
+  - @devtools/plugin-todo@0.2.32-next.2
+
+## 0.2.90-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/frontend-app-api@0.4.0-next.1
+  - @devtools/core-components@0.13.9-next.1
+  - @devtools/core-plugin-api@1.8.1-next.1
+  - @devtools/cli@0.25.0-next.1
+  - @devtools/plugin-catalog-react@1.9.2-next.1
+  - @devtools/plugin-catalog@1.16.0-next.2
+  - @devtools/plugin-scaffolder-react@1.6.2-next.1
+  - @devtools/plugin-home@0.6.0-next.1
+  - @devtools/plugin-github-actions@0.6.9-next.1
+  - @devtools/core-app-api@1.11.2-next.1
+  - @devtools/plugin-search-react@1.7.4-next.1
+  - @devtools/plugin-azure-devops@0.3.10-next.1
+  - @devtools/plugin-scaffolder@1.16.2-next.1
+  - @devtools/plugin-api-docs@0.10.2-next.2
+  - @devtools/plugin-gcp-projects@0.3.44-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.3-next.1
+  - @devtools/plugin-user-settings@0.7.14-next.2
+  - @devtools/plugin-adr@0.6.11-next.1
+  - @devtools/plugin-pagerduty@0.7.0-next.1
+  - @devtools/plugin-catalog-import@0.10.4-next.2
+  - @devtools/plugin-explore@0.4.14-next.1
+  - @devtools/plugin-graphiql@0.3.1-next.2
+  - @devtools/plugin-search@1.4.4-next.2
+  - @devtools/plugin-stack-overflow@0.1.23-next.1
+  - @devtools/plugin-tech-radar@0.6.11-next.2
+  - @devtools/plugin-techdocs@1.9.2-next.2
+  - @devtools/app-defaults@1.4.6-next.1
+  - @devtools/integration-react@1.1.22-next.1
+  - @devtools/plugin-airbrake@0.3.28-next.1
+  - @devtools/plugin-apache-airflow@0.2.18-next.1
+  - @devtools/plugin-azure-sites@0.1.17-next.1
+  - @devtools/plugin-badges@0.2.52-next.1
+  - @devtools/plugin-catalog-graph@0.3.2-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.6-next.1
+  - @devtools/plugin-cloudbuild@0.3.28-next.1
+  - @devtools/plugin-code-coverage@0.2.21-next.1
+  - @devtools/plugin-cost-insights@0.12.17-next.1
+  - @devtools/plugin-devtools@0.1.7-next.1
+  - @devtools/plugin-dynatrace@8.0.2-next.1
+  - @devtools/plugin-entity-feedback@0.2.11-next.1
+  - @devtools/plugin-gcalendar@0.3.21-next.1
+  - @devtools/plugin-gocd@0.1.34-next.1
+  - @devtools/plugin-jenkins@0.9.3-next.1
+  - @devtools/plugin-kafka@0.3.28-next.1
+  - @devtools/plugin-kubernetes@0.11.3-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.4-next.1
+  - @devtools/plugin-lighthouse@0.4.13-next.1
+  - @devtools/plugin-linguist@0.1.13-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.10-next.1
+  - @devtools/plugin-newrelic@0.3.43-next.1
+  - @devtools/plugin-newrelic-dashboard@0.3.3-next.1
+  - @devtools/plugin-nomad@0.1.9-next.1
+  - @devtools/plugin-octopus-deploy@0.2.10-next.1
+  - @devtools/plugin-org@0.6.18-next.1
+  - @devtools/plugin-playlist@0.2.2-next.1
+  - @devtools/plugin-puppetdb@0.1.11-next.1
+  - @devtools/plugin-rollbar@0.4.28-next.1
+  - @devtools/plugin-sentry@0.5.13-next.1
+  - @devtools/plugin-shortcuts@0.3.17-next.1
+  - @devtools/plugin-stackstorm@0.1.9-next.1
+  - @devtools/plugin-tech-insights@0.3.20-next.1
+  - @devtools/plugin-techdocs-react@1.1.14-next.1
+  - @devtools/plugin-todo@0.2.32-next.1
+  - @devtools/plugin-permission-react@0.4.18-next.1
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/theme@0.5.0-next.0
+  - @devtools/plugin-catalog-common@1.0.18
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.8
+
+## 0.2.90-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@1.16.0-next.1
+  - @devtools/plugin-catalog-import@0.10.4-next.1
+  - @devtools/plugin-graphiql@0.3.1-next.1
+  - @devtools/plugin-search@1.4.4-next.1
+  - @devtools/plugin-tech-radar@0.6.11-next.1
+  - @devtools/plugin-techdocs@1.9.2-next.1
+  - @devtools/plugin-user-settings@0.7.14-next.1
+  - @devtools/plugin-api-docs@0.10.2-next.1
+  - @devtools/plugin-catalog-graph@0.3.2-next.0
+  - @devtools/plugin-explore@0.4.14-next.0
+  - @devtools/plugin-org@0.6.18-next.0
+  - @devtools/plugin-scaffolder@1.16.2-next.0
+  - @devtools/plugin-scaffolder-react@1.6.2-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.3-next.0
+
+## 0.2.90-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-plugin-api@1.8.1-next.0
+  - @devtools/plugin-catalog-react@1.9.2-next.0
+  - @devtools/plugin-api-docs@0.10.2-next.0
+  - @devtools/core-components@0.13.9-next.0
+  - @devtools/plugin-scaffolder@1.16.2-next.0
+  - @devtools/plugin-catalog@1.16.0-next.0
+  - @devtools/frontend-app-api@0.3.1-next.0
+  - @devtools/plugin-org@0.6.18-next.0
+  - @devtools/plugin-scaffolder-react@1.6.2-next.0
+  - @devtools/plugin-catalog-import@0.10.4-next.0
+  - @devtools/plugin-user-settings@0.7.14-next.0
+  - @devtools/plugin-tech-radar@0.6.11-next.0
+  - @devtools/plugin-graphiql@0.3.1-next.0
+  - @devtools/plugin-techdocs@1.9.2-next.0
+  - @devtools/plugin-search@1.4.4-next.0
+  - @devtools/plugin-search-react@1.7.4-next.0
+  - @devtools/cli@0.24.1-next.0
+  - @devtools/plugin-home@0.5.12-next.0
+  - @devtools/plugin-kubernetes@0.11.3-next.0
+  - @devtools/theme@0.5.0-next.0
+  - @devtools/app-defaults@1.4.6-next.0
+  - @devtools/core-app-api@1.11.2-next.0
+  - @devtools/integration-react@1.1.22-next.0
+  - @devtools/plugin-adr@0.6.11-next.0
+  - @devtools/plugin-airbrake@0.3.28-next.0
+  - @devtools/plugin-apache-airflow@0.2.18-next.0
+  - @devtools/plugin-azure-devops@0.3.10-next.0
+  - @devtools/plugin-azure-sites@0.1.17-next.0
+  - @devtools/plugin-badges@0.2.52-next.0
+  - @devtools/plugin-catalog-graph@0.3.2-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.6-next.0
+  - @devtools/plugin-circleci@0.3.28-next.0
+  - @devtools/plugin-cloudbuild@0.3.28-next.0
+  - @devtools/plugin-code-coverage@0.2.21-next.0
+  - @devtools/plugin-cost-insights@0.12.17-next.0
+  - @devtools/plugin-devtools@0.1.7-next.0
+  - @devtools/plugin-dynatrace@8.0.2-next.0
+  - @devtools/plugin-entity-feedback@0.2.11-next.0
+  - @devtools/plugin-explore@0.4.14-next.0
+  - @devtools/plugin-gcalendar@0.3.21-next.0
+  - @devtools/plugin-gcp-projects@0.3.44-next.0
+  - @devtools/plugin-github-actions@0.6.9-next.0
+  - @devtools/plugin-gocd@0.1.34-next.0
+  - @devtools/plugin-jenkins@0.9.3-next.0
+  - @devtools/plugin-kafka@0.3.28-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.4-next.0
+  - @devtools/plugin-lighthouse@0.4.13-next.0
+  - @devtools/plugin-linguist@0.1.13-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.10-next.0
+  - @devtools/plugin-newrelic@0.3.43-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.3-next.0
+  - @devtools/plugin-nomad@0.1.9-next.0
+  - @devtools/plugin-octopus-deploy@0.2.10-next.0
+  - @devtools/plugin-pagerduty@0.6.9-next.0
+  - @devtools/plugin-permission-react@0.4.18-next.0
+  - @devtools/plugin-playlist@0.2.2-next.0
+  - @devtools/plugin-puppetdb@0.1.11-next.0
+  - @devtools/plugin-rollbar@0.4.28-next.0
+  - @devtools/plugin-sentry@0.5.13-next.0
+  - @devtools/plugin-shortcuts@0.3.17-next.0
+  - @devtools/plugin-stack-overflow@0.1.23-next.0
+  - @devtools/plugin-stackstorm@0.1.9-next.0
+  - @devtools/plugin-tech-insights@0.3.20-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.3-next.0
+  - @devtools/plugin-techdocs-react@1.1.14-next.0
+  - @devtools/plugin-todo@0.2.32-next.0
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/plugin-catalog-common@1.0.18
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.8
+
+## 0.2.89
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-api-docs@0.10.0
+  - @devtools/plugin-catalog-import@0.10.2
+  - @devtools/cli@0.24.0
+  - @devtools/plugin-catalog-react@1.9.0
+  - @devtools/plugin-shortcuts@0.3.16
+  - @devtools/plugin-home@0.5.10
+  - @devtools/core-components@0.13.8
+  - @devtools/plugin-catalog@1.15.0
+  - @devtools/plugin-graphiql@0.3.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.2
+  - @devtools/plugin-techdocs@1.9.0
+  - @devtools/plugin-cloudbuild@0.3.26
+  - @devtools/plugin-scaffolder@1.16.0
+  - @devtools/frontend-app-api@0.3.0
+  - @devtools/plugin-user-settings@0.7.12
+  - @devtools/plugin-tech-radar@0.6.10
+  - @devtools/plugin-search@1.4.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.5
+  - @devtools/integration-react@1.1.21
+  - @devtools/plugin-kubernetes-cluster@0.0.2
+  - @devtools/plugin-microsoft-calendar@0.1.9
+  - @devtools/plugin-newrelic-dashboard@0.3.1
+  - @devtools/core-plugin-api@1.8.0
+  - @devtools/plugin-permission-react@0.4.17
+  - @devtools/plugin-scaffolder-react@1.6.0
+  - @devtools/plugin-entity-feedback@0.2.9
+  - @devtools/plugin-apache-airflow@0.2.17
+  - @devtools/plugin-github-actions@0.6.7
+  - @devtools/plugin-octopus-deploy@0.2.8
+  - @devtools/plugin-stack-overflow@0.1.22
+  - @devtools/plugin-techdocs-react@1.1.13
+  - @devtools/app-defaults@1.4.5
+  - @devtools/core-app-api@1.11.1
+  - @devtools/plugin-catalog-graph@0.3.0
+  - @devtools/plugin-code-coverage@0.2.19
+  - @devtools/plugin-cost-insights@0.12.15
+  - @devtools/plugin-tech-insights@0.3.18
+  - @devtools/plugin-azure-devops@0.3.8
+  - @devtools/plugin-gcp-projects@0.3.43
+  - @devtools/plugin-search-react@1.7.2
+  - @devtools/plugin-azure-sites@0.1.15
+  - @devtools/plugin-kubernetes@0.11.1
+  - @devtools/plugin-lighthouse@0.4.11
+  - @devtools/plugin-stackstorm@0.1.8
+  - @devtools/plugin-dynatrace@8.0.0
+  - @devtools/plugin-gcalendar@0.3.20
+  - @devtools/plugin-pagerduty@0.6.7
+  - @devtools/plugin-airbrake@0.3.26
+  - @devtools/plugin-circleci@0.3.26
+  - @devtools/plugin-devtools@0.1.6
+  - @devtools/plugin-linguist@0.1.11
+  - @devtools/plugin-newrelic@0.3.42
+  - @devtools/plugin-playlist@0.2.0
+  - @devtools/plugin-puppetdb@0.1.9
+  - @devtools/plugin-explore@0.4.12
+  - @devtools/plugin-jenkins@0.9.1
+  - @devtools/plugin-rollbar@0.4.26
+  - @devtools/theme@0.4.4
+  - @devtools/plugin-badges@0.2.50
+  - @devtools/plugin-sentry@0.5.11
+  - @devtools/plugin-kafka@0.3.26
+  - @devtools/plugin-nomad@0.1.7
+  - @devtools/plugin-gocd@0.1.32
+  - @devtools/plugin-todo@0.2.30
+  - @devtools/plugin-adr@0.6.9
+  - @devtools/plugin-org@0.6.16
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/plugin-catalog-common@1.0.18
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.8
+
+## 0.2.89-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-api-docs@0.10.0-next.2
+  - @devtools/plugin-shortcuts@0.3.16-next.2
+  - @devtools/core-components@0.13.8-next.2
+  - @devtools/plugin-catalog@1.15.0-next.2
+  - @devtools/plugin-scaffolder@1.16.0-next.2
+  - @devtools/frontend-app-api@0.3.0-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.5-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.2-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.1-next.2
+  - @devtools/plugin-github-actions@0.6.7-next.2
+  - @devtools/plugin-code-coverage@0.2.19-next.2
+  - @devtools/plugin-azure-sites@0.1.15-next.2
+  - @devtools/plugin-cloudbuild@0.3.26-next.2
+  - @devtools/plugin-kubernetes@0.11.1-next.2
+  - @devtools/plugin-lighthouse@0.4.11-next.2
+  - @devtools/plugin-dynatrace@8.0.0-next.2
+  - @devtools/plugin-airbrake@0.3.26-next.2
+  - @devtools/plugin-circleci@0.3.26-next.2
+  - @devtools/plugin-puppetdb@0.1.9-next.2
+  - @devtools/plugin-techdocs@1.9.0-next.2
+  - @devtools/plugin-jenkins@0.9.1-next.2
+  - @devtools/plugin-rollbar@0.4.26-next.2
+  - @devtools/plugin-sentry@0.5.11-next.2
+  - @devtools/plugin-kafka@0.3.26-next.2
+  - @devtools/plugin-nomad@0.1.7-next.2
+  - @devtools/plugin-gocd@0.1.32-next.2
+  - @devtools/plugin-adr@0.6.9-next.2
+  - @devtools/plugin-catalog-react@1.9.0-next.2
+  - @devtools/app-defaults@1.4.5-next.2
+  - @devtools/cli@0.24.0-next.1
+  - @devtools/integration-react@1.1.21-next.1
+  - @devtools/plugin-apache-airflow@0.2.17-next.2
+  - @devtools/plugin-azure-devops@0.3.8-next.2
+  - @devtools/plugin-badges@0.2.50-next.2
+  - @devtools/plugin-catalog-graph@0.2.38-next.2
+  - @devtools/plugin-catalog-import@0.10.2-next.2
+  - @devtools/plugin-cost-insights@0.12.15-next.2
+  - @devtools/plugin-devtools@0.1.6-next.2
+  - @devtools/plugin-entity-feedback@0.2.9-next.2
+  - @devtools/plugin-explore@0.4.12-next.2
+  - @devtools/plugin-gcalendar@0.3.20-next.2
+  - @devtools/plugin-gcp-projects@0.3.43-next.2
+  - @devtools/plugin-graphiql@0.3.0-next.2
+  - @devtools/plugin-home@0.5.10-next.2
+  - @devtools/plugin-linguist@0.1.11-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.9-next.2
+  - @devtools/plugin-newrelic@0.3.42-next.2
+  - @devtools/plugin-octopus-deploy@0.2.8-next.2
+  - @devtools/plugin-org@0.6.16-next.2
+  - @devtools/plugin-pagerduty@0.6.7-next.2
+  - @devtools/plugin-playlist@0.1.18-next.2
+  - @devtools/plugin-scaffolder-react@1.6.0-next.2
+  - @devtools/plugin-search@1.4.2-next.2
+  - @devtools/plugin-search-react@1.7.2-next.2
+  - @devtools/plugin-stack-overflow@0.1.22-next.2
+  - @devtools/plugin-stackstorm@0.1.8-next.2
+  - @devtools/plugin-tech-insights@0.3.18-next.2
+  - @devtools/plugin-tech-radar@0.6.10-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.2-next.2
+  - @devtools/plugin-techdocs-react@1.1.13-next.2
+  - @devtools/plugin-todo@0.2.30-next.2
+  - @devtools/plugin-user-settings@0.7.12-next.2
+
+## 0.2.89-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.5.10-next.1
+  - @devtools/plugin-cost-insights@0.12.15-next.1
+  - @devtools/plugin-scaffolder@1.16.0-next.1
+  - @devtools/frontend-app-api@0.3.0-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.2-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.9-next.1
+  - @devtools/plugin-scaffolder-react@1.6.0-next.1
+  - @devtools/plugin-catalog-graph@0.2.38-next.1
+  - @devtools/plugin-tech-insights@0.3.18-next.1
+  - @devtools/plugin-gcalendar@0.3.20-next.1
+  - @devtools/plugin-api-docs@0.9.13-next.1
+  - @devtools/plugin-playlist@0.1.18-next.1
+  - @devtools/plugin-catalog@1.15.0-next.1
+  - @devtools/plugin-explore@0.4.12-next.1
+  - @devtools/plugin-search@1.4.2-next.1
+  - @devtools/plugin-org@0.6.16-next.1
+  - @devtools/plugin-catalog-react@1.9.0-next.1
+  - @devtools/plugin-graphiql@0.3.0-next.1
+  - @devtools/plugin-search-react@1.7.2-next.1
+  - @devtools/cli@0.24.0-next.1
+  - @devtools/integration-react@1.1.21-next.1
+  - @devtools/plugin-catalog-import@0.10.2-next.1
+  - @devtools/plugin-github-actions@0.6.7-next.1
+  - @devtools/plugin-techdocs@1.8.1-next.1
+  - @devtools/plugin-kubernetes@0.11.1-next.1
+  - @devtools/plugin-kubernetes-cluster@0.0.2-next.1
+  - @devtools/plugin-newrelic@0.3.42-next.1
+  - @devtools/plugin-adr@0.6.9-next.1
+  - @devtools/plugin-stack-overflow@0.1.22-next.1
+  - @devtools/plugin-tech-radar@0.6.10-next.1
+  - @devtools/plugin-user-settings@0.7.12-next.1
+  - @devtools/core-components@0.13.8-next.1
+  - @devtools/plugin-airbrake@0.3.26-next.1
+  - @devtools/plugin-azure-devops@0.3.8-next.1
+  - @devtools/plugin-azure-sites@0.1.15-next.1
+  - @devtools/plugin-badges@0.2.50-next.1
+  - @devtools/plugin-circleci@0.3.26-next.1
+  - @devtools/plugin-cloudbuild@0.3.26-next.1
+  - @devtools/plugin-code-coverage@0.2.19-next.1
+  - @devtools/plugin-dynatrace@8.0.0-next.1
+  - @devtools/plugin-entity-feedback@0.2.9-next.1
+  - @devtools/plugin-gocd@0.1.32-next.1
+  - @devtools/plugin-jenkins@0.9.1-next.1
+  - @devtools/plugin-kafka@0.3.26-next.1
+  - @devtools/plugin-lighthouse@0.4.11-next.1
+  - @devtools/plugin-linguist@0.1.11-next.1
+  - @devtools/plugin-newrelic-dashboard@0.3.1-next.1
+  - @devtools/plugin-nomad@0.1.7-next.1
+  - @devtools/plugin-octopus-deploy@0.2.8-next.1
+  - @devtools/plugin-pagerduty@0.6.7-next.1
+  - @devtools/plugin-puppetdb@0.1.9-next.1
+  - @devtools/plugin-rollbar@0.4.26-next.1
+  - @devtools/plugin-sentry@0.5.11-next.1
+  - @devtools/plugin-todo@0.2.30-next.1
+  - @devtools/app-defaults@1.4.5-next.1
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/core-app-api@1.11.1-next.0
+  - @devtools/core-plugin-api@1.8.0-next.0
+  - @devtools/theme@0.4.4-next.0
+  - @devtools/plugin-apache-airflow@0.2.17-next.1
+  - @devtools/plugin-catalog-common@1.0.17
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.5-next.1
+  - @devtools/plugin-devtools@0.1.6-next.1
+  - @devtools/plugin-gcp-projects@0.3.43-next.1
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.17-next.0
+  - @devtools/plugin-search-common@1.2.7
+  - @devtools/plugin-shortcuts@0.3.16-next.1
+  - @devtools/plugin-stackstorm@0.1.8-next.1
+  - @devtools/plugin-techdocs-react@1.1.13-next.1
+
+## 0.2.89-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-import@0.10.2-next.0
+  - @devtools/cli@0.24.0-next.0
+  - @devtools/core-components@0.13.7-next.0
+  - @devtools/plugin-home@0.5.10-next.0
+  - @devtools/plugin-catalog@1.15.0-next.0
+  - @devtools/plugin-graphiql@0.3.0-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.2-next.0
+  - @devtools/plugin-techdocs@1.8.1-next.0
+  - @devtools/frontend-app-api@0.3.0-next.0
+  - @devtools/plugin-catalog-react@1.9.0-next.0
+  - @devtools/plugin-user-settings@0.7.12-next.0
+  - @devtools/plugin-tech-radar@0.6.10-next.0
+  - @devtools/plugin-search@1.4.2-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.5-next.0
+  - @devtools/integration-react@1.1.21-next.0
+  - @devtools/plugin-kubernetes-cluster@0.0.2-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.9-next.0
+  - @devtools/plugin-newrelic-dashboard@0.3.1-next.0
+  - @devtools/core-plugin-api@1.8.0-next.0
+  - @devtools/plugin-permission-react@0.4.17-next.0
+  - @devtools/plugin-scaffolder-react@1.6.0-next.0
+  - @devtools/plugin-entity-feedback@0.2.9-next.0
+  - @devtools/plugin-apache-airflow@0.2.17-next.0
+  - @devtools/plugin-github-actions@0.6.7-next.0
+  - @devtools/plugin-octopus-deploy@0.2.8-next.0
+  - @devtools/plugin-stack-overflow@0.1.22-next.0
+  - @devtools/plugin-techdocs-react@1.1.13-next.0
+  - @devtools/app-defaults@1.4.5-next.0
+  - @devtools/core-app-api@1.11.1-next.0
+  - @devtools/plugin-catalog-graph@0.2.38-next.0
+  - @devtools/plugin-code-coverage@0.2.19-next.0
+  - @devtools/plugin-cost-insights@0.12.15-next.0
+  - @devtools/plugin-tech-insights@0.3.18-next.0
+  - @devtools/plugin-azure-devops@0.3.8-next.0
+  - @devtools/plugin-gcp-projects@0.3.43-next.0
+  - @devtools/plugin-search-react@1.7.2-next.0
+  - @devtools/plugin-azure-sites@0.1.15-next.0
+  - @devtools/plugin-cloudbuild@0.3.26-next.0
+  - @devtools/plugin-kubernetes@0.11.1-next.0
+  - @devtools/plugin-lighthouse@0.4.11-next.0
+  - @devtools/plugin-scaffolder@1.16.0-next.0
+  - @devtools/plugin-stackstorm@0.1.8-next.0
+  - @devtools/plugin-dynatrace@8.0.0-next.0
+  - @devtools/plugin-gcalendar@0.3.20-next.0
+  - @devtools/plugin-pagerduty@0.6.7-next.0
+  - @devtools/plugin-shortcuts@0.3.16-next.0
+  - @devtools/plugin-airbrake@0.3.26-next.0
+  - @devtools/plugin-api-docs@0.9.13-next.0
+  - @devtools/plugin-circleci@0.3.26-next.0
+  - @devtools/plugin-devtools@0.1.6-next.0
+  - @devtools/plugin-linguist@0.1.11-next.0
+  - @devtools/plugin-newrelic@0.3.42-next.0
+  - @devtools/plugin-playlist@0.1.18-next.0
+  - @devtools/plugin-puppetdb@0.1.9-next.0
+  - @devtools/plugin-explore@0.4.12-next.0
+  - @devtools/plugin-jenkins@0.9.1-next.0
+  - @devtools/plugin-rollbar@0.4.26-next.0
+  - @devtools/theme@0.4.4-next.0
+  - @devtools/plugin-badges@0.2.50-next.0
+  - @devtools/plugin-sentry@0.5.11-next.0
+  - @devtools/plugin-kafka@0.3.26-next.0
+  - @devtools/plugin-nomad@0.1.7-next.0
+  - @devtools/plugin-gocd@0.1.32-next.0
+  - @devtools/plugin-todo@0.2.30-next.0
+  - @devtools/plugin-adr@0.6.9-next.0
+  - @devtools/plugin-org@0.6.16-next.0
+  - @devtools/catalog-model@1.4.3
+  - @devtools/config@1.1.1
+  - @devtools/plugin-catalog-common@1.0.17
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.7
+
+## 0.2.88
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/frontend-app-api@0.2.0
+  - @devtools/plugin-pagerduty@0.6.6
+  - @devtools/plugin-org@0.6.15
+  - @devtools/plugin-code-coverage@0.2.18
+  - @devtools/plugin-catalog-react@1.8.5
+  - @devtools/plugin-catalog@1.14.0
+  - @devtools/cli@0.23.0
+  - @devtools/core-app-api@1.11.0
+  - @devtools/plugin-techdocs@1.8.0
+  - @devtools/core-plugin-api@1.7.0
+  - @devtools/plugin-home@0.5.9
+  - @devtools/plugin-newrelic@0.3.41
+  - @devtools/plugin-user-settings@0.7.11
+  - @devtools/plugin-scaffolder@1.15.1
+  - @devtools/core-components@0.13.6
+  - @devtools/plugin-entity-feedback@0.2.8
+  - @devtools/integration-react@1.1.20
+  - @devtools/catalog-model@1.4.3
+  - @devtools/plugin-tech-radar@0.6.9
+  - @devtools/plugin-adr@0.6.8
+  - @devtools/app-defaults@1.4.4
+  - @devtools/plugin-graphiql@0.2.55
+  - @devtools/plugin-search@1.4.1
+  - @devtools/plugin-jenkins@0.9.0
+  - @devtools/plugin-search-react@1.7.1
+  - @devtools/plugin-api-docs@0.9.12
+  - @devtools/plugin-kubernetes@0.11.0
+  - @devtools/plugin-airbrake@0.3.25
+  - @devtools/plugin-apache-airflow@0.2.16
+  - @devtools/plugin-azure-devops@0.3.7
+  - @devtools/plugin-azure-sites@0.1.14
+  - @devtools/plugin-badges@0.2.49
+  - @devtools/plugin-catalog-graph@0.2.37
+  - @devtools/plugin-catalog-import@0.10.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.4
+  - @devtools/plugin-circleci@0.3.25
+  - @devtools/plugin-cloudbuild@0.3.25
+  - @devtools/plugin-cost-insights@0.12.14
+  - @devtools/plugin-devtools@0.1.5
+  - @devtools/plugin-dynatrace@7.0.5
+  - @devtools/plugin-explore@0.4.11
+  - @devtools/plugin-gcalendar@0.3.19
+  - @devtools/plugin-gcp-projects@0.3.42
+  - @devtools/plugin-github-actions@0.6.6
+  - @devtools/plugin-gocd@0.1.31
+  - @devtools/plugin-kafka@0.3.25
+  - @devtools/plugin-kubernetes-cluster@0.0.1
+  - @devtools/plugin-lighthouse@0.4.10
+  - @devtools/plugin-linguist@0.1.10
+  - @devtools/plugin-microsoft-calendar@0.1.8
+  - @devtools/plugin-newrelic-dashboard@0.3.0
+  - @devtools/plugin-nomad@0.1.6
+  - @devtools/plugin-octopus-deploy@0.2.7
+  - @devtools/plugin-permission-react@0.4.16
+  - @devtools/plugin-playlist@0.1.17
+  - @devtools/plugin-puppetdb@0.1.8
+  - @devtools/plugin-rollbar@0.4.25
+  - @devtools/plugin-scaffolder-react@1.5.6
+  - @devtools/plugin-sentry@0.5.10
+  - @devtools/plugin-shortcuts@0.3.15
+  - @devtools/plugin-stack-overflow@0.1.21
+  - @devtools/plugin-stackstorm@0.1.7
+  - @devtools/plugin-tech-insights@0.3.17
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.1
+  - @devtools/plugin-techdocs-react@1.1.12
+  - @devtools/plugin-todo@0.2.28
+  - @devtools/theme@0.4.3
+  - @devtools/config@1.1.1
+  - @devtools/plugin-catalog-common@1.0.17
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.7
+
+## 0.2.88-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.23.0-next.2
+  - @devtools/frontend-app-api@0.2.0-next.2
+  - @devtools/core-app-api@1.11.0-next.2
+  - @devtools/plugin-techdocs@1.7.1-next.2
+  - @devtools/plugin-newrelic@0.3.41-next.2
+  - @devtools/plugin-scaffolder@1.15.1-next.2
+  - @devtools/integration-react@1.1.20-next.2
+  - @devtools/core-components@0.13.6-next.2
+  - @devtools/core-plugin-api@1.7.0-next.1
+  - @devtools/catalog-model@1.4.3-next.0
+  - @devtools/plugin-catalog-react@1.8.5-next.2
+  - @devtools/plugin-tech-radar@0.6.9-next.2
+  - @devtools/plugin-catalog@1.14.0-next.2
+  - @devtools/plugin-adr@0.6.8-next.2
+  - @devtools/plugin-graphiql@0.2.55-next.2
+  - @devtools/plugin-search-react@1.7.1-next.2
+  - @devtools/plugin-newrelic-dashboard@0.3.0-next.2
+  - @devtools/plugin-kubernetes-cluster@0.0.1-next.0
+  - @devtools/plugin-kubernetes@0.11.0-next.2
+  - @devtools/theme@0.4.3-next.0
+  - @devtools/plugin-jenkins@0.8.7-next.2
+  - @devtools/plugin-tech-insights@0.3.17-next.2
+  - @devtools/plugin-playlist@0.1.17-next.2
+  - @devtools/app-defaults@1.4.4-next.2
+  - @devtools/config@1.1.1-next.0
+  - @devtools/plugin-airbrake@0.3.25-next.2
+  - @devtools/plugin-apache-airflow@0.2.16-next.2
+  - @devtools/plugin-api-docs@0.9.12-next.2
+  - @devtools/plugin-azure-devops@0.3.7-next.2
+  - @devtools/plugin-azure-sites@0.1.14-next.2
+  - @devtools/plugin-badges@0.2.49-next.2
+  - @devtools/plugin-catalog-common@1.0.17-next.0
+  - @devtools/plugin-catalog-graph@0.2.37-next.2
+  - @devtools/plugin-catalog-import@0.10.1-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.4-next.2
+  - @devtools/plugin-circleci@0.3.25-next.2
+  - @devtools/plugin-cloudbuild@0.3.25-next.2
+  - @devtools/plugin-code-coverage@0.2.18-next.2
+  - @devtools/plugin-cost-insights@0.12.14-next.2
+  - @devtools/plugin-devtools@0.1.5-next.2
+  - @devtools/plugin-dynatrace@7.0.5-next.2
+  - @devtools/plugin-entity-feedback@0.2.8-next.2
+  - @devtools/plugin-explore@0.4.11-next.2
+  - @devtools/plugin-gcalendar@0.3.19-next.2
+  - @devtools/plugin-gcp-projects@0.3.42-next.2
+  - @devtools/plugin-github-actions@0.6.6-next.2
+  - @devtools/plugin-gocd@0.1.31-next.2
+  - @devtools/plugin-home@0.5.9-next.2
+  - @devtools/plugin-kafka@0.3.25-next.2
+  - @devtools/plugin-lighthouse@0.4.10-next.2
+  - @devtools/plugin-linguist@0.1.10-next.2
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-microsoft-calendar@0.1.8-next.2
+  - @devtools/plugin-nomad@0.1.6-next.2
+  - @devtools/plugin-octopus-deploy@0.2.7-next.2
+  - @devtools/plugin-org@0.6.15-next.2
+  - @devtools/plugin-pagerduty@0.6.6-next.2
+  - @devtools/plugin-permission-react@0.4.16-next.1
+  - @devtools/plugin-puppetdb@0.1.8-next.2
+  - @devtools/plugin-rollbar@0.4.25-next.2
+  - @devtools/plugin-scaffolder-react@1.5.6-next.2
+  - @devtools/plugin-search@1.4.1-next.2
+  - @devtools/plugin-search-common@1.2.7-next.0
+  - @devtools/plugin-sentry@0.5.10-next.2
+  - @devtools/plugin-shortcuts@0.3.15-next.2
+  - @devtools/plugin-stack-overflow@0.1.21-next.2
+  - @devtools/plugin-stackstorm@0.1.7-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.1-next.2
+  - @devtools/plugin-techdocs-react@1.1.12-next.2
+  - @devtools/plugin-todo@0.2.28-next.2
+  - @devtools/plugin-user-settings@0.7.11-next.2
+
+## 0.2.88-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-org@0.6.15-next.1
+  - @devtools/plugin-code-coverage@0.2.18-next.1
+  - @devtools/plugin-catalog@1.14.0-next.1
+  - @devtools/plugin-techdocs@1.7.1-next.1
+  - @devtools/plugin-home@0.5.9-next.1
+  - @devtools/core-components@0.13.6-next.1
+  - @devtools/core-app-api@1.10.1-next.1
+  - @devtools/app-defaults@1.4.4-next.1
+  - @devtools/frontend-app-api@0.2.0-next.1
+  - @devtools/plugin-search@1.4.1-next.1
+  - @devtools/cli@0.23.0-next.1
+  - @devtools/plugin-cost-insights@0.12.14-next.1
+  - @devtools/plugin-kubernetes@0.11.0-next.1
+  - @devtools/plugin-adr@0.6.8-next.1
+  - @devtools/plugin-explore@0.4.11-next.1
+  - @devtools/plugin-search-react@1.7.1-next.1
+  - @devtools/plugin-api-docs@0.9.12-next.1
+  - @devtools/plugin-catalog-graph@0.2.37-next.1
+  - @devtools/plugin-scaffolder@1.15.1-next.1
+  - @devtools/plugin-scaffolder-react@1.5.6-next.1
+  - @devtools/plugin-user-settings@0.7.11-next.1
+  - @devtools/plugin-graphiql@0.2.55-next.1
+  - @devtools/plugin-tech-radar@0.6.9-next.1
+  - @devtools/integration-react@1.1.20-next.1
+  - @devtools/plugin-airbrake@0.3.25-next.1
+  - @devtools/plugin-apache-airflow@0.2.16-next.1
+  - @devtools/plugin-azure-devops@0.3.7-next.1
+  - @devtools/plugin-azure-sites@0.1.14-next.1
+  - @devtools/plugin-badges@0.2.49-next.1
+  - @devtools/plugin-catalog-import@0.10.1-next.1
+  - @devtools/plugin-catalog-react@1.8.5-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.4-next.1
+  - @devtools/plugin-circleci@0.3.25-next.1
+  - @devtools/plugin-cloudbuild@0.3.25-next.1
+  - @devtools/plugin-devtools@0.1.5-next.1
+  - @devtools/plugin-dynatrace@7.0.5-next.1
+  - @devtools/plugin-entity-feedback@0.2.8-next.1
+  - @devtools/plugin-gcalendar@0.3.19-next.1
+  - @devtools/plugin-gcp-projects@0.3.42-next.1
+  - @devtools/plugin-github-actions@0.6.6-next.1
+  - @devtools/plugin-gocd@0.1.31-next.1
+  - @devtools/plugin-jenkins@0.8.7-next.1
+  - @devtools/plugin-kafka@0.3.25-next.1
+  - @devtools/plugin-lighthouse@0.4.10-next.1
+  - @devtools/plugin-linguist@0.1.10-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.8-next.1
+  - @devtools/plugin-newrelic@0.3.41-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.18-next.1
+  - @devtools/plugin-nomad@0.1.6-next.1
+  - @devtools/plugin-octopus-deploy@0.2.7-next.1
+  - @devtools/plugin-pagerduty@0.6.6-next.1
+  - @devtools/plugin-playlist@0.1.17-next.1
+  - @devtools/plugin-puppetdb@0.1.8-next.1
+  - @devtools/plugin-rollbar@0.4.25-next.1
+  - @devtools/plugin-sentry@0.5.10-next.1
+  - @devtools/plugin-shortcuts@0.3.15-next.1
+  - @devtools/plugin-stack-overflow@0.1.21-next.1
+  - @devtools/plugin-stackstorm@0.1.7-next.1
+  - @devtools/plugin-tech-insights@0.3.17-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.1-next.1
+  - @devtools/plugin-techdocs-react@1.1.12-next.1
+  - @devtools/plugin-todo@0.2.28-next.1
+  - @devtools/core-plugin-api@1.7.0-next.0
+  - @devtools/config@1.1.0
+  - @devtools/plugin-permission-react@0.4.16-next.0
+  - @devtools/catalog-model@1.4.2
+  - @devtools/theme@0.4.2
+  - @devtools/plugin-catalog-common@1.0.16
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.6
+
+## 0.2.88-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/frontend-app-api@0.2.0-next.0
+  - @devtools/plugin-pagerduty@0.6.6-next.0
+  - @devtools/plugin-catalog-react@1.8.5-next.0
+  - @devtools/cli@0.23.0-next.0
+  - @devtools/core-plugin-api@1.7.0-next.0
+  - @devtools/plugin-catalog@1.14.0-next.0
+  - @devtools/plugin-scaffolder@1.15.1-next.0
+  - @devtools/plugin-tech-radar@0.6.9-next.0
+  - @devtools/plugin-user-settings@0.7.11-next.0
+  - @devtools/plugin-api-docs@0.9.12-next.0
+  - @devtools/plugin-code-coverage@0.2.18-next.0
+  - @devtools/plugin-cost-insights@0.12.14-next.0
+  - @devtools/core-components@0.13.6-next.0
+  - @devtools/integration-react@1.1.20-next.0
+  - @devtools/plugin-catalog-import@0.10.1-next.0
+  - @devtools/plugin-github-actions@0.6.6-next.0
+  - @devtools/plugin-techdocs@1.7.1-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.1-next.0
+  - @devtools/plugin-adr@0.6.8-next.0
+  - @devtools/plugin-airbrake@0.3.25-next.0
+  - @devtools/plugin-azure-devops@0.3.7-next.0
+  - @devtools/plugin-azure-sites@0.1.14-next.0
+  - @devtools/plugin-badges@0.2.49-next.0
+  - @devtools/plugin-catalog-graph@0.2.37-next.0
+  - @devtools/plugin-circleci@0.3.25-next.0
+  - @devtools/plugin-cloudbuild@0.3.25-next.0
+  - @devtools/plugin-dynatrace@7.0.5-next.0
+  - @devtools/plugin-entity-feedback@0.2.8-next.0
+  - @devtools/plugin-explore@0.4.11-next.0
+  - @devtools/plugin-gocd@0.1.31-next.0
+  - @devtools/plugin-home@0.5.9-next.0
+  - @devtools/plugin-jenkins@0.8.7-next.0
+  - @devtools/plugin-kafka@0.3.25-next.0
+  - @devtools/plugin-kubernetes@0.10.4-next.0
+  - @devtools/plugin-lighthouse@0.4.10-next.0
+  - @devtools/plugin-linguist@0.1.10-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.18-next.0
+  - @devtools/plugin-nomad@0.1.6-next.0
+  - @devtools/plugin-octopus-deploy@0.2.7-next.0
+  - @devtools/plugin-org@0.6.15-next.0
+  - @devtools/plugin-playlist@0.1.17-next.0
+  - @devtools/plugin-puppetdb@0.1.8-next.0
+  - @devtools/plugin-rollbar@0.4.25-next.0
+  - @devtools/plugin-scaffolder-react@1.5.6-next.0
+  - @devtools/plugin-search@1.4.1-next.0
+  - @devtools/plugin-sentry@0.5.10-next.0
+  - @devtools/plugin-tech-insights@0.3.17-next.0
+  - @devtools/plugin-todo@0.2.28-next.0
+  - @devtools/app-defaults@1.4.4-next.0
+  - @devtools/config@1.1.0
+  - @devtools/core-app-api@1.10.1-next.0
+  - @devtools/plugin-apache-airflow@0.2.16-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.4-next.0
+  - @devtools/plugin-devtools@0.1.5-next.0
+  - @devtools/plugin-gcalendar@0.3.19-next.0
+  - @devtools/plugin-gcp-projects@0.3.42-next.0
+  - @devtools/plugin-graphiql@0.2.55-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.8-next.0
+  - @devtools/plugin-newrelic@0.3.41-next.0
+  - @devtools/plugin-permission-react@0.4.16-next.0
+  - @devtools/plugin-search-react@1.7.1-next.0
+  - @devtools/plugin-shortcuts@0.3.15-next.0
+  - @devtools/plugin-stack-overflow@0.1.21-next.0
+  - @devtools/plugin-stackstorm@0.1.7-next.0
+  - @devtools/plugin-techdocs-react@1.1.12-next.0
+  - @devtools/catalog-model@1.4.2
+  - @devtools/theme@0.4.2
+  - @devtools/plugin-catalog-common@1.0.16
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-search-common@1.2.6
+
+## 0.2.87
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.10.3
+  - @devtools/plugin-playlist@0.1.16
+  - @devtools/plugin-home@0.5.8
+  - @devtools/cli@0.22.13
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.3
+  - @devtools/integration-react@1.1.19
+  - @devtools/plugin-microsoft-calendar@0.1.7
+  - @devtools/plugin-newrelic-dashboard@0.2.17
+  - @devtools/plugin-apache-airflow@0.2.15
+  - @devtools/plugin-github-actions@0.6.5
+  - @devtools/plugin-octopus-deploy@0.2.6
+  - @devtools/plugin-azure-devops@0.3.6
+  - @devtools/plugin-gcp-projects@0.3.41
+  - @devtools/plugin-azure-sites@0.1.13
+  - @devtools/plugin-cloudbuild@0.3.24
+  - @devtools/plugin-lighthouse@0.4.9
+  - @devtools/plugin-tech-radar@0.6.8
+  - @devtools/plugin-dynatrace@7.0.4
+  - @devtools/plugin-gcalendar@0.3.18
+  - @devtools/plugin-shortcuts@0.3.14
+  - @devtools/plugin-airbrake@0.3.24
+  - @devtools/plugin-circleci@0.3.24
+  - @devtools/plugin-graphiql@0.2.54
+  - @devtools/plugin-linguist@0.1.9
+  - @devtools/plugin-newrelic@0.3.40
+  - @devtools/plugin-puppetdb@0.1.7
+  - @devtools/plugin-jenkins@0.8.6
+  - @devtools/plugin-rollbar@0.4.24
+  - @devtools/plugin-badges@0.2.48
+  - @devtools/plugin-sentry@0.5.9
+  - @devtools/plugin-kafka@0.3.24
+  - @devtools/plugin-nomad@0.1.5
+  - @devtools/plugin-todo@0.2.26
+  - @devtools/plugin-org@0.6.14
+  - @devtools/frontend-app-api@0.1.0
+  - @devtools/plugin-techdocs@1.7.0
+  - @devtools/plugin-catalog-react@1.8.4
+  - @devtools/core-components@0.13.5
+  - @devtools/plugin-entity-feedback@0.2.7
+  - @devtools/plugin-pagerduty@0.6.5
+  - @devtools/config@1.1.0
+  - @devtools/app-defaults@1.4.3
+  - @devtools/catalog-model@1.4.2
+  - @devtools/core-app-api@1.10.0
+  - @devtools/core-plugin-api@1.6.0
+  - @devtools/plugin-adr@0.6.7
+  - @devtools/plugin-api-docs@0.9.11
+  - @devtools/plugin-catalog-common@1.0.16
+  - @devtools/plugin-catalog-graph@0.2.36
+  - @devtools/plugin-catalog-import@0.10.0
+  - @devtools/plugin-code-coverage@0.2.17
+  - @devtools/plugin-cost-insights@0.12.13
+  - @devtools/plugin-devtools@0.1.4
+  - @devtools/plugin-explore@0.4.10
+  - @devtools/plugin-gocd@0.1.30
+  - @devtools/plugin-linguist-common@0.1.2
+  - @devtools/plugin-permission-react@0.4.15
+  - @devtools/plugin-scaffolder@1.15.0
+  - @devtools/plugin-scaffolder-react@1.5.5
+  - @devtools/plugin-search@1.4.0
+  - @devtools/plugin-search-common@1.2.6
+  - @devtools/plugin-search-react@1.7.0
+  - @devtools/plugin-stack-overflow@0.1.20
+  - @devtools/plugin-stackstorm@0.1.6
+  - @devtools/plugin-tech-insights@0.3.16
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.0
+  - @devtools/plugin-techdocs-react@1.1.10
+  - @devtools/plugin-user-settings@0.7.9
+  - @devtools/theme@0.4.2
+  - @internal/plugin-catalog-customized@0.0.14
+
+## 0.2.87-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.5.8-next.3
+  - @devtools/plugin-graphiql@0.2.54-next.3
+  - @devtools/cli@0.22.13-next.3
+  - @devtools/plugin-kubernetes@0.10.3-next.3
+  - @devtools/app-defaults@1.4.3-next.3
+  - @devtools/catalog-model@1.4.2-next.2
+  - @devtools/config@1.1.0-next.2
+  - @devtools/core-app-api@1.10.0-next.3
+  - @devtools/core-components@0.13.5-next.3
+  - @devtools/core-plugin-api@1.6.0-next.3
+  - @devtools/integration-react@1.1.19-next.3
+  - @devtools/plugin-adr@0.6.7-next.3
+  - @devtools/plugin-airbrake@0.3.24-next.3
+  - @devtools/plugin-apache-airflow@0.2.15-next.3
+  - @devtools/plugin-api-docs@0.9.11-next.3
+  - @devtools/plugin-azure-devops@0.3.6-next.3
+  - @devtools/plugin-azure-sites@0.1.13-next.3
+  - @devtools/plugin-badges@0.2.48-next.3
+  - @devtools/plugin-catalog-common@1.0.16-next.2
+  - @devtools/plugin-catalog-graph@0.2.36-next.3
+  - @devtools/plugin-catalog-import@0.9.14-next.3
+  - @devtools/plugin-catalog-react@1.8.4-next.3
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.3-next.3
+  - @devtools/plugin-circleci@0.3.24-next.3
+  - @devtools/plugin-cloudbuild@0.3.24-next.3
+  - @devtools/plugin-code-coverage@0.2.17-next.3
+  - @devtools/plugin-cost-insights@0.12.13-next.3
+  - @devtools/plugin-devtools@0.1.4-next.3
+  - @devtools/plugin-dynatrace@7.0.4-next.3
+  - @devtools/plugin-entity-feedback@0.2.7-next.3
+  - @devtools/plugin-explore@0.4.10-next.3
+  - @devtools/plugin-gcalendar@0.3.18-next.3
+  - @devtools/plugin-gcp-projects@0.3.41-next.3
+  - @devtools/plugin-github-actions@0.6.5-next.3
+  - @devtools/plugin-gocd@0.1.30-next.3
+  - @devtools/plugin-jenkins@0.8.6-next.3
+  - @devtools/plugin-kafka@0.3.24-next.3
+  - @devtools/plugin-lighthouse@0.4.9-next.3
+  - @devtools/plugin-linguist@0.1.9-next.3
+  - @devtools/plugin-linguist-common@0.1.2-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.7-next.3
+  - @devtools/plugin-newrelic@0.3.40-next.3
+  - @devtools/plugin-newrelic-dashboard@0.2.17-next.3
+  - @devtools/plugin-nomad@0.1.5-next.3
+  - @devtools/plugin-octopus-deploy@0.2.6-next.3
+  - @devtools/plugin-org@0.6.14-next.3
+  - @devtools/plugin-pagerduty@0.6.5-next.3
+  - @devtools/plugin-permission-react@0.4.15-next.3
+  - @devtools/plugin-playlist@0.1.16-next.3
+  - @devtools/plugin-puppetdb@0.1.7-next.3
+  - @devtools/plugin-rollbar@0.4.24-next.3
+  - @devtools/plugin-scaffolder@1.15.0-next.3
+  - @devtools/plugin-scaffolder-react@1.5.5-next.3
+  - @devtools/plugin-search@1.4.0-next.3
+  - @devtools/plugin-search-common@1.2.6-next.2
+  - @devtools/plugin-search-react@1.7.0-next.3
+  - @devtools/plugin-sentry@0.5.9-next.3
+  - @devtools/plugin-shortcuts@0.3.14-next.3
+  - @devtools/plugin-stack-overflow@0.1.20-next.3
+  - @devtools/plugin-stackstorm@0.1.6-next.3
+  - @devtools/plugin-tech-insights@0.3.16-next.3
+  - @devtools/plugin-tech-radar@0.6.8-next.3
+  - @devtools/plugin-techdocs@1.7.0-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.0-next.3
+  - @devtools/plugin-techdocs-react@1.1.10-next.3
+  - @devtools/plugin-todo@0.2.26-next.3
+  - @devtools/plugin-user-settings@0.7.9-next.3
+  - @devtools/theme@0.4.2-next.0
+  - @internal/plugin-catalog-customized@0.0.14-next.3
+
+## 0.2.87-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-playlist@0.1.16-next.2
+  - @devtools/plugin-tech-radar@0.6.8-next.2
+  - @devtools/plugin-user-settings@0.7.9-next.2
+  - @devtools/plugin-org@0.6.14-next.2
+  - @devtools/plugin-techdocs@1.7.0-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.0-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.3-next.2
+  - @devtools/integration-react@1.1.19-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.7-next.2
+  - @devtools/core-components@0.13.5-next.2
+  - @devtools/core-plugin-api@1.6.0-next.2
+  - @devtools/plugin-entity-feedback@0.2.7-next.2
+  - @devtools/plugin-apache-airflow@0.2.15-next.2
+  - @devtools/plugin-github-actions@0.6.5-next.2
+  - @devtools/plugin-octopus-deploy@0.2.6-next.2
+  - @devtools/plugin-stack-overflow@0.1.20-next.2
+  - @devtools/app-defaults@1.4.3-next.2
+  - @devtools/core-app-api@1.10.0-next.2
+  - @devtools/plugin-code-coverage@0.2.17-next.2
+  - @devtools/plugin-cost-insights@0.12.13-next.2
+  - @devtools/plugin-tech-insights@0.3.16-next.2
+  - @devtools/plugin-azure-devops@0.3.6-next.2
+  - @devtools/plugin-gcp-projects@0.3.41-next.2
+  - @devtools/plugin-azure-sites@0.1.13-next.2
+  - @devtools/plugin-cloudbuild@0.3.24-next.2
+  - @devtools/plugin-kubernetes@0.10.3-next.2
+  - @devtools/plugin-lighthouse@0.4.9-next.2
+  - @devtools/plugin-scaffolder@1.14.5-next.2
+  - @devtools/plugin-stackstorm@0.1.6-next.2
+  - @devtools/plugin-dynatrace@7.0.4-next.2
+  - @devtools/plugin-gcalendar@0.3.18-next.2
+  - @devtools/plugin-pagerduty@0.6.5-next.2
+  - @devtools/plugin-shortcuts@0.3.14-next.2
+  - @devtools/plugin-airbrake@0.3.24-next.2
+  - @devtools/plugin-api-docs@0.9.11-next.2
+  - @devtools/plugin-circleci@0.3.24-next.2
+  - @devtools/plugin-devtools@0.1.4-next.2
+  - @devtools/plugin-graphiql@0.2.54-next.2
+  - @devtools/plugin-linguist@0.1.9-next.2
+  - @devtools/plugin-newrelic@0.3.40-next.2
+  - @devtools/plugin-puppetdb@0.1.7-next.2
+  - @devtools/config@1.1.0-next.1
+  - @devtools/plugin-explore@0.4.10-next.2
+  - @devtools/plugin-jenkins@0.8.6-next.2
+  - @devtools/plugin-rollbar@0.4.24-next.2
+  - @devtools/plugin-badges@0.2.48-next.2
+  - @devtools/plugin-search@1.4.0-next.2
+  - @devtools/plugin-sentry@0.5.9-next.2
+  - @devtools/plugin-kafka@0.3.24-next.2
+  - @devtools/plugin-nomad@0.1.5-next.2
+  - @devtools/cli@0.22.13-next.2
+  - @devtools/plugin-gocd@0.1.30-next.2
+  - @devtools/plugin-home@0.5.8-next.2
+  - @devtools/plugin-todo@0.2.26-next.2
+  - @devtools/plugin-adr@0.6.7-next.2
+  - @devtools/plugin-scaffolder-react@1.5.5-next.2
+  - @internal/plugin-catalog-customized@0.0.14-next.2
+  - @devtools/plugin-catalog-graph@0.2.36-next.2
+  - @devtools/plugin-catalog-import@0.9.14-next.2
+  - @devtools/plugin-catalog-react@1.8.4-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.17-next.2
+  - @devtools/plugin-search-react@1.7.0-next.2
+  - @devtools/plugin-techdocs-react@1.1.10-next.2
+  - @devtools/plugin-permission-react@0.4.15-next.2
+  - @devtools/catalog-model@1.4.2-next.1
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-catalog-common@1.0.16-next.1
+  - @devtools/plugin-linguist-common@0.1.1
+  - @devtools/plugin-search-common@1.2.6-next.1
+
+## 0.2.87-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-playlist@0.1.16-next.1
+  - @devtools/plugin-tech-radar@0.6.8-next.1
+  - @devtools/plugin-catalog-react@1.8.4-next.1
+  - @devtools/core-components@0.13.5-next.1
+  - @devtools/config@1.1.0-next.0
+  - @devtools/plugin-org@0.6.14-next.1
+  - @devtools/plugin-home@0.5.8-next.1
+  - @devtools/plugin-devtools@0.1.4-next.1
+  - @devtools/plugin-user-settings@0.7.9-next.1
+  - @devtools/plugin-search-react@1.7.0-next.1
+  - @devtools/plugin-search@1.4.0-next.1
+  - @devtools/plugin-kubernetes@0.10.3-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.1.0-next.1
+  - @devtools/plugin-adr@0.6.7-next.1
+  - @devtools/plugin-airbrake@0.3.24-next.1
+  - @devtools/plugin-api-docs@0.9.11-next.1
+  - @devtools/plugin-azure-devops@0.3.6-next.1
+  - @devtools/plugin-azure-sites@0.1.13-next.1
+  - @devtools/plugin-badges@0.2.48-next.1
+  - @internal/plugin-catalog-customized@0.0.14-next.1
+  - @devtools/plugin-catalog-graph@0.2.36-next.1
+  - @devtools/plugin-catalog-import@0.9.14-next.1
+  - @devtools/plugin-circleci@0.3.24-next.1
+  - @devtools/plugin-cloudbuild@0.3.24-next.1
+  - @devtools/plugin-code-coverage@0.2.17-next.1
+  - @devtools/plugin-cost-insights@0.12.13-next.1
+  - @devtools/plugin-dynatrace@7.0.4-next.1
+  - @devtools/plugin-entity-feedback@0.2.7-next.1
+  - @devtools/plugin-explore@0.4.10-next.1
+  - @devtools/plugin-github-actions@0.6.5-next.1
+  - @devtools/plugin-gocd@0.1.30-next.1
+  - @devtools/plugin-jenkins@0.8.6-next.1
+  - @devtools/plugin-kafka@0.3.24-next.1
+  - @devtools/plugin-lighthouse@0.4.9-next.1
+  - @devtools/plugin-linguist@0.1.9-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.17-next.1
+  - @devtools/plugin-nomad@0.1.5-next.1
+  - @devtools/plugin-octopus-deploy@0.2.6-next.1
+  - @devtools/plugin-pagerduty@0.6.5-next.1
+  - @devtools/plugin-puppetdb@0.1.7-next.1
+  - @devtools/plugin-rollbar@0.4.24-next.1
+  - @devtools/plugin-scaffolder@1.14.5-next.1
+  - @devtools/plugin-scaffolder-react@1.5.5-next.1
+  - @devtools/plugin-sentry@0.5.9-next.1
+  - @devtools/plugin-tech-insights@0.3.16-next.1
+  - @devtools/plugin-techdocs@1.6.9-next.1
+  - @devtools/plugin-todo@0.2.26-next.1
+  - @devtools/app-defaults@1.4.3-next.1
+  - @devtools/cli@0.22.13-next.1
+  - @devtools/integration-react@1.1.19-next.1
+  - @devtools/plugin-apache-airflow@0.2.15-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.3-next.1
+  - @devtools/plugin-gcalendar@0.3.18-next.1
+  - @devtools/plugin-gcp-projects@0.3.41-next.1
+  - @devtools/plugin-graphiql@0.2.54-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.7-next.1
+  - @devtools/plugin-newrelic@0.3.40-next.1
+  - @devtools/plugin-shortcuts@0.3.14-next.1
+  - @devtools/plugin-stack-overflow@0.1.20-next.1
+  - @devtools/plugin-stackstorm@0.1.6-next.1
+  - @devtools/plugin-techdocs-react@1.1.10-next.1
+  - @devtools/catalog-model@1.4.2-next.0
+  - @devtools/core-app-api@1.10.0-next.1
+  - @devtools/core-plugin-api@1.6.0-next.1
+  - @devtools/plugin-permission-react@0.4.15-next.1
+  - @devtools/plugin-catalog-common@1.0.16-next.0
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-linguist-common@0.1.1
+  - @devtools/plugin-search-common@1.2.6-next.0
+
+## 0.2.87-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.3-next.0
+  - @devtools/integration-react@1.1.18-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.7-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.16-next.0
+  - @devtools/plugin-apache-airflow@0.2.15-next.0
+  - @devtools/plugin-github-actions@0.6.4-next.0
+  - @devtools/plugin-octopus-deploy@0.2.5-next.0
+  - @devtools/plugin-azure-devops@0.3.5-next.0
+  - @devtools/plugin-gcp-projects@0.3.41-next.0
+  - @devtools/plugin-azure-sites@0.1.12-next.0
+  - @devtools/plugin-cloudbuild@0.3.23-next.0
+  - @devtools/plugin-lighthouse@0.4.8-next.0
+  - @devtools/plugin-tech-radar@0.6.8-next.0
+  - @devtools/plugin-dynatrace@7.0.3-next.0
+  - @devtools/plugin-gcalendar@0.3.18-next.0
+  - @devtools/plugin-shortcuts@0.3.14-next.0
+  - @devtools/plugin-airbrake@0.3.23-next.0
+  - @devtools/plugin-circleci@0.3.23-next.0
+  - @devtools/plugin-graphiql@0.2.54-next.0
+  - @devtools/plugin-linguist@0.1.8-next.0
+  - @devtools/plugin-newrelic@0.3.40-next.0
+  - @devtools/plugin-playlist@0.1.15-next.0
+  - @devtools/plugin-puppetdb@0.1.6-next.0
+  - @devtools/plugin-jenkins@0.8.5-next.0
+  - @devtools/plugin-rollbar@0.4.23-next.0
+  - @devtools/plugin-badges@0.2.47-next.0
+  - @devtools/plugin-sentry@0.5.8-next.0
+  - @devtools/plugin-kafka@0.3.23-next.0
+  - @devtools/plugin-nomad@0.1.4-next.0
+  - @devtools/plugin-todo@0.2.25-next.0
+  - @devtools/plugin-org@0.6.13-next.0
+  - @devtools/cli@0.22.12-next.0
+  - @devtools/plugin-techdocs@1.6.8-next.0
+  - @devtools/plugin-entity-feedback@0.2.6-next.0
+  - @devtools/core-app-api@1.10.0-next.0
+  - @devtools/plugin-code-coverage@0.2.16-next.0
+  - @devtools/core-plugin-api@1.6.0-next.0
+  - @devtools/plugin-cost-insights@0.12.12-next.0
+  - @devtools/core-components@0.13.5-next.0
+  - @devtools/plugin-adr@0.6.6-next.0
+  - @devtools/plugin-catalog-import@0.9.13-next.0
+  - @devtools/plugin-scaffolder@1.14.4-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.18-next.0
+  - @devtools/plugin-home@0.5.7-next.0
+  - @devtools/plugin-pagerduty@0.6.4-next.0
+  - @devtools/plugin-stack-overflow@0.1.20-next.0
+  - @devtools/plugin-api-docs@0.9.10-next.0
+  - @internal/plugin-catalog-customized@0.0.14-next.0
+  - @devtools/plugin-catalog-graph@0.2.35-next.0
+  - @devtools/plugin-explore@0.4.9-next.0
+  - @devtools/plugin-scaffolder-react@1.5.4-next.0
+  - @devtools/app-defaults@1.4.3-next.0
+  - @devtools/catalog-model@1.4.1
+  - @devtools/config@1.0.8
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-catalog-common@1.0.15
+  - @devtools/plugin-catalog-react@1.8.3-next.0
+  - @devtools/plugin-devtools@0.1.4-next.0
+  - @devtools/plugin-gocd@0.1.29-next.0
+  - @devtools/plugin-kubernetes@0.10.2-next.0
+  - @devtools/plugin-linguist-common@0.1.1
+  - @devtools/plugin-permission-react@0.4.15-next.0
+  - @devtools/plugin-search@1.3.6-next.0
+  - @devtools/plugin-search-common@1.2.5
+  - @devtools/plugin-search-react@1.6.5-next.0
+  - @devtools/plugin-stackstorm@0.1.6-next.0
+  - @devtools/plugin-tech-insights@0.3.15-next.0
+  - @devtools/plugin-techdocs-react@1.1.10-next.0
+  - @devtools/plugin-user-settings@0.7.8-next.0
+
+## 0.2.86
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-app-api@1.9.1
+  - @devtools/plugin-catalog-graph@0.2.33
+  - @devtools/plugin-playlist@0.1.13
+  - @devtools/plugin-pagerduty@0.6.2
+  - @devtools/plugin-scaffolder@1.14.2
+  - @devtools/plugin-explore@0.4.7
+  - @devtools/plugin-org@0.6.11
+  - @devtools/integration-react@1.1.16
+  - @devtools/plugin-microsoft-calendar@0.1.6
+  - @devtools/plugin-newrelic-dashboard@0.2.14
+  - @devtools/plugin-entity-feedback@0.2.4
+  - @devtools/plugin-linguist-common@0.1.1
+  - @devtools/plugin-apache-airflow@0.2.14
+  - @devtools/plugin-octopus-deploy@0.2.3
+  - @devtools/plugin-stack-overflow@0.1.19
+  - @devtools/plugin-code-coverage@0.2.14
+  - @devtools/plugin-tech-insights@0.3.13
+  - @devtools/plugin-dynatrace@7.0.1
+  - @devtools/plugin-gcalendar@0.3.17
+  - @devtools/plugin-shortcuts@0.3.13
+  - @devtools/plugin-airbrake@0.3.21
+  - @devtools/plugin-kafka@0.3.21
+  - @devtools/plugin-nomad@0.1.2
+  - @devtools/plugin-adr@0.6.4
+  - @devtools/plugin-newrelic@0.3.39
+  - @devtools/cli@0.22.10
+  - @devtools/plugin-kubernetes@0.10.0
+  - @devtools/core-components@0.13.4
+  - @devtools/plugin-home@0.5.5
+  - @devtools/plugin-catalog-react@1.8.1
+  - @devtools/plugin-scaffolder-react@1.5.2
+  - @devtools/plugin-devtools@0.1.3
+  - @devtools/app-defaults@1.4.2
+  - @devtools/core-plugin-api@1.5.3
+  - @devtools/plugin-api-docs@0.9.7
+  - @devtools/plugin-azure-devops@0.3.3
+  - @devtools/plugin-azure-sites@0.1.10
+  - @devtools/plugin-badges@0.2.45
+  - @devtools/plugin-catalog-import@0.9.11
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.2
+  - @devtools/plugin-circleci@0.3.21
+  - @devtools/plugin-cloudbuild@0.3.21
+  - @devtools/plugin-cost-insights@0.12.10
+  - @devtools/plugin-gcp-projects@0.3.40
+  - @devtools/plugin-github-actions@0.6.2
+  - @devtools/plugin-gocd@0.1.27
+  - @devtools/plugin-graphiql@0.2.53
+  - @devtools/plugin-jenkins@0.8.3
+  - @devtools/plugin-lighthouse@0.4.6
+  - @devtools/plugin-linguist@0.1.6
+  - @devtools/plugin-puppetdb@0.1.4
+  - @devtools/plugin-rollbar@0.4.21
+  - @devtools/plugin-search@1.3.4
+  - @devtools/plugin-search-react@1.6.4
+  - @devtools/plugin-sentry@0.5.6
+  - @devtools/plugin-stackstorm@0.1.5
+  - @devtools/plugin-tech-radar@0.6.7
+  - @devtools/plugin-techdocs@1.6.6
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.16
+  - @devtools/plugin-todo@0.2.23
+  - @devtools/plugin-user-settings@0.7.6
+  - @devtools/catalog-model@1.4.1
+  - @devtools/config@1.0.8
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-catalog-common@1.0.15
+  - @devtools/plugin-permission-react@0.4.14
+  - @devtools/plugin-search-common@1.2.5
+  - @devtools/plugin-techdocs-react@1.1.9
+  - @internal/plugin-catalog-customized@0.0.13
+
+## 0.2.86-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-graph@0.2.33-next.2
+  - @devtools/plugin-linguist-common@0.1.1-next.1
+  - @devtools/plugin-catalog-react@1.8.1-next.1
+  - @devtools/plugin-linguist@0.1.6-next.2
+  - @devtools/plugin-adr@0.6.4-next.2
+  - @devtools/plugin-airbrake@0.3.21-next.2
+  - @devtools/plugin-api-docs@0.9.7-next.2
+  - @devtools/plugin-azure-devops@0.3.3-next.1
+  - @devtools/plugin-azure-sites@0.1.10-next.1
+  - @devtools/plugin-badges@0.2.45-next.1
+  - @internal/plugin-catalog-customized@0.0.13-next.2
+  - @devtools/plugin-catalog-import@0.9.11-next.2
+  - @devtools/plugin-circleci@0.3.21-next.1
+  - @devtools/plugin-cloudbuild@0.3.21-next.1
+  - @devtools/plugin-code-coverage@0.2.14-next.2
+  - @devtools/plugin-cost-insights@0.12.10-next.1
+  - @devtools/plugin-dynatrace@7.0.1-next.2
+  - @devtools/plugin-entity-feedback@0.2.4-next.2
+  - @devtools/plugin-explore@0.4.7-next.1
+  - @devtools/plugin-github-actions@0.6.2-next.2
+  - @devtools/plugin-gocd@0.1.27-next.1
+  - @devtools/plugin-home@0.5.5-next.1
+  - @devtools/plugin-jenkins@0.8.3-next.2
+  - @devtools/plugin-kafka@0.3.21-next.2
+  - @devtools/plugin-kubernetes@0.9.4-next.1
+  - @devtools/plugin-lighthouse@0.4.6-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.14-next.2
+  - @devtools/plugin-nomad@0.1.2-next.2
+  - @devtools/plugin-octopus-deploy@0.2.3-next.2
+  - @devtools/plugin-org@0.6.11-next.2
+  - @devtools/plugin-pagerduty@0.6.2-next.1
+  - @devtools/plugin-playlist@0.1.13-next.2
+  - @devtools/plugin-puppetdb@0.1.4-next.1
+  - @devtools/plugin-rollbar@0.4.21-next.1
+  - @devtools/plugin-scaffolder@1.14.2-next.2
+  - @devtools/plugin-scaffolder-react@1.5.2-next.1
+  - @devtools/plugin-search@1.3.4-next.1
+  - @devtools/plugin-sentry@0.5.6-next.1
+  - @devtools/plugin-tech-insights@0.3.13-next.2
+  - @devtools/plugin-techdocs@1.6.6-next.2
+  - @devtools/plugin-todo@0.2.23-next.1
+  - @devtools/plugin-user-settings@0.7.6-next.1
+  - @devtools/cli@0.22.10-next.1
+  - @devtools/integration-react@1.1.16-next.1
+  - @devtools/plugin-apache-airflow@0.2.14-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.2-next.0
+  - @devtools/plugin-devtools@0.1.3-next.1
+  - @devtools/plugin-gcalendar@0.3.17-next.1
+  - @devtools/plugin-gcp-projects@0.3.40-next.0
+  - @devtools/plugin-graphiql@0.2.53-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.6-next.1
+  - @devtools/plugin-newrelic@0.3.39-next.0
+  - @devtools/plugin-shortcuts@0.3.13-next.1
+  - @devtools/plugin-stack-overflow@0.1.19-next.1
+  - @devtools/plugin-stackstorm@0.1.5-next.0
+  - @devtools/plugin-tech-radar@0.6.7-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.16-next.1
+
+## 0.2.86-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-playlist@0.1.13-next.1
+  - @devtools/plugin-scaffolder@1.14.2-next.1
+  - @devtools/integration-react@1.1.16-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.6-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.14-next.1
+  - @devtools/plugin-entity-feedback@0.2.4-next.1
+  - @devtools/plugin-linguist-common@0.1.1-next.0
+  - @devtools/plugin-apache-airflow@0.2.14-next.1
+  - @devtools/plugin-octopus-deploy@0.2.3-next.1
+  - @devtools/plugin-stack-overflow@0.1.19-next.1
+  - @devtools/plugin-catalog-graph@0.2.33-next.1
+  - @devtools/plugin-code-coverage@0.2.14-next.1
+  - @devtools/plugin-tech-insights@0.3.13-next.1
+  - @devtools/plugin-dynatrace@7.0.1-next.1
+  - @devtools/plugin-gcalendar@0.3.17-next.1
+  - @devtools/plugin-shortcuts@0.3.13-next.1
+  - @devtools/plugin-airbrake@0.3.21-next.1
+  - @devtools/plugin-kafka@0.3.21-next.1
+  - @devtools/plugin-nomad@0.1.2-next.1
+  - @devtools/plugin-adr@0.6.4-next.1
+  - @devtools/plugin-org@0.6.11-next.1
+  - @devtools/plugin-devtools@0.1.3-next.1
+  - @devtools/cli@0.22.10-next.1
+  - @devtools/plugin-catalog-import@0.9.11-next.1
+  - @devtools/plugin-github-actions@0.6.2-next.1
+  - @devtools/plugin-techdocs@1.6.6-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.16-next.1
+  - @devtools/plugin-linguist@0.1.6-next.1
+  - @devtools/plugin-jenkins@0.8.3-next.1
+  - @devtools/app-defaults@1.4.2-next.0
+  - @devtools/catalog-model@1.4.1
+  - @devtools/config@1.0.8
+  - @devtools/core-app-api@1.9.1-next.0
+  - @devtools/core-components@0.13.4-next.0
+  - @devtools/core-plugin-api@1.5.3
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-api-docs@0.9.7-next.1
+  - @devtools/plugin-azure-devops@0.3.3-next.0
+  - @devtools/plugin-azure-sites@0.1.10-next.0
+  - @devtools/plugin-badges@0.2.45-next.0
+  - @devtools/plugin-catalog-common@1.0.15
+  - @devtools/plugin-catalog-react@1.8.1-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.2-next.0
+  - @devtools/plugin-circleci@0.3.21-next.0
+  - @devtools/plugin-cloudbuild@0.3.21-next.0
+  - @devtools/plugin-cost-insights@0.12.10-next.0
+  - @devtools/plugin-explore@0.4.7-next.0
+  - @devtools/plugin-gcp-projects@0.3.40-next.0
+  - @devtools/plugin-gocd@0.1.27-next.0
+  - @devtools/plugin-graphiql@0.2.53-next.0
+  - @devtools/plugin-home@0.5.5-next.0
+  - @devtools/plugin-kubernetes@0.9.4-next.0
+  - @devtools/plugin-lighthouse@0.4.6-next.0
+  - @devtools/plugin-newrelic@0.3.39-next.0
+  - @devtools/plugin-pagerduty@0.6.2-next.0
+  - @devtools/plugin-permission-react@0.4.14
+  - @devtools/plugin-puppetdb@0.1.4-next.0
+  - @devtools/plugin-rollbar@0.4.21-next.0
+  - @devtools/plugin-scaffolder-react@1.5.2-next.0
+  - @devtools/plugin-search@1.3.4-next.0
+  - @devtools/plugin-search-common@1.2.5
+  - @devtools/plugin-search-react@1.6.4-next.0
+  - @devtools/plugin-sentry@0.5.6-next.0
+  - @devtools/plugin-stackstorm@0.1.5-next.0
+  - @devtools/plugin-tech-radar@0.6.7-next.0
+  - @devtools/plugin-techdocs-react@1.1.9-next.0
+  - @devtools/plugin-todo@0.2.23-next.0
+  - @devtools/plugin-user-settings@0.7.6-next.0
+  - @internal/plugin-catalog-customized@0.0.13-next.1
+
+## 0.2.86-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-app-api@1.9.1-next.0
+  - @devtools/plugin-catalog-graph@0.2.33-next.0
+  - @devtools/cli@0.22.10-next.0
+  - @devtools/core-components@0.13.4-next.0
+  - @devtools/plugin-home@0.5.5-next.0
+  - @devtools/plugin-scaffolder-react@1.5.2-next.0
+  - @devtools/app-defaults@1.4.2-next.0
+  - @devtools/core-plugin-api@1.5.3
+  - @devtools/plugin-adr@0.6.4-next.0
+  - @devtools/plugin-apache-airflow@0.2.14-next.0
+  - @devtools/plugin-api-docs@0.9.7-next.0
+  - @devtools/plugin-azure-devops@0.3.3-next.0
+  - @devtools/plugin-azure-sites@0.1.10-next.0
+  - @devtools/plugin-badges@0.2.45-next.0
+  - @devtools/plugin-catalog-import@0.9.11-next.0
+  - @devtools/plugin-catalog-react@1.8.1-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.2-next.0
+  - @devtools/plugin-circleci@0.3.21-next.0
+  - @devtools/plugin-cloudbuild@0.3.21-next.0
+  - @devtools/plugin-code-coverage@0.2.14-next.0
+  - @devtools/plugin-cost-insights@0.12.10-next.0
+  - @devtools/plugin-devtools@0.1.3-next.0
+  - @devtools/plugin-dynatrace@7.0.1-next.0
+  - @devtools/plugin-entity-feedback@0.2.4-next.0
+  - @devtools/plugin-explore@0.4.7-next.0
+  - @devtools/plugin-gcalendar@0.3.17-next.0
+  - @devtools/plugin-gcp-projects@0.3.40-next.0
+  - @devtools/plugin-github-actions@0.6.2-next.0
+  - @devtools/plugin-gocd@0.1.27-next.0
+  - @devtools/plugin-graphiql@0.2.53-next.0
+  - @devtools/plugin-jenkins@0.8.3-next.0
+  - @devtools/plugin-kafka@0.3.21-next.0
+  - @devtools/plugin-kubernetes@0.9.4-next.0
+  - @devtools/plugin-lighthouse@0.4.6-next.0
+  - @devtools/plugin-linguist@0.1.6-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.6-next.0
+  - @devtools/plugin-newrelic@0.3.39-next.0
+  - @devtools/plugin-nomad@0.1.2-next.0
+  - @devtools/plugin-octopus-deploy@0.2.3-next.0
+  - @devtools/plugin-org@0.6.11-next.0
+  - @devtools/plugin-pagerduty@0.6.2-next.0
+  - @devtools/plugin-playlist@0.1.13-next.0
+  - @devtools/plugin-puppetdb@0.1.4-next.0
+  - @devtools/plugin-rollbar@0.4.21-next.0
+  - @devtools/plugin-scaffolder@1.14.2-next.0
+  - @devtools/plugin-search@1.3.4-next.0
+  - @devtools/plugin-search-react@1.6.4-next.0
+  - @devtools/plugin-sentry@0.5.6-next.0
+  - @devtools/plugin-shortcuts@0.3.13-next.0
+  - @devtools/plugin-stack-overflow@0.1.19-next.0
+  - @devtools/plugin-stackstorm@0.1.5-next.0
+  - @devtools/plugin-tech-insights@0.3.13-next.0
+  - @devtools/plugin-tech-radar@0.6.7-next.0
+  - @devtools/plugin-techdocs@1.6.6-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.16-next.0
+  - @devtools/plugin-todo@0.2.23-next.0
+  - @devtools/plugin-user-settings@0.7.6-next.0
+  - @devtools/catalog-model@1.4.1
+  - @devtools/config@1.0.8
+  - @devtools/integration-react@1.1.16-next.0
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-airbrake@0.3.21-next.0
+  - @devtools/plugin-catalog-common@1.0.15
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-newrelic-dashboard@0.2.14-next.0
+  - @devtools/plugin-permission-react@0.4.14
+  - @devtools/plugin-search-common@1.2.5
+  - @devtools/plugin-techdocs-react@1.1.9-next.0
+  - @internal/plugin-catalog-customized@0.0.13-next.0
+
+## 0.2.85
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-search@1.3.3
+  - @devtools/plugin-devtools@0.1.2
+  - @devtools/cli@0.22.9
+  - @devtools/theme@0.4.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.1
+  - @devtools/plugin-stackstorm@0.1.4
+  - @devtools/plugin-scaffolder-react@1.5.1
+  - @devtools/plugin-airbrake@0.3.20
+  - @devtools/plugin-lighthouse@0.4.5
+  - @devtools/plugin-catalog-import@0.9.10
+  - @devtools/plugin-dynatrace@7.0.0
+  - @devtools/plugin-catalog-react@1.8.0
+  - @devtools/plugin-home@0.5.4
+  - @devtools/core-components@0.13.3
+  - @devtools/plugin-playlist@0.1.12
+  - @devtools/plugin-nomad@0.1.1
+  - @devtools/plugin-kubernetes@0.9.3
+  - @devtools/core-app-api@1.9.0
+  - @devtools/plugin-cost-insights@0.12.9
+  - @devtools/plugin-user-settings@0.7.5
+  - @devtools/core-plugin-api@1.5.3
+  - @devtools/plugin-adr@0.6.3
+  - @devtools/plugin-puppetdb@0.1.3
+  - @devtools/app-defaults@1.4.1
+  - @devtools/catalog-model@1.4.1
+  - @devtools/config@1.0.8
+  - @devtools/integration-react@1.1.15
+  - @devtools/plugin-apache-airflow@0.2.13
+  - @devtools/plugin-api-docs@0.9.6
+  - @devtools/plugin-azure-devops@0.3.2
+  - @devtools/plugin-azure-sites@0.1.9
+  - @devtools/plugin-badges@0.2.44
+  - @devtools/plugin-catalog-common@1.0.15
+  - @devtools/plugin-catalog-graph@0.2.32
+  - @devtools/plugin-circleci@0.3.20
+  - @devtools/plugin-cloudbuild@0.3.20
+  - @devtools/plugin-code-coverage@0.2.13
+  - @devtools/plugin-entity-feedback@0.2.3
+  - @devtools/plugin-explore@0.4.6
+  - @devtools/plugin-gcalendar@0.3.16
+  - @devtools/plugin-gcp-projects@0.3.39
+  - @devtools/plugin-github-actions@0.6.1
+  - @devtools/plugin-gocd@0.1.26
+  - @devtools/plugin-graphiql@0.2.52
+  - @devtools/plugin-jenkins@0.8.2
+  - @devtools/plugin-kafka@0.3.20
+  - @devtools/plugin-linguist@0.1.5
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.5
+  - @devtools/plugin-newrelic@0.3.38
+  - @devtools/plugin-newrelic-dashboard@0.2.13
+  - @devtools/plugin-octopus-deploy@0.2.2
+  - @devtools/plugin-org@0.6.10
+  - @devtools/plugin-pagerduty@0.6.1
+  - @devtools/plugin-permission-react@0.4.14
+  - @devtools/plugin-rollbar@0.4.20
+  - @devtools/plugin-scaffolder@1.14.1
+  - @devtools/plugin-search-common@1.2.5
+  - @devtools/plugin-search-react@1.6.3
+  - @devtools/plugin-sentry@0.5.5
+  - @devtools/plugin-shortcuts@0.3.12
+  - @devtools/plugin-stack-overflow@0.1.18
+  - @devtools/plugin-tech-insights@0.3.12
+  - @devtools/plugin-tech-radar@0.6.6
+  - @devtools/plugin-techdocs@1.6.5
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.15
+  - @devtools/plugin-techdocs-react@1.1.8
+  - @devtools/plugin-todo@0.2.22
+  - @internal/plugin-catalog-customized@0.0.12
+
+## 0.2.85-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-search@1.3.3-next.2
+  - @devtools/plugin-airbrake@0.3.20-next.2
+  - @devtools/cli@0.22.9-next.1
+  - @devtools/plugin-catalog-react@1.8.0-next.2
+  - @devtools/plugin-home@0.5.4-next.2
+  - @devtools/plugin-cost-insights@0.12.9-next.2
+  - @devtools/plugin-user-settings@0.7.5-next.2
+  - @devtools/theme@0.4.1-next.1
+  - @devtools/core-plugin-api@1.5.3-next.1
+  - @devtools/core-components@0.13.3-next.2
+  - @devtools/core-app-api@1.8.2-next.1
+  - @devtools/plugin-kubernetes@0.9.3-next.2
+  - @devtools/plugin-adr@0.6.3-next.2
+  - @devtools/app-defaults@1.4.1-next.2
+  - @devtools/catalog-model@1.4.1-next.0
+  - @devtools/config@1.0.8
+  - @devtools/integration-react@1.1.15-next.2
+  - @devtools/plugin-apache-airflow@0.2.13-next.2
+  - @devtools/plugin-api-docs@0.9.6-next.2
+  - @devtools/plugin-azure-devops@0.3.2-next.2
+  - @devtools/plugin-azure-sites@0.1.9-next.2
+  - @devtools/plugin-badges@0.2.44-next.2
+  - @devtools/plugin-catalog-common@1.0.15-next.0
+  - @devtools/plugin-catalog-graph@0.2.32-next.2
+  - @devtools/plugin-catalog-import@0.9.10-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.1-next.2
+  - @devtools/plugin-circleci@0.3.20-next.2
+  - @devtools/plugin-cloudbuild@0.3.20-next.2
+  - @devtools/plugin-code-coverage@0.2.13-next.2
+  - @devtools/plugin-devtools@0.1.2-next.2
+  - @devtools/plugin-dynatrace@7.0.0-next.2
+  - @devtools/plugin-entity-feedback@0.2.3-next.2
+  - @devtools/plugin-explore@0.4.6-next.2
+  - @devtools/plugin-gcalendar@0.3.16-next.2
+  - @devtools/plugin-gcp-projects@0.3.39-next.2
+  - @devtools/plugin-github-actions@0.6.1-next.2
+  - @devtools/plugin-gocd@0.1.26-next.2
+  - @devtools/plugin-graphiql@0.2.52-next.2
+  - @devtools/plugin-jenkins@0.8.2-next.2
+  - @devtools/plugin-kafka@0.3.20-next.2
+  - @devtools/plugin-lighthouse@0.4.5-next.2
+  - @devtools/plugin-linguist@0.1.5-next.2
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.5-next.2
+  - @devtools/plugin-newrelic@0.3.38-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.13-next.2
+  - @devtools/plugin-nomad@0.1.1-next.2
+  - @devtools/plugin-octopus-deploy@0.2.2-next.2
+  - @devtools/plugin-org@0.6.10-next.2
+  - @devtools/plugin-pagerduty@0.6.1-next.2
+  - @devtools/plugin-permission-react@0.4.14-next.2
+  - @devtools/plugin-playlist@0.1.12-next.2
+  - @devtools/plugin-puppetdb@0.1.3-next.2
+  - @devtools/plugin-rollbar@0.4.20-next.2
+  - @devtools/plugin-scaffolder@1.14.1-next.2
+  - @devtools/plugin-scaffolder-react@1.5.1-next.2
+  - @devtools/plugin-search-common@1.2.5-next.0
+  - @devtools/plugin-search-react@1.6.3-next.2
+  - @devtools/plugin-sentry@0.5.5-next.2
+  - @devtools/plugin-shortcuts@0.3.12-next.2
+  - @devtools/plugin-stack-overflow@0.1.18-next.2
+  - @devtools/plugin-stackstorm@0.1.4-next.2
+  - @devtools/plugin-tech-insights@0.3.12-next.2
+  - @devtools/plugin-tech-radar@0.6.6-next.2
+  - @devtools/plugin-techdocs@1.6.5-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.15-next.2
+  - @devtools/plugin-techdocs-react@1.1.8-next.2
+  - @devtools/plugin-todo@0.2.22-next.2
+  - @internal/plugin-catalog-customized@0.0.12-next.2
+
+## 0.2.85-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/theme@0.4.1-next.0
+  - @devtools/plugin-scaffolder-react@1.5.1-next.1
+  - @devtools/plugin-lighthouse@0.4.5-next.1
+  - @devtools/plugin-catalog-import@0.9.10-next.1
+  - @devtools/core-components@0.13.3-next.1
+  - @devtools/plugin-kubernetes@0.9.3-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.1-next.1
+  - @devtools/plugin-home@0.5.4-next.1
+  - @devtools/core-plugin-api@1.5.3-next.0
+  - @devtools/app-defaults@1.4.1-next.1
+  - @devtools/cli@0.22.9-next.0
+  - @devtools/integration-react@1.1.15-next.1
+  - @devtools/plugin-adr@0.6.3-next.1
+  - @devtools/plugin-airbrake@0.3.20-next.1
+  - @devtools/plugin-api-docs@0.9.6-next.1
+  - @devtools/plugin-azure-devops@0.3.2-next.1
+  - @devtools/plugin-azure-sites@0.1.9-next.1
+  - @devtools/plugin-badges@0.2.44-next.1
+  - @devtools/plugin-catalog-graph@0.2.32-next.1
+  - @devtools/plugin-catalog-react@1.7.1-next.1
+  - @devtools/plugin-circleci@0.3.20-next.1
+  - @devtools/plugin-cloudbuild@0.3.20-next.1
+  - @devtools/plugin-code-coverage@0.2.13-next.1
+  - @devtools/plugin-cost-insights@0.12.9-next.1
+  - @devtools/plugin-devtools@0.1.2-next.1
+  - @devtools/plugin-dynatrace@6.0.1-next.1
+  - @devtools/plugin-entity-feedback@0.2.3-next.1
+  - @devtools/plugin-explore@0.4.6-next.1
+  - @devtools/plugin-gcalendar@0.3.16-next.1
+  - @devtools/plugin-gcp-projects@0.3.39-next.1
+  - @devtools/plugin-github-actions@0.6.1-next.1
+  - @devtools/plugin-gocd@0.1.26-next.1
+  - @devtools/plugin-graphiql@0.2.52-next.1
+  - @devtools/plugin-jenkins@0.8.2-next.1
+  - @devtools/plugin-kafka@0.3.20-next.1
+  - @devtools/plugin-linguist@0.1.5-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.5-next.1
+  - @devtools/plugin-newrelic@0.3.38-next.1
+  - @devtools/plugin-nomad@0.1.1-next.1
+  - @devtools/plugin-octopus-deploy@0.2.2-next.1
+  - @devtools/plugin-org@0.6.10-next.1
+  - @devtools/plugin-pagerduty@0.6.1-next.1
+  - @devtools/plugin-playlist@0.1.12-next.1
+  - @devtools/plugin-puppetdb@0.1.3-next.1
+  - @devtools/plugin-rollbar@0.4.20-next.1
+  - @devtools/plugin-scaffolder@1.14.1-next.1
+  - @devtools/plugin-search@1.3.3-next.1
+  - @devtools/plugin-search-react@1.6.3-next.1
+  - @devtools/plugin-sentry@0.5.5-next.1
+  - @devtools/plugin-shortcuts@0.3.12-next.1
+  - @devtools/plugin-stack-overflow@0.1.18-next.1
+  - @devtools/plugin-stackstorm@0.1.4-next.1
+  - @devtools/plugin-tech-insights@0.3.12-next.1
+  - @devtools/plugin-tech-radar@0.6.6-next.1
+  - @devtools/plugin-techdocs@1.6.5-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.15-next.1
+  - @devtools/plugin-techdocs-react@1.1.8-next.1
+  - @devtools/plugin-todo@0.2.22-next.1
+  - @devtools/plugin-user-settings@0.7.5-next.1
+  - @devtools/plugin-apache-airflow@0.2.13-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.13-next.1
+  - @internal/plugin-catalog-customized@0.0.12-next.1
+  - @devtools/core-app-api@1.8.2-next.0
+  - @devtools/plugin-permission-react@0.4.14-next.1
+  - @devtools/config@1.0.8
+
+## 0.2.85-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-devtools@0.1.2-next.0
+  - @devtools/cli@0.22.9-next.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.1-next.0
+  - @devtools/plugin-stackstorm@0.1.4-next.0
+  - @devtools/plugin-dynatrace@6.0.1-next.0
+  - @devtools/plugin-home@0.5.4-next.0
+  - @devtools/core-components@0.13.3-next.0
+  - @devtools/plugin-playlist@0.1.12-next.0
+  - @devtools/plugin-nomad@0.1.1-next.0
+  - @devtools/app-defaults@1.4.1-next.0
+  - @devtools/catalog-model@1.4.1-next.0
+  - @devtools/config@1.0.8
+  - @devtools/core-app-api@1.8.1
+  - @devtools/core-plugin-api@1.5.2
+  - @devtools/integration-react@1.1.15-next.0
+  - @devtools/theme@0.4.0
+  - @devtools/plugin-adr@0.6.3-next.0
+  - @devtools/plugin-airbrake@0.3.20-next.0
+  - @devtools/plugin-apache-airflow@0.2.13-next.0
+  - @devtools/plugin-api-docs@0.9.6-next.0
+  - @devtools/plugin-azure-devops@0.3.2-next.0
+  - @devtools/plugin-azure-sites@0.1.9-next.0
+  - @devtools/plugin-badges@0.2.44-next.0
+  - @devtools/plugin-catalog-common@1.0.15-next.0
+  - @devtools/plugin-catalog-graph@0.2.32-next.0
+  - @devtools/plugin-catalog-import@0.9.10-next.0
+  - @devtools/plugin-catalog-react@1.7.1-next.0
+  - @devtools/plugin-circleci@0.3.20-next.0
+  - @devtools/plugin-cloudbuild@0.3.20-next.0
+  - @devtools/plugin-code-coverage@0.2.13-next.0
+  - @devtools/plugin-cost-insights@0.12.9-next.0
+  - @devtools/plugin-entity-feedback@0.2.3-next.0
+  - @devtools/plugin-explore@0.4.6-next.0
+  - @devtools/plugin-gcalendar@0.3.16-next.0
+  - @devtools/plugin-gcp-projects@0.3.39-next.0
+  - @devtools/plugin-github-actions@0.6.1-next.0
+  - @devtools/plugin-gocd@0.1.26-next.0
+  - @devtools/plugin-graphiql@0.2.52-next.0
+  - @devtools/plugin-jenkins@0.8.2-next.0
+  - @devtools/plugin-kafka@0.3.20-next.0
+  - @devtools/plugin-kubernetes@0.9.3-next.0
+  - @devtools/plugin-lighthouse@0.4.5-next.0
+  - @devtools/plugin-linguist@0.1.5-next.0
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.5-next.0
+  - @devtools/plugin-newrelic@0.3.38-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.13-next.0
+  - @devtools/plugin-octopus-deploy@0.2.2-next.0
+  - @devtools/plugin-org@0.6.10-next.0
+  - @devtools/plugin-pagerduty@0.6.1-next.0
+  - @devtools/plugin-permission-react@0.4.14-next.0
+  - @devtools/plugin-puppetdb@0.1.3-next.0
+  - @devtools/plugin-rollbar@0.4.20-next.0
+  - @devtools/plugin-scaffolder@1.14.1-next.0
+  - @devtools/plugin-scaffolder-react@1.5.1-next.0
+  - @devtools/plugin-search@1.3.3-next.0
+  - @devtools/plugin-search-common@1.2.5-next.0
+  - @devtools/plugin-search-react@1.6.3-next.0
+  - @devtools/plugin-sentry@0.5.5-next.0
+  - @devtools/plugin-shortcuts@0.3.12-next.0
+  - @devtools/plugin-stack-overflow@0.1.18-next.0
+  - @devtools/plugin-tech-insights@0.3.12-next.0
+  - @devtools/plugin-tech-radar@0.6.6-next.0
+  - @devtools/plugin-techdocs@1.6.5-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.15-next.0
+  - @devtools/plugin-techdocs-react@1.1.8-next.0
+  - @devtools/plugin-todo@0.2.22-next.0
+  - @devtools/plugin-user-settings@0.7.5-next.0
+  - @internal/plugin-catalog-customized@0.0.12-next.0
+
+## 0.2.84
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-dynatrace@6.0.0
+  - @devtools/core-app-api@1.8.1
+  - @devtools/core-plugin-api@1.5.2
+  - @devtools/plugin-kubernetes@0.9.2
+  - @devtools/plugin-user-settings@0.7.4
+  - @devtools/plugin-catalog-import@0.9.9
+  - @devtools/plugin-scaffolder-react@1.5.0
+  - @devtools/plugin-search-react@1.6.2
+  - @devtools/plugin-octopus-deploy@0.2.1
+  - @devtools/plugin-home@0.5.3
+  - @devtools/cli@0.22.8
+  - @devtools/core-components@0.13.2
+  - @devtools/plugin-scaffolder@1.14.0
+  - @devtools/plugin-nomad@0.1.0
+  - @devtools/plugin-pagerduty@0.6.0
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.0
+  - @devtools/plugin-search@1.3.2
+  - @devtools/theme@0.4.0
+  - @devtools/plugin-catalog-react@1.7.0
+  - @devtools/plugin-entity-feedback@0.2.2
+  - @devtools/catalog-model@1.4.0
+  - @devtools/plugin-adr@0.6.2
+  - @devtools/plugin-org@0.6.9
+  - @devtools/plugin-techdocs@1.6.4
+  - @devtools/plugin-tech-insights@0.3.11
+  - @devtools/plugin-devtools@0.1.1
+  - @devtools/plugin-api-docs@0.9.5
+  - @devtools/plugin-github-actions@0.6.0
+  - @devtools/plugin-shortcuts@0.3.11
+  - @devtools/plugin-playlist@0.1.11
+  - @devtools/plugin-jenkins@0.8.1
+  - @devtools/plugin-explore@0.4.5
+  - @devtools/plugin-stack-overflow@0.1.17
+  - @devtools/app-defaults@1.4.0
+  - @devtools/plugin-techdocs-react@1.1.7
+  - @devtools/plugin-apache-airflow@0.2.12
+  - @devtools/plugin-azure-devops@0.3.1
+  - @devtools/plugin-azure-sites@0.1.8
+  - @devtools/plugin-badges@0.2.43
+  - @devtools/plugin-catalog-graph@0.2.31
+  - @devtools/plugin-circleci@0.3.19
+  - @devtools/plugin-cloudbuild@0.3.19
+  - @devtools/plugin-code-coverage@0.2.12
+  - @devtools/plugin-cost-insights@0.12.8
+  - @devtools/plugin-gcalendar@0.3.15
+  - @devtools/plugin-gcp-projects@0.3.38
+  - @devtools/plugin-gocd@0.1.25
+  - @devtools/plugin-graphiql@0.2.51
+  - @devtools/plugin-kafka@0.3.19
+  - @devtools/plugin-lighthouse@0.4.4
+  - @devtools/plugin-linguist@0.1.4
+  - @devtools/plugin-microsoft-calendar@0.1.4
+  - @devtools/plugin-newrelic@0.3.37
+  - @devtools/plugin-puppetdb@0.1.2
+  - @devtools/plugin-rollbar@0.4.19
+  - @devtools/plugin-sentry@0.5.4
+  - @devtools/plugin-stackstorm@0.1.3
+  - @devtools/plugin-tech-radar@0.6.5
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.14
+  - @devtools/plugin-todo@0.2.21
+  - @devtools/integration-react@1.1.14
+  - @devtools/plugin-airbrake@0.3.19
+  - @devtools/plugin-newrelic-dashboard@0.2.12
+  - @devtools/plugin-permission-react@0.4.13
+  - @internal/plugin-catalog-customized@0.0.11
+  - @devtools/config@1.0.8
+  - @devtools/plugin-catalog-common@1.0.14
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-search-common@1.2.4
+
+## 0.2.84-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-search-react@1.6.2-next.3
+  - @devtools/plugin-catalog-import@0.9.9-next.3
+  - @devtools/cli@0.22.8-next.2
+  - @devtools/core-components@0.13.2-next.3
+  - @devtools/plugin-scaffolder@1.14.0-next.3
+  - @devtools/catalog-model@1.4.0-next.1
+  - @devtools/plugin-devtools@0.1.1-next.3
+  - @devtools/plugin-api-docs@0.9.5-next.3
+  - @devtools/plugin-techdocs@1.6.4-next.3
+  - @devtools/plugin-scaffolder-react@1.5.0-next.3
+  - @devtools/plugin-explore@0.4.5-next.3
+  - @devtools/plugin-adr@0.6.2-next.3
+  - @devtools/plugin-playlist@0.1.11-next.3
+  - @devtools/plugin-search@1.3.2-next.3
+  - @devtools/plugin-stack-overflow@0.1.17-next.3
+  - @devtools/app-defaults@1.4.0-next.3
+  - @devtools/config@1.0.7
+  - @devtools/core-app-api@1.8.1-next.0
+  - @devtools/core-plugin-api@1.5.2-next.0
+  - @devtools/integration-react@1.1.14-next.3
+  - @devtools/theme@0.4.0-next.1
+  - @devtools/plugin-airbrake@0.3.19-next.3
+  - @devtools/plugin-apache-airflow@0.2.12-next.3
+  - @devtools/plugin-azure-devops@0.3.1-next.3
+  - @devtools/plugin-azure-sites@0.1.8-next.3
+  - @devtools/plugin-badges@0.2.43-next.3
+  - @devtools/plugin-catalog-common@1.0.14-next.1
+  - @devtools/plugin-catalog-graph@0.2.31-next.3
+  - @devtools/plugin-catalog-react@1.7.0-next.3
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.0-next.2
+  - @devtools/plugin-circleci@0.3.19-next.3
+  - @devtools/plugin-cloudbuild@0.3.19-next.3
+  - @devtools/plugin-code-coverage@0.2.12-next.3
+  - @devtools/plugin-cost-insights@0.12.8-next.3
+  - @devtools/plugin-dynatrace@6.0.0-next.3
+  - @devtools/plugin-entity-feedback@0.2.2-next.3
+  - @devtools/plugin-gcalendar@0.3.15-next.3
+  - @devtools/plugin-gcp-projects@0.3.38-next.3
+  - @devtools/plugin-github-actions@0.6.0-next.3
+  - @devtools/plugin-gocd@0.1.25-next.3
+  - @devtools/plugin-graphiql@0.2.51-next.3
+  - @devtools/plugin-home@0.5.3-next.3
+  - @devtools/plugin-jenkins@0.8.1-next.3
+  - @devtools/plugin-kafka@0.3.19-next.3
+  - @devtools/plugin-kubernetes@0.9.2-next.3
+  - @devtools/plugin-lighthouse@0.4.4-next.3
+  - @devtools/plugin-linguist@0.1.4-next.3
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.4-next.3
+  - @devtools/plugin-newrelic@0.3.37-next.3
+  - @devtools/plugin-newrelic-dashboard@0.2.12-next.3
+  - @devtools/plugin-octopus-deploy@0.2.1-next.3
+  - @devtools/plugin-org@0.6.9-next.3
+  - @devtools/plugin-pagerduty@0.5.12-next.3
+  - @devtools/plugin-permission-react@0.4.13-next.0
+  - @devtools/plugin-puppetdb@0.1.2-next.3
+  - @devtools/plugin-rollbar@0.4.19-next.3
+  - @devtools/plugin-search-common@1.2.4-next.0
+  - @devtools/plugin-sentry@0.5.4-next.3
+  - @devtools/plugin-shortcuts@0.3.11-next.3
+  - @devtools/plugin-stackstorm@0.1.3-next.3
+  - @devtools/plugin-tech-insights@0.3.11-next.3
+  - @devtools/plugin-tech-radar@0.6.5-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.14-next.3
+  - @devtools/plugin-techdocs-react@1.1.7-next.3
+  - @devtools/plugin-todo@0.2.21-next.3
+  - @devtools/plugin-user-settings@0.7.4-next.3
+  - @internal/plugin-catalog-customized@0.0.11-next.3
+
+## 0.2.84-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/theme@0.4.0-next.1
+  - @devtools/plugin-catalog-react@1.7.0-next.2
+  - @devtools/core-components@0.13.2-next.2
+  - @devtools/plugin-tech-insights@0.3.11-next.2
+  - @devtools/plugin-scaffolder-react@1.5.0-next.2
+  - @devtools/plugin-scaffolder@1.13.2-next.2
+  - @devtools/plugin-home@0.5.3-next.2
+  - @devtools/plugin-kubernetes@0.9.2-next.2
+  - @devtools/app-defaults@1.4.0-next.2
+  - @devtools/cli@0.22.8-next.1
+  - @devtools/integration-react@1.1.14-next.2
+  - @devtools/plugin-adr@0.6.1-next.2
+  - @devtools/plugin-airbrake@0.3.19-next.2
+  - @devtools/plugin-api-docs@0.9.4-next.2
+  - @devtools/plugin-azure-devops@0.3.1-next.2
+  - @devtools/plugin-azure-sites@0.1.8-next.2
+  - @devtools/plugin-badges@0.2.43-next.2
+  - @devtools/plugin-catalog-graph@0.2.31-next.2
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.0-next.1
+  - @devtools/plugin-circleci@0.3.19-next.2
+  - @devtools/plugin-cloudbuild@0.3.19-next.2
+  - @devtools/plugin-code-coverage@0.2.12-next.2
+  - @devtools/plugin-cost-insights@0.12.8-next.2
+  - @devtools/plugin-devtools@0.1.1-next.2
+  - @devtools/plugin-dynatrace@6.0.0-next.2
+  - @devtools/plugin-entity-feedback@0.2.2-next.2
+  - @devtools/plugin-explore@0.4.4-next.2
+  - @devtools/plugin-gcalendar@0.3.15-next.2
+  - @devtools/plugin-gcp-projects@0.3.38-next.2
+  - @devtools/plugin-github-actions@0.6.0-next.2
+  - @devtools/plugin-gocd@0.1.25-next.2
+  - @devtools/plugin-graphiql@0.2.51-next.2
+  - @devtools/plugin-jenkins@0.8.1-next.2
+  - @devtools/plugin-kafka@0.3.19-next.2
+  - @devtools/plugin-lighthouse@0.4.4-next.2
+  - @devtools/plugin-linguist@0.1.4-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.4-next.2
+  - @devtools/plugin-newrelic@0.3.37-next.2
+  - @devtools/plugin-octopus-deploy@0.2.1-next.2
+  - @devtools/plugin-org@0.6.9-next.2
+  - @devtools/plugin-pagerduty@0.5.12-next.2
+  - @devtools/plugin-playlist@0.1.10-next.2
+  - @devtools/plugin-puppetdb@0.1.2-next.2
+  - @devtools/plugin-rollbar@0.4.19-next.2
+  - @devtools/plugin-search@1.3.1-next.2
+  - @devtools/plugin-search-react@1.6.1-next.2
+  - @devtools/plugin-sentry@0.5.4-next.2
+  - @devtools/plugin-shortcuts@0.3.11-next.2
+  - @devtools/plugin-stack-overflow@0.1.16-next.2
+  - @devtools/plugin-stackstorm@0.1.3-next.2
+  - @devtools/plugin-tech-radar@0.6.5-next.2
+  - @devtools/plugin-techdocs@1.6.3-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.14-next.2
+  - @devtools/plugin-techdocs-react@1.1.7-next.2
+  - @devtools/plugin-todo@0.2.21-next.2
+  - @devtools/plugin-user-settings@0.7.4-next.2
+  - @internal/plugin-catalog-customized@0.0.11-next.2
+  - @devtools/plugin-catalog-import@0.9.9-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.12-next.2
+  - @devtools/plugin-apache-airflow@0.2.12-next.2
+  - @devtools/config@1.0.7
+  - @devtools/core-app-api@1.8.1-next.0
+  - @devtools/core-plugin-api@1.5.2-next.0
+  - @devtools/plugin-permission-react@0.4.13-next.0
+
+## 0.2.84-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.5.3-next.1
+  - @devtools/plugin-user-settings@0.7.4-next.1
+  - @devtools/plugin-pagerduty@0.5.12-next.1
+  - @devtools/plugin-catalog-unprocessed-entities@0.1.0-next.0
+  - @devtools/plugin-scaffolder-react@1.5.0-next.1
+  - @devtools/plugin-adr@0.6.1-next.1
+  - @devtools/plugin-search-react@1.6.1-next.1
+  - @devtools/plugin-search@1.3.1-next.1
+  - @devtools/plugin-techdocs@1.6.3-next.1
+  - @devtools/core-components@0.13.2-next.1
+  - @devtools/plugin-api-docs@0.9.4-next.1
+  - @devtools/plugin-catalog-react@1.7.0-next.1
+  - @devtools/plugin-devtools@0.1.1-next.1
+  - @devtools/catalog-model@1.4.0-next.0
+  - @devtools/cli@0.22.8-next.1
+  - @devtools/core-app-api@1.8.1-next.0
+  - @devtools/core-plugin-api@1.5.2-next.0
+  - @devtools/plugin-scaffolder@1.13.2-next.1
+  - @internal/plugin-catalog-customized@0.0.11-next.1
+  - @devtools/plugin-catalog-graph@0.2.31-next.1
+  - @devtools/plugin-explore@0.4.4-next.1
+  - @devtools/plugin-org@0.6.9-next.1
+  - @devtools/integration-react@1.1.14-next.1
+  - @devtools/plugin-catalog-import@0.9.9-next.1
+  - @devtools/plugin-github-actions@0.6.0-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.14-next.1
+  - @devtools/plugin-azure-devops@0.3.1-next.1
+  - @devtools/plugin-badges@0.2.43-next.1
+  - @devtools/plugin-code-coverage@0.2.12-next.1
+  - @devtools/plugin-entity-feedback@0.2.2-next.1
+  - @devtools/plugin-gcalendar@0.3.15-next.1
+  - @devtools/plugin-gocd@0.1.25-next.1
+  - @devtools/plugin-jenkins@0.8.1-next.1
+  - @devtools/plugin-kubernetes@0.9.2-next.1
+  - @devtools/plugin-linguist@0.1.4-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.4-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.12-next.1
+  - @devtools/plugin-playlist@0.1.10-next.1
+  - @devtools/plugin-puppetdb@0.1.2-next.1
+  - @devtools/plugin-stackstorm@0.1.3-next.1
+  - @devtools/plugin-tech-insights@0.3.11-next.1
+  - @devtools/plugin-todo@0.2.21-next.1
+  - @devtools/plugin-stack-overflow@0.1.16-next.1
+  - @devtools/app-defaults@1.4.0-next.1
+  - @devtools/plugin-airbrake@0.3.19-next.1
+  - @devtools/plugin-apache-airflow@0.2.12-next.1
+  - @devtools/plugin-azure-sites@0.1.8-next.1
+  - @devtools/plugin-circleci@0.3.19-next.1
+  - @devtools/plugin-cloudbuild@0.3.19-next.1
+  - @devtools/plugin-cost-insights@0.12.8-next.1
+  - @devtools/plugin-dynatrace@6.0.0-next.1
+  - @devtools/plugin-gcp-projects@0.3.38-next.1
+  - @devtools/plugin-graphiql@0.2.51-next.1
+  - @devtools/plugin-kafka@0.3.19-next.1
+  - @devtools/plugin-lighthouse@0.4.4-next.1
+  - @devtools/plugin-newrelic@0.3.37-next.1
+  - @devtools/plugin-octopus-deploy@0.2.1-next.1
+  - @devtools/plugin-rollbar@0.4.19-next.1
+  - @devtools/plugin-sentry@0.5.4-next.1
+  - @devtools/plugin-shortcuts@0.3.11-next.1
+  - @devtools/plugin-tech-radar@0.6.5-next.1
+  - @devtools/plugin-techdocs-react@1.1.7-next.1
+  - @devtools/plugin-catalog-common@1.0.14-next.0
+  - @devtools/config@1.0.7
+  - @devtools/theme@0.4.0-next.0
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-permission-react@0.4.13-next.0
+  - @devtools/plugin-search-common@1.2.4-next.0
+
+## 0.2.84-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.9.2-next.0
+  - @devtools/plugin-user-settings@0.7.4-next.0
+  - @devtools/plugin-catalog-import@0.9.9-next.0
+  - @devtools/plugin-scaffolder-react@1.4.1-next.0
+  - @devtools/plugin-octopus-deploy@0.2.1-next.0
+  - @devtools/plugin-scaffolder@1.13.2-next.0
+  - @devtools/plugin-catalog-react@1.7.0-next.0
+  - @devtools/plugin-techdocs@1.6.3-next.0
+  - @devtools/plugin-github-actions@0.6.0-next.0
+  - @devtools/plugin-stack-overflow@0.1.16-next.0
+  - @devtools/plugin-home@0.5.3-next.0
+  - @devtools/app-defaults@1.4.0-next.0
+  - @devtools/theme@0.4.0-next.0
+  - @devtools/cli@0.22.8-next.0
+  - @devtools/plugin-techdocs-react@1.1.7-next.0
+  - @devtools/plugin-dynatrace@6.0.0-next.0
+  - @devtools/plugin-pagerduty@0.5.12-next.0
+  - @devtools/plugin-catalog-graph@0.2.31-next.0
+  - @devtools/plugin-org@0.6.9-next.0
+  - @devtools/plugin-airbrake@0.3.19-next.0
+  - @devtools/plugin-api-docs@0.9.4-next.0
+  - @devtools/plugin-azure-devops@0.3.1-next.0
+  - @devtools/plugin-azure-sites@0.1.8-next.0
+  - @devtools/plugin-badges@0.2.43-next.0
+  - @internal/plugin-catalog-customized@0.0.11-next.0
+  - @devtools/plugin-circleci@0.3.19-next.0
+  - @devtools/plugin-cloudbuild@0.3.19-next.0
+  - @devtools/plugin-code-coverage@0.2.12-next.0
+  - @devtools/plugin-cost-insights@0.12.8-next.0
+  - @devtools/plugin-entity-feedback@0.2.2-next.0
+  - @devtools/plugin-explore@0.4.4-next.0
+  - @devtools/plugin-gocd@0.1.25-next.0
+  - @devtools/plugin-jenkins@0.8.1-next.0
+  - @devtools/plugin-kafka@0.3.19-next.0
+  - @devtools/plugin-lighthouse@0.4.4-next.0
+  - @devtools/plugin-linguist@0.1.4-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.12-next.0
+  - @devtools/plugin-playlist@0.1.10-next.0
+  - @devtools/plugin-puppetdb@0.1.2-next.0
+  - @devtools/plugin-rollbar@0.4.19-next.0
+  - @devtools/plugin-search@1.3.1-next.0
+  - @devtools/plugin-sentry@0.5.4-next.0
+  - @devtools/plugin-tech-insights@0.3.11-next.0
+  - @devtools/plugin-todo@0.2.21-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.14-next.0
+  - @devtools/config@1.0.7
+  - @devtools/core-app-api@1.8.0
+  - @devtools/core-components@0.13.2-next.0
+  - @devtools/core-plugin-api@1.5.1
+  - @devtools/integration-react@1.1.14-next.0
+  - @devtools/plugin-apache-airflow@0.2.12-next.0
+  - @devtools/plugin-devtools@0.1.1-next.0
+  - @devtools/plugin-gcalendar@0.3.15-next.0
+  - @devtools/plugin-gcp-projects@0.3.38-next.0
+  - @devtools/plugin-graphiql@0.2.51-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.4-next.0
+  - @devtools/plugin-newrelic@0.3.37-next.0
+  - @devtools/plugin-permission-react@0.4.12
+  - @devtools/plugin-search-react@1.6.1-next.0
+  - @devtools/plugin-shortcuts@0.3.11-next.0
+  - @devtools/plugin-stackstorm@0.1.3-next.0
+  - @devtools/plugin-tech-radar@0.6.5-next.0
+  - @devtools/catalog-model@1.3.0
+  - @devtools/plugin-catalog-common@1.0.13
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-search-common@1.2.3
+
+## 0.2.83
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-tech-insights@0.3.10
+  - @devtools/plugin-scaffolder@1.13.1
+  - @devtools/plugin-devtools@0.1.0
+  - @devtools/plugin-kubernetes@0.9.0
+  - @devtools/plugin-search@1.3.0
+  - @devtools/plugin-home@0.5.2
+  - @devtools/plugin-explore@0.4.3
+  - @devtools/theme@0.3.0
+  - @devtools/plugin-techdocs@1.6.2
+  - @devtools/app-defaults@1.3.1
+  - @devtools/plugin-badges@0.2.42
+  - @devtools/plugin-tech-radar@0.6.4
+  - @devtools/cli@0.22.7
+  - @devtools/plugin-stack-overflow@0.1.15
+  - @devtools/plugin-gcalendar@0.3.14
+  - @devtools/plugin-catalog-react@1.6.0
+  - @devtools/core-app-api@1.8.0
+  - @devtools/plugin-scaffolder-react@1.4.0
+  - @devtools/plugin-catalog-graph@0.2.30
+  - @devtools/plugin-circleci@0.3.18
+  - @devtools/plugin-search-react@1.6.0
+  - @devtools/plugin-org@0.6.8
+  - @devtools/core-components@0.13.1
+  - @devtools/plugin-azure-devops@0.3.0
+  - @devtools/plugin-jenkins@0.8.0
+  - @devtools/plugin-octopus-deploy@0.2.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.13
+  - @devtools/plugin-user-settings@0.7.3
+  - @devtools/plugin-shortcuts@0.3.10
+  - @devtools/integration-react@1.1.13
+  - @devtools/plugin-airbrake@0.3.18
+  - @devtools/plugin-api-docs@0.9.3
+  - @devtools/plugin-azure-sites@0.1.7
+  - @devtools/plugin-cloudbuild@0.3.18
+  - @devtools/plugin-code-coverage@0.2.11
+  - @devtools/plugin-cost-insights@0.12.7
+  - @devtools/plugin-dynatrace@5.0.0
+  - @devtools/plugin-entity-feedback@0.2.1
+  - @devtools/plugin-gcp-projects@0.3.37
+  - @devtools/plugin-github-actions@0.5.18
+  - @devtools/plugin-gocd@0.1.24
+  - @devtools/plugin-graphiql@0.2.50
+  - @devtools/plugin-kafka@0.3.18
+  - @devtools/plugin-lighthouse@0.4.3
+  - @devtools/plugin-linguist@0.1.3
+  - @devtools/plugin-microsoft-calendar@0.1.3
+  - @devtools/plugin-newrelic@0.3.36
+  - @devtools/plugin-pagerduty@0.5.11
+  - @devtools/plugin-playlist@0.1.9
+  - @devtools/plugin-puppetdb@0.1.1
+  - @devtools/plugin-rollbar@0.4.18
+  - @devtools/plugin-sentry@0.5.3
+  - @devtools/plugin-stackstorm@0.1.2
+  - @devtools/plugin-techdocs-react@1.1.6
+  - @devtools/plugin-todo@0.2.20
+  - @devtools/catalog-model@1.3.0
+  - @devtools/config@1.0.7
+  - @devtools/core-plugin-api@1.5.1
+  - @devtools/plugin-apache-airflow@0.2.11
+  - @devtools/plugin-catalog-common@1.0.13
+  - @devtools/plugin-catalog-import@0.9.8
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-newrelic-dashboard@0.2.11
+  - @devtools/plugin-permission-react@0.4.12
+  - @devtools/plugin-search-common@1.2.3
+  - @internal/plugin-catalog-customized@0.0.10
+
+## 0.2.83-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-devtools@0.1.0-next.0
+  - @devtools/plugin-kubernetes@0.9.0-next.2
+  - @devtools/plugin-home@0.5.2-next.2
+  - @devtools/theme@0.3.0-next.0
+  - @devtools/plugin-badges@0.2.42-next.2
+  - @devtools/plugin-tech-radar@0.6.4-next.2
+  - @devtools/plugin-scaffolder-react@1.4.0-next.2
+  - @devtools/plugin-explore@0.4.3-next.2
+  - @devtools/plugin-org@0.6.8-next.2
+  - @devtools/core-components@0.13.1-next.1
+  - @devtools/plugin-search-react@1.6.0-next.2
+  - @devtools/plugin-azure-devops@0.3.0-next.2
+  - @devtools/plugin-stack-overflow@0.1.15-next.2
+  - @devtools/app-defaults@1.3.1-next.2
+  - @devtools/cli@0.22.7-next.0
+  - @devtools/integration-react@1.1.13-next.2
+  - @devtools/plugin-airbrake@0.3.18-next.2
+  - @devtools/plugin-api-docs@0.9.3-next.2
+  - @devtools/plugin-azure-sites@0.1.7-next.2
+  - @devtools/plugin-catalog-graph@0.2.30-next.2
+  - @devtools/plugin-catalog-react@1.6.0-next.2
+  - @devtools/plugin-circleci@0.3.18-next.2
+  - @devtools/plugin-cloudbuild@0.3.18-next.2
+  - @devtools/plugin-code-coverage@0.2.11-next.2
+  - @devtools/plugin-cost-insights@0.12.7-next.2
+  - @devtools/plugin-dynatrace@5.0.0-next.2
+  - @devtools/plugin-entity-feedback@0.2.1-next.2
+  - @devtools/plugin-gcalendar@0.3.14-next.1
+  - @devtools/plugin-gcp-projects@0.3.37-next.1
+  - @devtools/plugin-github-actions@0.5.18-next.2
+  - @devtools/plugin-gocd@0.1.24-next.2
+  - @devtools/plugin-graphiql@0.2.50-next.1
+  - @devtools/plugin-jenkins@0.7.17-next.2
+  - @devtools/plugin-kafka@0.3.18-next.2
+  - @devtools/plugin-lighthouse@0.4.3-next.2
+  - @devtools/plugin-linguist@0.1.3-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.3-next.1
+  - @devtools/plugin-newrelic@0.3.36-next.1
+  - @devtools/plugin-octopus-deploy@0.2.0-next.2
+  - @devtools/plugin-pagerduty@0.5.11-next.2
+  - @devtools/plugin-playlist@0.1.9-next.2
+  - @devtools/plugin-puppetdb@0.1.1-next.2
+  - @devtools/plugin-rollbar@0.4.18-next.2
+  - @devtools/plugin-scaffolder@1.13.1-next.2
+  - @devtools/plugin-search@1.3.0-next.2
+  - @devtools/plugin-sentry@0.5.3-next.2
+  - @devtools/plugin-shortcuts@0.3.10-next.2
+  - @devtools/plugin-stackstorm@0.1.2-next.1
+  - @devtools/plugin-tech-insights@0.3.10-next.2
+  - @devtools/plugin-techdocs@1.6.2-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.13-next.2
+  - @devtools/plugin-techdocs-react@1.1.6-next.1
+  - @devtools/plugin-todo@0.2.20-next.2
+  - @devtools/plugin-user-settings@0.7.3-next.2
+  - @devtools/plugin-apache-airflow@0.2.11-next.1
+  - @devtools/plugin-catalog-import@0.9.8-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.11-next.2
+  - @devtools/config@1.0.7
+  - @devtools/core-app-api@1.8.0-next.1
+  - @devtools/core-plugin-api@1.5.1
+  - @devtools/plugin-permission-react@0.4.12
+  - @internal/plugin-catalog-customized@0.0.10-next.2
+
+## 0.2.83-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-tech-insights@0.3.10-next.1
+  - @devtools/plugin-scaffolder@1.13.1-next.1
+  - @devtools/plugin-search@1.3.0-next.1
+  - @devtools/plugin-explore@0.4.3-next.1
+  - @devtools/app-defaults@1.3.1-next.1
+  - @devtools/plugin-kubernetes@0.9.0-next.1
+  - @devtools/core-app-api@1.8.0-next.1
+  - @devtools/plugin-catalog-graph@0.2.30-next.1
+  - @devtools/plugin-home@0.5.2-next.1
+  - @devtools/plugin-octopus-deploy@0.2.0-next.1
+  - @devtools/plugin-circleci@0.3.18-next.1
+  - @devtools/core-components@0.13.1-next.0
+  - @devtools/cli@0.22.7-next.0
+  - @devtools/plugin-airbrake@0.3.18-next.1
+  - @devtools/core-plugin-api@1.5.1
+  - @devtools/plugin-apache-airflow@0.2.11-next.0
+  - @devtools/plugin-api-docs@0.9.3-next.1
+  - @devtools/plugin-azure-devops@0.2.9-next.1
+  - @devtools/plugin-azure-sites@0.1.7-next.1
+  - @devtools/plugin-badges@0.2.42-next.1
+  - @devtools/plugin-catalog-import@0.9.8-next.1
+  - @devtools/plugin-catalog-react@1.6.0-next.1
+  - @devtools/plugin-cloudbuild@0.3.18-next.1
+  - @devtools/plugin-code-coverage@0.2.11-next.1
+  - @devtools/plugin-cost-insights@0.12.7-next.1
+  - @devtools/plugin-dynatrace@5.0.0-next.1
+  - @devtools/plugin-entity-feedback@0.2.1-next.1
+  - @devtools/plugin-gcalendar@0.3.14-next.0
+  - @devtools/plugin-gcp-projects@0.3.37-next.0
+  - @devtools/plugin-github-actions@0.5.18-next.1
+  - @devtools/plugin-gocd@0.1.24-next.1
+  - @devtools/plugin-graphiql@0.2.50-next.0
+  - @devtools/plugin-jenkins@0.7.17-next.1
+  - @devtools/plugin-kafka@0.3.18-next.1
+  - @devtools/plugin-lighthouse@0.4.3-next.1
+  - @devtools/plugin-linguist@0.1.3-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.3-next.0
+  - @devtools/plugin-newrelic@0.3.36-next.0
+  - @devtools/plugin-org@0.6.8-next.1
+  - @devtools/plugin-pagerduty@0.5.11-next.1
+  - @devtools/plugin-playlist@0.1.9-next.1
+  - @devtools/plugin-puppetdb@0.1.1-next.1
+  - @devtools/plugin-rollbar@0.4.18-next.1
+  - @devtools/plugin-scaffolder-react@1.3.1-next.1
+  - @devtools/plugin-search-react@1.6.0-next.1
+  - @devtools/plugin-sentry@0.5.3-next.1
+  - @devtools/plugin-shortcuts@0.3.10-next.1
+  - @devtools/plugin-stack-overflow@0.1.15-next.1
+  - @devtools/plugin-stackstorm@0.1.2-next.0
+  - @devtools/plugin-tech-radar@0.6.4-next.1
+  - @devtools/plugin-techdocs@1.6.2-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.13-next.1
+  - @devtools/plugin-todo@0.2.20-next.1
+  - @devtools/plugin-user-settings@0.7.3-next.1
+  - @devtools/integration-react@1.1.13-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.11-next.1
+  - @devtools/plugin-techdocs-react@1.1.6-next.0
+  - @devtools/config@1.0.7
+  - @devtools/plugin-permission-react@0.4.12
+  - @internal/plugin-catalog-customized@0.0.10-next.1
+
+## 0.2.83-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs@1.6.2-next.0
+  - @devtools/plugin-stack-overflow@0.1.14-next.0
+  - @devtools/plugin-catalog-react@1.6.0-next.0
+  - @devtools/plugin-circleci@0.3.18-next.0
+  - @devtools/plugin-search-react@1.6.0-next.0
+  - @devtools/plugin-search@1.3.0-next.0
+  - @devtools/plugin-home@0.5.1-next.0
+  - @devtools/core-app-api@1.7.1-next.0
+  - @devtools/plugin-scaffolder-react@1.3.1-next.0
+  - @devtools/plugin-scaffolder@1.13.1-next.0
+  - @devtools/plugin-shortcuts@0.3.10-next.0
+  - @devtools/plugin-tech-radar@0.6.4-next.0
+  - @devtools/cli@0.22.7-next.0
+  - @devtools/plugin-airbrake@0.3.18-next.0
+  - @devtools/plugin-api-docs@0.9.3-next.0
+  - @devtools/plugin-azure-devops@0.2.9-next.0
+  - @devtools/plugin-azure-sites@0.1.7-next.0
+  - @devtools/plugin-badges@0.2.42-next.0
+  - @internal/plugin-catalog-customized@0.0.10-next.0
+  - @devtools/plugin-catalog-graph@0.2.30-next.0
+  - @devtools/plugin-catalog-import@0.9.8-next.0
+  - @devtools/plugin-cloudbuild@0.3.18-next.0
+  - @devtools/plugin-code-coverage@0.2.11-next.0
+  - @devtools/plugin-cost-insights@0.12.7-next.0
+  - @devtools/plugin-dynatrace@5.0.0-next.0
+  - @devtools/plugin-entity-feedback@0.2.1-next.0
+  - @devtools/plugin-explore@0.4.3-next.0
+  - @devtools/plugin-github-actions@0.5.18-next.0
+  - @devtools/plugin-gocd@0.1.24-next.0
+  - @devtools/plugin-jenkins@0.7.17-next.0
+  - @devtools/plugin-kafka@0.3.18-next.0
+  - @devtools/plugin-kubernetes@0.8.1-next.0
+  - @devtools/plugin-lighthouse@0.4.3-next.0
+  - @devtools/plugin-linguist@0.1.3-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.11-next.0
+  - @devtools/plugin-org@0.6.8-next.0
+  - @devtools/plugin-pagerduty@0.5.11-next.0
+  - @devtools/plugin-playlist@0.1.9-next.0
+  - @devtools/plugin-puppetdb@0.1.1-next.0
+  - @devtools/plugin-rollbar@0.4.18-next.0
+  - @devtools/plugin-sentry@0.5.3-next.0
+  - @devtools/plugin-tech-insights@0.3.10-next.0
+  - @devtools/plugin-todo@0.2.20-next.0
+  - @devtools/plugin-user-settings@0.7.3-next.0
+  - @devtools/integration-react@1.1.13-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.13-next.0
+  - @devtools/app-defaults@1.3.1-next.0
+  - @devtools/core-components@0.13.0
+  - @devtools/core-plugin-api@1.5.1
+  - @devtools/plugin-apache-airflow@0.2.10
+  - @devtools/plugin-gcalendar@0.3.13
+  - @devtools/plugin-gcp-projects@0.3.36
+  - @devtools/plugin-graphiql@0.2.49
+  - @devtools/plugin-microsoft-calendar@0.1.2
+  - @devtools/plugin-newrelic@0.3.35
+  - @devtools/plugin-stackstorm@0.1.1
+  - @devtools/catalog-model@1.3.0
+  - @devtools/config@1.0.7
+  - @devtools/theme@0.2.19
+  - @devtools/plugin-catalog-common@1.0.13
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-permission-react@0.4.12
+  - @devtools/plugin-search-common@1.2.3
+  - @devtools/plugin-techdocs-react@1.1.5
+
+## 0.2.82
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.13.0
+  - @devtools/plugin-kubernetes@0.8.0
+  - @devtools/cli@0.22.6
+  - @devtools/plugin-circleci@0.3.17
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.12
+  - @devtools/plugin-scaffolder-react@1.3.0
+  - @devtools/plugin-scaffolder@1.13.0
+  - @devtools/plugin-api-docs@0.9.2
+  - @devtools/plugin-org@0.6.7
+  - @devtools/plugin-entity-feedback@0.2.0
+  - @devtools/plugin-catalog-react@1.5.0
+  - @devtools/plugin-techdocs@1.6.1
+  - @devtools/plugin-puppetdb@0.1.0
+  - @devtools/plugin-explore@0.4.2
+  - @devtools/plugin-tech-insights@0.3.9
+  - @devtools/app-defaults@1.3.0
+  - @devtools/core-app-api@1.7.0
+  - @devtools/plugin-search-react@1.5.2
+  - @devtools/plugin-code-coverage@0.2.10
+  - @devtools/plugin-cost-insights@0.12.6
+  - @devtools/plugin-playlist@0.1.8
+  - @devtools/plugin-home@0.5.0
+  - @devtools/plugin-dynatrace@4.0.0
+  - @devtools/plugin-airbrake@0.3.17
+  - @devtools/plugin-techdocs-react@1.1.5
+  - @devtools/integration-react@1.1.12
+  - @devtools/plugin-stackstorm@0.1.1
+  - @devtools/plugin-linguist@0.1.2
+  - @devtools/plugin-newrelic-dashboard@0.2.10
+  - @devtools/plugin-apache-airflow@0.2.10
+  - @devtools/plugin-catalog-import@0.9.7
+  - @devtools/plugin-github-actions@0.5.17
+  - @devtools/plugin-catalog-graph@0.2.29
+  - @devtools/plugin-user-settings@0.7.2
+  - @devtools/plugin-azure-devops@0.2.8
+  - @devtools/plugin-gcp-projects@0.3.36
+  - @devtools/plugin-azure-sites@0.1.6
+  - @devtools/plugin-cloudbuild@0.3.17
+  - @devtools/plugin-lighthouse@0.4.2
+  - @devtools/plugin-tech-radar@0.6.3
+  - @devtools/plugin-gcalendar@0.3.13
+  - @devtools/plugin-pagerduty@0.5.10
+  - @devtools/plugin-shortcuts@0.3.9
+  - @devtools/plugin-graphiql@0.2.49
+  - @devtools/plugin-newrelic@0.3.35
+  - @devtools/plugin-jenkins@0.7.16
+  - @devtools/plugin-rollbar@0.4.17
+  - @devtools/plugin-badges@0.2.41
+  - @devtools/plugin-search@1.2.0
+  - @devtools/plugin-sentry@0.5.2
+  - @devtools/plugin-kafka@0.3.17
+  - @devtools/plugin-gocd@0.1.23
+  - @devtools/plugin-todo@0.2.19
+  - @devtools/theme@0.2.19
+  - @devtools/core-plugin-api@1.5.1
+  - @devtools/catalog-model@1.3.0
+  - @devtools/plugin-microsoft-calendar@0.1.2
+  - @devtools/plugin-permission-react@0.4.12
+  - @devtools/plugin-stack-overflow@0.1.13
+  - @devtools/config@1.0.7
+  - @devtools/plugin-catalog-common@1.0.13
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-search-common@1.2.3
+  - @internal/plugin-catalog-customized@0.0.9
+
+## 0.2.82-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.8.0-next.3
+  - @devtools/plugin-scaffolder@1.13.0-next.3
+  - @devtools/cli@0.22.6-next.3
+  - @devtools/plugin-explore@0.4.2-next.3
+  - @devtools/plugin-catalog-react@1.5.0-next.3
+  - @devtools/plugin-scaffolder-react@1.3.0-next.3
+  - @devtools/core-app-api@1.7.0-next.3
+  - @devtools/catalog-model@1.3.0-next.0
+  - @devtools/plugin-techdocs@1.6.1-next.3
+  - @devtools/core-components@0.13.0-next.3
+  - @devtools/app-defaults@1.3.0-next.3
+  - @devtools/config@1.0.7
+  - @devtools/core-plugin-api@1.5.1-next.1
+  - @devtools/integration-react@1.1.12-next.3
+  - @devtools/theme@0.2.19-next.0
+  - @devtools/plugin-airbrake@0.3.17-next.3
+  - @devtools/plugin-apache-airflow@0.2.10-next.3
+  - @devtools/plugin-api-docs@0.9.2-next.3
+  - @devtools/plugin-azure-devops@0.2.8-next.3
+  - @devtools/plugin-azure-sites@0.1.6-next.3
+  - @devtools/plugin-badges@0.2.41-next.3
+  - @devtools/plugin-catalog-common@1.0.13-next.1
+  - @devtools/plugin-catalog-graph@0.2.29-next.3
+  - @devtools/plugin-catalog-import@0.9.7-next.3
+  - @devtools/plugin-circleci@0.3.17-next.3
+  - @devtools/plugin-cloudbuild@0.3.17-next.3
+  - @devtools/plugin-code-coverage@0.2.10-next.3
+  - @devtools/plugin-cost-insights@0.12.6-next.3
+  - @devtools/plugin-dynatrace@4.0.0-next.3
+  - @devtools/plugin-entity-feedback@0.2.0-next.3
+  - @devtools/plugin-gcalendar@0.3.13-next.3
+  - @devtools/plugin-gcp-projects@0.3.36-next.3
+  - @devtools/plugin-github-actions@0.5.17-next.3
+  - @devtools/plugin-gocd@0.1.23-next.3
+  - @devtools/plugin-graphiql@0.2.49-next.3
+  - @devtools/plugin-home@0.4.33-next.3
+  - @devtools/plugin-jenkins@0.7.16-next.3
+  - @devtools/plugin-kafka@0.3.17-next.3
+  - @devtools/plugin-lighthouse@0.4.2-next.3
+  - @devtools/plugin-linguist@0.1.2-next.3
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.2-next.3
+  - @devtools/plugin-newrelic@0.3.35-next.3
+  - @devtools/plugin-newrelic-dashboard@0.2.10-next.3
+  - @devtools/plugin-org@0.6.7-next.3
+  - @devtools/plugin-pagerduty@0.5.10-next.3
+  - @devtools/plugin-permission-react@0.4.12-next.1
+  - @devtools/plugin-playlist@0.1.8-next.3
+  - @devtools/plugin-rollbar@0.4.17-next.3
+  - @devtools/plugin-search@1.2.0-next.3
+  - @devtools/plugin-search-common@1.2.3-next.0
+  - @devtools/plugin-search-react@1.5.2-next.3
+  - @devtools/plugin-sentry@0.5.2-next.3
+  - @devtools/plugin-shortcuts@0.3.9-next.3
+  - @devtools/plugin-stack-overflow@0.1.13-next.3
+  - @devtools/plugin-stackstorm@0.1.1-next.3
+  - @devtools/plugin-tech-insights@0.3.9-next.3
+  - @devtools/plugin-tech-radar@0.6.3-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.12-next.3
+  - @devtools/plugin-techdocs-react@1.1.5-next.3
+  - @devtools/plugin-todo@0.2.19-next.3
+  - @devtools/plugin-user-settings@0.7.2-next.3
+  - @internal/plugin-catalog-customized@0.0.9-next.3
+
+## 0.2.82-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-circleci@0.3.17-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.12-next.2
+  - @devtools/cli@0.22.6-next.2
+  - @devtools/core-components@0.12.6-next.2
+  - @devtools/plugin-catalog-react@1.4.1-next.2
+  - @devtools/plugin-scaffolder-react@1.3.0-next.2
+  - @devtools/plugin-scaffolder@1.13.0-next.2
+  - @devtools/plugin-code-coverage@0.2.10-next.2
+  - @devtools/plugin-cost-insights@0.12.6-next.2
+  - @devtools/plugin-playlist@0.1.8-next.2
+  - @devtools/plugin-search@1.2.0-next.2
+  - @devtools/core-plugin-api@1.5.1-next.1
+  - @devtools/plugin-techdocs@1.6.1-next.2
+  - @devtools/app-defaults@1.3.0-next.2
+  - @devtools/catalog-model@1.2.1
+  - @devtools/config@1.0.7
+  - @devtools/core-app-api@1.7.0-next.2
+  - @devtools/integration-react@1.1.12-next.2
+  - @devtools/theme@0.2.19-next.0
+  - @devtools/plugin-airbrake@0.3.17-next.2
+  - @devtools/plugin-apache-airflow@0.2.10-next.2
+  - @devtools/plugin-api-docs@0.9.2-next.2
+  - @devtools/plugin-azure-devops@0.2.8-next.2
+  - @devtools/plugin-azure-sites@0.1.6-next.2
+  - @devtools/plugin-badges@0.2.41-next.2
+  - @devtools/plugin-catalog-common@1.0.13-next.0
+  - @devtools/plugin-catalog-graph@0.2.29-next.2
+  - @devtools/plugin-catalog-import@0.9.7-next.2
+  - @devtools/plugin-cloudbuild@0.3.17-next.2
+  - @devtools/plugin-dynatrace@3.0.1-next.2
+  - @devtools/plugin-entity-feedback@0.2.0-next.2
+  - @devtools/plugin-explore@0.4.2-next.2
+  - @devtools/plugin-gcalendar@0.3.13-next.2
+  - @devtools/plugin-gcp-projects@0.3.36-next.2
+  - @devtools/plugin-github-actions@0.5.17-next.2
+  - @devtools/plugin-gocd@0.1.23-next.2
+  - @devtools/plugin-graphiql@0.2.49-next.2
+  - @devtools/plugin-home@0.4.33-next.2
+  - @devtools/plugin-jenkins@0.7.16-next.2
+  - @devtools/plugin-kafka@0.3.17-next.2
+  - @devtools/plugin-kubernetes@0.7.10-next.2
+  - @devtools/plugin-lighthouse@0.4.2-next.2
+  - @devtools/plugin-linguist@0.1.2-next.2
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.2-next.2
+  - @devtools/plugin-newrelic@0.3.35-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.10-next.2
+  - @devtools/plugin-org@0.6.7-next.2
+  - @devtools/plugin-pagerduty@0.5.10-next.2
+  - @devtools/plugin-permission-react@0.4.12-next.1
+  - @devtools/plugin-rollbar@0.4.17-next.2
+  - @devtools/plugin-search-common@1.2.3-next.0
+  - @devtools/plugin-search-react@1.5.2-next.2
+  - @devtools/plugin-sentry@0.5.2-next.2
+  - @devtools/plugin-shortcuts@0.3.9-next.2
+  - @devtools/plugin-stack-overflow@0.1.13-next.2
+  - @devtools/plugin-stackstorm@0.1.1-next.2
+  - @devtools/plugin-tech-insights@0.3.9-next.2
+  - @devtools/plugin-tech-radar@0.6.3-next.2
+  - @devtools/plugin-techdocs-react@1.1.5-next.2
+  - @devtools/plugin-todo@0.2.19-next.2
+  - @devtools/plugin-user-settings@0.7.2-next.2
+  - @internal/plugin-catalog-customized@0.0.9-next.2
+
+## 0.2.82-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.12.6-next.1
+  - @devtools/cli@0.22.6-next.1
+  - @devtools/plugin-org@0.6.7-next.1
+  - @devtools/plugin-techdocs@1.6.1-next.1
+  - @devtools/plugin-scaffolder-react@1.3.0-next.1
+  - @devtools/core-app-api@1.7.0-next.1
+  - @devtools/plugin-scaffolder@1.13.0-next.1
+  - @devtools/plugin-dynatrace@3.0.1-next.1
+  - @devtools/plugin-airbrake@0.3.17-next.1
+  - @devtools/plugin-circleci@0.3.17-next.1
+  - @devtools/integration-react@1.1.12-next.1
+  - @devtools/plugin-stackstorm@0.1.1-next.1
+  - @devtools/plugin-linguist@0.1.2-next.1
+  - @devtools/plugin-playlist@0.1.8-next.1
+  - @devtools/plugin-graphiql@0.2.49-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.12-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.2-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.10-next.1
+  - @devtools/core-plugin-api@1.5.1-next.0
+  - @devtools/plugin-permission-react@0.4.12-next.0
+  - @devtools/plugin-entity-feedback@0.2.0-next.1
+  - @devtools/plugin-apache-airflow@0.2.10-next.1
+  - @devtools/plugin-catalog-import@0.9.7-next.1
+  - @devtools/plugin-github-actions@0.5.17-next.1
+  - @devtools/plugin-stack-overflow@0.1.13-next.1
+  - @devtools/plugin-techdocs-react@1.1.5-next.1
+  - @devtools/plugin-catalog-graph@0.2.29-next.1
+  - @devtools/plugin-catalog-react@1.4.1-next.1
+  - @devtools/plugin-code-coverage@0.2.10-next.1
+  - @devtools/plugin-cost-insights@0.12.6-next.1
+  - @devtools/plugin-tech-insights@0.3.9-next.1
+  - @devtools/plugin-user-settings@0.7.2-next.1
+  - @devtools/plugin-azure-devops@0.2.8-next.1
+  - @devtools/plugin-gcp-projects@0.3.36-next.1
+  - @devtools/plugin-search-react@1.5.2-next.1
+  - @devtools/plugin-azure-sites@0.1.6-next.1
+  - @devtools/plugin-cloudbuild@0.3.17-next.1
+  - @devtools/plugin-kubernetes@0.7.10-next.1
+  - @devtools/plugin-lighthouse@0.4.2-next.1
+  - @devtools/plugin-tech-radar@0.6.3-next.1
+  - @devtools/plugin-gcalendar@0.3.13-next.1
+  - @devtools/plugin-pagerduty@0.5.10-next.1
+  - @devtools/plugin-shortcuts@0.3.9-next.1
+  - @devtools/plugin-api-docs@0.9.2-next.1
+  - @devtools/plugin-newrelic@0.3.35-next.1
+  - @devtools/plugin-explore@0.4.2-next.1
+  - @devtools/plugin-jenkins@0.7.16-next.1
+  - @devtools/plugin-rollbar@0.4.17-next.1
+  - @devtools/theme@0.2.19-next.0
+  - @devtools/plugin-badges@0.2.41-next.1
+  - @devtools/plugin-search@1.1.2-next.1
+  - @devtools/plugin-sentry@0.5.2-next.1
+  - @devtools/plugin-kafka@0.3.17-next.1
+  - @devtools/plugin-gocd@0.1.23-next.1
+  - @devtools/plugin-home@0.4.33-next.1
+  - @devtools/plugin-todo@0.2.19-next.1
+  - @devtools/app-defaults@1.3.0-next.1
+  - @devtools/catalog-model@1.2.1
+  - @devtools/config@1.0.7
+  - @devtools/plugin-catalog-common@1.0.13-next.0
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-search-common@1.2.3-next.0
+  - @internal/plugin-catalog-customized@0.0.9-next.1
+
+## 0.2.82-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-api-docs@0.9.2-next.0
+  - @devtools/plugin-scaffolder@1.13.0-next.0
+  - @devtools/plugin-scaffolder-react@1.3.0-next.0
+  - @devtools/plugin-entity-feedback@0.2.0-next.0
+  - @devtools/plugin-tech-insights@0.3.9-next.0
+  - @devtools/core-components@0.12.6-next.0
+  - @devtools/app-defaults@1.3.0-next.0
+  - @devtools/core-app-api@1.7.0-next.0
+  - @devtools/plugin-search-react@1.5.2-next.0
+  - @devtools/plugin-techdocs@1.6.1-next.0
+  - @devtools/cli@0.22.6-next.0
+  - @devtools/plugin-techdocs-react@1.1.5-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.12-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.10-next.0
+  - @devtools/plugin-apache-airflow@0.2.10-next.0
+  - @devtools/plugin-catalog-import@0.9.7-next.0
+  - @devtools/plugin-github-actions@0.5.17-next.0
+  - @devtools/plugin-catalog-graph@0.2.29-next.0
+  - @devtools/plugin-catalog-react@1.4.1-next.0
+  - @devtools/plugin-code-coverage@0.2.10-next.0
+  - @devtools/plugin-cost-insights@0.12.6-next.0
+  - @devtools/plugin-user-settings@0.7.2-next.0
+  - @devtools/plugin-azure-devops@0.2.8-next.0
+  - @devtools/plugin-gcp-projects@0.3.36-next.0
+  - @devtools/plugin-azure-sites@0.1.6-next.0
+  - @devtools/plugin-cloudbuild@0.3.17-next.0
+  - @devtools/plugin-kubernetes@0.7.10-next.0
+  - @devtools/plugin-lighthouse@0.4.2-next.0
+  - @devtools/plugin-tech-radar@0.6.3-next.0
+  - @devtools/plugin-dynatrace@3.0.1-next.0
+  - @devtools/plugin-gcalendar@0.3.13-next.0
+  - @devtools/plugin-pagerduty@0.5.10-next.0
+  - @devtools/plugin-shortcuts@0.3.9-next.0
+  - @devtools/plugin-airbrake@0.3.17-next.0
+  - @devtools/plugin-circleci@0.3.17-next.0
+  - @devtools/plugin-graphiql@0.2.49-next.0
+  - @devtools/plugin-newrelic@0.3.35-next.0
+  - @devtools/plugin-explore@0.4.2-next.0
+  - @devtools/plugin-jenkins@0.7.16-next.0
+  - @devtools/plugin-rollbar@0.4.17-next.0
+  - @devtools/plugin-badges@0.2.41-next.0
+  - @devtools/plugin-search@1.1.2-next.0
+  - @devtools/plugin-sentry@0.5.2-next.0
+  - @devtools/plugin-kafka@0.3.17-next.0
+  - @devtools/plugin-gocd@0.1.23-next.0
+  - @devtools/plugin-home@0.4.33-next.0
+  - @devtools/plugin-todo@0.2.19-next.0
+  - @devtools/plugin-org@0.6.7-next.0
+  - @internal/plugin-catalog-customized@0.0.9-next.0
+  - @devtools/integration-react@1.1.12-next.0
+  - @devtools/plugin-linguist@0.1.2-next.0
+  - @devtools/plugin-microsoft-calendar@0.1.2-next.0
+  - @devtools/plugin-playlist@0.1.8-next.0
+  - @devtools/plugin-stack-overflow@0.1.13-next.0
+  - @devtools/plugin-stackstorm@0.1.1-next.0
+  - @devtools/core-plugin-api@1.5.0
+  - @devtools/config@1.0.7
+  - @devtools/plugin-permission-react@0.4.11
+  - @devtools/catalog-model@1.2.1
+  - @devtools/theme@0.2.18
+  - @devtools/plugin-catalog-common@1.0.12
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-search-common@1.2.2
+
+## 0.2.81
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.12.5
+  - @devtools/plugin-scaffolder-react@1.2.0
+  - @devtools/plugin-techdocs-react@1.1.4
+  - @devtools/plugin-catalog-react@1.4.0
+  - @devtools/plugin-tech-insights@0.3.8
+  - @devtools/plugin-search-react@1.5.1
+  - @devtools/plugin-scaffolder@1.12.0
+  - @devtools/plugin-techdocs@1.6.0
+  - @devtools/plugin-explore@0.4.1
+  - @devtools/plugin-search@1.1.1
+  - @devtools/cli@0.22.4
+  - @devtools/plugin-kubernetes@0.7.9
+  - @devtools/plugin-tech-radar@0.6.2
+  - @devtools/plugin-microsoft-calendar@0.1.1
+  - @devtools/plugin-newrelic-dashboard@0.2.9
+  - @devtools/plugin-code-coverage@0.2.9
+  - @devtools/plugin-azure-sites@0.1.5
+  - @devtools/plugin-gcalendar@0.3.12
+  - @devtools/plugin-shortcuts@0.3.8
+  - @devtools/plugin-org@0.6.6
+  - @devtools/plugin-api-docs@0.9.1
+  - @devtools/plugin-stackstorm@0.1.0
+  - @devtools/plugin-circleci@0.3.16
+  - @devtools/plugin-playlist@0.1.7
+  - @devtools/core-plugin-api@1.5.0
+  - @devtools/catalog-model@1.2.1
+  - @devtools/plugin-catalog-common@1.0.12
+  - @devtools/plugin-cost-insights@0.12.5
+  - @devtools/plugin-jenkins@0.7.15
+  - @devtools/core-app-api@1.6.0
+  - @devtools/integration-react@1.1.11
+  - @devtools/plugin-airbrake@0.3.16
+  - @devtools/plugin-apache-airflow@0.2.9
+  - @devtools/plugin-azure-devops@0.2.7
+  - @devtools/plugin-badges@0.2.40
+  - @devtools/plugin-catalog-import@0.9.6
+  - @devtools/plugin-cloudbuild@0.3.16
+  - @devtools/plugin-dynatrace@3.0.0
+  - @devtools/plugin-entity-feedback@0.1.1
+  - @devtools/plugin-gcp-projects@0.3.35
+  - @devtools/plugin-github-actions@0.5.16
+  - @devtools/plugin-gocd@0.1.22
+  - @devtools/plugin-graphiql@0.2.48
+  - @devtools/plugin-home@0.4.32
+  - @devtools/plugin-kafka@0.3.16
+  - @devtools/plugin-lighthouse@0.4.1
+  - @devtools/plugin-linguist@0.1.1
+  - @devtools/plugin-newrelic@0.3.34
+  - @devtools/plugin-pagerduty@0.5.9
+  - @devtools/plugin-rollbar@0.4.16
+  - @devtools/plugin-sentry@0.5.1
+  - @devtools/plugin-stack-overflow@0.1.12
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.11
+  - @devtools/plugin-todo@0.2.18
+  - @devtools/plugin-user-settings@0.7.1
+  - @devtools/config@1.0.7
+  - @devtools/theme@0.2.18
+  - @internal/plugin-catalog-customized@0.0.8
+  - @devtools/plugin-catalog-graph@0.2.28
+  - @devtools/app-defaults@1.2.1
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-permission-react@0.4.11
+  - @devtools/plugin-search-common@1.2.2
+
+## 0.2.81-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.12.5-next.2
+  - @devtools/plugin-scaffolder-react@1.2.0-next.2
+  - @devtools/plugin-techdocs-react@1.1.4-next.2
+  - @devtools/plugin-catalog-react@1.4.0-next.2
+  - @devtools/plugin-tech-insights@0.3.8-next.2
+  - @devtools/plugin-search-react@1.5.1-next.2
+  - @devtools/plugin-scaffolder@1.12.0-next.2
+  - @devtools/plugin-techdocs@1.6.0-next.2
+  - @devtools/plugin-explore@0.4.1-next.2
+  - @devtools/plugin-search@1.1.1-next.2
+  - @devtools/plugin-kubernetes@0.7.9-next.2
+  - @devtools/plugin-api-docs@0.9.1-next.2
+  - @devtools/core-app-api@1.6.0-next.2
+  - @devtools/plugin-org@0.6.6-next.2
+  - @devtools/core-plugin-api@1.5.0-next.2
+  - @devtools/app-defaults@1.2.1-next.2
+  - @devtools/cli@0.22.4-next.1
+  - @devtools/integration-react@1.1.11-next.2
+  - @devtools/plugin-airbrake@0.3.16-next.2
+  - @devtools/plugin-apache-airflow@0.2.9-next.2
+  - @devtools/plugin-azure-devops@0.2.7-next.2
+  - @devtools/plugin-azure-sites@0.1.5-next.2
+  - @devtools/plugin-badges@0.2.40-next.2
+  - @devtools/plugin-catalog-graph@0.2.28-next.2
+  - @devtools/plugin-catalog-import@0.9.6-next.2
+  - @devtools/plugin-circleci@0.3.16-next.2
+  - @devtools/plugin-cloudbuild@0.3.16-next.2
+  - @devtools/plugin-code-coverage@0.2.9-next.2
+  - @devtools/plugin-cost-insights@0.12.5-next.2
+  - @devtools/plugin-dynatrace@3.0.0-next.2
+  - @devtools/plugin-entity-feedback@0.1.1-next.2
+  - @devtools/plugin-gcalendar@0.3.12-next.2
+  - @devtools/plugin-gcp-projects@0.3.35-next.2
+  - @devtools/plugin-github-actions@0.5.16-next.2
+  - @devtools/plugin-gocd@0.1.22-next.2
+  - @devtools/plugin-graphiql@0.2.48-next.2
+  - @devtools/plugin-home@0.4.32-next.2
+  - @devtools/plugin-jenkins@0.7.15-next.2
+  - @devtools/plugin-kafka@0.3.16-next.2
+  - @devtools/plugin-lighthouse@0.4.1-next.2
+  - @devtools/plugin-linguist@0.1.1-next.2
+  - @devtools/plugin-microsoft-calendar@0.1.1-next.2
+  - @devtools/plugin-newrelic@0.3.34-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.9-next.2
+  - @devtools/plugin-pagerduty@0.5.9-next.2
+  - @devtools/plugin-playlist@0.1.7-next.2
+  - @devtools/plugin-rollbar@0.4.16-next.2
+  - @devtools/plugin-sentry@0.5.1-next.2
+  - @devtools/plugin-shortcuts@0.3.8-next.2
+  - @devtools/plugin-stack-overflow@0.1.12-next.2
+  - @devtools/plugin-stackstorm@0.1.0-next.2
+  - @devtools/plugin-tech-radar@0.6.2-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.11-next.2
+  - @devtools/plugin-todo@0.2.18-next.2
+  - @devtools/plugin-user-settings@0.7.1-next.2
+  - @internal/plugin-catalog-customized@0.0.8-next.2
+  - @devtools/plugin-permission-react@0.4.11-next.2
+  - @devtools/config@1.0.7-next.0
+
+## 0.2.81-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.22.4-next.1
+  - @devtools/plugin-scaffolder@1.12.0-next.1
+  - @devtools/plugin-scaffolder-react@1.2.0-next.1
+  - @devtools/plugin-techdocs@1.6.0-next.1
+  - @devtools/plugin-tech-radar@0.6.2-next.1
+  - @devtools/plugin-microsoft-calendar@0.1.1-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.9-next.1
+  - @devtools/core-components@0.12.5-next.1
+  - @devtools/plugin-code-coverage@0.2.9-next.1
+  - @devtools/plugin-azure-sites@0.1.5-next.1
+  - @devtools/plugin-gcalendar@0.3.12-next.1
+  - @devtools/plugin-shortcuts@0.3.8-next.1
+  - @devtools/plugin-explore@0.4.1-next.1
+  - @devtools/plugin-org@0.6.6-next.1
+  - @devtools/plugin-kubernetes@0.7.9-next.1
+  - @devtools/plugin-circleci@0.3.16-next.1
+  - @devtools/plugin-playlist@0.1.7-next.1
+  - @devtools/plugin-techdocs-react@1.1.4-next.1
+  - @devtools/core-app-api@1.5.1-next.1
+  - @devtools/core-plugin-api@1.4.1-next.1
+  - @devtools/integration-react@1.1.11-next.1
+  - @devtools/plugin-airbrake@0.3.16-next.1
+  - @devtools/plugin-apache-airflow@0.2.9-next.1
+  - @devtools/plugin-api-docs@0.9.1-next.1
+  - @devtools/plugin-azure-devops@0.2.7-next.1
+  - @devtools/plugin-badges@0.2.40-next.1
+  - @devtools/plugin-catalog-import@0.9.6-next.1
+  - @devtools/plugin-cloudbuild@0.3.16-next.1
+  - @devtools/plugin-cost-insights@0.12.5-next.1
+  - @devtools/plugin-dynatrace@3.0.0-next.1
+  - @devtools/plugin-entity-feedback@0.1.1-next.1
+  - @devtools/plugin-gcp-projects@0.3.35-next.1
+  - @devtools/plugin-github-actions@0.5.16-next.1
+  - @devtools/plugin-gocd@0.1.22-next.1
+  - @devtools/plugin-graphiql@0.2.48-next.1
+  - @devtools/plugin-home@0.4.32-next.1
+  - @devtools/plugin-jenkins@0.7.15-next.1
+  - @devtools/plugin-kafka@0.3.16-next.1
+  - @devtools/plugin-lighthouse@0.4.1-next.1
+  - @devtools/plugin-linguist@0.1.1-next.1
+  - @devtools/plugin-newrelic@0.3.34-next.1
+  - @devtools/plugin-pagerduty@0.5.9-next.1
+  - @devtools/plugin-rollbar@0.4.16-next.1
+  - @devtools/plugin-search@1.1.1-next.1
+  - @devtools/plugin-sentry@0.5.1-next.1
+  - @devtools/plugin-stack-overflow@0.1.12-next.1
+  - @devtools/plugin-stackstorm@0.1.0-next.1
+  - @devtools/plugin-tech-insights@0.3.8-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.11-next.1
+  - @devtools/plugin-todo@0.2.18-next.1
+  - @devtools/plugin-user-settings@0.7.1-next.1
+  - @devtools/config@1.0.7-next.0
+  - @devtools/theme@0.2.18-next.0
+  - @devtools/plugin-catalog-react@1.4.0-next.1
+  - @devtools/app-defaults@1.2.1-next.1
+  - @devtools/catalog-model@1.2.1-next.1
+  - @devtools/plugin-catalog-common@1.0.12-next.1
+  - @devtools/plugin-catalog-graph@0.2.28-next.1
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-permission-react@0.4.11-next.1
+  - @devtools/plugin-search-common@1.2.2-next.0
+  - @devtools/plugin-search-react@1.5.1-next.1
+  - @internal/plugin-catalog-customized@0.0.8-next.1
+
+## 0.2.81-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.1.1-next.0
+  - @devtools/cli@0.22.4-next.0
+  - @devtools/plugin-catalog-react@1.4.0-next.0
+  - @devtools/plugin-techdocs@1.6.0-next.0
+  - @devtools/plugin-api-docs@0.9.1-next.0
+  - @devtools/plugin-org@0.6.6-next.0
+  - @devtools/plugin-stackstorm@0.1.0-next.0
+  - @devtools/core-plugin-api@1.4.1-next.0
+  - @devtools/catalog-model@1.2.1-next.0
+  - @devtools/plugin-catalog-common@1.0.12-next.0
+  - @devtools/plugin-techdocs-react@1.1.4-next.0
+  - @devtools/plugin-cost-insights@0.12.5-next.0
+  - @devtools/plugin-scaffolder@1.11.1-next.0
+  - @devtools/plugin-jenkins@0.7.15-next.0
+  - @devtools/plugin-playlist@0.1.7-next.0
+  - @devtools/plugin-explore@0.4.1-next.0
+  - @devtools/plugin-catalog-graph@0.2.28-next.0
+  - @devtools/plugin-catalog-import@0.9.6-next.0
+  - @devtools/app-defaults@1.2.1-next.0
+  - @devtools/config@1.0.6
+  - @devtools/core-app-api@1.5.1-next.0
+  - @devtools/core-components@0.12.5-next.0
+  - @devtools/integration-react@1.1.11-next.0
+  - @devtools/theme@0.2.17
+  - @devtools/plugin-airbrake@0.3.16-next.0
+  - @devtools/plugin-apache-airflow@0.2.9-next.0
+  - @devtools/plugin-azure-devops@0.2.7-next.0
+  - @devtools/plugin-azure-sites@0.1.5-next.0
+  - @devtools/plugin-badges@0.2.40-next.0
+  - @devtools/plugin-circleci@0.3.16-next.0
+  - @devtools/plugin-cloudbuild@0.3.16-next.0
+  - @devtools/plugin-code-coverage@0.2.9-next.0
+  - @devtools/plugin-dynatrace@3.0.0-next.0
+  - @devtools/plugin-entity-feedback@0.1.1-next.0
+  - @devtools/plugin-gcalendar@0.3.12-next.0
+  - @devtools/plugin-gcp-projects@0.3.35-next.0
+  - @devtools/plugin-github-actions@0.5.16-next.0
+  - @devtools/plugin-gocd@0.1.22-next.0
+  - @devtools/plugin-graphiql@0.2.48-next.0
+  - @devtools/plugin-home@0.4.32-next.0
+  - @devtools/plugin-kafka@0.3.16-next.0
+  - @devtools/plugin-kubernetes@0.7.9-next.0
+  - @devtools/plugin-lighthouse@0.4.1-next.0
+  - @devtools/plugin-linguist@0.1.1-next.0
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-microsoft-calendar@0.1.1-next.0
+  - @devtools/plugin-newrelic@0.3.34-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.9-next.0
+  - @devtools/plugin-pagerduty@0.5.9-next.0
+  - @devtools/plugin-permission-react@0.4.11-next.0
+  - @devtools/plugin-rollbar@0.4.16-next.0
+  - @devtools/plugin-search@1.1.1-next.0
+  - @devtools/plugin-search-common@1.2.1
+  - @devtools/plugin-search-react@1.5.1-next.0
+  - @devtools/plugin-sentry@0.5.1-next.0
+  - @devtools/plugin-shortcuts@0.3.8-next.0
+  - @devtools/plugin-stack-overflow@0.1.12-next.0
+  - @devtools/plugin-tech-insights@0.3.8-next.0
+  - @devtools/plugin-tech-radar@0.6.2-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.11-next.0
+  - @devtools/plugin-todo@0.2.18-next.0
+  - @devtools/plugin-user-settings@0.7.1-next.0
+  - @internal/plugin-catalog-customized@0.0.8-next.0
+
+## 0.2.80
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.1.0
+  - @devtools/plugin-scaffolder@1.11.0
+  - @devtools/plugin-azure-devops@0.2.6
+  - @devtools/cli@0.22.2
+  - @devtools/plugin-techdocs@1.5.0
+  - @devtools/core-components@0.12.4
+  - @devtools/plugin-microsoft-calendar@0.1.0
+  - @devtools/plugin-catalog-graph@0.2.27
+  - @devtools/plugin-code-coverage@0.2.8
+  - @devtools/plugin-azure-sites@0.1.4
+  - @devtools/plugin-lighthouse@0.4.0
+  - @devtools/plugin-shortcuts@0.3.7
+  - @devtools/plugin-home@0.4.31
+  - @devtools/plugin-tech-insights@0.3.7
+  - @devtools/plugin-search@1.1.0
+  - @devtools/plugin-api-docs@0.9.0
+  - @devtools/plugin-entity-feedback@0.1.0
+  - @devtools/plugin-tech-radar@0.6.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.10
+  - @devtools/plugin-dynatrace@2.0.0
+  - @devtools/plugin-playlist@0.1.6
+  - @devtools/catalog-model@1.2.0
+  - @devtools/theme@0.2.17
+  - @devtools/core-app-api@1.5.0
+  - @devtools/plugin-kubernetes@0.7.8
+  - @devtools/core-plugin-api@1.4.0
+  - @devtools/app-defaults@1.2.0
+  - @devtools/plugin-user-settings@0.7.0
+  - @devtools/plugin-catalog-react@1.3.0
+  - @devtools/plugin-pagerduty@0.5.8
+  - @devtools/plugin-explore@0.4.0
+  - @devtools/plugin-linguist@0.1.0
+  - @devtools/plugin-linguist-common@0.1.0
+  - @devtools/plugin-search-react@1.5.0
+  - @devtools/plugin-apache-airflow@0.2.8
+  - @devtools/plugin-circleci@0.3.15
+  - @devtools/plugin-sentry@0.5.0
+  - @devtools/plugin-org@0.6.5
+  - @devtools/plugin-cost-insights@0.12.4
+  - @devtools/plugin-airbrake@0.3.15
+  - @internal/plugin-catalog-customized@0.0.7
+  - @devtools/config@1.0.6
+  - @devtools/integration-react@1.1.10
+  - @devtools/plugin-badges@0.2.39
+  - @devtools/plugin-catalog-common@1.0.11
+  - @devtools/plugin-catalog-import@0.9.5
+  - @devtools/plugin-cloudbuild@0.3.15
+  - @devtools/plugin-gcalendar@0.3.11
+  - @devtools/plugin-gcp-projects@0.3.34
+  - @devtools/plugin-github-actions@0.5.15
+  - @devtools/plugin-gocd@0.1.21
+  - @devtools/plugin-graphiql@0.2.47
+  - @devtools/plugin-jenkins@0.7.14
+  - @devtools/plugin-kafka@0.3.15
+  - @devtools/plugin-newrelic@0.3.33
+  - @devtools/plugin-newrelic-dashboard@0.2.8
+  - @devtools/plugin-permission-react@0.4.10
+  - @devtools/plugin-rollbar@0.4.15
+  - @devtools/plugin-search-common@1.2.1
+  - @devtools/plugin-stack-overflow@0.1.11
+  - @devtools/plugin-techdocs-react@1.1.3
+  - @devtools/plugin-todo@0.2.17
+
+## 0.2.80-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.1.0-next.2
+  - @devtools/plugin-scaffolder@1.11.0-next.2
+  - @devtools/cli@0.22.2-next.1
+  - @devtools/plugin-api-docs@0.9.0-next.2
+  - @devtools/plugin-tech-radar@0.6.1-next.1
+  - @devtools/catalog-model@1.2.0-next.1
+  - @devtools/plugin-techdocs@1.5.0-next.2
+  - @devtools/plugin-explore@0.4.0-next.2
+  - @devtools/plugin-search-react@1.5.0-next.1
+  - @devtools/plugin-sentry@0.5.0-next.2
+  - @devtools/plugin-circleci@0.3.15-next.2
+  - @devtools/core-components@0.12.4-next.1
+  - @devtools/plugin-azure-sites@0.1.4-next.2
+  - @devtools/plugin-search@1.1.0-next.2
+  - @devtools/plugin-lighthouse@0.4.0-next.2
+  - @devtools/app-defaults@1.1.1-next.1
+  - @devtools/config@1.0.6
+  - @devtools/core-app-api@1.4.1-next.0
+  - @devtools/core-plugin-api@1.3.0
+  - @devtools/integration-react@1.1.10-next.1
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.15-next.2
+  - @devtools/plugin-apache-airflow@0.2.8-next.1
+  - @devtools/plugin-azure-devops@0.2.6-next.2
+  - @devtools/plugin-badges@0.2.39-next.2
+  - @devtools/plugin-catalog-common@1.0.11-next.1
+  - @devtools/plugin-catalog-graph@0.2.27-next.2
+  - @devtools/plugin-catalog-import@0.9.5-next.2
+  - @devtools/plugin-catalog-react@1.3.0-next.2
+  - @devtools/plugin-cloudbuild@0.3.15-next.2
+  - @devtools/plugin-code-coverage@0.2.8-next.2
+  - @devtools/plugin-cost-insights@0.12.4-next.2
+  - @devtools/plugin-dynatrace@2.0.0-next.2
+  - @devtools/plugin-gcalendar@0.3.11-next.1
+  - @devtools/plugin-gcp-projects@0.3.34-next.1
+  - @devtools/plugin-github-actions@0.5.15-next.2
+  - @devtools/plugin-gocd@0.1.21-next.2
+  - @devtools/plugin-graphiql@0.2.47-next.1
+  - @devtools/plugin-home@0.4.31-next.2
+  - @devtools/plugin-jenkins@0.7.14-next.2
+  - @devtools/plugin-kafka@0.3.15-next.2
+  - @devtools/plugin-kubernetes@0.7.8-next.2
+  - @devtools/plugin-newrelic@0.3.33-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.8-next.2
+  - @devtools/plugin-org@0.6.5-next.2
+  - @devtools/plugin-pagerduty@0.5.8-next.2
+  - @devtools/plugin-permission-react@0.4.9
+  - @devtools/plugin-playlist@0.1.6-next.2
+  - @devtools/plugin-rollbar@0.4.15-next.2
+  - @devtools/plugin-search-common@1.2.1
+  - @devtools/plugin-shortcuts@0.3.7-next.1
+  - @devtools/plugin-stack-overflow@0.1.11-next.2
+  - @devtools/plugin-tech-insights@0.3.7-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.10-next.2
+  - @devtools/plugin-techdocs-react@1.1.3-next.2
+  - @devtools/plugin-todo@0.2.17-next.2
+  - @devtools/plugin-user-settings@0.6.3-next.2
+  - @internal/plugin-catalog-customized@0.0.7-next.2
+
+## 0.2.80-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder-react@1.1.0-next.1
+  - @devtools/plugin-scaffolder@1.11.0-next.1
+  - @devtools/cli@0.22.2-next.0
+  - @devtools/plugin-techdocs@1.5.0-next.1
+  - @devtools/plugin-tech-insights@0.3.7-next.1
+  - @devtools/plugin-search@1.1.0-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.10-next.1
+  - @devtools/plugin-dynatrace@2.0.0-next.1
+  - @devtools/plugin-playlist@0.1.6-next.1
+  - @devtools/plugin-home@0.4.31-next.1
+  - @devtools/core-app-api@1.4.1-next.0
+  - @devtools/plugin-kubernetes@0.7.8-next.1
+  - @devtools/core-components@0.12.4-next.0
+  - @devtools/plugin-tech-radar@0.6.1-next.0
+  - @devtools/plugin-explore@0.4.0-next.1
+  - @devtools/plugin-apache-airflow@0.2.8-next.0
+  - @devtools/plugin-circleci@0.3.15-next.1
+  - @devtools/plugin-sentry@0.4.8-next.1
+  - @devtools/plugin-search-react@1.5.0-next.0
+  - @devtools/plugin-airbrake@0.3.15-next.1
+  - @devtools/plugin-catalog-react@1.3.0-next.1
+  - @devtools/app-defaults@1.1.1-next.0
+  - @devtools/catalog-model@1.1.6-next.0
+  - @devtools/config@1.0.6
+  - @devtools/core-plugin-api@1.3.0
+  - @devtools/integration-react@1.1.10-next.0
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-api-docs@0.8.15-next.1
+  - @devtools/plugin-azure-devops@0.2.6-next.1
+  - @devtools/plugin-azure-sites@0.1.4-next.1
+  - @devtools/plugin-badges@0.2.39-next.1
+  - @devtools/plugin-catalog-common@1.0.11-next.0
+  - @devtools/plugin-catalog-graph@0.2.27-next.1
+  - @devtools/plugin-catalog-import@0.9.5-next.1
+  - @devtools/plugin-cloudbuild@0.3.15-next.1
+  - @devtools/plugin-code-coverage@0.2.8-next.1
+  - @devtools/plugin-cost-insights@0.12.4-next.1
+  - @devtools/plugin-gcalendar@0.3.11-next.0
+  - @devtools/plugin-gcp-projects@0.3.34-next.0
+  - @devtools/plugin-github-actions@0.5.15-next.1
+  - @devtools/plugin-gocd@0.1.21-next.1
+  - @devtools/plugin-graphiql@0.2.47-next.0
+  - @devtools/plugin-jenkins@0.7.14-next.1
+  - @devtools/plugin-kafka@0.3.15-next.1
+  - @devtools/plugin-lighthouse@0.3.15-next.1
+  - @devtools/plugin-newrelic@0.3.33-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.8-next.1
+  - @devtools/plugin-org@0.6.5-next.1
+  - @devtools/plugin-pagerduty@0.5.8-next.1
+  - @devtools/plugin-permission-react@0.4.9
+  - @devtools/plugin-rollbar@0.4.15-next.1
+  - @devtools/plugin-search-common@1.2.1
+  - @devtools/plugin-shortcuts@0.3.7-next.0
+  - @devtools/plugin-stack-overflow@0.1.11-next.1
+  - @devtools/plugin-techdocs-react@1.1.3-next.1
+  - @devtools/plugin-todo@0.2.17-next.1
+  - @devtools/plugin-user-settings@0.6.3-next.1
+  - @internal/plugin-catalog-customized@0.0.7-next.1
+
+## 0.2.80-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-azure-devops@0.2.6-next.0
+  - @devtools/plugin-scaffolder-react@1.1.0-next.0
+  - @devtools/plugin-scaffolder@1.11.0-next.0
+  - @devtools/plugin-api-docs@0.8.15-next.0
+  - @devtools/plugin-techdocs@1.4.4-next.0
+  - @devtools/plugin-catalog-react@1.3.0-next.0
+  - @devtools/plugin-user-settings@0.6.3-next.0
+  - @devtools/catalog-model@1.1.6-next.0
+  - @devtools/plugin-kubernetes@0.7.8-next.0
+  - @devtools/plugin-airbrake@0.3.15-next.0
+  - @devtools/plugin-azure-sites@0.1.4-next.0
+  - @devtools/plugin-badges@0.2.39-next.0
+  - @internal/plugin-catalog-customized@0.0.7-next.0
+  - @devtools/plugin-catalog-graph@0.2.27-next.0
+  - @devtools/plugin-catalog-import@0.9.5-next.0
+  - @devtools/plugin-circleci@0.3.15-next.0
+  - @devtools/plugin-cloudbuild@0.3.15-next.0
+  - @devtools/plugin-code-coverage@0.2.8-next.0
+  - @devtools/plugin-cost-insights@0.12.4-next.0
+  - @devtools/plugin-dynatrace@2.0.0-next.0
+  - @devtools/plugin-explore@0.3.46-next.0
+  - @devtools/plugin-github-actions@0.5.15-next.0
+  - @devtools/plugin-gocd@0.1.21-next.0
+  - @devtools/plugin-home@0.4.31-next.0
+  - @devtools/plugin-jenkins@0.7.14-next.0
+  - @devtools/plugin-kafka@0.3.15-next.0
+  - @devtools/plugin-lighthouse@0.3.15-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.8-next.0
+  - @devtools/plugin-org@0.6.5-next.0
+  - @devtools/plugin-pagerduty@0.5.8-next.0
+  - @devtools/plugin-playlist@0.1.6-next.0
+  - @devtools/plugin-rollbar@0.4.15-next.0
+  - @devtools/plugin-search@1.0.8-next.0
+  - @devtools/plugin-sentry@0.4.8-next.0
+  - @devtools/plugin-tech-insights@0.3.7-next.0
+  - @devtools/plugin-todo@0.2.17-next.0
+  - @devtools/plugin-catalog-common@1.0.11-next.0
+  - @devtools/plugin-techdocs-react@1.1.3-next.0
+  - @devtools/cli@0.22.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.10-next.0
+  - @devtools/integration-react@1.1.9
+  - @devtools/plugin-apache-airflow@0.2.7
+  - @devtools/plugin-gcalendar@0.3.10
+  - @devtools/plugin-gcp-projects@0.3.33
+  - @devtools/plugin-graphiql@0.2.46
+  - @devtools/plugin-newrelic@0.3.32
+  - @devtools/plugin-shortcuts@0.3.6
+  - @devtools/plugin-stack-overflow@0.1.11-next.0
+  - @devtools/plugin-tech-radar@0.6.0
+
+## 0.2.79
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.22.1
+  - @devtools/plugin-search@1.0.7
+  - @devtools/plugin-scaffolder@1.10.0
+  - @devtools/plugin-catalog-graph@0.2.26
+  - @devtools/catalog-model@1.1.5
+  - @devtools/plugin-catalog-react@1.2.4
+  - @devtools/core-components@0.12.3
+  - @devtools/plugin-scaffolder-react@1.0.0
+  - @devtools/plugin-user-settings@0.6.2
+  - @devtools/plugin-explore@0.3.45
+  - @devtools/plugin-techdocs@1.4.3
+  - @devtools/plugin-github-actions@0.5.14
+  - @devtools/plugin-home@0.4.30
+  - @devtools/plugin-jenkins@0.7.13
+  - @devtools/plugin-kubernetes@0.7.7
+  - @devtools/plugin-stack-overflow@0.1.10
+  - @devtools/plugin-tech-radar@0.6.0
+  - @devtools/plugin-search-react@1.4.0
+  - @devtools/app-defaults@1.1.0
+  - @devtools/core-plugin-api@1.3.0
+  - @devtools/core-app-api@1.4.0
+  - @devtools/plugin-lighthouse@0.3.14
+  - @devtools/plugin-cost-insights@0.12.3
+  - @devtools/plugin-cloudbuild@0.3.14
+  - @devtools/plugin-api-docs@0.8.14
+  - @devtools/plugin-azure-devops@0.2.5
+  - @devtools/plugin-azure-sites@0.1.3
+  - @devtools/plugin-gcp-projects@0.3.33
+  - @devtools/plugin-techdocs-react@1.1.2
+  - @devtools/plugin-permission-react@0.4.9
+  - @devtools/plugin-playlist@0.1.5
+  - @devtools/config@1.0.6
+  - @devtools/integration-react@1.1.9
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.14
+  - @devtools/plugin-apache-airflow@0.2.7
+  - @devtools/plugin-badges@0.2.38
+  - @devtools/plugin-catalog-common@1.0.10
+  - @devtools/plugin-catalog-import@0.9.4
+  - @devtools/plugin-circleci@0.3.14
+  - @devtools/plugin-code-coverage@0.2.7
+  - @devtools/plugin-dynatrace@1.0.4
+  - @devtools/plugin-gcalendar@0.3.10
+  - @devtools/plugin-gocd@0.1.20
+  - @devtools/plugin-graphiql@0.2.46
+  - @devtools/plugin-kafka@0.3.14
+  - @devtools/plugin-newrelic@0.3.32
+  - @devtools/plugin-newrelic-dashboard@0.2.7
+  - @devtools/plugin-org@0.6.4
+  - @devtools/plugin-pagerduty@0.5.7
+  - @devtools/plugin-rollbar@0.4.14
+  - @devtools/plugin-search-common@1.2.1
+  - @devtools/plugin-sentry@0.4.7
+  - @devtools/plugin-shortcuts@0.3.6
+  - @devtools/plugin-tech-insights@0.3.6
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.9
+  - @devtools/plugin-todo@0.2.16
+  - @internal/plugin-catalog-customized@0.0.6
+
+## 0.2.79-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.10.0-next.2
+  - @devtools/cli@0.22.1-next.2
+  - @devtools/plugin-scaffolder-react@1.0.0-next.0
+  - @devtools/plugin-user-settings@0.6.2-next.2
+  - @devtools/plugin-search-react@1.4.0-next.2
+  - @devtools/plugin-tech-radar@0.6.0-next.2
+  - @devtools/app-defaults@1.1.0-next.2
+  - @devtools/core-plugin-api@1.3.0-next.1
+  - @devtools/core-app-api@1.4.0-next.1
+  - @devtools/plugin-lighthouse@0.3.14-next.2
+  - @devtools/plugin-catalog-react@1.2.4-next.2
+  - @devtools/plugin-permission-react@0.4.9-next.1
+  - @devtools/plugin-playlist@0.1.5-next.2
+  - @devtools/plugin-techdocs-react@1.1.2-next.2
+  - @devtools/catalog-model@1.1.5-next.1
+  - @devtools/config@1.0.6-next.0
+  - @devtools/core-components@0.12.3-next.2
+  - @devtools/integration-react@1.1.9-next.2
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.14-next.2
+  - @devtools/plugin-apache-airflow@0.2.7-next.2
+  - @devtools/plugin-api-docs@0.8.14-next.2
+  - @devtools/plugin-azure-devops@0.2.5-next.2
+  - @devtools/plugin-azure-sites@0.1.3-next.2
+  - @devtools/plugin-badges@0.2.38-next.2
+  - @devtools/plugin-catalog-common@1.0.10-next.1
+  - @devtools/plugin-catalog-graph@0.2.26-next.2
+  - @devtools/plugin-catalog-import@0.9.4-next.2
+  - @devtools/plugin-circleci@0.3.14-next.2
+  - @devtools/plugin-cloudbuild@0.3.14-next.2
+  - @devtools/plugin-code-coverage@0.2.7-next.2
+  - @devtools/plugin-cost-insights@0.12.3-next.2
+  - @devtools/plugin-dynatrace@1.0.4-next.2
+  - @devtools/plugin-explore@0.3.45-next.2
+  - @devtools/plugin-gcalendar@0.3.10-next.2
+  - @devtools/plugin-gcp-projects@0.3.33-next.2
+  - @devtools/plugin-github-actions@0.5.14-next.2
+  - @devtools/plugin-gocd@0.1.20-next.2
+  - @devtools/plugin-graphiql@0.2.46-next.2
+  - @devtools/plugin-home@0.4.30-next.2
+  - @devtools/plugin-jenkins@0.7.13-next.2
+  - @devtools/plugin-kafka@0.3.14-next.2
+  - @devtools/plugin-kubernetes@0.7.7-next.2
+  - @devtools/plugin-newrelic@0.3.32-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.7-next.2
+  - @devtools/plugin-org@0.6.4-next.2
+  - @devtools/plugin-pagerduty@0.5.7-next.2
+  - @devtools/plugin-rollbar@0.4.14-next.2
+  - @devtools/plugin-search@1.0.7-next.2
+  - @devtools/plugin-search-common@1.2.1-next.0
+  - @devtools/plugin-sentry@0.4.7-next.2
+  - @devtools/plugin-shortcuts@0.3.6-next.2
+  - @devtools/plugin-stack-overflow@0.1.10-next.2
+  - @devtools/plugin-tech-insights@0.3.6-next.2
+  - @devtools/plugin-techdocs@1.4.3-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.9-next.2
+  - @devtools/plugin-todo@0.2.16-next.2
+  - @internal/plugin-catalog-customized@0.0.6-next.2
+
+## 0.2.79-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.22.1-next.1
+  - @devtools/plugin-catalog-graph@0.2.26-next.1
+  - @devtools/plugin-explore@0.3.45-next.1
+  - @devtools/plugin-techdocs@1.4.3-next.1
+  - @devtools/plugin-cost-insights@0.12.3-next.1
+  - @devtools/config@1.0.6-next.0
+  - @devtools/app-defaults@1.0.11-next.1
+  - @devtools/catalog-model@1.1.5-next.1
+  - @devtools/core-app-api@1.3.1-next.0
+  - @devtools/core-components@0.12.3-next.1
+  - @devtools/core-plugin-api@1.2.1-next.0
+  - @devtools/integration-react@1.1.9-next.1
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.14-next.1
+  - @devtools/plugin-apache-airflow@0.2.7-next.1
+  - @devtools/plugin-api-docs@0.8.14-next.1
+  - @devtools/plugin-azure-devops@0.2.5-next.1
+  - @devtools/plugin-azure-sites@0.1.3-next.1
+  - @devtools/plugin-badges@0.2.38-next.1
+  - @devtools/plugin-catalog-common@1.0.10-next.1
+  - @devtools/plugin-catalog-import@0.9.4-next.1
+  - @devtools/plugin-catalog-react@1.2.4-next.1
+  - @devtools/plugin-circleci@0.3.14-next.1
+  - @devtools/plugin-cloudbuild@0.3.14-next.1
+  - @devtools/plugin-code-coverage@0.2.7-next.1
+  - @devtools/plugin-dynatrace@1.0.4-next.1
+  - @devtools/plugin-gcalendar@0.3.10-next.1
+  - @devtools/plugin-gcp-projects@0.3.33-next.1
+  - @devtools/plugin-github-actions@0.5.14-next.1
+  - @devtools/plugin-gocd@0.1.20-next.1
+  - @devtools/plugin-graphiql@0.2.46-next.1
+  - @devtools/plugin-home@0.4.30-next.1
+  - @devtools/plugin-jenkins@0.7.13-next.1
+  - @devtools/plugin-kafka@0.3.14-next.1
+  - @devtools/plugin-kubernetes@0.7.7-next.1
+  - @devtools/plugin-lighthouse@0.3.14-next.1
+  - @devtools/plugin-newrelic@0.3.32-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.7-next.1
+  - @devtools/plugin-org@0.6.4-next.1
+  - @devtools/plugin-pagerduty@0.5.7-next.1
+  - @devtools/plugin-permission-react@0.4.9-next.0
+  - @devtools/plugin-playlist@0.1.5-next.1
+  - @devtools/plugin-rollbar@0.4.14-next.1
+  - @devtools/plugin-scaffolder@1.10.0-next.1
+  - @devtools/plugin-search@1.0.7-next.1
+  - @devtools/plugin-search-common@1.2.1-next.0
+  - @devtools/plugin-search-react@1.3.2-next.1
+  - @devtools/plugin-sentry@0.4.7-next.1
+  - @devtools/plugin-shortcuts@0.3.6-next.1
+  - @devtools/plugin-stack-overflow@0.1.10-next.1
+  - @devtools/plugin-tech-insights@0.3.6-next.1
+  - @devtools/plugin-tech-radar@0.5.21-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.9-next.1
+  - @devtools/plugin-techdocs-react@1.1.2-next.1
+  - @devtools/plugin-todo@0.2.16-next.1
+  - @devtools/plugin-user-settings@0.6.2-next.1
+  - @internal/plugin-catalog-customized@0.0.6-next.1
+
+## 0.2.79-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.22.1-next.0
+  - @devtools/plugin-scaffolder@1.10.0-next.0
+  - @devtools/catalog-model@1.1.5-next.0
+  - @devtools/plugin-catalog-react@1.2.4-next.0
+  - @devtools/core-components@0.12.3-next.0
+  - @devtools/plugin-techdocs-react@1.1.2-next.0
+  - @devtools/plugin-techdocs@1.4.3-next.0
+  - @devtools/plugin-explore@0.3.45-next.0
+  - @devtools/app-defaults@1.0.11-next.0
+  - @devtools/config@1.0.5
+  - @devtools/core-app-api@1.3.0
+  - @devtools/core-plugin-api@1.2.0
+  - @devtools/integration-react@1.1.9-next.0
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.14-next.0
+  - @devtools/plugin-apache-airflow@0.2.7-next.0
+  - @devtools/plugin-api-docs@0.8.14-next.0
+  - @devtools/plugin-azure-devops@0.2.5-next.0
+  - @devtools/plugin-azure-sites@0.1.3-next.0
+  - @devtools/plugin-badges@0.2.38-next.0
+  - @devtools/plugin-catalog-common@1.0.10-next.0
+  - @devtools/plugin-catalog-graph@0.2.26-next.0
+  - @devtools/plugin-catalog-import@0.9.4-next.0
+  - @devtools/plugin-circleci@0.3.14-next.0
+  - @devtools/plugin-cloudbuild@0.3.14-next.0
+  - @devtools/plugin-code-coverage@0.2.7-next.0
+  - @devtools/plugin-cost-insights@0.12.3-next.0
+  - @devtools/plugin-dynatrace@1.0.4-next.0
+  - @devtools/plugin-gcalendar@0.3.10-next.0
+  - @devtools/plugin-gcp-projects@0.3.33-next.0
+  - @devtools/plugin-github-actions@0.5.14-next.0
+  - @devtools/plugin-gocd@0.1.20-next.0
+  - @devtools/plugin-graphiql@0.2.46-next.0
+  - @devtools/plugin-home@0.4.30-next.0
+  - @devtools/plugin-jenkins@0.7.13-next.0
+  - @devtools/plugin-kafka@0.3.14-next.0
+  - @devtools/plugin-kubernetes@0.7.7-next.0
+  - @devtools/plugin-lighthouse@0.3.14-next.0
+  - @devtools/plugin-newrelic@0.3.32-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.7-next.0
+  - @devtools/plugin-org@0.6.4-next.0
+  - @devtools/plugin-pagerduty@0.5.7-next.0
+  - @devtools/plugin-permission-react@0.4.8
+  - @devtools/plugin-playlist@0.1.5-next.0
+  - @devtools/plugin-rollbar@0.4.14-next.0
+  - @devtools/plugin-search@1.0.7-next.0
+  - @devtools/plugin-search-common@1.2.0
+  - @devtools/plugin-search-react@1.3.2-next.0
+  - @devtools/plugin-sentry@0.4.7-next.0
+  - @devtools/plugin-shortcuts@0.3.6-next.0
+  - @devtools/plugin-stack-overflow@0.1.10-next.0
+  - @devtools/plugin-tech-insights@0.3.6-next.0
+  - @devtools/plugin-tech-radar@0.5.21-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.9-next.0
+  - @devtools/plugin-todo@0.2.16-next.0
+  - @devtools/plugin-user-settings@0.6.2-next.0
+  - @internal/plugin-catalog-customized@0.0.6-next.0
+
+## 0.2.79
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.12.2
+  - @devtools/app-defaults@1.0.10
+  - @devtools/cli@0.22.0
+  - @devtools/integration-react@1.1.8
+  - @devtools/plugin-airbrake@0.3.13
+  - @devtools/plugin-apache-airflow@0.2.6
+  - @devtools/plugin-api-docs@0.8.13
+  - @devtools/plugin-azure-devops@0.2.4
+  - @devtools/plugin-azure-sites@0.1.2
+  - @devtools/plugin-badges@0.2.37
+  - @devtools/plugin-catalog-graph@0.2.25
+  - @devtools/plugin-catalog-import@0.9.3
+  - @devtools/plugin-catalog-react@1.2.3
+  - @devtools/plugin-circleci@0.3.13
+  - @devtools/plugin-cloudbuild@0.3.13
+  - @devtools/plugin-code-coverage@0.2.6
+  - @devtools/plugin-cost-insights@0.12.2
+  - @devtools/plugin-dynatrace@1.0.3
+  - @devtools/plugin-explore@0.3.44
+  - @devtools/plugin-gcalendar@0.3.9
+  - @devtools/plugin-gcp-projects@0.3.32
+  - @devtools/plugin-github-actions@0.5.13
+  - @devtools/plugin-gocd@0.1.19
+  - @devtools/plugin-graphiql@0.2.45
+  - @devtools/plugin-home@0.4.29
+  - @devtools/plugin-jenkins@0.7.12
+  - @devtools/plugin-kafka@0.3.13
+  - @devtools/plugin-kubernetes@0.7.6
+  - @devtools/plugin-lighthouse@0.3.13
+  - @devtools/plugin-newrelic@0.3.31
+  - @devtools/plugin-newrelic-dashboard@0.2.6
+  - @devtools/plugin-org@0.6.3
+  - @devtools/plugin-pagerduty@0.5.6
+  - @devtools/plugin-playlist@0.1.4
+  - @devtools/plugin-rollbar@0.4.13
+  - @devtools/plugin-scaffolder@1.9.1
+  - @devtools/plugin-search@1.0.6
+  - @devtools/plugin-search-react@1.3.1
+  - @devtools/plugin-sentry@0.4.6
+  - @devtools/plugin-shortcuts@0.3.5
+  - @devtools/plugin-stack-overflow@0.1.9
+  - @devtools/plugin-tech-insights@0.3.5
+  - @devtools/plugin-tech-radar@0.5.20
+  - @devtools/plugin-techdocs@1.4.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.8
+  - @devtools/plugin-techdocs-react@1.1.1
+  - @devtools/plugin-todo@0.2.15
+  - @devtools/plugin-user-settings@0.6.1
+  - @internal/plugin-catalog-customized@0.0.6
+
+## 0.2.78
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-graph@0.2.24
+  - @devtools/plugin-pagerduty@0.5.5
+  - @devtools/plugin-techdocs-react@1.1.0
+  - @devtools/plugin-scaffolder@1.9.0
+  - @devtools/plugin-cost-insights@0.12.1
+  - @devtools/plugin-kubernetes@0.7.5
+  - @devtools/core-plugin-api@1.2.0
+  - @devtools/plugin-search-react@1.3.0
+  - @devtools/core-components@0.12.1
+  - @devtools/plugin-explore@0.3.43
+  - @devtools/cli@0.22.0
+  - @devtools/core-app-api@1.3.0
+  - @devtools/plugin-cloudbuild@0.3.12
+  - @devtools/plugin-gcp-projects@0.3.31
+  - @devtools/plugin-github-actions@0.5.12
+  - @devtools/plugin-graphiql@0.2.44
+  - @devtools/plugin-techdocs@1.4.1
+  - @devtools/plugin-org@0.6.2
+  - @devtools/plugin-user-settings@0.6.0
+  - @devtools/app-defaults@1.0.9
+  - @devtools/plugin-airbrake@0.3.12
+  - @devtools/plugin-api-docs@0.8.12
+  - @devtools/plugin-azure-devops@0.2.3
+  - @devtools/plugin-badges@0.2.36
+  - @devtools/plugin-catalog-import@0.9.2
+  - @devtools/plugin-catalog-react@1.2.2
+  - @devtools/plugin-circleci@0.3.12
+  - @devtools/plugin-code-coverage@0.2.5
+  - @devtools/plugin-home@0.4.28
+  - @devtools/plugin-jenkins@0.7.11
+  - @devtools/plugin-kafka@0.3.12
+  - @devtools/plugin-permission-react@0.4.8
+  - @devtools/plugin-playlist@0.1.3
+  - @devtools/plugin-rollbar@0.4.12
+  - @devtools/plugin-search@1.0.5
+  - @devtools/plugin-sentry@0.4.5
+  - @devtools/plugin-shortcuts@0.3.4
+  - @devtools/plugin-todo@0.2.14
+  - @devtools/plugin-lighthouse@0.3.12
+  - @devtools/plugin-stack-overflow@0.1.8
+  - @devtools/integration-react@1.1.7
+  - @devtools/plugin-apache-airflow@0.2.5
+  - @devtools/plugin-azure-sites@0.1.1
+  - @devtools/plugin-dynatrace@1.0.2
+  - @devtools/plugin-gcalendar@0.3.8
+  - @devtools/plugin-gocd@0.1.18
+  - @devtools/plugin-newrelic@0.3.30
+  - @devtools/plugin-tech-insights@0.3.4
+  - @devtools/plugin-tech-radar@0.5.19
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.7
+  - @devtools/plugin-search-common@1.2.0
+  - @internal/plugin-catalog-customized@0.0.5
+  - @devtools/plugin-newrelic-dashboard@0.2.5
+  - @devtools/catalog-model@1.1.4
+  - @devtools/config@1.0.5
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.9
+
+## 0.2.78-next.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-cost-insights@0.12.1-next.4
+  - @devtools/plugin-kubernetes@0.7.5-next.4
+  - @devtools/cli@0.22.0-next.4
+  - @devtools/core-app-api@1.3.0-next.4
+  - @devtools/core-components@0.12.1-next.4
+  - @devtools/plugin-scaffolder@1.9.0-next.4
+  - @devtools/app-defaults@1.0.9-next.4
+  - @devtools/plugin-airbrake@0.3.12-next.4
+  - @devtools/plugin-api-docs@0.8.12-next.4
+  - @devtools/plugin-azure-devops@0.2.3-next.4
+  - @devtools/plugin-badges@0.2.36-next.4
+  - @devtools/plugin-catalog-graph@0.2.24-next.4
+  - @devtools/plugin-catalog-import@0.9.2-next.4
+  - @devtools/plugin-catalog-react@1.2.2-next.4
+  - @devtools/plugin-circleci@0.3.12-next.4
+  - @devtools/plugin-cloudbuild@0.3.12-next.4
+  - @devtools/plugin-code-coverage@0.2.5-next.4
+  - @devtools/plugin-explore@0.3.43-next.4
+  - @devtools/plugin-github-actions@0.5.12-next.4
+  - @devtools/plugin-home@0.4.28-next.4
+  - @devtools/plugin-jenkins@0.7.11-next.4
+  - @devtools/plugin-kafka@0.3.12-next.4
+  - @devtools/plugin-org@0.6.2-next.4
+  - @devtools/plugin-permission-react@0.4.8-next.3
+  - @devtools/plugin-playlist@0.1.3-next.4
+  - @devtools/plugin-rollbar@0.4.12-next.4
+  - @devtools/plugin-search@1.0.5-next.4
+  - @devtools/plugin-search-react@1.3.0-next.4
+  - @devtools/plugin-sentry@0.4.5-next.4
+  - @devtools/plugin-shortcuts@0.3.4-next.4
+  - @devtools/plugin-techdocs@1.4.1-next.4
+  - @devtools/plugin-todo@0.2.14-next.4
+  - @devtools/plugin-user-settings@0.6.0-next.4
+  - @devtools/plugin-stack-overflow@0.1.8-next.4
+  - @devtools/catalog-model@1.1.4-next.1
+  - @devtools/config@1.0.5-next.1
+  - @devtools/core-plugin-api@1.2.0-next.2
+  - @devtools/integration-react@1.1.7-next.4
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-apache-airflow@0.2.5-next.4
+  - @devtools/plugin-azure-sites@0.1.1-next.4
+  - @devtools/plugin-catalog-common@1.0.9-next.3
+  - @devtools/plugin-dynatrace@1.0.2-next.4
+  - @devtools/plugin-gcalendar@0.3.8-next.4
+  - @devtools/plugin-gcp-projects@0.3.31-next.4
+  - @devtools/plugin-gocd@0.1.18-next.4
+  - @devtools/plugin-graphiql@0.2.44-next.4
+  - @devtools/plugin-lighthouse@0.3.12-next.4
+  - @devtools/plugin-newrelic@0.3.30-next.4
+  - @devtools/plugin-newrelic-dashboard@0.2.5-next.4
+  - @devtools/plugin-pagerduty@0.5.5-next.4
+  - @devtools/plugin-search-common@1.2.0-next.3
+  - @devtools/plugin-tech-insights@0.3.4-next.4
+  - @devtools/plugin-tech-radar@0.5.19-next.4
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.7-next.4
+  - @devtools/plugin-techdocs-react@1.0.7-next.4
+  - @internal/plugin-catalog-customized@0.0.5-next.4
+
+## 0.2.78-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.21.2-next.3
+  - @devtools/core-app-api@1.2.1-next.3
+  - @devtools/plugin-airbrake@0.3.12-next.3
+  - @devtools/core-components@0.12.1-next.3
+  - @devtools/app-defaults@1.0.9-next.3
+  - @devtools/catalog-model@1.1.4-next.1
+  - @devtools/config@1.0.5-next.1
+  - @devtools/core-plugin-api@1.2.0-next.2
+  - @devtools/integration-react@1.1.7-next.3
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-apache-airflow@0.2.5-next.3
+  - @devtools/plugin-api-docs@0.8.12-next.3
+  - @devtools/plugin-azure-devops@0.2.3-next.3
+  - @devtools/plugin-azure-sites@0.1.1-next.3
+  - @devtools/plugin-badges@0.2.36-next.3
+  - @devtools/plugin-catalog-common@1.0.9-next.2
+  - @devtools/plugin-catalog-graph@0.2.24-next.3
+  - @devtools/plugin-catalog-import@0.9.2-next.3
+  - @devtools/plugin-catalog-react@1.2.2-next.3
+  - @devtools/plugin-circleci@0.3.12-next.3
+  - @devtools/plugin-cloudbuild@0.3.12-next.3
+  - @devtools/plugin-code-coverage@0.2.5-next.3
+  - @devtools/plugin-cost-insights@0.12.1-next.3
+  - @devtools/plugin-dynatrace@1.0.2-next.3
+  - @devtools/plugin-explore@0.3.43-next.3
+  - @devtools/plugin-gcalendar@0.3.8-next.3
+  - @devtools/plugin-gcp-projects@0.3.31-next.3
+  - @devtools/plugin-github-actions@0.5.12-next.3
+  - @devtools/plugin-gocd@0.1.18-next.3
+  - @devtools/plugin-graphiql@0.2.44-next.3
+  - @devtools/plugin-home@0.4.28-next.3
+  - @devtools/plugin-jenkins@0.7.11-next.3
+  - @devtools/plugin-kafka@0.3.12-next.3
+  - @devtools/plugin-kubernetes@0.7.5-next.3
+  - @devtools/plugin-lighthouse@0.3.12-next.3
+  - @devtools/plugin-newrelic@0.3.30-next.3
+  - @devtools/plugin-newrelic-dashboard@0.2.5-next.3
+  - @devtools/plugin-org@0.6.2-next.3
+  - @devtools/plugin-pagerduty@0.5.5-next.3
+  - @devtools/plugin-permission-react@0.4.8-next.2
+  - @devtools/plugin-playlist@0.1.3-next.3
+  - @devtools/plugin-rollbar@0.4.12-next.3
+  - @devtools/plugin-scaffolder@1.9.0-next.3
+  - @devtools/plugin-search@1.0.5-next.3
+  - @devtools/plugin-search-common@1.2.0-next.2
+  - @devtools/plugin-search-react@1.3.0-next.3
+  - @devtools/plugin-sentry@0.4.5-next.3
+  - @devtools/plugin-shortcuts@0.3.4-next.3
+  - @devtools/plugin-stack-overflow@0.1.8-next.3
+  - @devtools/plugin-tech-insights@0.3.4-next.3
+  - @devtools/plugin-tech-radar@0.5.19-next.3
+  - @devtools/plugin-techdocs@1.4.1-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.7-next.3
+  - @devtools/plugin-techdocs-react@1.0.7-next.3
+  - @devtools/plugin-todo@0.2.14-next.3
+  - @devtools/plugin-user-settings@0.6.0-next.3
+  - @internal/plugin-catalog-customized@0.0.5-next.3
+
+## 0.2.78-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-plugin-api@1.2.0-next.2
+  - @devtools/plugin-search-react@1.3.0-next.2
+  - @devtools/plugin-explore@0.3.43-next.2
+  - @devtools/cli@0.21.2-next.2
+  - @devtools/core-app-api@1.2.1-next.2
+  - @devtools/core-components@0.12.1-next.2
+  - @devtools/plugin-catalog-react@1.2.2-next.2
+  - @devtools/plugin-cost-insights@0.12.1-next.2
+  - @devtools/plugin-gcp-projects@0.3.31-next.2
+  - @devtools/plugin-scaffolder@1.9.0-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.7-next.2
+  - @devtools/plugin-catalog-graph@0.2.24-next.2
+  - @devtools/plugin-search-common@1.2.0-next.2
+  - @devtools/plugin-api-docs@0.8.12-next.2
+  - @internal/plugin-catalog-customized@0.0.5-next.2
+  - @devtools/app-defaults@1.0.9-next.2
+  - @devtools/integration-react@1.1.7-next.2
+  - @devtools/plugin-airbrake@0.3.12-next.2
+  - @devtools/plugin-apache-airflow@0.2.5-next.2
+  - @devtools/plugin-azure-devops@0.2.3-next.2
+  - @devtools/plugin-azure-sites@0.1.1-next.2
+  - @devtools/plugin-badges@0.2.36-next.2
+  - @devtools/plugin-catalog-import@0.9.2-next.2
+  - @devtools/plugin-circleci@0.3.12-next.2
+  - @devtools/plugin-cloudbuild@0.3.12-next.2
+  - @devtools/plugin-code-coverage@0.2.5-next.2
+  - @devtools/plugin-dynatrace@1.0.2-next.2
+  - @devtools/plugin-gcalendar@0.3.8-next.2
+  - @devtools/plugin-github-actions@0.5.12-next.2
+  - @devtools/plugin-gocd@0.1.18-next.2
+  - @devtools/plugin-graphiql@0.2.44-next.2
+  - @devtools/plugin-home@0.4.28-next.2
+  - @devtools/plugin-jenkins@0.7.11-next.2
+  - @devtools/plugin-kafka@0.3.12-next.2
+  - @devtools/plugin-kubernetes@0.7.5-next.2
+  - @devtools/plugin-lighthouse@0.3.12-next.2
+  - @devtools/plugin-newrelic@0.3.30-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.5-next.2
+  - @devtools/plugin-org@0.6.2-next.2
+  - @devtools/plugin-pagerduty@0.5.5-next.2
+  - @devtools/plugin-permission-react@0.4.8-next.2
+  - @devtools/plugin-playlist@0.1.3-next.2
+  - @devtools/plugin-rollbar@0.4.12-next.2
+  - @devtools/plugin-search@1.0.5-next.2
+  - @devtools/plugin-sentry@0.4.5-next.2
+  - @devtools/plugin-shortcuts@0.3.4-next.2
+  - @devtools/plugin-stack-overflow@0.1.8-next.2
+  - @devtools/plugin-tech-insights@0.3.4-next.2
+  - @devtools/plugin-tech-radar@0.5.19-next.2
+  - @devtools/plugin-techdocs@1.4.1-next.2
+  - @devtools/plugin-techdocs-react@1.0.7-next.2
+  - @devtools/plugin-todo@0.2.14-next.2
+  - @devtools/plugin-user-settings@0.6.0-next.2
+  - @devtools/catalog-model@1.1.4-next.1
+  - @devtools/config@1.0.5-next.1
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.9-next.2
+
+## 0.2.78-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-app-api@1.2.1-next.1
+  - @devtools/core-components@0.12.1-next.1
+  - @devtools/plugin-cloudbuild@0.3.12-next.1
+  - @devtools/plugin-gcp-projects@0.3.31-next.1
+  - @devtools/plugin-github-actions@0.5.12-next.1
+  - @devtools/plugin-graphiql@0.2.44-next.1
+  - @devtools/plugin-techdocs@1.4.1-next.1
+  - @devtools/plugin-cost-insights@0.12.1-next.1
+  - @devtools/plugin-search-react@1.2.2-next.1
+  - @devtools/plugin-stack-overflow@0.1.8-next.1
+  - @devtools/cli@0.21.2-next.1
+  - @devtools/plugin-org@0.6.2-next.1
+  - @devtools/core-plugin-api@1.1.1-next.1
+  - @devtools/plugin-catalog-react@1.2.2-next.1
+  - @devtools/plugin-scaffolder@1.9.0-next.1
+  - @devtools/plugin-shortcuts@0.3.4-next.1
+  - @devtools/plugin-user-settings@0.6.0-next.1
+  - @devtools/plugin-explore@0.3.43-next.1
+  - @devtools/app-defaults@1.0.9-next.1
+  - @devtools/plugin-apache-airflow@0.2.5-next.1
+  - @devtools/plugin-api-docs@0.8.12-next.1
+  - @devtools/plugin-azure-devops@0.2.3-next.1
+  - @devtools/plugin-azure-sites@0.1.1-next.1
+  - @devtools/plugin-badges@0.2.36-next.1
+  - @devtools/plugin-catalog-graph@0.2.24-next.1
+  - @devtools/plugin-catalog-import@0.9.2-next.1
+  - @devtools/plugin-circleci@0.3.12-next.1
+  - @devtools/plugin-code-coverage@0.2.5-next.1
+  - @devtools/plugin-dynatrace@1.0.2-next.1
+  - @devtools/plugin-gcalendar@0.3.8-next.1
+  - @devtools/plugin-gocd@0.1.18-next.1
+  - @devtools/plugin-home@0.4.28-next.1
+  - @devtools/plugin-jenkins@0.7.11-next.1
+  - @devtools/plugin-kafka@0.3.12-next.1
+  - @devtools/plugin-kubernetes@0.7.5-next.1
+  - @devtools/plugin-lighthouse@0.3.12-next.1
+  - @devtools/plugin-newrelic@0.3.30-next.1
+  - @devtools/plugin-pagerduty@0.5.5-next.1
+  - @devtools/plugin-playlist@0.1.3-next.1
+  - @devtools/plugin-rollbar@0.4.12-next.1
+  - @devtools/plugin-search@1.0.5-next.1
+  - @devtools/plugin-sentry@0.4.5-next.1
+  - @devtools/plugin-tech-insights@0.3.4-next.1
+  - @devtools/plugin-tech-radar@0.5.19-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.7-next.1
+  - @devtools/plugin-todo@0.2.14-next.1
+  - @devtools/integration-react@1.1.7-next.1
+  - @devtools/plugin-airbrake@0.3.12-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.5-next.1
+  - @devtools/plugin-techdocs-react@1.0.7-next.1
+  - @internal/plugin-catalog-customized@0.0.5-next.1
+  - @devtools/config@1.0.5-next.1
+  - @devtools/plugin-permission-react@0.4.8-next.1
+  - @devtools/catalog-model@1.1.4-next.1
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.9-next.1
+  - @devtools/plugin-search-common@1.1.2-next.1
+
+## 0.2.78-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-graph@0.2.24-next.0
+  - @devtools/plugin-pagerduty@0.5.5-next.0
+  - @devtools/plugin-techdocs-react@1.0.7-next.0
+  - @devtools/plugin-scaffolder@1.9.0-next.0
+  - @devtools/cli@0.21.2-next.0
+  - @devtools/plugin-cost-insights@0.12.1-next.0
+  - @devtools/core-components@0.12.1-next.0
+  - @devtools/plugin-user-settings@0.6.0-next.0
+  - @devtools/plugin-explore@0.3.43-next.0
+  - @devtools/core-app-api@1.2.1-next.0
+  - @devtools/core-plugin-api@1.1.1-next.0
+  - @devtools/integration-react@1.1.7-next.0
+  - @devtools/plugin-airbrake@0.3.12-next.0
+  - @devtools/plugin-apache-airflow@0.2.5-next.0
+  - @devtools/plugin-api-docs@0.8.12-next.0
+  - @devtools/plugin-azure-devops@0.2.3-next.0
+  - @devtools/plugin-azure-sites@0.1.1-next.0
+  - @devtools/plugin-badges@0.2.36-next.0
+  - @devtools/plugin-catalog-import@0.9.2-next.0
+  - @devtools/plugin-circleci@0.3.12-next.0
+  - @devtools/plugin-cloudbuild@0.3.12-next.0
+  - @devtools/plugin-code-coverage@0.2.5-next.0
+  - @devtools/plugin-dynatrace@1.0.2-next.0
+  - @devtools/plugin-gcalendar@0.3.8-next.0
+  - @devtools/plugin-gcp-projects@0.3.31-next.0
+  - @devtools/plugin-github-actions@0.5.12-next.0
+  - @devtools/plugin-gocd@0.1.18-next.0
+  - @devtools/plugin-graphiql@0.2.44-next.0
+  - @devtools/plugin-home@0.4.28-next.0
+  - @devtools/plugin-jenkins@0.7.11-next.0
+  - @devtools/plugin-kafka@0.3.12-next.0
+  - @devtools/plugin-kubernetes@0.7.5-next.0
+  - @devtools/plugin-lighthouse@0.3.12-next.0
+  - @devtools/plugin-newrelic@0.3.30-next.0
+  - @devtools/plugin-org@0.6.1-next.0
+  - @devtools/plugin-playlist@0.1.3-next.0
+  - @devtools/plugin-rollbar@0.4.12-next.0
+  - @devtools/plugin-search@1.0.5-next.0
+  - @devtools/plugin-sentry@0.4.5-next.0
+  - @devtools/plugin-shortcuts@0.3.4-next.0
+  - @devtools/plugin-stack-overflow@0.1.8-next.0
+  - @devtools/plugin-tech-insights@0.3.4-next.0
+  - @devtools/plugin-tech-radar@0.5.19-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.7-next.0
+  - @devtools/plugin-techdocs@1.4.1-next.0
+  - @devtools/plugin-todo@0.2.14-next.0
+  - @devtools/plugin-catalog-react@1.2.2-next.0
+  - @devtools/app-defaults@1.0.9-next.0
+  - @devtools/catalog-model@1.1.4-next.0
+  - @devtools/config@1.0.5-next.0
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.9-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.5-next.0
+  - @devtools/plugin-permission-react@0.4.8-next.0
+  - @devtools/plugin-search-common@1.1.2-next.0
+  - @devtools/plugin-search-react@1.2.2-next.0
+  - @internal/plugin-catalog-customized@0.0.5-next.0
+
+## 0.2.77
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.8.0
+  - @devtools/plugin-catalog-react@1.2.1
+  - @devtools/plugin-techdocs@1.4.0
+  - @devtools/core-components@0.12.0
+  - @devtools/plugin-cost-insights@0.12.0
+  - @devtools/plugin-apache-airflow@0.2.4
+  - @devtools/core-app-api@1.2.0
+  - @devtools/plugin-explore@0.3.42
+  - @devtools/plugin-tech-insights@0.3.3
+  - @devtools/plugin-github-actions@0.5.11
+  - @devtools/cli@0.21.0
+  - @devtools/core-plugin-api@1.1.0
+  - @devtools/plugin-dynatrace@1.0.1
+  - @devtools/plugin-catalog-import@0.9.1
+  - @devtools/plugin-catalog-graph@0.2.23
+  - @devtools/plugin-tech-radar@0.5.18
+  - @devtools/plugin-playlist@0.1.2
+  - @devtools/plugin-stack-overflow@0.1.7
+  - @devtools/catalog-model@1.1.3
+  - @devtools/plugin-gcalendar@0.3.7
+  - @devtools/plugin-code-coverage@0.2.4
+  - @devtools/plugin-org@0.6.0
+  - @devtools/plugin-api-docs@0.8.11
+  - @devtools/plugin-kubernetes@0.7.4
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.6
+  - @devtools/plugin-circleci@0.3.11
+  - @devtools/plugin-azure-sites@0.1.0
+  - @devtools/plugin-techdocs-react@1.0.6
+  - @devtools/plugin-cloudbuild@0.3.11
+  - @devtools/plugin-jenkins@0.7.10
+  - @devtools/plugin-kafka@0.3.11
+  - @devtools/plugin-pagerduty@0.5.4
+  - @devtools/plugin-rollbar@0.4.11
+  - @devtools/plugin-airbrake@0.3.11
+  - @devtools/plugin-azure-devops@0.2.2
+  - @devtools/plugin-badges@0.2.35
+  - @internal/plugin-catalog-customized@0.0.4
+  - @devtools/plugin-gocd@0.1.17
+  - @devtools/plugin-home@0.4.27
+  - @devtools/plugin-lighthouse@0.3.11
+  - @devtools/plugin-newrelic-dashboard@0.2.4
+  - @devtools/plugin-search@1.0.4
+  - @devtools/plugin-sentry@0.4.4
+  - @devtools/plugin-todo@0.2.13
+  - @devtools/app-defaults@1.0.8
+  - @devtools/integration-react@1.1.6
+  - @devtools/plugin-gcp-projects@0.3.30
+  - @devtools/plugin-graphiql@0.2.43
+  - @devtools/plugin-newrelic@0.3.29
+  - @devtools/plugin-search-react@1.2.1
+  - @devtools/plugin-shortcuts@0.3.3
+  - @devtools/plugin-user-settings@0.5.1
+  - @devtools/config@1.0.4
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.8
+  - @devtools/plugin-permission-react@0.4.7
+  - @devtools/plugin-search-common@1.1.1
+
+## 0.2.77-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.8.0-next.1
+  - @devtools/plugin-cost-insights@0.12.0-next.1
+  - @devtools/plugin-techdocs@1.4.0-next.2
+  - @devtools/plugin-explore@0.3.42-next.1
+  - @devtools/plugin-github-actions@0.5.11-next.1
+  - @devtools/cli@0.21.0-next.1
+  - @devtools/plugin-catalog-graph@0.2.23-next.1
+  - @devtools/core-components@0.12.0-next.1
+  - @devtools/plugin-code-coverage@0.2.4-next.1
+  - @devtools/plugin-org@0.6.0-next.1
+  - @devtools/plugin-kubernetes@0.7.4-next.1
+  - @devtools/app-defaults@1.0.8-next.1
+  - @devtools/catalog-model@1.1.3-next.0
+  - @devtools/config@1.0.4-next.0
+  - @devtools/core-app-api@1.2.0-next.0
+  - @devtools/core-plugin-api@1.1.0-next.0
+  - @devtools/integration-react@1.1.6-next.1
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.11-next.1
+  - @devtools/plugin-apache-airflow@0.2.4-next.1
+  - @devtools/plugin-api-docs@0.8.11-next.1
+  - @devtools/plugin-azure-devops@0.2.2-next.1
+  - @devtools/plugin-azure-sites@0.1.0-next.1
+  - @devtools/plugin-badges@0.2.35-next.1
+  - @devtools/plugin-catalog-common@1.0.8-next.0
+  - @devtools/plugin-catalog-import@0.9.1-next.1
+  - @devtools/plugin-catalog-react@1.2.1-next.1
+  - @devtools/plugin-circleci@0.3.11-next.1
+  - @devtools/plugin-cloudbuild@0.3.11-next.1
+  - @devtools/plugin-dynatrace@1.0.1-next.1
+  - @devtools/plugin-gcalendar@0.3.7-next.1
+  - @devtools/plugin-gcp-projects@0.3.30-next.1
+  - @devtools/plugin-gocd@0.1.17-next.1
+  - @devtools/plugin-graphiql@0.2.43-next.1
+  - @devtools/plugin-home@0.4.27-next.1
+  - @devtools/plugin-jenkins@0.7.10-next.1
+  - @devtools/plugin-kafka@0.3.11-next.1
+  - @devtools/plugin-lighthouse@0.3.11-next.1
+  - @devtools/plugin-newrelic@0.3.29-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.4-next.1
+  - @devtools/plugin-pagerduty@0.5.4-next.1
+  - @devtools/plugin-permission-react@0.4.7-next.0
+  - @devtools/plugin-playlist@0.1.2-next.2
+  - @devtools/plugin-rollbar@0.4.11-next.1
+  - @devtools/plugin-search@1.0.4-next.1
+  - @devtools/plugin-search-common@1.1.1-next.0
+  - @devtools/plugin-search-react@1.2.1-next.1
+  - @devtools/plugin-sentry@0.4.4-next.1
+  - @devtools/plugin-shortcuts@0.3.3-next.1
+  - @devtools/plugin-stack-overflow@0.1.7-next.1
+  - @devtools/plugin-tech-insights@0.3.3-next.1
+  - @devtools/plugin-tech-radar@0.5.18-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.6-next.1
+  - @devtools/plugin-techdocs-react@1.0.6-next.1
+  - @devtools/plugin-todo@0.2.13-next.1
+  - @devtools/plugin-user-settings@0.5.1-next.1
+  - @internal/plugin-catalog-customized@0.0.4-next.1
+
+## 0.2.77-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-techdocs@1.4.0-next.1
+  - @devtools/plugin-playlist@0.1.2-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.6-next.0
+
+## 0.2.77-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.8.0-next.0
+  - @devtools/plugin-catalog-react@1.2.1-next.0
+  - @devtools/core-components@0.12.0-next.0
+  - @devtools/core-app-api@1.2.0-next.0
+  - @devtools/plugin-tech-insights@0.3.2-next.0
+  - @devtools/plugin-techdocs@1.4.0-next.0
+  - @devtools/core-plugin-api@1.1.0-next.0
+  - @devtools/plugin-cost-insights@0.12.0-next.0
+  - @devtools/plugin-dynatrace@1.0.1-next.0
+  - @devtools/cli@0.21.0-next.0
+  - @devtools/plugin-catalog-import@0.9.1-next.0
+  - @devtools/plugin-tech-radar@0.5.18-next.0
+  - @devtools/catalog-model@1.1.3-next.0
+  - @devtools/plugin-gcalendar@0.3.7-next.0
+  - @devtools/plugin-code-coverage@0.2.4-next.0
+  - @devtools/plugin-github-actions@0.5.11-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.6-next.0
+  - @devtools/plugin-circleci@0.3.11-next.0
+  - @devtools/plugin-azure-sites@0.1.0-next.0
+  - @devtools/plugin-cloudbuild@0.3.11-next.0
+  - @devtools/plugin-jenkins@0.7.10-next.0
+  - @devtools/plugin-kafka@0.3.11-next.0
+  - @devtools/plugin-pagerduty@0.5.4-next.0
+  - @devtools/plugin-rollbar@0.4.11-next.0
+  - @devtools/plugin-airbrake@0.3.11-next.0
+  - @devtools/plugin-api-docs@0.8.11-next.0
+  - @devtools/plugin-azure-devops@0.2.2-next.0
+  - @devtools/plugin-badges@0.2.35-next.0
+  - @internal/plugin-catalog-customized@0.0.4-next.0
+  - @devtools/plugin-catalog-graph@0.2.23-next.0
+  - @devtools/plugin-explore@0.3.42-next.0
+  - @devtools/plugin-gocd@0.1.17-next.0
+  - @devtools/plugin-home@0.4.27-next.0
+  - @devtools/plugin-kubernetes@0.7.4-next.0
+  - @devtools/plugin-lighthouse@0.3.11-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.4-next.0
+  - @devtools/plugin-org@0.5.11-next.0
+  - @devtools/plugin-playlist@0.1.2-next.0
+  - @devtools/plugin-search@1.0.4-next.0
+  - @devtools/plugin-sentry@0.4.4-next.0
+  - @devtools/plugin-todo@0.2.13-next.0
+  - @devtools/app-defaults@1.0.8-next.0
+  - @devtools/integration-react@1.1.6-next.0
+  - @devtools/plugin-apache-airflow@0.2.4-next.0
+  - @devtools/plugin-gcp-projects@0.3.30-next.0
+  - @devtools/plugin-graphiql@0.2.43-next.0
+  - @devtools/plugin-newrelic@0.3.29-next.0
+  - @devtools/plugin-search-react@1.2.1-next.0
+  - @devtools/plugin-shortcuts@0.3.3-next.0
+  - @devtools/plugin-stack-overflow@0.1.7-next.0
+  - @devtools/plugin-techdocs-react@1.0.6-next.0
+  - @devtools/plugin-user-settings@0.5.1-next.0
+  - @devtools/plugin-permission-react@0.4.7-next.0
+  - @devtools/config@1.0.4-next.0
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.8-next.0
+  - @devtools/plugin-search-common@1.1.1-next.0
+
+## 0.2.76
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-user-settings@0.5.0
+  - @devtools/plugin-scaffolder@1.7.0
+  - @devtools/plugin-org@0.5.10
+  - @devtools/catalog-model@1.1.2
+  - @devtools/plugin-catalog-react@1.2.0
+  - @devtools/core-components@0.11.2
+  - @devtools/plugin-catalog-graph@0.2.22
+  - @devtools/core-app-api@1.1.1
+  - @devtools/cli@0.20.0
+  - @devtools/plugin-catalog-common@1.0.7
+  - @devtools/plugin-catalog-import@0.9.0
+  - @devtools/plugin-tech-insights@0.3.1
+  - @devtools/plugin-kubernetes@0.7.3
+  - @devtools/plugin-gcalendar@0.3.6
+  - @devtools/plugin-api-docs@0.8.10
+  - @devtools/plugin-search-react@1.2.0
+  - @devtools/plugin-search-common@1.1.0
+  - @devtools/plugin-cost-insights@0.11.32
+  - @devtools/plugin-airbrake@0.3.10
+  - @devtools/plugin-azure-devops@0.2.1
+  - @devtools/plugin-badges@0.2.34
+  - @devtools/plugin-circleci@0.3.10
+  - @devtools/plugin-cloudbuild@0.3.10
+  - @devtools/plugin-code-coverage@0.2.3
+  - @devtools/plugin-dynatrace@1.0.0
+  - @devtools/plugin-explore@0.3.41
+  - @devtools/plugin-github-actions@0.5.10
+  - @devtools/plugin-gocd@0.1.16
+  - @devtools/plugin-home@0.4.26
+  - @devtools/plugin-jenkins@0.7.9
+  - @devtools/plugin-kafka@0.3.10
+  - @devtools/plugin-lighthouse@0.3.10
+  - @devtools/plugin-newrelic-dashboard@0.2.3
+  - @devtools/plugin-pagerduty@0.5.3
+  - @devtools/plugin-playlist@0.1.1
+  - @devtools/plugin-rollbar@0.4.10
+  - @devtools/plugin-search@1.0.3
+  - @devtools/plugin-sentry@0.4.3
+  - @devtools/plugin-techdocs@1.3.3
+  - @devtools/plugin-techdocs-react@1.0.5
+  - @devtools/plugin-todo@0.2.12
+  - @internal/plugin-catalog-customized@0.0.3
+  - @devtools/app-defaults@1.0.7
+  - @devtools/integration-react@1.1.5
+  - @devtools/plugin-apache-airflow@0.2.3
+  - @devtools/plugin-gcp-projects@0.3.29
+  - @devtools/plugin-graphiql@0.2.42
+  - @devtools/plugin-newrelic@0.3.28
+  - @devtools/plugin-shortcuts@0.3.2
+  - @devtools/plugin-stack-overflow@0.1.6
+  - @devtools/plugin-tech-radar@0.5.17
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.5
+  - @devtools/core-plugin-api@1.0.7
+  - @devtools/config@1.0.3
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-permission-react@0.4.6
+
+## 0.2.76-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.7.0-next.2
+  - @devtools/plugin-catalog-common@1.0.7-next.2
+  - @devtools/plugin-catalog-import@0.9.0-next.2
+  - @devtools/cli@0.20.0-next.2
+  - @devtools/plugin-catalog-react@1.2.0-next.2
+  - @devtools/plugin-playlist@0.1.1-next.2
+  - @devtools/plugin-permission-react@0.4.6-next.2
+  - @devtools/plugin-search-common@1.1.0-next.2
+  - @devtools/app-defaults@1.0.7-next.2
+  - @devtools/catalog-model@1.1.2-next.2
+  - @devtools/config@1.0.3-next.2
+  - @devtools/core-app-api@1.1.1-next.2
+  - @devtools/core-components@0.11.2-next.2
+  - @devtools/core-plugin-api@1.0.7-next.2
+  - @devtools/integration-react@1.1.5-next.2
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-airbrake@0.3.10-next.2
+  - @devtools/plugin-apache-airflow@0.2.3-next.2
+  - @devtools/plugin-api-docs@0.8.10-next.2
+  - @devtools/plugin-azure-devops@0.2.1-next.2
+  - @devtools/plugin-badges@0.2.34-next.2
+  - @devtools/plugin-catalog-graph@0.2.22-next.2
+  - @devtools/plugin-circleci@0.3.10-next.2
+  - @devtools/plugin-cloudbuild@0.3.10-next.2
+  - @devtools/plugin-code-coverage@0.2.3-next.2
+  - @devtools/plugin-cost-insights@0.11.32-next.2
+  - @devtools/plugin-dynatrace@1.0.0-next.2
+  - @devtools/plugin-explore@0.3.41-next.2
+  - @devtools/plugin-gcalendar@0.3.6-next.2
+  - @devtools/plugin-gcp-projects@0.3.29-next.2
+  - @devtools/plugin-github-actions@0.5.10-next.2
+  - @devtools/plugin-gocd@0.1.16-next.2
+  - @devtools/plugin-graphiql@0.2.42-next.2
+  - @devtools/plugin-home@0.4.26-next.2
+  - @devtools/plugin-jenkins@0.7.9-next.2
+  - @devtools/plugin-kafka@0.3.10-next.2
+  - @devtools/plugin-kubernetes@0.7.3-next.2
+  - @devtools/plugin-lighthouse@0.3.10-next.2
+  - @devtools/plugin-newrelic@0.3.28-next.2
+  - @devtools/plugin-newrelic-dashboard@0.2.3-next.2
+  - @devtools/plugin-org@0.5.10-next.2
+  - @devtools/plugin-pagerduty@0.5.3-next.2
+  - @devtools/plugin-rollbar@0.4.10-next.2
+  - @devtools/plugin-search@1.0.3-next.2
+  - @devtools/plugin-search-react@1.2.0-next.2
+  - @devtools/plugin-sentry@0.4.3-next.2
+  - @devtools/plugin-shortcuts@0.3.2-next.2
+  - @devtools/plugin-stack-overflow@0.1.6-next.2
+  - @devtools/plugin-tech-insights@0.3.1-next.2
+  - @devtools/plugin-tech-radar@0.5.17-next.2
+  - @devtools/plugin-techdocs@1.3.3-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.5-next.2
+  - @devtools/plugin-techdocs-react@1.0.5-next.2
+  - @devtools/plugin-todo@0.2.12-next.2
+  - @devtools/plugin-user-settings@0.5.0-next.2
+  - @internal/plugin-catalog-customized@0.0.3-next.2
+
+## 0.2.76-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-user-settings@0.5.0-next.1
+  - @devtools/plugin-scaffolder@1.7.0-next.1
+  - @devtools/plugin-catalog-react@1.2.0-next.1
+  - @devtools/core-app-api@1.1.1-next.1
+  - @devtools/cli@0.20.0-next.1
+  - @devtools/plugin-tech-insights@0.3.1-next.1
+  - @devtools/plugin-gcalendar@0.3.6-next.1
+  - @devtools/plugin-api-docs@0.8.10-next.1
+  - @devtools/plugin-search-react@1.2.0-next.1
+  - @devtools/plugin-search-common@1.1.0-next.1
+  - @devtools/plugin-airbrake@0.3.10-next.1
+  - @devtools/plugin-azure-devops@0.2.1-next.1
+  - @devtools/plugin-badges@0.2.34-next.1
+  - @internal/plugin-catalog-customized@0.0.3-next.1
+  - @devtools/plugin-catalog-graph@0.2.22-next.1
+  - @devtools/plugin-catalog-import@0.8.13-next.1
+  - @devtools/plugin-circleci@0.3.10-next.1
+  - @devtools/plugin-cloudbuild@0.3.10-next.1
+  - @devtools/plugin-code-coverage@0.2.3-next.1
+  - @devtools/plugin-dynatrace@1.0.0-next.1
+  - @devtools/plugin-explore@0.3.41-next.1
+  - @devtools/plugin-github-actions@0.5.10-next.1
+  - @devtools/plugin-gocd@0.1.16-next.1
+  - @devtools/plugin-home@0.4.26-next.1
+  - @devtools/plugin-jenkins@0.7.9-next.1
+  - @devtools/plugin-kafka@0.3.10-next.1
+  - @devtools/plugin-kubernetes@0.7.3-next.1
+  - @devtools/plugin-lighthouse@0.3.10-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.3-next.1
+  - @devtools/plugin-org@0.5.10-next.1
+  - @devtools/plugin-pagerduty@0.5.3-next.1
+  - @devtools/plugin-playlist@0.1.1-next.1
+  - @devtools/plugin-rollbar@0.4.10-next.1
+  - @devtools/plugin-search@1.0.3-next.1
+  - @devtools/plugin-sentry@0.4.3-next.1
+  - @devtools/plugin-techdocs@1.3.3-next.1
+  - @devtools/plugin-todo@0.2.12-next.1
+  - @devtools/app-defaults@1.0.7-next.1
+  - @devtools/core-components@0.11.2-next.1
+  - @devtools/core-plugin-api@1.0.7-next.1
+  - @devtools/plugin-apache-airflow@0.2.3-next.1
+  - @devtools/plugin-cost-insights@0.11.32-next.1
+  - @devtools/plugin-gcp-projects@0.3.29-next.1
+  - @devtools/plugin-graphiql@0.2.42-next.1
+  - @devtools/plugin-newrelic@0.3.28-next.1
+  - @devtools/plugin-shortcuts@0.3.2-next.1
+  - @devtools/plugin-stack-overflow@0.1.6-next.1
+  - @devtools/plugin-tech-radar@0.5.17-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.5-next.1
+  - @devtools/catalog-model@1.1.2-next.1
+  - @devtools/config@1.0.3-next.1
+  - @devtools/integration-react@1.1.5-next.1
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.7-next.1
+  - @devtools/plugin-permission-react@0.4.6-next.1
+  - @devtools/plugin-techdocs-react@1.0.5-next.1
+
+## 0.2.76-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-org@0.5.10-next.0
+  - @devtools/catalog-model@1.1.2-next.0
+  - @devtools/core-components@0.11.2-next.0
+  - @devtools/cli@0.20.0-next.0
+  - @devtools/plugin-kubernetes@0.7.3-next.0
+  - @devtools/plugin-scaffolder@1.7.0-next.0
+  - @devtools/plugin-api-docs@0.8.10-next.0
+  - @devtools/plugin-user-settings@0.5.0-next.0
+  - @devtools/plugin-cost-insights@0.11.32-next.0
+  - @devtools/plugin-airbrake@0.3.10-next.0
+  - @devtools/plugin-azure-devops@0.2.1-next.0
+  - @devtools/plugin-badges@0.2.34-next.0
+  - @devtools/plugin-catalog-graph@0.2.22-next.0
+  - @devtools/plugin-catalog-import@0.8.13-next.0
+  - @devtools/plugin-catalog-react@1.1.5-next.0
+  - @devtools/plugin-circleci@0.3.10-next.0
+  - @devtools/plugin-cloudbuild@0.3.10-next.0
+  - @devtools/plugin-code-coverage@0.2.3-next.0
+  - @devtools/plugin-dynatrace@0.2.1-next.0
+  - @devtools/plugin-explore@0.3.41-next.0
+  - @devtools/plugin-github-actions@0.5.10-next.0
+  - @devtools/plugin-gocd@0.1.16-next.0
+  - @devtools/plugin-home@0.4.26-next.0
+  - @devtools/plugin-jenkins@0.7.9-next.0
+  - @devtools/plugin-kafka@0.3.10-next.0
+  - @devtools/plugin-lighthouse@0.3.10-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.3-next.0
+  - @devtools/plugin-pagerduty@0.5.3-next.0
+  - @devtools/plugin-playlist@0.1.1-next.0
+  - @devtools/plugin-rollbar@0.4.10-next.0
+  - @devtools/plugin-search@1.0.3-next.0
+  - @devtools/plugin-sentry@0.4.3-next.0
+  - @devtools/plugin-tech-insights@0.3.1-next.0
+  - @devtools/plugin-techdocs@1.3.3-next.0
+  - @devtools/plugin-techdocs-react@1.0.5-next.0
+  - @devtools/plugin-todo@0.2.12-next.0
+  - @devtools/app-defaults@1.0.7-next.0
+  - @devtools/integration-react@1.1.5-next.0
+  - @devtools/plugin-apache-airflow@0.2.3-next.0
+  - @devtools/plugin-gcalendar@0.3.6-next.0
+  - @devtools/plugin-gcp-projects@0.3.29-next.0
+  - @devtools/plugin-graphiql@0.2.42-next.0
+  - @devtools/plugin-newrelic@0.3.28-next.0
+  - @devtools/plugin-search-react@1.1.1-next.0
+  - @devtools/plugin-shortcuts@0.3.2-next.0
+  - @devtools/plugin-stack-overflow@0.1.6-next.0
+  - @devtools/plugin-tech-radar@0.5.17-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.5-next.0
+  - @devtools/config@1.0.3-next.0
+  - @devtools/core-app-api@1.1.1-next.0
+  - @devtools/core-plugin-api@1.0.7-next.0
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.7-next.0
+  - @devtools/plugin-permission-react@0.4.6-next.0
+  - @devtools/plugin-search-common@1.0.2-next.0
+  - @internal/plugin-catalog-customized@0.0.3-next.0
+
+## 0.2.75
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.19.0
+  - @devtools/app-defaults@1.0.6
+  - @devtools/core-app-api@1.1.0
+  - @devtools/core-components@0.11.1
+  - @devtools/core-plugin-api@1.0.6
+  - @devtools/plugin-airbrake@0.3.9
+  - @devtools/plugin-api-docs@0.8.9
+  - @devtools/plugin-azure-devops@0.2.0
+  - @devtools/plugin-badges@0.2.33
+  - @devtools/plugin-catalog-graph@0.2.21
+  - @devtools/plugin-catalog-import@0.8.12
+  - @devtools/plugin-catalog-react@1.1.4
+  - @devtools/plugin-circleci@0.3.9
+  - @devtools/plugin-cloudbuild@0.3.9
+  - @devtools/plugin-code-coverage@0.2.2
+  - @devtools/plugin-cost-insights@0.11.31
+  - @devtools/plugin-explore@0.3.40
+  - @devtools/plugin-gcp-projects@0.3.28
+  - @devtools/plugin-github-actions@0.5.9
+  - @devtools/plugin-graphiql@0.2.41
+  - @devtools/plugin-home@0.4.25
+  - @devtools/plugin-jenkins@0.7.8
+  - @devtools/plugin-kafka@0.3.9
+  - @devtools/plugin-kubernetes@0.7.2
+  - @devtools/plugin-lighthouse@0.3.9
+  - @devtools/plugin-org@0.5.9
+  - @devtools/plugin-pagerduty@0.5.2
+  - @devtools/plugin-permission-react@0.4.5
+  - @devtools/plugin-rollbar@0.4.9
+  - @devtools/plugin-scaffolder@1.6.0
+  - @devtools/plugin-search-react@1.1.0
+  - @devtools/plugin-search@1.0.2
+  - @devtools/plugin-sentry@0.4.2
+  - @devtools/plugin-shortcuts@0.3.1
+  - @devtools/plugin-tech-insights@0.3.0
+  - @devtools/plugin-techdocs-react@1.0.4
+  - @devtools/plugin-techdocs@1.3.2
+  - @devtools/plugin-todo@0.2.11
+  - @devtools/plugin-user-settings@0.4.8
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.4
+  - @devtools/plugin-newrelic-dashboard@0.2.2
+  - @devtools/plugin-dynatrace@0.2.0
+  - @devtools/catalog-model@1.1.1
+  - @devtools/config@1.0.2
+  - @devtools/integration-react@1.1.4
+  - @devtools/plugin-apache-airflow@0.2.2
+  - @devtools/plugin-gcalendar@0.3.5
+  - @devtools/plugin-gocd@0.1.15
+  - @devtools/plugin-newrelic@0.3.27
+  - @devtools/plugin-stack-overflow@0.1.5
+  - @devtools/plugin-tech-radar@0.5.16
+  - @devtools/plugin-playlist@0.1.0
+  - @devtools/plugin-catalog-common@1.0.6
+  - @internal/plugin-catalog-customized@0.0.2
+  - @devtools/plugin-search-common@1.0.1
+
+## 0.2.75-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-react@1.1.4-next.2
+  - @devtools/app-defaults@1.0.6-next.2
+  - @devtools/catalog-model@1.1.1-next.0
+  - @devtools/config@1.0.2-next.0
+  - @devtools/core-app-api@1.1.0-next.3
+  - @devtools/core-components@0.11.1-next.3
+  - @devtools/core-plugin-api@1.0.6-next.3
+  - @devtools/integration-react@1.1.4-next.2
+  - @devtools/plugin-airbrake@0.3.9-next.3
+  - @devtools/plugin-apache-airflow@0.2.2-next.3
+  - @devtools/plugin-api-docs@0.8.9-next.3
+  - @devtools/plugin-azure-devops@0.2.0-next.3
+  - @devtools/plugin-badges@0.2.33-next.3
+  - @devtools/plugin-catalog-graph@0.2.21-next.2
+  - @devtools/plugin-catalog-import@0.8.12-next.3
+  - @devtools/plugin-circleci@0.3.9-next.3
+  - @devtools/plugin-cloudbuild@0.3.9-next.3
+  - @devtools/plugin-code-coverage@0.2.2-next.3
+  - @devtools/plugin-cost-insights@0.11.31-next.3
+  - @devtools/plugin-dynatrace@0.2.0-next.3
+  - @devtools/plugin-explore@0.3.40-next.3
+  - @devtools/plugin-gcalendar@0.3.5-next.3
+  - @devtools/plugin-gcp-projects@0.3.28-next.3
+  - @devtools/plugin-github-actions@0.5.9-next.3
+  - @devtools/plugin-gocd@0.1.15-next.2
+  - @devtools/plugin-graphiql@0.2.41-next.3
+  - @devtools/plugin-home@0.4.25-next.3
+  - @devtools/plugin-jenkins@0.7.8-next.3
+  - @devtools/plugin-kafka@0.3.9-next.3
+  - @devtools/plugin-kubernetes@0.7.2-next.3
+  - @devtools/plugin-lighthouse@0.3.9-next.3
+  - @devtools/plugin-newrelic@0.3.27-next.3
+  - @devtools/plugin-org@0.5.9-next.3
+  - @devtools/plugin-pagerduty@0.5.2-next.3
+  - @devtools/plugin-permission-react@0.4.5-next.2
+  - @devtools/plugin-rollbar@0.4.9-next.3
+  - @devtools/plugin-scaffolder@1.6.0-next.3
+  - @devtools/plugin-search@1.0.2-next.3
+  - @devtools/plugin-sentry@0.4.2-next.3
+  - @devtools/plugin-shortcuts@0.3.1-next.3
+  - @devtools/plugin-stack-overflow@0.1.5-next.3
+  - @devtools/plugin-tech-insights@0.3.0-next.3
+  - @devtools/plugin-tech-radar@0.5.16-next.3
+  - @devtools/plugin-techdocs@1.3.2-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.4-next.2
+  - @devtools/plugin-todo@0.2.11-next.3
+  - @devtools/plugin-user-settings@0.4.8-next.3
+  - @devtools/cli@0.19.0-next.3
+  - @devtools/plugin-newrelic-dashboard@0.2.2-next.2
+  - @devtools/plugin-techdocs-react@1.0.4-next.2
+
+## 0.2.75-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.19.0-next.2
+  - @devtools/core-app-api@1.1.0-next.2
+  - @devtools/plugin-catalog-import@0.8.12-next.2
+  - @devtools/plugin-scaffolder@1.6.0-next.2
+  - @devtools/plugin-techdocs@1.3.2-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.4-next.1
+  - @devtools/plugin-apache-airflow@0.2.2-next.2
+  - @devtools/core-components@0.11.1-next.2
+  - @devtools/core-plugin-api@1.0.6-next.2
+  - @devtools/integration-react@1.1.4-next.1
+  - @devtools/plugin-airbrake@0.3.9-next.2
+  - @devtools/plugin-api-docs@0.8.9-next.2
+  - @devtools/plugin-azure-devops@0.2.0-next.2
+  - @devtools/plugin-badges@0.2.33-next.2
+  - @devtools/plugin-circleci@0.3.9-next.2
+  - @devtools/plugin-cloudbuild@0.3.9-next.2
+  - @devtools/plugin-code-coverage@0.2.2-next.2
+  - @devtools/plugin-cost-insights@0.11.31-next.2
+  - @devtools/plugin-dynatrace@0.2.0-next.2
+  - @devtools/plugin-explore@0.3.40-next.2
+  - @devtools/plugin-gcalendar@0.3.5-next.2
+  - @devtools/plugin-gcp-projects@0.3.28-next.2
+  - @devtools/plugin-github-actions@0.5.9-next.2
+  - @devtools/plugin-gocd@0.1.15-next.1
+  - @devtools/plugin-graphiql@0.2.41-next.2
+  - @devtools/plugin-home@0.4.25-next.2
+  - @devtools/plugin-jenkins@0.7.8-next.2
+  - @devtools/plugin-kafka@0.3.9-next.2
+  - @devtools/plugin-kubernetes@0.7.2-next.2
+  - @devtools/plugin-lighthouse@0.3.9-next.2
+  - @devtools/plugin-newrelic@0.3.27-next.2
+  - @devtools/plugin-org@0.5.9-next.2
+  - @devtools/plugin-pagerduty@0.5.2-next.2
+  - @devtools/plugin-rollbar@0.4.9-next.2
+  - @devtools/plugin-search@1.0.2-next.2
+  - @devtools/plugin-sentry@0.4.2-next.2
+  - @devtools/plugin-shortcuts@0.3.1-next.2
+  - @devtools/plugin-stack-overflow@0.1.5-next.2
+  - @devtools/plugin-tech-insights@0.3.0-next.2
+  - @devtools/plugin-tech-radar@0.5.16-next.2
+  - @devtools/plugin-todo@0.2.11-next.2
+  - @devtools/plugin-user-settings@0.4.8-next.2
+  - @devtools/plugin-search-react@1.1.0-next.2
+
+## 0.2.75-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/app-defaults@1.0.6-next.1
+  - @devtools/core-app-api@1.1.0-next.1
+  - @devtools/core-components@0.11.1-next.1
+  - @devtools/core-plugin-api@1.0.6-next.1
+  - @devtools/plugin-airbrake@0.3.9-next.1
+  - @devtools/plugin-api-docs@0.8.9-next.1
+  - @devtools/plugin-azure-devops@0.2.0-next.1
+  - @devtools/plugin-badges@0.2.33-next.1
+  - @devtools/plugin-catalog-graph@0.2.21-next.1
+  - @devtools/plugin-catalog-import@0.8.12-next.1
+  - @devtools/plugin-catalog-react@1.1.4-next.1
+  - @devtools/plugin-circleci@0.3.9-next.1
+  - @devtools/plugin-cloudbuild@0.3.9-next.1
+  - @devtools/plugin-code-coverage@0.2.2-next.1
+  - @devtools/plugin-cost-insights@0.11.31-next.1
+  - @devtools/plugin-explore@0.3.40-next.1
+  - @devtools/plugin-gcp-projects@0.3.28-next.1
+  - @devtools/plugin-github-actions@0.5.9-next.1
+  - @devtools/plugin-graphiql@0.2.41-next.1
+  - @devtools/plugin-home@0.4.25-next.1
+  - @devtools/plugin-jenkins@0.7.8-next.1
+  - @devtools/plugin-kafka@0.3.9-next.1
+  - @devtools/plugin-kubernetes@0.7.2-next.1
+  - @devtools/plugin-lighthouse@0.3.9-next.1
+  - @devtools/plugin-org@0.5.9-next.1
+  - @devtools/plugin-pagerduty@0.5.2-next.1
+  - @devtools/plugin-permission-react@0.4.5-next.1
+  - @devtools/plugin-rollbar@0.4.9-next.1
+  - @devtools/plugin-scaffolder@1.6.0-next.1
+  - @devtools/plugin-search-react@1.0.2-next.1
+  - @devtools/plugin-search@1.0.2-next.1
+  - @devtools/plugin-sentry@0.4.2-next.1
+  - @devtools/plugin-shortcuts@0.3.1-next.1
+  - @devtools/plugin-tech-insights@0.3.0-next.1
+  - @devtools/plugin-techdocs-react@1.0.4-next.1
+  - @devtools/plugin-techdocs@1.3.2-next.1
+  - @devtools/plugin-todo@0.2.11-next.1
+  - @devtools/plugin-user-settings@0.4.8-next.1
+  - @devtools/cli@0.19.0-next.1
+  - @devtools/plugin-dynatrace@0.2.0-next.1
+  - @devtools/plugin-apache-airflow@0.2.2-next.1
+  - @devtools/plugin-gcalendar@0.3.5-next.1
+  - @devtools/plugin-newrelic@0.3.27-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.2-next.1
+  - @devtools/plugin-tech-radar@0.5.16-next.1
+  - @devtools/plugin-stack-overflow@0.1.5-next.1
+
+## 0.2.75-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kafka@0.3.9-next.0
+  - @devtools/plugin-lighthouse@0.3.9-next.0
+  - @devtools/plugin-scaffolder@1.6.0-next.0
+  - @devtools/plugin-azure-devops@0.2.0-next.0
+  - @devtools/plugin-cloudbuild@0.3.9-next.0
+  - @devtools/plugin-explore@0.3.40-next.0
+  - @devtools/plugin-github-actions@0.5.9-next.0
+  - @devtools/plugin-jenkins@0.7.8-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.2-next.0
+  - @devtools/plugin-pagerduty@0.5.2-next.0
+  - @devtools/plugin-sentry@0.4.2-next.0
+  - @devtools/plugin-tech-insights@0.2.5-next.0
+  - @devtools/plugin-techdocs@1.3.2-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.4-next.0
+  - @devtools/plugin-user-settings@0.4.8-next.0
+  - @devtools/plugin-dynatrace@0.2.0-next.0
+  - @devtools/plugin-cost-insights@0.11.31-next.0
+  - @devtools/core-app-api@1.0.6-next.0
+  - @devtools/core-plugin-api@1.0.6-next.0
+  - @devtools/core-components@0.11.1-next.0
+  - @devtools/plugin-org@0.5.9-next.0
+  - @devtools/cli@0.18.2-next.0
+  - @devtools/integration-react@1.1.4-next.0
+  - @devtools/plugin-airbrake@0.3.9-next.0
+  - @devtools/plugin-apache-airflow@0.2.2-next.0
+  - @devtools/plugin-api-docs@0.8.9-next.0
+  - @devtools/plugin-badges@0.2.33-next.0
+  - @devtools/plugin-catalog-import@0.8.12-next.0
+  - @devtools/plugin-circleci@0.3.9-next.0
+  - @devtools/plugin-code-coverage@0.2.2-next.0
+  - @devtools/plugin-gcalendar@0.3.5-next.0
+  - @devtools/plugin-gcp-projects@0.3.28-next.0
+  - @devtools/plugin-gocd@0.1.15-next.0
+  - @devtools/plugin-graphiql@0.2.41-next.0
+  - @devtools/plugin-home@0.4.25-next.0
+  - @devtools/plugin-kubernetes@0.7.2-next.0
+  - @devtools/plugin-newrelic@0.3.27-next.0
+  - @devtools/plugin-rollbar@0.4.9-next.0
+  - @devtools/plugin-search@1.0.2-next.0
+  - @devtools/plugin-shortcuts@0.3.1-next.0
+  - @devtools/plugin-stack-overflow@0.1.5-next.0
+  - @devtools/plugin-tech-radar@0.5.16-next.0
+  - @devtools/plugin-todo@0.2.11-next.0
+  - @devtools/plugin-catalog-react@1.1.4-next.0
+  - @devtools/app-defaults@1.0.6-next.0
+  - @devtools/plugin-catalog-graph@0.2.21-next.0
+  - @devtools/plugin-search-react@1.0.2-next.0
+  - @devtools/plugin-permission-react@0.4.5-next.0
+  - @devtools/plugin-techdocs-react@1.0.4-next.0
+  - @devtools/plugin-catalog-common@1.0.6-next.0
+  - @devtools/plugin-search-common@1.0.1-next.0
+  - @internal/plugin-catalog-customized@0.0.2-next.0
+
+## 0.2.74
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.7.1
+  - @devtools/cli@0.18.1
+  - @devtools/plugin-techdocs@1.3.1
+  - @devtools/plugin-home@0.4.24
+  - @devtools/core-components@0.11.0
+  - @devtools/plugin-scaffolder@1.5.0
+  - @devtools/core-plugin-api@1.0.5
+  - @devtools/plugin-catalog-react@1.1.3
+  - @devtools/plugin-cost-insights@0.11.30
+  - @devtools/plugin-graphiql@0.2.40
+  - @devtools/plugin-catalog-common@1.0.5
+  - @devtools/plugin-kafka@0.3.8
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.3
+  - @devtools/plugin-gocd@0.1.14
+  - @devtools/plugin-sentry@0.4.1
+  - @devtools/plugin-api-docs@0.8.8
+  - @devtools/plugin-techdocs-react@1.0.3
+  - @devtools/plugin-shortcuts@0.3.0
+  - @devtools/plugin-tech-radar@0.5.15
+  - @devtools/app-defaults@1.0.5
+  - @devtools/core-app-api@1.0.5
+  - @devtools/integration-react@1.1.3
+  - @devtools/plugin-airbrake@0.3.8
+  - @devtools/plugin-apache-airflow@0.2.1
+  - @devtools/plugin-azure-devops@0.1.24
+  - @devtools/plugin-badges@0.2.32
+  - @internal/plugin-catalog-customized@0.0.1
+  - @devtools/plugin-catalog-graph@0.2.20
+  - @devtools/plugin-catalog-import@0.8.11
+  - @devtools/plugin-circleci@0.3.8
+  - @devtools/plugin-cloudbuild@0.3.8
+  - @devtools/plugin-code-coverage@0.2.1
+  - @devtools/plugin-dynatrace@0.1.2
+  - @devtools/plugin-explore@0.3.39
+  - @devtools/plugin-gcalendar@0.3.4
+  - @devtools/plugin-gcp-projects@0.3.27
+  - @devtools/plugin-github-actions@0.5.8
+  - @devtools/plugin-jenkins@0.7.7
+  - @devtools/plugin-lighthouse@0.3.8
+  - @devtools/plugin-newrelic@0.3.26
+  - @devtools/plugin-newrelic-dashboard@0.2.1
+  - @devtools/plugin-org@0.5.8
+  - @devtools/plugin-pagerduty@0.5.1
+  - @devtools/plugin-permission-react@0.4.4
+  - @devtools/plugin-rollbar@0.4.8
+  - @devtools/plugin-search@1.0.1
+  - @devtools/plugin-search-react@1.0.1
+  - @devtools/plugin-stack-overflow@0.1.4
+  - @devtools/plugin-tech-insights@0.2.4
+  - @devtools/plugin-todo@0.2.10
+  - @devtools/plugin-user-settings@0.4.7
+
+## 0.2.74-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.7.1-next.2
+  - @devtools/plugin-catalog-react@1.1.3-next.2
+  - @devtools/plugin-cost-insights@0.11.30-next.1
+  - @devtools/cli@0.18.1-next.1
+  - @devtools/plugin-techdocs@1.3.1-next.2
+  - @devtools/core-components@0.11.0-next.2
+  - @devtools/app-defaults@1.0.5-next.1
+  - @devtools/integration-react@1.1.3-next.1
+  - @devtools/plugin-airbrake@0.3.8-next.1
+  - @devtools/plugin-apache-airflow@0.2.1-next.1
+  - @devtools/plugin-api-docs@0.8.8-next.2
+  - @devtools/plugin-azure-devops@0.1.24-next.1
+  - @devtools/plugin-badges@0.2.32-next.1
+  - @devtools/plugin-catalog-graph@0.2.20-next.1
+  - @devtools/plugin-catalog-import@0.8.11-next.1
+  - @devtools/plugin-circleci@0.3.8-next.1
+  - @devtools/plugin-cloudbuild@0.3.8-next.1
+  - @devtools/plugin-code-coverage@0.2.1-next.1
+  - @devtools/plugin-dynatrace@0.1.2-next.1
+  - @devtools/plugin-explore@0.3.39-next.1
+  - @devtools/plugin-gcalendar@0.3.4-next.1
+  - @devtools/plugin-gcp-projects@0.3.27-next.1
+  - @devtools/plugin-github-actions@0.5.8-next.1
+  - @devtools/plugin-gocd@0.1.14-next.1
+  - @devtools/plugin-graphiql@0.2.40-next.1
+  - @devtools/plugin-home@0.4.24-next.2
+  - @devtools/plugin-jenkins@0.7.7-next.2
+  - @devtools/plugin-kafka@0.3.8-next.1
+  - @devtools/plugin-lighthouse@0.3.8-next.1
+  - @devtools/plugin-newrelic@0.3.26-next.1
+  - @devtools/plugin-newrelic-dashboard@0.2.1-next.1
+  - @devtools/plugin-org@0.5.8-next.1
+  - @devtools/plugin-pagerduty@0.5.1-next.1
+  - @devtools/plugin-rollbar@0.4.8-next.1
+  - @devtools/plugin-scaffolder@1.5.0-next.2
+  - @devtools/plugin-search@1.0.1-next.1
+  - @devtools/plugin-search-react@1.0.1-next.1
+  - @devtools/plugin-sentry@0.4.1-next.1
+  - @devtools/plugin-shortcuts@0.3.0-next.1
+  - @devtools/plugin-stack-overflow@0.1.4-next.1
+  - @devtools/plugin-tech-insights@0.2.4-next.1
+  - @devtools/plugin-tech-radar@0.5.15-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.3-next.2
+  - @devtools/plugin-techdocs-react@1.0.3-next.2
+  - @devtools/plugin-todo@0.2.10-next.1
+  - @devtools/plugin-user-settings@0.4.7-next.1
+
+## 0.2.74-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.7.1-next.1
+  - @devtools/plugin-home@0.4.24-next.1
+  - @devtools/core-components@0.10.1-next.1
+  - @devtools/plugin-scaffolder@1.5.0-next.1
+  - @devtools/plugin-techdocs@1.3.1-next.1
+  - @devtools/plugin-catalog-common@1.0.5-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.3-next.1
+  - @devtools/plugin-api-docs@0.8.8-next.1
+  - @devtools/plugin-techdocs-react@1.0.3-next.1
+  - @devtools/plugin-catalog-react@1.1.3-next.1
+  - @devtools/plugin-jenkins@0.7.7-next.1
+
+## 0.2.74-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-plugin-api@1.0.5-next.0
+  - @devtools/plugin-techdocs@1.3.1-next.0
+  - @devtools/cli@0.18.1-next.0
+  - @devtools/plugin-kafka@0.3.8-next.0
+  - @devtools/plugin-gocd@0.1.14-next.0
+  - @devtools/plugin-sentry@0.4.1-next.0
+  - @devtools/plugin-shortcuts@0.3.0-next.0
+  - @devtools/integration-react@1.1.3-next.0
+  - @devtools/plugin-catalog-import@0.8.11-next.0
+  - @devtools/plugin-catalog-react@1.1.3-next.0
+  - @devtools/plugin-github-actions@0.5.8-next.0
+  - @devtools/plugin-scaffolder@1.4.1-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.3-next.0
+  - @devtools/app-defaults@1.0.5-next.0
+  - @devtools/core-app-api@1.0.5-next.0
+  - @devtools/core-components@0.10.1-next.0
+  - @devtools/plugin-airbrake@0.3.8-next.0
+  - @devtools/plugin-apache-airflow@0.2.1-next.0
+  - @devtools/plugin-api-docs@0.8.8-next.0
+  - @devtools/plugin-azure-devops@0.1.24-next.0
+  - @devtools/plugin-badges@0.2.32-next.0
+  - @devtools/plugin-catalog-graph@0.2.20-next.0
+  - @devtools/plugin-circleci@0.3.8-next.0
+  - @devtools/plugin-cloudbuild@0.3.8-next.0
+  - @devtools/plugin-code-coverage@0.2.1-next.0
+  - @devtools/plugin-cost-insights@0.11.30-next.0
+  - @devtools/plugin-dynatrace@0.1.2-next.0
+  - @devtools/plugin-explore@0.3.39-next.0
+  - @devtools/plugin-gcalendar@0.3.4-next.0
+  - @devtools/plugin-gcp-projects@0.3.27-next.0
+  - @devtools/plugin-graphiql@0.2.40-next.0
+  - @devtools/plugin-home@0.4.24-next.0
+  - @devtools/plugin-jenkins@0.7.7-next.0
+  - @devtools/plugin-kubernetes@0.7.1-next.0
+  - @devtools/plugin-lighthouse@0.3.8-next.0
+  - @devtools/plugin-newrelic@0.3.26-next.0
+  - @devtools/plugin-newrelic-dashboard@0.2.1-next.0
+  - @devtools/plugin-org@0.5.8-next.0
+  - @devtools/plugin-pagerduty@0.5.1-next.0
+  - @devtools/plugin-permission-react@0.4.4-next.0
+  - @devtools/plugin-rollbar@0.4.8-next.0
+  - @devtools/plugin-search@1.0.1-next.0
+  - @devtools/plugin-search-react@1.0.1-next.0
+  - @devtools/plugin-stack-overflow@0.1.4-next.0
+  - @devtools/plugin-tech-insights@0.2.4-next.0
+  - @devtools/plugin-tech-radar@0.5.15-next.0
+  - @devtools/plugin-techdocs-react@1.0.3-next.0
+  - @devtools/plugin-todo@0.2.10-next.0
+  - @devtools/plugin-user-settings@0.4.7-next.0
+  - @internal/plugin-catalog-customized@0.0.1-next.0
+
+## 0.2.73
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-cost-insights@0.11.29
+  - @devtools/plugin-code-coverage@0.2.0
+  - @devtools/plugin-scaffolder@1.4.0
+  - @devtools/core-components@0.10.0
+  - @devtools/catalog-model@1.1.0
+  - @devtools/plugin-techdocs-react@1.0.2
+  - @devtools/plugin-search@1.0.0
+  - @devtools/plugin-search-react@1.0.0
+  - @devtools/plugin-search-common@1.0.0
+  - @devtools/plugin-kubernetes@0.7.0
+  - @devtools/plugin-tech-radar@0.5.14
+  - @devtools/plugin-catalog@1.4.0
+  - @devtools/plugin-newrelic-dashboard@0.2.0
+  - @devtools/cli@0.18.0
+  - @devtools/plugin-apache-airflow@0.2.0
+  - @devtools/app-defaults@1.0.4
+  - @devtools/core-app-api@1.0.4
+  - @devtools/core-plugin-api@1.0.4
+  - @devtools/plugin-jenkins@0.7.6
+  - @devtools/plugin-stack-overflow@0.1.3
+  - @devtools/plugin-catalog-import@0.8.10
+  - @devtools/plugin-github-actions@0.5.7
+  - @devtools/plugin-sentry@0.4.0
+  - @devtools/integration-react@1.1.2
+  - @devtools/plugin-airbrake@0.3.7
+  - @devtools/plugin-api-docs@0.8.7
+  - @devtools/plugin-azure-devops@0.1.23
+  - @devtools/plugin-badges@0.2.31
+  - @devtools/plugin-circleci@0.3.7
+  - @devtools/plugin-cloudbuild@0.3.7
+  - @devtools/plugin-dynatrace@0.1.1
+  - @devtools/plugin-explore@0.3.38
+  - @devtools/plugin-gcalendar@0.3.3
+  - @devtools/plugin-gcp-projects@0.3.26
+  - @devtools/plugin-gocd@0.1.13
+  - @devtools/plugin-graphiql@0.2.39
+  - @devtools/plugin-home@0.4.23
+  - @devtools/plugin-kafka@0.3.7
+  - @devtools/plugin-lighthouse@0.3.7
+  - @devtools/plugin-newrelic@0.3.25
+  - @devtools/plugin-org@0.5.7
+  - @devtools/plugin-pagerduty@0.5.0
+  - @devtools/plugin-rollbar@0.4.7
+  - @devtools/plugin-shortcuts@0.2.8
+  - @devtools/plugin-tech-insights@0.2.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.2
+  - @devtools/plugin-techdocs@1.3.0
+  - @devtools/plugin-todo@0.2.9
+  - @devtools/plugin-user-settings@0.4.6
+  - @devtools/plugin-catalog-react@1.1.2
+  - @devtools/theme@0.2.16
+  - @devtools/plugin-catalog-common@1.0.4
+  - @devtools/plugin-catalog-graph@0.2.19
+  - @devtools/plugin-permission-react@0.4.3
+
+## 0.2.73-next.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-code-coverage@0.2.0-next.3
+  - @devtools/plugin-scaffolder@1.4.0-next.3
+  - @devtools/plugin-kubernetes@0.7.0-next.3
+  - @devtools/plugin-tech-radar@0.5.14-next.3
+  - @devtools/plugin-newrelic-dashboard@0.2.0-next.3
+  - @devtools/app-defaults@1.0.4-next.3
+  - @devtools/core-app-api@1.0.4-next.1
+  - @devtools/core-plugin-api@1.0.4-next.0
+  - @devtools/core-components@0.10.0-next.3
+  - @devtools/plugin-sentry@0.4.0-next.3
+  - @devtools/cli@0.18.0-next.3
+  - @devtools/integration-react@1.1.2-next.3
+  - @devtools/plugin-airbrake@0.3.7-next.3
+  - @devtools/plugin-apache-airflow@0.2.0-next.3
+  - @devtools/plugin-api-docs@0.8.7-next.3
+  - @devtools/plugin-azure-devops@0.1.23-next.3
+  - @devtools/plugin-badges@0.2.31-next.3
+  - @devtools/plugin-catalog-import@0.8.10-next.3
+  - @devtools/plugin-circleci@0.3.7-next.3
+  - @devtools/plugin-cloudbuild@0.3.7-next.3
+  - @devtools/plugin-cost-insights@0.11.29-next.3
+  - @devtools/plugin-dynatrace@0.1.1-next.3
+  - @devtools/plugin-explore@0.3.38-next.3
+  - @devtools/plugin-gcalendar@0.3.3-next.3
+  - @devtools/plugin-gcp-projects@0.3.26-next.3
+  - @devtools/plugin-github-actions@0.5.7-next.3
+  - @devtools/plugin-gocd@0.1.13-next.3
+  - @devtools/plugin-graphiql@0.2.39-next.3
+  - @devtools/plugin-home@0.4.23-next.3
+  - @devtools/plugin-jenkins@0.7.6-next.3
+  - @devtools/plugin-kafka@0.3.7-next.3
+  - @devtools/plugin-lighthouse@0.3.7-next.3
+  - @devtools/plugin-newrelic@0.3.25-next.3
+  - @devtools/plugin-org@0.5.7-next.3
+  - @devtools/plugin-pagerduty@0.5.0-next.3
+  - @devtools/plugin-rollbar@0.4.7-next.3
+  - @devtools/plugin-search@0.9.1-next.3
+  - @devtools/plugin-shortcuts@0.2.8-next.3
+  - @devtools/plugin-stack-overflow@0.1.3-next.3
+  - @devtools/plugin-tech-insights@0.2.3-next.3
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.2-next.3
+  - @devtools/plugin-techdocs@1.2.1-next.3
+  - @devtools/plugin-todo@0.2.9-next.3
+  - @devtools/plugin-user-settings@0.4.6-next.3
+  - @devtools/catalog-model@1.1.0-next.3
+  - @devtools/plugin-catalog-react@1.1.2-next.3
+  - @devtools/plugin-catalog@1.4.0-next.3
+  - @devtools/plugin-catalog-graph@0.2.19-next.3
+  - @devtools/plugin-permission-react@0.4.3-next.1
+  - @devtools/plugin-search-react@0.2.2-next.3
+  - @devtools/plugin-techdocs-react@1.0.2-next.2
+
+## 0.2.73-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-cost-insights@0.11.29-next.2
+  - @devtools/core-components@0.10.0-next.2
+  - @devtools/plugin-scaffolder@1.4.0-next.2
+  - @devtools/plugin-jenkins@0.7.6-next.2
+  - @devtools/catalog-model@1.1.0-next.2
+  - @devtools/plugin-search-react@0.2.2-next.2
+  - @devtools/theme@0.2.16-next.1
+  - @devtools/plugin-catalog-import@0.8.10-next.2
+  - @devtools/plugin-techdocs@1.2.1-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.2-next.2
+  - @devtools/plugin-api-docs@0.8.7-next.2
+  - @devtools/plugin-catalog@1.4.0-next.2
+  - @devtools/cli@0.18.0-next.2
+  - @devtools/plugin-catalog-react@1.1.2-next.2
+  - @devtools/app-defaults@1.0.4-next.2
+  - @devtools/integration-react@1.1.2-next.2
+  - @devtools/plugin-airbrake@0.3.7-next.2
+  - @devtools/plugin-apache-airflow@0.2.0-next.2
+  - @devtools/plugin-azure-devops@0.1.23-next.2
+  - @devtools/plugin-badges@0.2.31-next.2
+  - @devtools/plugin-catalog-graph@0.2.19-next.2
+  - @devtools/plugin-circleci@0.3.7-next.2
+  - @devtools/plugin-cloudbuild@0.3.7-next.2
+  - @devtools/plugin-code-coverage@0.1.34-next.2
+  - @devtools/plugin-dynatrace@0.1.1-next.2
+  - @devtools/plugin-explore@0.3.38-next.2
+  - @devtools/plugin-gcalendar@0.3.3-next.2
+  - @devtools/plugin-gcp-projects@0.3.26-next.2
+  - @devtools/plugin-github-actions@0.5.7-next.2
+  - @devtools/plugin-gocd@0.1.13-next.2
+  - @devtools/plugin-graphiql@0.2.39-next.2
+  - @devtools/plugin-home@0.4.23-next.2
+  - @devtools/plugin-kafka@0.3.7-next.2
+  - @devtools/plugin-kubernetes@0.6.7-next.2
+  - @devtools/plugin-lighthouse@0.3.7-next.2
+  - @devtools/plugin-newrelic@0.3.25-next.2
+  - @devtools/plugin-newrelic-dashboard@0.1.15-next.2
+  - @devtools/plugin-org@0.5.7-next.2
+  - @devtools/plugin-pagerduty@0.5.0-next.2
+  - @devtools/plugin-rollbar@0.4.7-next.2
+  - @devtools/plugin-search@0.9.1-next.2
+  - @devtools/plugin-sentry@0.3.45-next.2
+  - @devtools/plugin-shortcuts@0.2.8-next.2
+  - @devtools/plugin-stack-overflow@0.1.3-next.2
+  - @devtools/plugin-tech-insights@0.2.3-next.2
+  - @devtools/plugin-tech-radar@0.5.14-next.2
+  - @devtools/plugin-techdocs-react@1.0.2-next.1
+  - @devtools/plugin-todo@0.2.9-next.2
+  - @devtools/plugin-user-settings@0.4.6-next.2
+
+## 0.2.73-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.9.6-next.1
+  - @devtools/cli@0.18.0-next.1
+  - @devtools/plugin-apache-airflow@0.2.0-next.1
+  - @devtools/catalog-model@1.1.0-next.1
+  - @devtools/plugin-search@0.9.1-next.1
+  - @devtools/plugin-org@0.5.7-next.1
+  - @devtools/plugin-catalog@1.3.1-next.1
+  - @devtools/plugin-home@0.4.23-next.1
+  - @devtools/plugin-stack-overflow@0.1.3-next.1
+  - @devtools/theme@0.2.16-next.0
+  - @devtools/plugin-techdocs@1.2.1-next.1
+  - @devtools/app-defaults@1.0.4-next.1
+  - @devtools/integration-react@1.1.2-next.1
+  - @devtools/plugin-airbrake@0.3.7-next.1
+  - @devtools/plugin-api-docs@0.8.7-next.1
+  - @devtools/plugin-azure-devops@0.1.23-next.1
+  - @devtools/plugin-badges@0.2.31-next.1
+  - @devtools/plugin-catalog-common@1.0.4-next.0
+  - @devtools/plugin-catalog-graph@0.2.19-next.1
+  - @devtools/plugin-catalog-import@0.8.10-next.1
+  - @devtools/plugin-catalog-react@1.1.2-next.1
+  - @devtools/plugin-circleci@0.3.7-next.1
+  - @devtools/plugin-cloudbuild@0.3.7-next.1
+  - @devtools/plugin-code-coverage@0.1.34-next.1
+  - @devtools/plugin-cost-insights@0.11.29-next.1
+  - @devtools/plugin-dynatrace@0.1.1-next.1
+  - @devtools/plugin-explore@0.3.38-next.1
+  - @devtools/plugin-gcalendar@0.3.3-next.1
+  - @devtools/plugin-gcp-projects@0.3.26-next.1
+  - @devtools/plugin-github-actions@0.5.7-next.1
+  - @devtools/plugin-gocd@0.1.13-next.1
+  - @devtools/plugin-graphiql@0.2.39-next.1
+  - @devtools/plugin-jenkins@0.7.6-next.1
+  - @devtools/plugin-kafka@0.3.7-next.1
+  - @devtools/plugin-kubernetes@0.6.7-next.1
+  - @devtools/plugin-lighthouse@0.3.7-next.1
+  - @devtools/plugin-newrelic@0.3.25-next.1
+  - @devtools/plugin-newrelic-dashboard@0.1.15-next.1
+  - @devtools/plugin-pagerduty@0.5.0-next.1
+  - @devtools/plugin-permission-react@0.4.3-next.0
+  - @devtools/plugin-rollbar@0.4.7-next.1
+  - @devtools/plugin-scaffolder@1.4.0-next.1
+  - @devtools/plugin-search-common@0.3.6-next.0
+  - @devtools/plugin-sentry@0.3.45-next.1
+  - @devtools/plugin-shortcuts@0.2.8-next.1
+  - @devtools/plugin-tech-insights@0.2.3-next.1
+  - @devtools/plugin-tech-radar@0.5.14-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.2-next.1
+  - @devtools/plugin-todo@0.2.9-next.1
+  - @devtools/plugin-user-settings@0.4.6-next.1
+  - @devtools/plugin-search-react@0.2.2-next.1
+
+## 0.2.73-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.4.0-next.0
+  - @devtools/catalog-model@1.1.0-next.0
+  - @devtools/core-components@0.9.6-next.0
+  - @devtools/plugin-techdocs-react@1.0.2-next.0
+  - @devtools/plugin-catalog@1.3.1-next.0
+  - @devtools/plugin-stack-overflow@0.1.3-next.0
+  - @devtools/core-app-api@1.0.4-next.0
+  - @devtools/cli@0.17.3-next.0
+  - @devtools/plugin-azure-devops@0.1.23-next.0
+  - @devtools/plugin-techdocs@1.2.1-next.0
+  - @devtools/plugin-catalog-import@0.8.10-next.0
+  - @devtools/plugin-pagerduty@0.5.0-next.0
+  - @devtools/plugin-github-actions@0.5.7-next.0
+  - @devtools/plugin-airbrake@0.3.7-next.0
+  - @devtools/plugin-api-docs@0.8.7-next.0
+  - @devtools/plugin-badges@0.2.31-next.0
+  - @devtools/plugin-catalog-graph@0.2.19-next.0
+  - @devtools/plugin-catalog-react@1.1.2-next.0
+  - @devtools/plugin-circleci@0.3.7-next.0
+  - @devtools/plugin-cloudbuild@0.3.7-next.0
+  - @devtools/plugin-code-coverage@0.1.34-next.0
+  - @devtools/plugin-cost-insights@0.11.29-next.0
+  - @devtools/plugin-dynatrace@0.1.1-next.0
+  - @devtools/plugin-explore@0.3.38-next.0
+  - @devtools/plugin-gocd@0.1.13-next.0
+  - @devtools/plugin-home@0.4.23-next.0
+  - @devtools/plugin-jenkins@0.7.6-next.0
+  - @devtools/plugin-kafka@0.3.7-next.0
+  - @devtools/plugin-kubernetes@0.6.7-next.0
+  - @devtools/plugin-lighthouse@0.3.7-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.15-next.0
+  - @devtools/plugin-org@0.5.7-next.0
+  - @devtools/plugin-rollbar@0.4.7-next.0
+  - @devtools/plugin-search@0.9.1-next.0
+  - @devtools/plugin-sentry@0.3.45-next.0
+  - @devtools/plugin-tech-insights@0.2.3-next.0
+  - @devtools/plugin-todo@0.2.9-next.0
+  - @devtools/app-defaults@1.0.4-next.0
+  - @devtools/integration-react@1.1.2-next.0
+  - @devtools/plugin-apache-airflow@0.1.15-next.0
+  - @devtools/plugin-gcalendar@0.3.3-next.0
+  - @devtools/plugin-gcp-projects@0.3.26-next.0
+  - @devtools/plugin-graphiql@0.2.39-next.0
+  - @devtools/plugin-newrelic@0.3.25-next.0
+  - @devtools/plugin-search-react@0.2.2-next.0
+  - @devtools/plugin-shortcuts@0.2.8-next.0
+  - @devtools/plugin-tech-radar@0.5.14-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.2-next.0
+  - @devtools/plugin-user-settings@0.4.6-next.0
+
+## 0.2.72
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.6.6
+  - @devtools/plugin-cost-insights@0.11.28
+  - @devtools/plugin-scaffolder@1.3.0
+  - @devtools/plugin-catalog@1.3.0
+  - @devtools/plugin-techdocs@1.2.0
+  - @devtools/plugin-catalog-react@1.1.1
+  - @devtools/cli@0.17.2
+  - @devtools/plugin-user-settings@0.4.5
+  - @devtools/plugin-pagerduty@0.4.0
+  - @devtools/plugin-search-common@0.3.5
+  - @devtools/plugin-search@0.9.0
+  - @devtools/plugin-search-react@0.2.1
+  - @devtools/plugin-sentry@0.3.44
+  - @devtools/plugin-tech-insights@0.2.2
+  - @devtools/plugin-catalog-common@1.0.3
+  - @devtools/core-components@0.9.5
+  - @devtools/plugin-dynatrace@0.1.0
+  - @devtools/plugin-tech-radar@0.5.13
+  - @devtools/core-app-api@1.0.3
+  - @devtools/core-plugin-api@1.0.3
+  - @devtools/integration-react@1.1.1
+  - @devtools/plugin-airbrake@0.3.6
+  - @devtools/plugin-apache-airflow@0.1.14
+  - @devtools/plugin-api-docs@0.8.6
+  - @devtools/plugin-azure-devops@0.1.22
+  - @devtools/plugin-badges@0.2.30
+  - @devtools/plugin-catalog-import@0.8.9
+  - @devtools/plugin-circleci@0.3.6
+  - @devtools/plugin-cloudbuild@0.3.6
+  - @devtools/plugin-code-coverage@0.1.33
+  - @devtools/plugin-explore@0.3.37
+  - @devtools/plugin-gcalendar@0.3.2
+  - @devtools/plugin-gcp-projects@0.3.25
+  - @devtools/plugin-github-actions@0.5.6
+  - @devtools/plugin-gocd@0.1.12
+  - @devtools/plugin-graphiql@0.2.38
+  - @devtools/plugin-home@0.4.22
+  - @devtools/plugin-jenkins@0.7.5
+  - @devtools/plugin-kafka@0.3.6
+  - @devtools/plugin-lighthouse@0.3.6
+  - @devtools/plugin-newrelic@0.3.24
+  - @devtools/plugin-org@0.5.6
+  - @devtools/plugin-rollbar@0.4.6
+  - @devtools/plugin-shortcuts@0.2.7
+  - @devtools/plugin-stack-overflow@0.1.2
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.1
+  - @devtools/plugin-todo@0.2.8
+  - @devtools/catalog-model@1.0.3
+  - @devtools/plugin-techdocs-react@1.0.1
+  - @devtools/app-defaults@1.0.3
+  - @devtools/plugin-catalog-graph@0.2.18
+  - @devtools/plugin-newrelic-dashboard@0.1.14
+  - @devtools/plugin-permission-react@0.4.2
+
+## 0.2.72-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.3.0-next.2
+  - @devtools/cli@0.17.2-next.2
+  - @devtools/plugin-pagerduty@0.4.0-next.2
+  - @devtools/plugin-search-common@0.3.5-next.1
+  - @devtools/plugin-cost-insights@0.11.28-next.2
+  - @devtools/plugin-catalog-common@1.0.3-next.1
+  - @devtools/plugin-kubernetes@0.6.6-next.2
+  - @devtools/core-components@0.9.5-next.2
+  - @devtools/plugin-search@0.8.2-next.2
+  - @devtools/plugin-org@0.5.6-next.2
+
+## 0.2.72-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-sentry@0.3.44-next.1
+  - @devtools/plugin-kubernetes@0.6.6-next.1
+  - @devtools/plugin-tech-insights@0.2.2-next.1
+  - @devtools/plugin-cost-insights@0.11.28-next.1
+  - @devtools/core-components@0.9.5-next.1
+  - @devtools/cli@0.17.2-next.1
+  - @devtools/core-app-api@1.0.3-next.0
+  - @devtools/core-plugin-api@1.0.3-next.0
+  - @devtools/integration-react@1.1.1-next.1
+  - @devtools/plugin-airbrake@0.3.6-next.1
+  - @devtools/plugin-apache-airflow@0.1.14-next.1
+  - @devtools/plugin-api-docs@0.8.6-next.1
+  - @devtools/plugin-azure-devops@0.1.22-next.1
+  - @devtools/plugin-badges@0.2.30-next.1
+  - @devtools/plugin-catalog-import@0.8.9-next.1
+  - @devtools/plugin-circleci@0.3.6-next.1
+  - @devtools/plugin-cloudbuild@0.3.6-next.1
+  - @devtools/plugin-code-coverage@0.1.33-next.1
+  - @devtools/plugin-explore@0.3.37-next.1
+  - @devtools/plugin-gcalendar@0.3.2-next.1
+  - @devtools/plugin-gcp-projects@0.3.25-next.1
+  - @devtools/plugin-github-actions@0.5.6-next.1
+  - @devtools/plugin-gocd@0.1.12-next.1
+  - @devtools/plugin-graphiql@0.2.38-next.1
+  - @devtools/plugin-home@0.4.22-next.1
+  - @devtools/plugin-jenkins@0.7.5-next.1
+  - @devtools/plugin-kafka@0.3.6-next.1
+  - @devtools/plugin-lighthouse@0.3.6-next.1
+  - @devtools/plugin-newrelic@0.3.24-next.1
+  - @devtools/plugin-org@0.5.6-next.1
+  - @devtools/plugin-pagerduty@0.3.33-next.1
+  - @devtools/plugin-rollbar@0.4.6-next.1
+  - @devtools/plugin-scaffolder@1.3.0-next.1
+  - @devtools/plugin-search@0.8.2-next.1
+  - @devtools/plugin-shortcuts@0.2.7-next.1
+  - @devtools/plugin-stack-overflow@0.1.2-next.1
+  - @devtools/plugin-tech-radar@0.5.13-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.1-next.1
+  - @devtools/plugin-techdocs@1.1.2-next.1
+  - @devtools/plugin-todo@0.2.8-next.1
+  - @devtools/plugin-user-settings@0.4.5-next.1
+  - @devtools/catalog-model@1.0.3-next.0
+  - @devtools/plugin-catalog@1.2.1-next.1
+  - @devtools/plugin-catalog-graph@0.2.18-next.1
+  - @devtools/plugin-catalog-react@1.1.1-next.1
+  - @devtools/app-defaults@1.0.3-next.1
+  - @devtools/plugin-search-react@0.2.1-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.14-next.1
+  - @devtools/plugin-permission-react@0.4.2-next.0
+  - @devtools/plugin-techdocs-react@1.0.1-next.1
+  - @devtools/plugin-catalog-common@1.0.3-next.0
+  - @devtools/plugin-search-common@0.3.5-next.0
+
+## 0.2.72-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-kubernetes@0.6.6-next.0
+  - @devtools/plugin-cost-insights@0.11.28-next.0
+  - @devtools/plugin-catalog-react@1.1.1-next.0
+  - @devtools/plugin-catalog@1.2.1-next.0
+  - @devtools/cli@0.17.2-next.0
+  - @devtools/plugin-pagerduty@0.3.33-next.0
+  - @devtools/core-components@0.9.5-next.0
+  - @devtools/plugin-gcp-projects@0.3.25-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.1-next.0
+  - @devtools/plugin-scaffolder@1.3.0-next.0
+  - @devtools/plugin-techdocs@1.1.2-next.0
+  - @devtools/plugin-techdocs-react@1.0.1-next.0
+  - @devtools/plugin-airbrake@0.3.6-next.0
+  - @devtools/plugin-api-docs@0.8.6-next.0
+  - @devtools/plugin-azure-devops@0.1.22-next.0
+  - @devtools/plugin-badges@0.2.30-next.0
+  - @devtools/plugin-catalog-graph@0.2.18-next.0
+  - @devtools/plugin-catalog-import@0.8.9-next.0
+  - @devtools/plugin-circleci@0.3.6-next.0
+  - @devtools/plugin-cloudbuild@0.3.6-next.0
+  - @devtools/plugin-code-coverage@0.1.33-next.0
+  - @devtools/plugin-explore@0.3.37-next.0
+  - @devtools/plugin-github-actions@0.5.6-next.0
+  - @devtools/plugin-gocd@0.1.12-next.0
+  - @devtools/plugin-home@0.4.22-next.0
+  - @devtools/plugin-jenkins@0.7.5-next.0
+  - @devtools/plugin-kafka@0.3.6-next.0
+  - @devtools/plugin-lighthouse@0.3.6-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.14-next.0
+  - @devtools/plugin-org@0.5.6-next.0
+  - @devtools/plugin-rollbar@0.4.6-next.0
+  - @devtools/plugin-search@0.8.2-next.0
+  - @devtools/plugin-sentry@0.3.44-next.0
+  - @devtools/plugin-tech-insights@0.2.2-next.0
+  - @devtools/plugin-todo@0.2.8-next.0
+  - @devtools/app-defaults@1.0.3-next.0
+  - @devtools/integration-react@1.1.1-next.0
+  - @devtools/plugin-apache-airflow@0.1.14-next.0
+  - @devtools/plugin-gcalendar@0.3.2-next.0
+  - @devtools/plugin-graphiql@0.2.38-next.0
+  - @devtools/plugin-newrelic@0.3.24-next.0
+  - @devtools/plugin-shortcuts@0.2.7-next.0
+  - @devtools/plugin-stack-overflow@0.1.2-next.0
+  - @devtools/plugin-tech-radar@0.5.13-next.0
+  - @devtools/plugin-user-settings@0.4.5-next.0
+
+## 0.2.71
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.9.4
+  - @devtools/plugin-kubernetes@0.6.5
+  - @devtools/plugin-scaffolder@1.2.0
+  - @devtools/plugin-api-docs@0.8.5
+  - @devtools/plugin-tech-insights@0.2.1
+  - @devtools/plugin-tech-radar@0.5.12
+  - @devtools/plugin-org@0.5.5
+  - @devtools/plugin-techdocs@1.1.1
+  - @devtools/cli@0.17.1
+  - @devtools/core-plugin-api@1.0.2
+  - @devtools/plugin-user-settings@0.4.4
+  - @devtools/plugin-techdocs-module-addons-contrib@1.0.0
+  - @devtools/plugin-home@0.4.21
+  - @devtools/plugin-catalog@1.2.0
+  - @devtools/plugin-catalog-react@1.1.0
+  - @devtools/integration-react@1.1.0
+  - @devtools/plugin-techdocs-react@1.0.0
+  - @devtools/plugin-newrelic-dashboard@0.1.13
+  - @devtools/plugin-graphiql@0.2.37
+  - @devtools/config@1.0.1
+  - @devtools/plugin-search@0.8.1
+  - @devtools/plugin-search-react@0.2.0
+  - @devtools/plugin-catalog-graph@0.2.17
+  - @devtools/core-app-api@1.0.2
+  - @devtools/plugin-gcalendar@0.3.1
+  - @devtools/plugin-search-common@0.3.4
+  - @devtools/plugin-azure-devops@0.1.21
+  - @devtools/app-defaults@1.0.2
+  - @devtools/catalog-model@1.0.2
+  - @devtools/plugin-airbrake@0.3.5
+  - @devtools/plugin-apache-airflow@0.1.13
+  - @devtools/plugin-badges@0.2.29
+  - @devtools/plugin-catalog-common@1.0.2
+  - @devtools/plugin-catalog-import@0.8.8
+  - @devtools/plugin-circleci@0.3.5
+  - @devtools/plugin-cloudbuild@0.3.5
+  - @devtools/plugin-code-coverage@0.1.32
+  - @devtools/plugin-cost-insights@0.11.27
+  - @devtools/plugin-explore@0.3.36
+  - @devtools/plugin-gcp-projects@0.3.24
+  - @devtools/plugin-github-actions@0.5.5
+  - @devtools/plugin-gocd@0.1.11
+  - @devtools/plugin-jenkins@0.7.4
+  - @devtools/plugin-kafka@0.3.5
+  - @devtools/plugin-lighthouse@0.3.5
+  - @devtools/plugin-newrelic@0.3.23
+  - @devtools/plugin-pagerduty@0.3.32
+  - @devtools/plugin-permission-react@0.4.1
+  - @devtools/plugin-rollbar@0.4.5
+  - @devtools/plugin-sentry@0.3.43
+  - @devtools/plugin-shortcuts@0.2.6
+  - @devtools/plugin-stack-overflow@0.1.1
+  - @devtools/plugin-todo@0.2.7
+
+## 0.2.71-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.9.4-next.1
+  - @devtools/plugin-kubernetes@0.6.5-next.2
+  - @devtools/plugin-org@0.5.5-next.2
+  - @devtools/plugin-techdocs@1.1.1-next.2
+  - @devtools/plugin-techdocs-react@0.1.1-next.2
+  - @devtools/plugin-scaffolder@1.2.0-next.2
+  - @devtools/plugin-graphiql@0.2.37-next.1
+  - @devtools/config@1.0.1-next.0
+  - @devtools/plugin-catalog@1.2.0-next.2
+  - @devtools/plugin-techdocs-module-addons-contrib@0.1.0-next.2
+  - @devtools/cli@0.17.1-next.2
+  - @devtools/plugin-search@0.8.1-next.2
+  - @devtools/plugin-search-react@0.2.0-next.2
+  - @devtools/plugin-search-common@0.3.4-next.0
+  - @devtools/plugin-azure-devops@0.1.21-next.2
+  - @devtools/plugin-catalog-react@1.1.0-next.2
+  - @devtools/catalog-model@1.0.2-next.0
+  - @devtools/core-app-api@1.0.2-next.1
+  - @devtools/core-plugin-api@1.0.2-next.1
+  - @devtools/integration-react@1.1.0-next.2
+  - @devtools/plugin-catalog-import@0.8.8-next.2
+  - @devtools/plugin-code-coverage@0.1.32-next.2
+  - @devtools/plugin-cost-insights@0.11.27-next.1
+  - @devtools/plugin-home@0.4.21-next.2
+  - @devtools/plugin-lighthouse@0.3.5-next.2
+  - @devtools/plugin-permission-react@0.4.1-next.1
+  - @devtools/plugin-stack-overflow@0.1.1-next.2
+  - @devtools/plugin-airbrake@0.3.5-next.2
+  - @devtools/plugin-api-docs@0.8.5-next.2
+  - @devtools/plugin-badges@0.2.29-next.2
+  - @devtools/plugin-catalog-graph@0.2.17-next.2
+  - @devtools/plugin-circleci@0.3.5-next.2
+  - @devtools/plugin-cloudbuild@0.3.5-next.2
+  - @devtools/plugin-explore@0.3.36-next.2
+  - @devtools/plugin-github-actions@0.5.5-next.2
+  - @devtools/plugin-gocd@0.1.11-next.2
+  - @devtools/plugin-jenkins@0.7.4-next.2
+  - @devtools/plugin-kafka@0.3.5-next.2
+  - @devtools/plugin-newrelic-dashboard@0.1.13-next.2
+  - @devtools/plugin-pagerduty@0.3.32-next.2
+  - @devtools/plugin-rollbar@0.4.5-next.2
+  - @devtools/plugin-sentry@0.3.43-next.2
+  - @devtools/plugin-tech-insights@0.2.1-next.2
+  - @devtools/plugin-todo@0.2.7-next.2
+  - @devtools/plugin-catalog-common@1.0.2-next.0
+
+## 0.2.71-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.9.4-next.0
+  - @devtools/plugin-api-docs@0.8.5-next.1
+  - @devtools/plugin-tech-insights@0.2.1-next.1
+  - @devtools/plugin-tech-radar@0.5.12-next.0
+  - @devtools/cli@0.17.1-next.1
+  - @devtools/core-plugin-api@1.0.2-next.0
+  - @devtools/plugin-user-settings@0.4.4-next.0
+  - @devtools/plugin-scaffolder@1.2.0-next.1
+  - @devtools/plugin-catalog@1.2.0-next.1
+  - @devtools/plugin-catalog-react@1.1.0-next.1
+  - @devtools/plugin-org@0.5.5-next.1
+  - @devtools/plugin-graphiql@0.2.37-next.0
+  - @devtools/plugin-search-react@0.2.0-next.1
+  - @devtools/plugin-techdocs-react@0.1.1-next.1
+  - @devtools/plugin-techdocs@1.1.1-next.1
+  - @devtools/app-defaults@1.0.2-next.0
+  - @devtools/integration-react@1.1.0-next.1
+  - @devtools/plugin-airbrake@0.3.5-next.1
+  - @devtools/plugin-apache-airflow@0.1.13-next.0
+  - @devtools/plugin-azure-devops@0.1.21-next.1
+  - @devtools/plugin-badges@0.2.29-next.1
+  - @devtools/plugin-catalog-graph@0.2.17-next.1
+  - @devtools/plugin-catalog-import@0.8.8-next.1
+  - @devtools/plugin-circleci@0.3.5-next.1
+  - @devtools/plugin-cloudbuild@0.3.5-next.1
+  - @devtools/plugin-code-coverage@0.1.32-next.1
+  - @devtools/plugin-cost-insights@0.11.27-next.0
+  - @devtools/plugin-explore@0.3.36-next.1
+  - @devtools/plugin-gcalendar@0.3.1-next.1
+  - @devtools/plugin-gcp-projects@0.3.24-next.0
+  - @devtools/plugin-github-actions@0.5.5-next.1
+  - @devtools/plugin-gocd@0.1.11-next.1
+  - @devtools/plugin-home@0.4.21-next.1
+  - @devtools/plugin-jenkins@0.7.4-next.1
+  - @devtools/plugin-kafka@0.3.5-next.1
+  - @devtools/plugin-kubernetes@0.6.5-next.1
+  - @devtools/plugin-lighthouse@0.3.5-next.1
+  - @devtools/plugin-newrelic@0.3.23-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.13-next.1
+  - @devtools/plugin-pagerduty@0.3.32-next.1
+  - @devtools/plugin-rollbar@0.4.5-next.1
+  - @devtools/plugin-search@0.8.1-next.1
+  - @devtools/plugin-sentry@0.3.43-next.1
+  - @devtools/plugin-shortcuts@0.2.6-next.0
+  - @devtools/plugin-stack-overflow@0.1.1-next.1
+  - @devtools/plugin-techdocs-module-addons-contrib@0.1.0-next.1
+  - @devtools/plugin-todo@0.2.7-next.1
+  - @devtools/core-app-api@1.0.2-next.0
+  - @devtools/plugin-permission-react@0.4.1-next.0
+
+## 0.2.71-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@1.2.0-next.0
+  - @devtools/cli@0.17.1-next.0
+  - @devtools/plugin-home@0.4.21-next.0
+  - @devtools/plugin-api-docs@0.8.5-next.0
+  - @devtools/plugin-catalog@1.2.0-next.0
+  - @devtools/plugin-catalog-react@1.1.0-next.0
+  - @devtools/integration-react@1.1.0-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.13-next.0
+  - @devtools/plugin-search@0.8.1-next.0
+  - @devtools/plugin-search-react@0.1.1-next.0
+  - @devtools/plugin-techdocs@1.1.1-next.0
+  - @devtools/plugin-techdocs-module-addons-contrib@0.1.0-next.0
+  - @devtools/plugin-techdocs-react@0.1.1-next.0
+  - @devtools/plugin-gcalendar@0.3.1-next.0
+  - @devtools/plugin-org@0.5.5-next.0
+  - @devtools/plugin-catalog-import@0.8.8-next.0
+  - @devtools/plugin-github-actions@0.5.5-next.0
+  - @devtools/plugin-airbrake@0.3.5-next.0
+  - @devtools/plugin-azure-devops@0.1.21-next.0
+  - @devtools/plugin-badges@0.2.29-next.0
+  - @devtools/plugin-catalog-graph@0.2.17-next.0
+  - @devtools/plugin-circleci@0.3.5-next.0
+  - @devtools/plugin-cloudbuild@0.3.5-next.0
+  - @devtools/plugin-code-coverage@0.1.32-next.0
+  - @devtools/plugin-explore@0.3.36-next.0
+  - @devtools/plugin-gocd@0.1.11-next.0
+  - @devtools/plugin-jenkins@0.7.4-next.0
+  - @devtools/plugin-kafka@0.3.5-next.0
+  - @devtools/plugin-kubernetes@0.6.5-next.0
+  - @devtools/plugin-lighthouse@0.3.5-next.0
+  - @devtools/plugin-pagerduty@0.3.32-next.0
+  - @devtools/plugin-rollbar@0.4.5-next.0
+  - @devtools/plugin-sentry@0.3.43-next.0
+  - @devtools/plugin-stack-overflow@0.1.1-next.0
+  - @devtools/plugin-tech-insights@0.2.1-next.0
+  - @devtools/plugin-todo@0.2.7-next.0
+
+## 0.2.70
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-permission-react@0.4.0
+  - @devtools/plugin-home@0.4.20
+  - @devtools/plugin-techdocs@1.1.0
+  - @devtools/plugin-catalog-react@1.0.1
+  - @devtools/cli@0.17.0
+  - @devtools/plugin-scaffolder@1.1.0
+  - @devtools/catalog-model@1.0.1
+  - @devtools/plugin-kubernetes@0.6.4
+  - @devtools/core-app-api@1.0.1
+  - @devtools/core-components@0.9.3
+  - @devtools/core-plugin-api@1.0.1
+  - @devtools/plugin-catalog-graph@0.2.16
+  - @devtools/plugin-catalog-import@0.8.7
+  - @devtools/plugin-kafka@0.3.4
+  - @devtools/plugin-lighthouse@0.3.4
+  - @devtools/plugin-rollbar@0.4.4
+  - @devtools/plugin-search-react@0.1.0
+  - @devtools/plugin-search@0.8.0
+  - @devtools/integration-react@1.0.1
+  - @devtools/plugin-airbrake@0.3.4
+  - @devtools/plugin-apache-airflow@0.1.12
+  - @devtools/plugin-api-docs@0.8.4
+  - @devtools/plugin-azure-devops@0.1.20
+  - @devtools/plugin-badges@0.2.28
+  - @devtools/plugin-catalog@1.1.0
+  - @devtools/plugin-circleci@0.3.4
+  - @devtools/plugin-cloudbuild@0.3.4
+  - @devtools/plugin-code-coverage@0.1.31
+  - @devtools/plugin-cost-insights@0.11.26
+  - @devtools/plugin-explore@0.3.35
+  - @devtools/plugin-gcalendar@0.3.0
+  - @devtools/plugin-gcp-projects@0.3.23
+  - @devtools/plugin-github-actions@0.5.4
+  - @devtools/plugin-gocd@0.1.10
+  - @devtools/plugin-graphiql@0.2.36
+  - @devtools/plugin-jenkins@0.7.3
+  - @devtools/plugin-newrelic@0.3.22
+  - @devtools/plugin-org@0.5.4
+  - @devtools/plugin-pagerduty@0.3.31
+  - @devtools/plugin-sentry@0.3.42
+  - @devtools/plugin-shortcuts@0.2.5
+  - @devtools/plugin-stack-overflow@0.1.0
+  - @devtools/plugin-tech-insights@0.2.0
+  - @devtools/plugin-tech-radar@0.5.11
+  - @devtools/plugin-todo@0.2.6
+  - @devtools/plugin-user-settings@0.4.3
+  - @devtools/plugin-search-common@0.3.3
+  - @devtools/plugin-catalog-common@1.0.1
+  - @devtools/app-defaults@1.0.1
+  - @devtools/plugin-newrelic-dashboard@0.1.12
+
+## 0.2.70-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-home@0.4.20-next.3
+  - @devtools/plugin-techdocs@1.1.0-next.3
+  - @devtools/cli@0.17.0-next.3
+  - @devtools/plugin-scaffolder@1.1.0-next.3
+  - @devtools/plugin-kubernetes@0.6.4-next.2
+  - @devtools/core-app-api@1.0.1-next.1
+  - @devtools/core-components@0.9.3-next.2
+  - @devtools/core-plugin-api@1.0.1-next.0
+  - @devtools/integration-react@1.0.1-next.2
+  - @devtools/plugin-airbrake@0.3.4-next.1
+  - @devtools/plugin-apache-airflow@0.1.12-next.1
+  - @devtools/plugin-api-docs@0.8.4-next.3
+  - @devtools/plugin-azure-devops@0.1.20-next.1
+  - @devtools/plugin-badges@0.2.28-next.1
+  - @devtools/plugin-catalog-graph@0.2.16-next.3
+  - @devtools/plugin-catalog-import@0.8.7-next.2
+  - @devtools/plugin-catalog-react@1.0.1-next.3
+  - @devtools/plugin-catalog@1.1.0-next.3
+  - @devtools/plugin-circleci@0.3.4-next.1
+  - @devtools/plugin-cloudbuild@0.3.4-next.1
+  - @devtools/plugin-code-coverage@0.1.31-next.1
+  - @devtools/plugin-cost-insights@0.11.26-next.1
+  - @devtools/plugin-explore@0.3.35-next.1
+  - @devtools/plugin-gcalendar@0.3.0-next.2
+  - @devtools/plugin-gcp-projects@0.3.23-next.1
+  - @devtools/plugin-github-actions@0.5.4-next.2
+  - @devtools/plugin-gocd@0.1.10-next.2
+  - @devtools/plugin-graphiql@0.2.36-next.2
+  - @devtools/plugin-jenkins@0.7.3-next.1
+  - @devtools/plugin-kafka@0.3.4-next.1
+  - @devtools/plugin-lighthouse@0.3.4-next.1
+  - @devtools/plugin-newrelic@0.3.22-next.1
+  - @devtools/plugin-org@0.5.4-next.3
+  - @devtools/plugin-pagerduty@0.3.31-next.1
+  - @devtools/plugin-rollbar@0.4.4-next.1
+  - @devtools/plugin-search@0.7.5-next.1
+  - @devtools/plugin-sentry@0.3.42-next.2
+  - @devtools/plugin-shortcuts@0.2.5-next.1
+  - @devtools/plugin-stack-overflow@0.1.0-next.1
+  - @devtools/plugin-tech-insights@0.2.0-next.1
+  - @devtools/plugin-tech-radar@0.5.11-next.2
+  - @devtools/plugin-todo@0.2.6-next.1
+  - @devtools/plugin-user-settings@0.4.3-next.1
+  - @devtools/app-defaults@1.0.1-next.2
+  - @devtools/plugin-search-react@0.1.0-next.0
+  - @devtools/plugin-permission-react@0.4.0-next.1
+  - @devtools/plugin-newrelic-dashboard@0.1.12-next.1
+
+## 0.2.70-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-permission-react@0.4.0-next.0
+  - @devtools/plugin-catalog-react@1.0.1-next.1
+  - @devtools/cli@0.17.0-next.1
+  - @devtools/plugin-home@0.4.20-next.1
+  - @devtools/plugin-kubernetes@0.6.4-next.1
+  - @devtools/plugin-catalog-common@1.0.1-next.1
+  - @devtools/plugin-org@0.5.4-next.1
+  - @devtools/plugin-catalog-graph@0.2.16-next.1
+  - @devtools/plugin-tech-radar@0.5.11-next.1
+  - @devtools/plugin-catalog@1.1.0-next.1
+  - @devtools/plugin-gcalendar@0.3.0-next.1
+  - @devtools/plugin-techdocs@1.0.1-next.1
+  - @devtools/plugin-scaffolder@1.0.1-next.1
+  - @devtools/integration-react@1.0.1-next.1
+  - @devtools/plugin-catalog-import@0.8.7-next.1
+  - @devtools/plugin-github-actions@0.5.4-next.1
+  - @devtools/app-defaults@1.0.1-next.1
+  - @devtools/plugin-search-common@0.3.3-next.1
+  - @devtools/plugin-api-docs@0.8.4-next.1
+
+## 0.2.70-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/catalog-model@1.0.1-next.0
+  - @devtools/plugin-catalog@1.0.1-next.0
+  - @devtools/plugin-user-settings@0.4.3-next.0
+  - @devtools/cli@0.16.1-next.0
+  - @devtools/plugin-search-common@0.3.3-next.0
+  - @devtools/core-app-api@1.0.1-next.0
+  - @devtools/plugin-search@0.7.5-next.0
+  - @devtools/plugin-catalog-react@1.0.1-next.0
+  - @devtools/plugin-scaffolder@1.0.1-next.0
+  - @devtools/core-components@0.9.3-next.0
+  - @devtools/plugin-techdocs@1.0.1-next.0
+  - @devtools/plugin-tech-insights@0.1.14-next.0
+  - @devtools/plugin-kubernetes@0.6.4-next.0
+  - @devtools/plugin-airbrake@0.3.4-next.0
+  - @devtools/plugin-api-docs@0.8.4-next.0
+  - @devtools/plugin-azure-devops@0.1.20-next.0
+  - @devtools/plugin-badges@0.2.28-next.0
+  - @devtools/plugin-catalog-graph@0.2.16-next.0
+  - @devtools/plugin-catalog-import@0.8.7-next.0
+  - @devtools/plugin-circleci@0.3.4-next.0
+  - @devtools/plugin-cloudbuild@0.3.4-next.0
+  - @devtools/plugin-code-coverage@0.1.31-next.0
+  - @devtools/plugin-cost-insights@0.11.26-next.0
+  - @devtools/plugin-explore@0.3.35-next.0
+  - @devtools/plugin-github-actions@0.5.4-next.0
+  - @devtools/plugin-gocd@0.1.10-next.0
+  - @devtools/plugin-home@0.4.20-next.0
+  - @devtools/plugin-jenkins@0.7.3-next.0
+  - @devtools/plugin-kafka@0.3.4-next.0
+  - @devtools/plugin-lighthouse@0.3.4-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.12-next.0
+  - @devtools/plugin-org@0.5.4-next.0
+  - @devtools/plugin-pagerduty@0.3.31-next.0
+  - @devtools/plugin-rollbar@0.4.4-next.0
+  - @devtools/plugin-sentry@0.3.42-next.0
+  - @devtools/plugin-todo@0.2.6-next.0
+  - @devtools/app-defaults@1.0.1-next.0
+  - @devtools/integration-react@1.0.1-next.0
+  - @devtools/plugin-apache-airflow@0.1.12-next.0
+  - @devtools/plugin-catalog-common@1.0.1-next.0
+  - @devtools/plugin-gcalendar@0.2.1-next.0
+  - @devtools/plugin-gcp-projects@0.3.23-next.0
+  - @devtools/plugin-graphiql@0.2.36-next.0
+  - @devtools/plugin-newrelic@0.3.22-next.0
+  - @devtools/plugin-shortcuts@0.2.5-next.0
+  - @devtools/plugin-tech-radar@0.5.11-next.0
+
+## 0.2.69
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.16.0
+  - @devtools/plugin-gcalendar@0.2.0
+  - @devtools/plugin-scaffolder@1.0.0
+  - @devtools/plugin-airbrake@0.3.3
+  - @devtools/plugin-kafka@0.3.3
+  - @devtools/plugin-todo@0.2.5
+  - @devtools/app-defaults@1.0.0
+  - @devtools/core-app-api@1.0.0
+  - @devtools/core-components@0.9.2
+  - @devtools/core-plugin-api@1.0.0
+  - @devtools/integration-react@1.0.0
+  - @devtools/plugin-apache-airflow@0.1.11
+  - @devtools/plugin-api-docs@0.8.3
+  - @devtools/plugin-azure-devops@0.1.19
+  - @devtools/plugin-badges@0.2.27
+  - @devtools/plugin-catalog-graph@0.2.15
+  - @devtools/plugin-catalog-import@0.8.6
+  - @devtools/plugin-catalog-react@1.0.0
+  - @devtools/plugin-catalog@1.0.0
+  - @devtools/plugin-circleci@0.3.3
+  - @devtools/plugin-cloudbuild@0.3.3
+  - @devtools/plugin-code-coverage@0.1.30
+  - @devtools/plugin-cost-insights@0.11.25
+  - @devtools/plugin-explore@0.3.34
+  - @devtools/plugin-gcp-projects@0.3.22
+  - @devtools/plugin-github-actions@0.5.3
+  - @devtools/plugin-gocd@0.1.9
+  - @devtools/plugin-graphiql@0.2.35
+  - @devtools/plugin-home@0.4.19
+  - @devtools/plugin-jenkins@0.7.2
+  - @devtools/plugin-kubernetes@0.6.3
+  - @devtools/plugin-lighthouse@0.3.3
+  - @devtools/plugin-newrelic@0.3.21
+  - @devtools/plugin-org@0.5.3
+  - @devtools/plugin-pagerduty@0.3.30
+  - @devtools/plugin-permission-react@0.3.4
+  - @devtools/plugin-rollbar@0.4.3
+  - @devtools/plugin-search@0.7.4
+  - @devtools/plugin-sentry@0.3.41
+  - @devtools/plugin-shortcuts@0.2.4
+  - @devtools/plugin-tech-insights@0.1.13
+  - @devtools/plugin-tech-radar@0.5.10
+  - @devtools/plugin-techdocs@1.0.0
+  - @devtools/plugin-user-settings@0.4.2
+  - @devtools/catalog-model@1.0.0
+  - @devtools/plugin-catalog-common@1.0.0
+  - @devtools/plugin-newrelic-dashboard@0.1.11
+  - @devtools/plugin-search-common@0.3.2
+
+## 0.2.68
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.15.2
+  - @devtools/plugin-catalog@0.10.0
+  - @devtools/plugin-catalog-react@0.9.0
+  - @devtools/core-components@0.9.1
+  - @devtools/plugin-gcp-projects@0.3.21
+  - @devtools/plugin-scaffolder@0.15.0
+  - @devtools/catalog-model@0.13.0
+  - @devtools/plugin-airbrake@0.3.2
+  - @devtools/plugin-rollbar@0.4.2
+  - @devtools/plugin-catalog-graph@0.2.14
+  - @devtools/plugin-catalog-import@0.8.5
+  - @devtools/plugin-explore@0.3.33
+  - @devtools/plugin-catalog-common@0.2.2
+  - @devtools/plugin-search-common@0.3.1
+  - @devtools/plugin-search@0.7.3
+  - @devtools/plugin-tech-radar@0.5.9
+  - @devtools/plugin-org@0.5.2
+  - @devtools/plugin-techdocs@0.15.1
+  - @devtools/app-defaults@0.2.1
+  - @devtools/integration-react@0.1.25
+  - @devtools/plugin-apache-airflow@0.1.10
+  - @devtools/plugin-api-docs@0.8.2
+  - @devtools/plugin-azure-devops@0.1.18
+  - @devtools/plugin-badges@0.2.26
+  - @devtools/plugin-circleci@0.3.2
+  - @devtools/plugin-cloudbuild@0.3.2
+  - @devtools/plugin-code-coverage@0.1.29
+  - @devtools/plugin-cost-insights@0.11.24
+  - @devtools/plugin-github-actions@0.5.2
+  - @devtools/plugin-gocd@0.1.8
+  - @devtools/plugin-graphiql@0.2.34
+  - @devtools/plugin-home@0.4.18
+  - @devtools/plugin-jenkins@0.7.1
+  - @devtools/plugin-kafka@0.3.2
+  - @devtools/plugin-kubernetes@0.6.2
+  - @devtools/plugin-lighthouse@0.3.2
+  - @devtools/plugin-newrelic@0.3.20
+  - @devtools/plugin-newrelic-dashboard@0.1.10
+  - @devtools/plugin-pagerduty@0.3.29
+  - @devtools/plugin-sentry@0.3.40
+  - @devtools/plugin-shortcuts@0.2.3
+  - @devtools/plugin-tech-insights@0.1.12
+  - @devtools/plugin-todo@0.2.4
+  - @devtools/plugin-user-settings@0.4.1
+
+## 0.2.68-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.15.2-next.0
+  - @devtools/plugin-catalog@0.10.0-next.0
+  - @devtools/plugin-catalog-react@0.9.0-next.0
+  - @devtools/core-components@0.9.1-next.0
+  - @devtools/plugin-gcp-projects@0.3.21-next.0
+  - @devtools/plugin-scaffolder@0.15.0-next.0
+  - @devtools/catalog-model@0.13.0-next.0
+  - @devtools/plugin-rollbar@0.4.2-next.0
+  - @devtools/plugin-catalog-graph@0.2.14-next.0
+  - @devtools/plugin-catalog-import@0.8.5-next.0
+  - @devtools/plugin-explore@0.3.33-next.0
+  - @devtools/plugin-catalog-common@0.2.2-next.0
+  - @devtools/plugin-search-common@0.3.1-next.0
+  - @devtools/plugin-search@0.7.3-next.0
+  - @devtools/plugin-tech-radar@0.5.9-next.0
+  - @devtools/plugin-org@0.5.2-next.0
+  - @devtools/plugin-techdocs@0.15.1-next.0
+  - @devtools/app-defaults@0.2.1-next.0
+  - @devtools/integration-react@0.1.25-next.0
+  - @devtools/plugin-airbrake@0.3.2-next.0
+  - @devtools/plugin-apache-airflow@0.1.10-next.0
+  - @devtools/plugin-api-docs@0.8.2-next.0
+  - @devtools/plugin-azure-devops@0.1.18-next.0
+  - @devtools/plugin-badges@0.2.26-next.0
+  - @devtools/plugin-circleci@0.3.2-next.0
+  - @devtools/plugin-cloudbuild@0.3.2-next.0
+  - @devtools/plugin-code-coverage@0.1.29-next.0
+  - @devtools/plugin-cost-insights@0.11.24-next.0
+  - @devtools/plugin-github-actions@0.5.2-next.0
+  - @devtools/plugin-gocd@0.1.8-next.0
+  - @devtools/plugin-graphiql@0.2.34-next.0
+  - @devtools/plugin-home@0.4.18-next.0
+  - @devtools/plugin-jenkins@0.7.1-next.0
+  - @devtools/plugin-kafka@0.3.2-next.0
+  - @devtools/plugin-kubernetes@0.6.2-next.0
+  - @devtools/plugin-lighthouse@0.3.2-next.0
+  - @devtools/plugin-newrelic@0.3.20-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.10-next.0
+  - @devtools/plugin-pagerduty@0.3.29-next.0
+  - @devtools/plugin-sentry@0.3.40-next.0
+  - @devtools/plugin-shortcuts@0.2.3-next.0
+  - @devtools/plugin-tech-insights@0.1.12-next.0
+  - @devtools/plugin-todo@0.2.4-next.0
+  - @devtools/plugin-user-settings@0.4.1-next.0
+
+## 0.2.67
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/catalog-model@0.12.0
+  - @devtools/core-components@0.9.0
+  - @devtools/plugin-search@0.7.2
+  - @devtools/plugin-techdocs@0.15.0
+  - @devtools/plugin-api-docs@0.8.1
+  - @devtools/plugin-catalog@0.9.1
+  - @devtools/plugin-catalog-graph@0.2.13
+  - @devtools/plugin-catalog-import@0.8.4
+  - @devtools/plugin-catalog-react@0.8.0
+  - @devtools/plugin-explore@0.3.32
+  - @devtools/plugin-rollbar@0.4.1
+  - @devtools/plugin-catalog-common@0.2.0
+  - @devtools/plugin-org@0.5.1
+  - @devtools/plugin-scaffolder@0.14.0
+  - @devtools/core-app-api@0.6.0
+  - @devtools/core-plugin-api@0.8.0
+  - @devtools/cli@0.15.0
+  - @devtools/app-defaults@0.2.0
+  - @devtools/plugin-user-settings@0.4.0
+  - @devtools/plugin-airbrake@0.3.1
+  - @devtools/search-common@0.3.0
+  - @devtools/plugin-jenkins@0.7.0
+  - @devtools/plugin-code-coverage@0.1.28
+  - @devtools/plugin-tech-insights@0.1.11
+  - @devtools/plugin-azure-devops@0.1.17
+  - @devtools/plugin-badges@0.2.25
+  - @devtools/plugin-circleci@0.3.1
+  - @devtools/plugin-cloudbuild@0.3.1
+  - @devtools/plugin-cost-insights@0.11.23
+  - @devtools/plugin-github-actions@0.5.1
+  - @devtools/plugin-gocd@0.1.7
+  - @devtools/plugin-home@0.4.17
+  - @devtools/plugin-kafka@0.3.1
+  - @devtools/plugin-kubernetes@0.6.1
+  - @devtools/plugin-lighthouse@0.3.1
+  - @devtools/plugin-newrelic-dashboard@0.1.9
+  - @devtools/plugin-pagerduty@0.3.28
+  - @devtools/plugin-sentry@0.3.39
+  - @devtools/plugin-todo@0.2.3
+  - @devtools/integration-react@0.1.24
+  - @devtools/plugin-apache-airflow@0.1.9
+  - @devtools/plugin-gcp-projects@0.3.20
+  - @devtools/plugin-graphiql@0.2.33
+  - @devtools/plugin-newrelic@0.3.19
+  - @devtools/plugin-shortcuts@0.2.2
+  - @devtools/plugin-tech-radar@0.5.8
+  - @devtools/plugin-permission-react@0.3.3
+
+## 0.2.66
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@0.9.0
+  - @devtools/cli@0.14.1
+  - @devtools/core-components@0.8.10
+  - @devtools/plugin-api-docs@0.8.0
+  - @devtools/plugin-catalog-react@0.7.0
+  - @devtools/plugin-catalog-graph@0.2.12
+  - @devtools/plugin-jenkins@0.6.0
+  - @devtools/plugin-scaffolder@0.13.0
+  - @devtools/plugin-techdocs@0.14.0
+  - @devtools/plugin-airbrake@0.3.0
+  - @devtools/catalog-model@0.11.0
+  - @devtools/plugin-catalog-import@0.8.3
+  - @devtools/plugin-explore@0.3.31
+  - @devtools/core-plugin-api@0.7.0
+  - @devtools/plugin-circleci@0.3.0
+  - @devtools/plugin-cloudbuild@0.3.0
+  - @devtools/plugin-github-actions@0.5.0
+  - @devtools/plugin-kafka@0.3.0
+  - @devtools/plugin-kubernetes@0.6.0
+  - @devtools/plugin-lighthouse@0.3.0
+  - @devtools/plugin-org@0.5.0
+  - @devtools/plugin-rollbar@0.4.0
+  - @devtools/plugin-gocd@0.1.6
+  - @devtools/plugin-azure-devops@0.1.16
+  - @devtools/plugin-badges@0.2.24
+  - @devtools/plugin-code-coverage@0.1.27
+  - @devtools/plugin-home@0.4.16
+  - @devtools/plugin-newrelic-dashboard@0.1.8
+  - @devtools/plugin-pagerduty@0.3.27
+  - @devtools/plugin-search@0.7.1
+  - @devtools/plugin-sentry@0.3.38
+  - @devtools/plugin-tech-insights@0.1.10
+  - @devtools/plugin-todo@0.2.2
+  - @devtools/plugin-cost-insights@0.11.22
+  - @devtools/app-defaults@0.1.9
+  - @devtools/core-app-api@0.5.4
+  - @devtools/integration-react@0.1.23
+  - @devtools/plugin-apache-airflow@0.1.8
+  - @devtools/plugin-gcp-projects@0.3.19
+  - @devtools/plugin-graphiql@0.2.32
+  - @devtools/plugin-newrelic@0.3.18
+  - @devtools/plugin-permission-react@0.3.2
+  - @devtools/plugin-shortcuts@0.2.1
+  - @devtools/plugin-tech-radar@0.5.7
+  - @devtools/plugin-user-settings@0.3.21
+
+## 0.2.65
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.14.0
+  - @devtools/core-app-api@0.5.3
+  - @devtools/core-components@0.8.9
+  - @devtools/core-plugin-api@0.6.1
+  - @devtools/integration-react@0.1.22
+  - @devtools/plugin-airbrake@0.2.0
+  - @devtools/plugin-apache-airflow@0.1.7
+  - @devtools/plugin-api-docs@0.7.3
+  - @devtools/plugin-azure-devops@0.1.15
+  - @devtools/plugin-badges@0.2.23
+  - @devtools/plugin-catalog@0.8.0
+  - @devtools/plugin-catalog-import@0.8.2
+  - @devtools/plugin-catalog-react@0.6.15
+  - @devtools/plugin-circleci@0.2.38
+  - @devtools/plugin-cloudbuild@0.2.36
+  - @devtools/plugin-code-coverage@0.1.26
+  - @devtools/plugin-cost-insights@0.11.21
+  - @devtools/plugin-explore@0.3.30
+  - @devtools/plugin-gcp-projects@0.3.18
+  - @devtools/plugin-github-actions@0.4.36
+  - @devtools/plugin-gocd@0.1.5
+  - @devtools/plugin-graphiql@0.2.31
+  - @devtools/plugin-home@0.4.15
+  - @devtools/plugin-jenkins@0.5.21
+  - @devtools/plugin-kafka@0.2.29
+  - @devtools/plugin-kubernetes@0.5.8
+  - @devtools/plugin-lighthouse@0.2.38
+  - @devtools/plugin-newrelic@0.3.17
+  - @devtools/plugin-newrelic-dashboard@0.1.7
+  - @devtools/plugin-org@0.4.3
+  - @devtools/plugin-pagerduty@0.3.26
+  - @devtools/plugin-permission-react@0.3.1
+  - @devtools/plugin-rollbar@0.3.27
+  - @devtools/plugin-scaffolder@0.12.3
+  - @devtools/plugin-search@0.7.0
+  - @devtools/plugin-sentry@0.3.37
+  - @devtools/plugin-shortcuts@0.2.0
+  - @devtools/plugin-tech-insights@0.1.9
+  - @devtools/plugin-tech-radar@0.5.6
+  - @devtools/plugin-techdocs@0.13.4
+  - @devtools/plugin-todo@0.2.1
+  - @devtools/plugin-user-settings@0.3.20
+  - @devtools/app-defaults@0.1.8
+  - @devtools/catalog-model@0.10.0
+  - @devtools/search-common@0.2.3
+  - @devtools/theme@0.2.15
+  - @devtools/plugin-catalog-common@0.1.3
+  - @devtools/plugin-catalog-graph@0.2.11
+
+## 0.2.64
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.13.2
+  - @devtools/plugin-todo@0.2.0
+  - @devtools/plugin-newrelic-dashboard@0.1.6
+  - @devtools/core-components@0.8.8
+  - @devtools/plugin-scaffolder@0.12.2
+  - @devtools/plugin-search@0.6.2
+  - @devtools/plugin-catalog-react@0.6.14
+  - @devtools/plugin-catalog@0.7.12
+  - @devtools/plugin-catalog-graph@0.2.10
+  - @devtools/plugin-catalog-import@0.8.1
+  - @devtools/plugin-home@0.4.14
+  - @devtools/app-defaults@0.1.7
+  - @devtools/integration-react@0.1.21
+  - @devtools/plugin-airbrake@0.1.3
+  - @devtools/plugin-apache-airflow@0.1.6
+  - @devtools/plugin-api-docs@0.7.2
+  - @devtools/plugin-azure-devops@0.1.14
+  - @devtools/plugin-badges@0.2.22
+  - @devtools/plugin-circleci@0.2.37
+  - @devtools/plugin-cloudbuild@0.2.35
+  - @devtools/plugin-code-coverage@0.1.25
+  - @devtools/plugin-cost-insights@0.11.20
+  - @devtools/plugin-explore@0.3.29
+  - @devtools/plugin-gcp-projects@0.3.17
+  - @devtools/plugin-github-actions@0.4.35
+  - @devtools/plugin-gocd@0.1.4
+  - @devtools/plugin-graphiql@0.2.30
+  - @devtools/plugin-jenkins@0.5.20
+  - @devtools/plugin-kafka@0.2.28
+  - @devtools/plugin-kubernetes@0.5.7
+  - @devtools/plugin-lighthouse@0.2.37
+  - @devtools/plugin-newrelic@0.3.16
+  - @devtools/plugin-pagerduty@0.3.25
+  - @devtools/plugin-rollbar@0.3.26
+  - @devtools/plugin-sentry@0.3.36
+  - @devtools/plugin-shortcuts@0.1.22
+  - @devtools/plugin-tech-insights@0.1.8
+  - @devtools/plugin-tech-radar@0.5.5
+  - @devtools/plugin-techdocs@0.13.3
+  - @devtools/plugin-user-settings@0.3.19
+
+## 0.2.64-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.13.2-next.0
+  - @devtools/plugin-todo@0.2.0-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.6-next.0
+  - @devtools/core-components@0.8.8-next.0
+  - @devtools/plugin-scaffolder@0.12.2-next.0
+  - @devtools/plugin-search@0.6.2-next.0
+  - @devtools/plugin-catalog-react@0.6.14-next.0
+  - @devtools/plugin-catalog-graph@0.2.10-next.0
+  - @devtools/plugin-catalog-import@0.8.1-next.0
+  - @devtools/plugin-home@0.4.14-next.0
+  - @devtools/app-defaults@0.1.7-next.0
+  - @devtools/integration-react@0.1.21-next.0
+  - @devtools/plugin-airbrake@0.1.3-next.0
+  - @devtools/plugin-apache-airflow@0.1.6-next.0
+  - @devtools/plugin-api-docs@0.7.2-next.0
+  - @devtools/plugin-azure-devops@0.1.14-next.0
+  - @devtools/plugin-badges@0.2.22-next.0
+  - @devtools/plugin-catalog@0.7.12-next.0
+  - @devtools/plugin-circleci@0.2.37-next.0
+  - @devtools/plugin-cloudbuild@0.2.35-next.0
+  - @devtools/plugin-code-coverage@0.1.25-next.0
+  - @devtools/plugin-cost-insights@0.11.20-next.0
+  - @devtools/plugin-explore@0.3.29-next.0
+  - @devtools/plugin-gcp-projects@0.3.17-next.0
+  - @devtools/plugin-github-actions@0.4.35-next.0
+  - @devtools/plugin-gocd@0.1.4-next.0
+  - @devtools/plugin-graphiql@0.2.30-next.0
+  - @devtools/plugin-jenkins@0.5.20-next.0
+  - @devtools/plugin-kafka@0.2.28-next.0
+  - @devtools/plugin-kubernetes@0.5.7-next.0
+  - @devtools/plugin-lighthouse@0.2.37-next.0
+  - @devtools/plugin-newrelic@0.3.16-next.0
+  - @devtools/plugin-org@0.4.2-next.0
+  - @devtools/plugin-pagerduty@0.3.25-next.0
+  - @devtools/plugin-rollbar@0.3.26-next.0
+  - @devtools/plugin-sentry@0.3.36-next.0
+  - @devtools/plugin-shortcuts@0.1.22-next.0
+  - @devtools/plugin-tech-insights@0.1.8-next.0
+  - @devtools/plugin-tech-radar@0.5.5-next.0
+  - @devtools/plugin-techdocs@0.13.3-next.0
+  - @devtools/plugin-user-settings@0.3.19-next.0
+
+## 0.2.63
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.8.7
+  - @devtools/plugin-catalog-react@0.6.13
+  - @devtools/plugin-code-coverage@0.1.24
+  - @devtools/plugin-catalog-common@0.1.2
+  - @devtools/cli@0.13.1
+  - @devtools/plugin-scaffolder@0.12.1
+  - @devtools/integration-react@0.1.20
+  - @devtools/plugin-org@0.4.1
+  - @devtools/plugin-pagerduty@0.3.24
+  - @devtools/plugin-catalog-import@0.8.0
+  - @devtools/core-app-api@0.5.2
+  - @devtools/plugin-techdocs@0.13.2
+  - @devtools/app-defaults@0.1.6
+  - @devtools/plugin-airbrake@0.1.2
+  - @devtools/plugin-apache-airflow@0.1.5
+  - @devtools/plugin-api-docs@0.7.1
+  - @devtools/plugin-azure-devops@0.1.13
+  - @devtools/plugin-badges@0.2.21
+  - @devtools/plugin-catalog@0.7.11
+  - @devtools/plugin-catalog-graph@0.2.9
+  - @devtools/plugin-circleci@0.2.36
+  - @devtools/plugin-cloudbuild@0.2.34
+  - @devtools/plugin-cost-insights@0.11.19
+  - @devtools/plugin-explore@0.3.28
+  - @devtools/plugin-gcp-projects@0.3.16
+  - @devtools/plugin-github-actions@0.4.34
+  - @devtools/plugin-gocd@0.1.3
+  - @devtools/plugin-graphiql@0.2.29
+  - @devtools/plugin-home@0.4.13
+  - @devtools/plugin-jenkins@0.5.19
+  - @devtools/plugin-kafka@0.2.27
+  - @devtools/plugin-kubernetes@0.5.6
+  - @devtools/plugin-lighthouse@0.2.36
+  - @devtools/plugin-newrelic@0.3.15
+  - @devtools/plugin-newrelic-dashboard@0.1.5
+  - @devtools/plugin-rollbar@0.3.25
+  - @devtools/plugin-search@0.6.1
+  - @devtools/plugin-sentry@0.3.35
+  - @devtools/plugin-shortcuts@0.1.21
+  - @devtools/plugin-tech-insights@0.1.7
+  - @devtools/plugin-tech-radar@0.5.4
+  - @devtools/plugin-todo@0.1.21
+  - @devtools/plugin-user-settings@0.3.18
+
+## 0.2.63-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.8.7-next.1
+  - @devtools/plugin-catalog-react@0.6.13-next.1
+  - @devtools/plugin-code-coverage@0.1.24-next.1
+  - @devtools/plugin-catalog-common@0.1.2-next.0
+  - @devtools/cli@0.13.1-next.1
+  - @devtools/plugin-scaffolder@0.12.1-next.1
+  - @devtools/core-app-api@0.5.2-next.0
+  - @devtools/plugin-techdocs@0.13.2-next.1
+  - @devtools/plugin-catalog@0.7.11-next.1
+  - @devtools/app-defaults@0.1.6-next.1
+
+## 0.2.63-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.8.7-next.0
+  - @devtools/plugin-org@0.4.1-next.0
+  - @devtools/plugin-pagerduty@0.3.24-next.0
+  - @devtools/plugin-catalog-import@0.8.0-next.0
+  - @devtools/plugin-techdocs@0.13.2-next.0
+  - @devtools/plugin-scaffolder@0.12.1-next.0
+  - @devtools/cli@0.13.1-next.0
+  - @devtools/app-defaults@0.1.6-next.0
+  - @devtools/integration-react@0.1.20-next.0
+  - @devtools/plugin-airbrake@0.1.2-next.0
+  - @devtools/plugin-apache-airflow@0.1.5-next.0
+  - @devtools/plugin-api-docs@0.7.1-next.0
+  - @devtools/plugin-azure-devops@0.1.13-next.0
+  - @devtools/plugin-badges@0.2.21-next.0
+  - @devtools/plugin-catalog@0.7.11-next.0
+  - @devtools/plugin-catalog-graph@0.2.9-next.0
+  - @devtools/plugin-catalog-react@0.6.13-next.0
+  - @devtools/plugin-circleci@0.2.36-next.0
+  - @devtools/plugin-cloudbuild@0.2.34-next.0
+  - @devtools/plugin-code-coverage@0.1.24-next.0
+  - @devtools/plugin-cost-insights@0.11.19-next.0
+  - @devtools/plugin-explore@0.3.28-next.0
+  - @devtools/plugin-gcp-projects@0.3.16-next.0
+  - @devtools/plugin-github-actions@0.4.34-next.0
+  - @devtools/plugin-gocd@0.1.3-next.0
+  - @devtools/plugin-graphiql@0.2.29-next.0
+  - @devtools/plugin-home@0.4.13-next.0
+  - @devtools/plugin-jenkins@0.5.19-next.0
+  - @devtools/plugin-kafka@0.2.27-next.0
+  - @devtools/plugin-kubernetes@0.5.6-next.0
+  - @devtools/plugin-lighthouse@0.2.36-next.0
+  - @devtools/plugin-newrelic@0.3.15-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.5-next.0
+  - @devtools/plugin-rollbar@0.3.25-next.0
+  - @devtools/plugin-search@0.6.1-next.0
+  - @devtools/plugin-sentry@0.3.35-next.0
+  - @devtools/plugin-shortcuts@0.1.21-next.0
+  - @devtools/plugin-tech-insights@0.1.7-next.0
+  - @devtools/plugin-tech-radar@0.5.4-next.0
+  - @devtools/plugin-todo@0.1.21-next.0
+  - @devtools/plugin-user-settings@0.3.18-next.0
+
+## 0.2.62
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.8.6
+  - @devtools/plugin-catalog-graph@0.2.8
+  - @devtools/cli@0.13.0
+  - @devtools/plugin-techdocs@0.13.1
+  - @devtools/plugin-search@0.6.0
+  - @devtools/plugin-explore@0.3.27
+  - @devtools/search-common@0.2.2
+  - @devtools/plugin-azure-devops@0.1.12
+  - @devtools/plugin-catalog@0.7.10
+  - @devtools/plugin-github-actions@0.4.33
+  - @devtools/plugin-gcp-projects@0.3.15
+  - @devtools/core-app-api@0.5.1
+  - @devtools/plugin-home@0.4.12
+
+## 0.2.61
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-tech-radar@0.5.3
+  - @devtools/core-components@0.8.5
+  - @devtools/plugin-api-docs@0.7.0
+  - @devtools/plugin-kubernetes@0.5.5
+  - @devtools/cli@0.12.0
+  - @devtools/plugin-search@0.5.6
+  - @devtools/core-plugin-api@0.6.0
+  - @devtools/plugin-org@0.4.0
+  - @devtools/plugin-catalog@0.7.9
+  - @devtools/plugin-cost-insights@0.11.18
+  - @devtools/plugin-shortcuts@0.1.20
+  - @devtools/plugin-user-settings@0.3.17
+  - @devtools/core-app-api@0.5.0
+  - @devtools/plugin-catalog-react@0.6.12
+  - @devtools/plugin-scaffolder@0.12.0
+  - @devtools/plugin-azure-devops@0.1.11
+  - @devtools/plugin-badges@0.2.20
+  - @devtools/plugin-catalog-import@0.7.10
+  - @devtools/plugin-kafka@0.2.26
+  - @devtools/plugin-pagerduty@0.3.23
+  - @devtools/plugin-rollbar@0.3.24
+  - @devtools/plugin-sentry@0.3.34
+  - @devtools/plugin-tech-insights@0.1.6
+  - @devtools/plugin-techdocs@0.13.0
+  - @devtools/plugin-todo@0.1.20
+  - @devtools/plugin-newrelic-dashboard@0.1.4
+  - @devtools/catalog-model@0.9.10
+  - @devtools/app-defaults@0.1.5
+  - @devtools/integration-react@0.1.19
+  - @devtools/plugin-airbrake@0.1.1
+  - @devtools/plugin-apache-airflow@0.1.4
+  - @devtools/plugin-catalog-graph@0.2.7
+  - @devtools/plugin-circleci@0.2.35
+  - @devtools/plugin-cloudbuild@0.2.33
+  - @devtools/plugin-code-coverage@0.1.23
+  - @devtools/plugin-explore@0.3.26
+  - @devtools/plugin-gcp-projects@0.3.14
+  - @devtools/plugin-github-actions@0.4.32
+  - @devtools/plugin-gocd@0.1.2
+  - @devtools/plugin-graphiql@0.2.28
+  - @devtools/plugin-home@0.4.11
+  - @devtools/plugin-jenkins@0.5.18
+  - @devtools/plugin-lighthouse@0.2.35
+  - @devtools/plugin-newrelic@0.3.14
+
+## 0.2.61-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-tech-radar@0.5.3-next.0
+  - @devtools/core-components@0.8.5-next.0
+  - @devtools/plugin-api-docs@0.6.23-next.0
+  - @devtools/cli@0.12.0-next.0
+  - @devtools/core-plugin-api@0.6.0-next.0
+  - @devtools/plugin-org@0.3.35-next.0
+  - @devtools/plugin-catalog@0.7.9-next.0
+  - @devtools/plugin-cost-insights@0.11.18-next.0
+  - @devtools/plugin-shortcuts@0.1.20-next.0
+  - @devtools/plugin-user-settings@0.3.17-next.0
+  - @devtools/core-app-api@0.5.0-next.0
+  - @devtools/plugin-catalog-react@0.6.12-next.0
+  - @devtools/plugin-azure-devops@0.1.11-next.0
+  - @devtools/plugin-badges@0.2.20-next.0
+  - @devtools/plugin-catalog-import@0.7.10-next.0
+  - @devtools/plugin-kafka@0.2.26-next.0
+  - @devtools/plugin-kubernetes@0.5.5-next.0
+  - @devtools/plugin-pagerduty@0.3.23-next.0
+  - @devtools/plugin-rollbar@0.3.24-next.0
+  - @devtools/plugin-scaffolder@0.11.19-next.0
+  - @devtools/plugin-search@0.5.6-next.0
+  - @devtools/plugin-sentry@0.3.34-next.0
+  - @devtools/plugin-tech-insights@0.1.6-next.0
+  - @devtools/plugin-techdocs@0.12.15-next.0
+  - @devtools/plugin-todo@0.1.19-next.0
+  - @devtools/catalog-model@0.9.10-next.0
+  - @devtools/app-defaults@0.1.5-next.0
+  - @devtools/integration-react@0.1.19-next.0
+  - @devtools/plugin-airbrake@0.1.1-next.0
+  - @devtools/plugin-apache-airflow@0.1.4-next.0
+  - @devtools/plugin-catalog-graph@0.2.7-next.0
+  - @devtools/plugin-circleci@0.2.35-next.0
+  - @devtools/plugin-cloudbuild@0.2.33-next.0
+  - @devtools/plugin-code-coverage@0.1.23-next.0
+  - @devtools/plugin-explore@0.3.26-next.0
+  - @devtools/plugin-gcp-projects@0.3.14-next.0
+  - @devtools/plugin-github-actions@0.4.32-next.0
+  - @devtools/plugin-gocd@0.1.2-next.0
+  - @devtools/plugin-graphiql@0.2.28-next.0
+  - @devtools/plugin-home@0.4.11-next.0
+  - @devtools/plugin-jenkins@0.5.18-next.0
+  - @devtools/plugin-lighthouse@0.2.35-next.0
+  - @devtools/plugin-newrelic@0.3.14-next.0
+  - @devtools/plugin-newrelic-dashboard@0.1.4-next.0
+
+## 0.2.60
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.8.4
+  - @devtools/cli@0.11.0
+  - @devtools/plugin-tech-insights@0.1.5
+  - @devtools/plugin-gocd@0.1.1
+  - @devtools/core-plugin-api@0.5.0
+  - @devtools/plugin-org@0.3.34
+  - @devtools/plugin-home@0.4.10
+  - @devtools/plugin-azure-devops@0.1.10
+  - @devtools/plugin-apache-airflow@0.1.3
+  - @devtools/plugin-catalog-import@0.7.9
+  - @devtools/plugin-catalog-react@0.6.11
+  - @devtools/plugin-code-coverage@0.1.22
+  - @devtools/plugin-cost-insights@0.11.17
+  - @devtools/plugin-jenkins@0.5.17
+  - @devtools/plugin-scaffolder@0.11.18
+  - @devtools/plugin-techdocs@0.12.14
+  - @devtools/plugin-kubernetes@0.5.4
+  - @devtools/plugin-pagerduty@0.3.22
+  - @devtools/plugin-api-docs@0.6.22
+  - @devtools/core-app-api@0.4.0
+  - @devtools/plugin-airbrake@0.1.0
+  - @devtools/app-defaults@0.1.4
+  - @devtools/catalog-model@0.9.9
+  - @devtools/integration-react@0.1.18
+  - @devtools/plugin-badges@0.2.19
+  - @devtools/plugin-catalog@0.7.8
+  - @devtools/plugin-catalog-graph@0.2.6
+  - @devtools/plugin-circleci@0.2.34
+  - @devtools/plugin-cloudbuild@0.2.32
+  - @devtools/plugin-explore@0.3.25
+  - @devtools/plugin-gcp-projects@0.3.13
+  - @devtools/plugin-github-actions@0.4.31
+  - @devtools/plugin-graphiql@0.2.27
+  - @devtools/plugin-kafka@0.2.25
+  - @devtools/plugin-lighthouse@0.2.34
+  - @devtools/plugin-newrelic@0.3.13
+  - @devtools/plugin-newrelic-dashboard@0.1.3
+  - @devtools/plugin-rollbar@0.3.23
+  - @devtools/plugin-search@0.5.5
+  - @devtools/plugin-sentry@0.3.33
+  - @devtools/plugin-shortcuts@0.1.19
+  - @devtools/plugin-tech-radar@0.5.2
+  - @devtools/plugin-todo@0.1.18
+  - @devtools/plugin-user-settings@0.3.16
+
+## 0.2.59
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.10.5
+  - @devtools/plugin-search@0.5.4
+  - @devtools/plugin-techdocs@0.12.13
+  - @devtools/core-plugin-api@0.4.1
+  - @devtools/plugin-catalog-react@0.6.10
+  - @devtools/plugin-kubernetes@0.5.3
+  - @devtools/core-app-api@0.3.1
+  - @devtools/core-components@0.8.3
+  - @devtools/plugin-apache-airflow@0.1.2
+  - @devtools/plugin-azure-devops@0.1.9
+  - @devtools/plugin-badges@0.2.18
+  - @devtools/plugin-catalog@0.7.7
+  - @devtools/plugin-catalog-graph@0.2.5
+  - @devtools/plugin-catalog-import@0.7.8
+  - @devtools/plugin-circleci@0.2.33
+  - @devtools/plugin-cloudbuild@0.2.31
+  - @devtools/plugin-code-coverage@0.1.21
+  - @devtools/plugin-cost-insights@0.11.16
+  - @devtools/plugin-explore@0.3.24
+  - @devtools/plugin-gcp-projects@0.3.12
+  - @devtools/plugin-github-actions@0.4.30
+  - @devtools/plugin-graphiql@0.2.26
+  - @devtools/plugin-home@0.4.9
+  - @devtools/plugin-jenkins@0.5.16
+  - @devtools/plugin-kafka@0.2.24
+  - @devtools/plugin-lighthouse@0.2.33
+  - @devtools/plugin-newrelic@0.3.12
+  - @devtools/plugin-newrelic-dashboard@0.1.2
+  - @devtools/plugin-org@0.3.33
+  - @devtools/plugin-pagerduty@0.3.21
+  - @devtools/plugin-rollbar@0.3.22
+  - @devtools/plugin-scaffolder@0.11.17
+  - @devtools/plugin-sentry@0.3.32
+  - @devtools/plugin-shortcuts@0.1.18
+  - @devtools/plugin-tech-insights@0.1.4
+  - @devtools/plugin-tech-radar@0.5.1
+  - @devtools/plugin-user-settings@0.3.15
+  - @devtools/plugin-api-docs@0.6.21
+
+## 0.2.58
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-search@0.5.2
+  - @devtools/app-defaults@0.1.3
+  - @devtools/core-app-api@0.3.0
+  - @devtools/core-plugin-api@0.4.0
+  - @devtools/plugin-user-settings@0.3.14
+  - @devtools/plugin-scaffolder@0.11.15
+  - @devtools/plugin-catalog-react@0.6.8
+  - @devtools/plugin-kubernetes@0.5.2
+  - @devtools/core-components@0.8.2
+  - @devtools/cli@0.10.3
+  - @devtools/plugin-tech-radar@0.5.0
+  - @devtools/plugin-tech-insights@0.1.2
+  - @devtools/plugin-org@0.3.32
+  - @devtools/plugin-catalog@0.7.5
+  - @devtools/plugin-newrelic-dashboard@0.1.1
+  - @devtools/plugin-home@0.4.8
+  - @devtools/plugin-circleci@0.2.32
+  - @devtools/plugin-cloudbuild@0.2.30
+  - @devtools/plugin-github-actions@0.4.28
+  - @devtools/plugin-jenkins@0.5.15
+  - @devtools/plugin-lighthouse@0.2.32
+  - @devtools/plugin-sentry@0.3.31
+  - @devtools/plugin-apache-airflow@0.1.1
+  - @devtools/plugin-api-docs@0.6.19
+  - @devtools/plugin-azure-devops@0.1.8
+  - @devtools/plugin-badges@0.2.17
+  - @devtools/plugin-catalog-graph@0.2.4
+  - @devtools/plugin-catalog-import@0.7.6
+  - @devtools/plugin-code-coverage@0.1.20
+  - @devtools/plugin-cost-insights@0.11.14
+  - @devtools/plugin-explore@0.3.23
+  - @devtools/plugin-gcp-projects@0.3.11
+  - @devtools/plugin-graphiql@0.2.25
+  - @devtools/plugin-kafka@0.2.23
+  - @devtools/plugin-newrelic@0.3.11
+  - @devtools/plugin-pagerduty@0.3.20
+  - @devtools/plugin-rollbar@0.3.21
+  - @devtools/plugin-shortcuts@0.1.16
+  - @devtools/plugin-techdocs@0.12.11
+  - @devtools/plugin-todo@0.1.17
+  - @devtools/integration-react@0.1.16
+
+## 0.2.57
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-github-actions@0.4.27
+  - @devtools/core-app-api@0.2.1
+  - @devtools/plugin-kubernetes@0.5.1
+  - @devtools/core-plugin-api@0.3.1
+  - @devtools/core-components@0.8.1
+  - @devtools/plugin-org@0.3.31
+  - @devtools/plugin-azure-devops@0.1.7
+  - @devtools/cli@0.10.2
+  - @devtools/catalog-model@0.9.8
+  - @devtools/plugin-techdocs@0.12.10
+  - @devtools/plugin-catalog-react@0.6.7
+  - @devtools/plugin-apache-airflow@0.1.0
+
+## 0.2.56
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.8.0
+  - @devtools/core-plugin-api@0.3.0
+  - @devtools/plugin-cloudbuild@0.2.29
+  - @devtools/plugin-catalog@0.7.4
+  - @devtools/core-app-api@0.2.0
+  - @devtools/plugin-scaffolder@0.11.14
+  - @devtools/plugin-kubernetes@0.5.0
+  - @devtools/app-defaults@0.1.2
+  - @devtools/integration-react@0.1.15
+  - @devtools/plugin-api-docs@0.6.18
+  - @devtools/plugin-azure-devops@0.1.6
+  - @devtools/plugin-badges@0.2.16
+  - @devtools/plugin-catalog-graph@0.2.3
+  - @devtools/plugin-catalog-import@0.7.5
+  - @devtools/plugin-catalog-react@0.6.5
+  - @devtools/plugin-circleci@0.2.31
+  - @devtools/plugin-code-coverage@0.1.19
+  - @devtools/plugin-cost-insights@0.11.13
+  - @devtools/plugin-explore@0.3.22
+  - @devtools/plugin-gcp-projects@0.3.10
+  - @devtools/plugin-github-actions@0.4.26
+  - @devtools/plugin-graphiql@0.2.24
+  - @devtools/plugin-home@0.4.7
+  - @devtools/plugin-jenkins@0.5.14
+  - @devtools/plugin-kafka@0.2.22
+  - @devtools/plugin-lighthouse@0.2.31
+  - @devtools/plugin-newrelic@0.3.10
+  - @devtools/plugin-org@0.3.30
+  - @devtools/plugin-pagerduty@0.3.19
+  - @devtools/plugin-rollbar@0.3.20
+  - @devtools/plugin-search@0.5.1
+  - @devtools/plugin-sentry@0.3.30
+  - @devtools/plugin-shortcuts@0.1.15
+  - @devtools/plugin-tech-insights@0.1.1
+  - @devtools/plugin-tech-radar@0.4.13
+  - @devtools/plugin-techdocs@0.12.9
+  - @devtools/plugin-todo@0.1.16
+  - @devtools/plugin-user-settings@0.3.13
+  - @devtools/cli@0.10.1
+
+## 0.2.55
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-azure-devops@0.1.5
+  - @devtools/core-components@0.7.6
+  - @devtools/theme@0.2.14
+  - @devtools/plugin-user-settings@0.3.12
+  - @devtools/plugin-api-docs@0.6.16
+  - @devtools/cli@0.10.0
+  - @devtools/plugin-circleci@0.2.30
+  - @devtools/core-plugin-api@0.2.2
+  - @devtools/plugin-search@0.5.0
+  - @devtools/plugin-tech-insights@0.1.0
+  - @devtools/core-app-api@0.1.24
+  - @devtools/plugin-kubernetes@0.4.22
+  - @devtools/plugin-scaffolder@0.11.13
+  - @devtools/plugin-techdocs@0.12.8
+
+## 0.2.53
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@0.7.3
+  - @devtools/plugin-cost-insights@0.11.11
+  - @devtools/cli@0.9.0
+  - @devtools/plugin-gcp-projects@0.3.9
+  - @devtools/catalog-model@0.9.7
+  - @devtools/plugin-scaffolder@0.11.11
+  - @devtools/plugin-api-docs@0.6.14
+  - @devtools/plugin-azure-devops@0.1.4
+  - @devtools/plugin-badges@0.2.14
+  - @devtools/plugin-catalog-graph@0.2.2
+  - @devtools/plugin-catalog-import@0.7.4
+  - @devtools/plugin-catalog-react@0.6.4
+  - @devtools/plugin-circleci@0.2.29
+  - @devtools/plugin-cloudbuild@0.2.28
+  - @devtools/plugin-code-coverage@0.1.18
+  - @devtools/plugin-explore@0.3.21
+  - @devtools/plugin-github-actions@0.4.24
+  - @devtools/plugin-home@0.4.6
+  - @devtools/plugin-jenkins@0.5.12
+  - @devtools/plugin-kafka@0.2.21
+  - @devtools/plugin-kubernetes@0.4.20
+  - @devtools/plugin-lighthouse@0.2.30
+  - @devtools/plugin-newrelic@0.3.9
+  - @devtools/plugin-pagerduty@0.3.18
+  - @devtools/plugin-rollbar@0.3.19
+  - @devtools/plugin-search@0.4.18
+  - @devtools/plugin-sentry@0.3.29
+  - @devtools/plugin-tech-radar@0.4.12
+  - @devtools/plugin-techdocs@0.12.6
+  - @devtools/plugin-todo@0.1.15
+  - @devtools/plugin-user-settings@0.3.11
+  - @devtools/core-components@0.7.4
+  - @devtools/core-plugin-api@0.2.0
+  - @devtools/core-app-api@0.1.21
+  - @devtools/plugin-shortcuts@0.1.14
+  - @devtools/app-defaults@0.1.1
+  - @devtools/integration-react@0.1.14
+  - @devtools/plugin-graphiql@0.2.21
+  - @devtools/plugin-org@0.3.28
+
+## 0.2.51
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.7.1
+  - @devtools/plugin-techdocs@0.12.3
+  - @devtools/plugin-sentry@0.3.26
+  - @devtools/plugin-user-settings@0.3.10
+  - @devtools/plugin-catalog-graph@0.2.1
+  - @devtools/plugin-jenkins@0.5.11
+  - @devtools/core-app-api@0.1.18
+  - @devtools/core-plugin-api@0.1.11
+  - @devtools/cli@0.8.0
+  - @devtools/plugin-catalog@0.7.2
+  - @devtools/plugin-catalog-import@0.7.3
+  - @devtools/plugin-catalog-react@0.6.1
+  - @devtools/catalog-model@0.9.5
+
+## 0.2.50
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-react@0.6.0
+  - @devtools/plugin-catalog@0.7.1
+  - @devtools/plugin-api-docs@0.6.12
+  - @devtools/plugin-scaffolder@0.11.8
+  - @devtools/core-app-api@0.1.17
+  - @devtools/core-components@0.7.0
+  - @devtools/theme@0.2.11
+  - @devtools/plugin-graphiql@0.2.20
+  - @devtools/cli@0.7.16
+  - @devtools/plugin-home@0.4.4
+  - @devtools/plugin-catalog-graph@0.2.0
+  - @devtools/plugin-search@0.4.15
+  - @devtools/plugin-techdocs@0.12.2
+  - @devtools/plugin-kubernetes@0.4.17
+  - @devtools/plugin-azure-devops@0.1.1
+  - @devtools/plugin-badges@0.2.13
+  - @devtools/plugin-catalog-import@0.7.2
+  - @devtools/plugin-circleci@0.2.27
+  - @devtools/plugin-cloudbuild@0.2.27
+  - @devtools/plugin-code-coverage@0.1.15
+  - @devtools/plugin-explore@0.3.20
+  - @devtools/plugin-github-actions@0.4.22
+  - @devtools/plugin-jenkins@0.5.10
+  - @devtools/plugin-kafka@0.2.19
+  - @devtools/plugin-lighthouse@0.2.29
+  - @devtools/plugin-org@0.3.27
+  - @devtools/plugin-pagerduty@0.3.17
+  - @devtools/plugin-rollbar@0.3.18
+  - @devtools/plugin-sentry@0.3.25
+  - @devtools/plugin-todo@0.1.14
+  - @devtools/integration-react@0.1.12
+  - @devtools/plugin-cost-insights@0.11.10
+  - @devtools/plugin-gcp-projects@0.3.8
+  - @devtools/plugin-newrelic@0.3.8
+  - @devtools/plugin-shortcuts@0.1.12
+  - @devtools/plugin-tech-radar@0.4.11
+  - @devtools/plugin-user-settings@0.3.9
+
+## 0.2.49
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.7.15
+  - @devtools/core-components@0.6.1
+  - @devtools/core-plugin-api@0.1.10
+  - @devtools/core-app-api@0.1.16
+  - @devtools/plugin-org@0.3.26
+  - @devtools/plugin-catalog@0.7.0
+  - @devtools/plugin-catalog-react@0.5.2
+  - @devtools/catalog-model@0.9.4
+  - @devtools/plugin-cost-insights@0.11.9
+  - @devtools/plugin-user-settings@0.3.8
+  - @devtools/plugin-kubernetes@0.4.16
+  - @devtools/plugin-catalog-import@0.7.1
+  - @devtools/plugin-badges@0.2.12
+  - @devtools/plugin-home@0.4.3
+  - @devtools/plugin-search@0.4.14
+  - @devtools/plugin-shortcuts@0.1.11
+  - @devtools/plugin-api-docs@0.6.11
+  - @devtools/plugin-catalog-graph@0.1.3
+  - @devtools/plugin-circleci@0.2.26
+  - @devtools/plugin-cloudbuild@0.2.26
+  - @devtools/plugin-code-coverage@0.1.14
+  - @devtools/plugin-explore@0.3.19
+  - @devtools/plugin-gcp-projects@0.3.7
+  - @devtools/plugin-github-actions@0.4.21
+  - @devtools/plugin-graphiql@0.2.19
+  - @devtools/plugin-jenkins@0.5.9
+  - @devtools/plugin-kafka@0.2.18
+  - @devtools/plugin-lighthouse@0.2.28
+  - @devtools/plugin-newrelic@0.3.7
+  - @devtools/plugin-pagerduty@0.3.16
+  - @devtools/plugin-rollbar@0.3.17
+  - @devtools/plugin-scaffolder@0.11.7
+  - @devtools/plugin-sentry@0.3.24
+  - @devtools/plugin-tech-radar@0.4.10
+  - @devtools/plugin-techdocs@0.12.1
+  - @devtools/plugin-todo@0.1.13
+
+## 0.2.48
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.7.14
+  - @devtools/plugin-techdocs@0.12.0
+  - @devtools/plugin-user-settings@0.3.7
+  - @devtools/core-app-api@0.1.15
+  - @devtools/plugin-catalog-import@0.7.0
+  - @devtools/plugin-badges@0.2.11
+  - @devtools/plugin-cost-insights@0.11.8
+  - @devtools/plugin-tech-radar@0.4.9
+  - @devtools/core-plugin-api@0.1.9
+  - @devtools/plugin-kubernetes@0.4.15
+  - @devtools/core-components@0.6.0
+  - @devtools/integration-react@0.1.11
+  - @devtools/plugin-catalog@0.6.17
+  - @devtools/plugin-api-docs@0.6.10
+  - @devtools/plugin-catalog-graph@0.1.2
+  - @devtools/plugin-catalog-react@0.5.1
+  - @devtools/plugin-circleci@0.2.25
+  - @devtools/plugin-cloudbuild@0.2.25
+  - @devtools/plugin-code-coverage@0.1.13
+  - @devtools/plugin-explore@0.3.18
+  - @devtools/plugin-gcp-projects@0.3.6
+  - @devtools/plugin-github-actions@0.4.20
+  - @devtools/plugin-graphiql@0.2.18
+  - @devtools/plugin-home@0.4.2
+  - @devtools/plugin-jenkins@0.5.8
+  - @devtools/plugin-kafka@0.2.17
+  - @devtools/plugin-lighthouse@0.2.27
+  - @devtools/plugin-newrelic@0.3.6
+  - @devtools/plugin-org@0.3.25
+  - @devtools/plugin-pagerduty@0.3.15
+  - @devtools/plugin-rollbar@0.3.16
+  - @devtools/plugin-scaffolder@0.11.6
+  - @devtools/plugin-search@0.4.13
+  - @devtools/plugin-sentry@0.3.23
+  - @devtools/plugin-shortcuts@0.1.10
+  - @devtools/plugin-todo@0.1.12
+
+## 0.2.47
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-explore@0.3.17
+  - @devtools/core-components@0.5.0
+  - @devtools/plugin-catalog-import@0.6.0
+  - @devtools/plugin-catalog-graph@0.1.1
+  - @devtools/cli@0.7.13
+  - @devtools/plugin-catalog@0.6.16
+  - @devtools/plugin-user-settings@0.3.6
+  - @devtools/plugin-circleci@0.2.24
+  - @devtools/plugin-catalog-react@0.5.0
+  - @devtools/plugin-api-docs@0.6.9
+  - @devtools/catalog-model@0.9.3
+  - @devtools/plugin-rollbar@0.3.15
+  - @devtools/plugin-techdocs@0.11.3
+  - @devtools/plugin-kubernetes@0.4.14
+  - @devtools/core-app-api@0.1.14
+  - @devtools/integration-react@0.1.10
+  - @devtools/plugin-badges@0.2.10
+  - @devtools/plugin-cloudbuild@0.2.24
+  - @devtools/plugin-code-coverage@0.1.12
+  - @devtools/plugin-cost-insights@0.11.7
+  - @devtools/plugin-gcp-projects@0.3.5
+  - @devtools/plugin-github-actions@0.4.19
+  - @devtools/plugin-graphiql@0.2.17
+  - @devtools/plugin-home@0.4.1
+  - @devtools/plugin-jenkins@0.5.7
+  - @devtools/plugin-kafka@0.2.16
+  - @devtools/plugin-lighthouse@0.2.26
+  - @devtools/plugin-newrelic@0.3.5
+  - @devtools/plugin-org@0.3.24
+  - @devtools/plugin-pagerduty@0.3.14
+  - @devtools/plugin-scaffolder@0.11.5
+  - @devtools/plugin-search@0.4.12
+  - @devtools/plugin-sentry@0.3.22
+  - @devtools/plugin-shortcuts@0.1.9
+  - @devtools/plugin-tech-radar@0.4.8
+  - @devtools/plugin-todo@0.1.11
+
+## 0.2.46
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.4.2
+  - @devtools/cli@0.7.12
+  - @devtools/plugin-techdocs@0.11.2
+  - @devtools/plugin-user-settings@0.3.5
+  - @devtools/plugin-newrelic@0.3.4
+  - @devtools/plugin-home@0.4.0
+  - @devtools/integration-react@0.1.9
+  - @devtools/plugin-api-docs@0.6.8
+  - @devtools/plugin-badges@0.2.9
+  - @devtools/plugin-catalog@0.6.15
+  - @devtools/plugin-catalog-import@0.5.21
+  - @devtools/plugin-catalog-react@0.4.6
+  - @devtools/plugin-circleci@0.2.23
+  - @devtools/plugin-cloudbuild@0.2.23
+  - @devtools/plugin-code-coverage@0.1.11
+  - @devtools/plugin-cost-insights@0.11.6
+  - @devtools/plugin-explore@0.3.16
+  - @devtools/plugin-gcp-projects@0.3.4
+  - @devtools/plugin-github-actions@0.4.18
+  - @devtools/plugin-graphiql@0.2.16
+  - @devtools/plugin-jenkins@0.5.6
+  - @devtools/plugin-kafka@0.2.15
+  - @devtools/plugin-kubernetes@0.4.13
+  - @devtools/plugin-lighthouse@0.2.25
+  - @devtools/plugin-org@0.3.23
+  - @devtools/plugin-pagerduty@0.3.13
+  - @devtools/plugin-rollbar@0.3.14
+  - @devtools/plugin-scaffolder@0.11.4
+  - @devtools/plugin-search@0.4.11
+  - @devtools/plugin-sentry@0.3.21
+  - @devtools/plugin-shortcuts@0.1.8
+  - @devtools/plugin-tech-radar@0.4.7
+  - @devtools/plugin-todo@0.1.10
+  - @devtools/core-app-api@0.1.13
+  - @devtools/core-plugin-api@0.1.8
+
+## 0.2.45
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-todo@0.1.9
+  - @devtools/core-components@0.4.1
+  - @devtools/catalog-model@0.9.2
+  - @devtools/plugin-home@0.3.0
+  - @devtools/plugin-scaffolder@0.11.3
+  - @devtools/plugin-org@0.3.22
+  - @devtools/core-app-api@0.1.12
+  - @devtools/plugin-search@0.4.10
+  - @devtools/core-plugin-api@0.1.7
+  - @devtools/cli@0.7.11
+
+## 0.2.44
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@0.11.2
+  - @devtools/cli@0.7.10
+  - @devtools/plugin-catalog-react@0.4.5
+  - @devtools/plugin-techdocs@0.11.1
+  - @devtools/core-components@0.4.0
+  - @devtools/plugin-catalog-import@0.5.20
+  - @devtools/plugin-shortcuts@0.1.7
+  - @devtools/plugin-org@0.3.21
+  - @devtools/plugin-catalog@0.6.14
+  - @devtools/search-common@0.2.0
+  - @devtools/plugin-search@0.4.9
+  - @devtools/catalog-model@0.9.1
+  - @devtools/core-app-api@0.1.11
+  - @devtools/integration-react@0.1.8
+  - @devtools/plugin-api-docs@0.6.7
+  - @devtools/plugin-badges@0.2.8
+  - @devtools/plugin-circleci@0.2.22
+  - @devtools/plugin-cloudbuild@0.2.22
+  - @devtools/plugin-code-coverage@0.1.10
+  - @devtools/plugin-cost-insights@0.11.5
+  - @devtools/plugin-explore@0.3.15
+  - @devtools/plugin-gcp-projects@0.3.3
+  - @devtools/plugin-github-actions@0.4.17
+  - @devtools/plugin-graphiql@0.2.15
+  - @devtools/plugin-home@0.2.1
+  - @devtools/plugin-jenkins@0.5.5
+  - @devtools/plugin-kafka@0.2.14
+  - @devtools/plugin-kubernetes@0.4.12
+  - @devtools/plugin-lighthouse@0.2.24
+  - @devtools/plugin-newrelic@0.3.3
+  - @devtools/plugin-pagerduty@0.3.12
+  - @devtools/plugin-rollbar@0.3.13
+  - @devtools/plugin-sentry@0.3.20
+  - @devtools/plugin-tech-radar@0.4.6
+  - @devtools/plugin-todo@0.1.8
+  - @devtools/plugin-user-settings@0.3.4
+
+## 0.2.43
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-explore@0.3.14
+  - @devtools/core-app-api@0.1.10
+  - @devtools/plugin-catalog-import@0.5.19
+  - @devtools/plugin-catalog@0.6.13
+  - @devtools/plugin-org@0.3.20
+  - @devtools/plugin-catalog-react@0.4.4
+  - @devtools/core-components@0.3.3
+  - @devtools/plugin-techdocs@0.11.0
+  - @devtools/plugin-search@0.4.8
+
+## 0.2.42
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@0.11.1
+  - @devtools/plugin-home@0.2.0
+  - @devtools/cli@0.7.9
+  - @devtools/core-app-api@0.1.9
+  - @devtools/plugin-catalog-import@0.5.18
+  - @devtools/plugin-catalog@0.6.12
+  - @devtools/plugin-catalog-react@0.4.3
+  - @devtools/plugin-sentry@0.3.19
+  - @devtools/plugin-jenkins@0.5.4
+  - @devtools/core-components@0.3.2
+  - @devtools/theme@0.2.10
+
+## 0.2.41
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-cost-insights@0.11.4
+  - @devtools/plugin-github-actions@0.4.16
+  - @devtools/plugin-jenkins@0.5.3
+  - @devtools/plugin-kubernetes@0.4.11
+  - @devtools/plugin-pagerduty@0.3.11
+  - @devtools/plugin-scaffolder@0.11.0
+  - @devtools/plugin-sentry@0.3.18
+  - @devtools/plugin-techdocs@0.10.4
+  - @devtools/core-app-api@0.1.8
+  - @devtools/core-components@0.3.1
+  - @devtools/core-plugin-api@0.1.6
+  - @devtools/plugin-api-docs@0.6.6
+  - @devtools/plugin-catalog@0.6.11
+  - @devtools/plugin-catalog-import@0.5.17
+  - @devtools/plugin-catalog-react@0.4.2
+  - @devtools/plugin-explore@0.3.13
+  - @devtools/plugin-lighthouse@0.2.23
+  - @devtools/plugin-rollbar@0.3.12
+  - @devtools/plugin-search@0.4.7
+  - @devtools/plugin-tech-radar@0.4.5
+  - @devtools/cli@0.7.8
+  - @devtools/integration-react@0.1.7
+
+## 0.2.40
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/cli@0.7.7
+  - @devtools/plugin-catalog@0.6.10
+  - @devtools/core-components@0.3.0
+  - @devtools/core-plugin-api@0.1.5
+  - @devtools/plugin-api-docs@0.6.5
+  - @devtools/plugin-scaffolder@0.10.3
+  - @devtools/plugin-search@0.4.6
+  - @devtools/plugin-cost-insights@0.11.3
+  - @devtools/plugin-kubernetes@0.4.10
+  - @devtools/plugin-lighthouse@0.2.22
+  - @devtools/plugin-pagerduty@0.3.10
+  - @devtools/plugin-techdocs@0.10.3
+  - @devtools/search-common@0.1.3
+  - @devtools/core-app-api@0.1.7
+  - @devtools/integration-react@0.1.6
+  - @devtools/plugin-badges@0.2.7
+  - @devtools/plugin-catalog-import@0.5.16
+  - @devtools/plugin-catalog-react@0.4.1
+  - @devtools/plugin-circleci@0.2.21
+  - @devtools/plugin-cloudbuild@0.2.21
+  - @devtools/plugin-code-coverage@0.1.9
+  - @devtools/plugin-explore@0.3.12
+  - @devtools/plugin-gcp-projects@0.3.2
+  - @devtools/plugin-github-actions@0.4.15
+  - @devtools/plugin-graphiql@0.2.14
+  - @devtools/plugin-jenkins@0.5.2
+  - @devtools/plugin-kafka@0.2.13
+  - @devtools/plugin-newrelic@0.3.2
+  - @devtools/plugin-org@0.3.19
+  - @devtools/plugin-rollbar@0.3.11
+  - @devtools/plugin-sentry@0.3.17
+  - @devtools/plugin-shortcuts@0.1.6
+  - @devtools/plugin-tech-radar@0.4.4
+  - @devtools/plugin-todo@0.1.7
+  - @devtools/plugin-user-settings@0.3.3
+
+## 0.2.39
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-scaffolder@0.10.2
+  - @devtools/core-components@0.2.0
+  - @devtools/plugin-catalog@0.6.9
+  - @devtools/plugin-catalog-react@0.4.0
+  - @devtools/cli@0.7.6
+  - @devtools/core-app-api@0.1.6
+  - @devtools/core-plugin-api@0.1.4
+  - @devtools/integration-react@0.1.5
+  - @devtools/theme@0.2.9
+  - @devtools/plugin-api-docs@0.6.4
+  - @devtools/plugin-badges@0.2.6
+  - @devtools/plugin-catalog-import@0.5.15
+  - @devtools/plugin-circleci@0.2.20
+  - @devtools/plugin-cloudbuild@0.2.20
+  - @devtools/plugin-code-coverage@0.1.8
+  - @devtools/plugin-cost-insights@0.11.2
+  - @devtools/plugin-explore@0.3.11
+  - @devtools/plugin-gcp-projects@0.3.1
+  - @devtools/plugin-github-actions@0.4.14
+  - @devtools/plugin-graphiql@0.2.13
+  - @devtools/plugin-jenkins@0.5.1
+  - @devtools/plugin-kafka@0.2.12
+  - @devtools/plugin-kubernetes@0.4.9
+  - @devtools/plugin-lighthouse@0.2.21
+  - @devtools/plugin-newrelic@0.3.1
+  - @devtools/plugin-org@0.3.18
+  - @devtools/plugin-pagerduty@0.3.9
+  - @devtools/plugin-rollbar@0.3.10
+  - @devtools/plugin-search@0.4.5
+  - @devtools/plugin-sentry@0.3.16
+  - @devtools/plugin-shortcuts@0.1.5
+  - @devtools/plugin-tech-radar@0.4.3
+  - @devtools/plugin-techdocs@0.10.2
+  - @devtools/plugin-todo@0.1.6
+  - @devtools/plugin-user-settings@0.3.2
+
+## 0.2.37
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@0.6.7
+  - @devtools/plugin-catalog-react@0.3.0
+  - @devtools/plugin-scaffolder@0.10.1
+  - @devtools/plugin-techdocs@0.10.0
+  - @devtools/plugin-jenkins@0.5.0
+  - @devtools/plugin-user-settings@0.3.0
+  - @devtools/plugin-search@0.4.3
+  - @devtools/cli@0.7.4
+  - @devtools/plugin-api-docs@0.6.2
+  - @devtools/plugin-badges@0.2.5
+  - @devtools/plugin-catalog-import@0.5.13
+  - @devtools/plugin-circleci@0.2.19
+  - @devtools/plugin-cloudbuild@0.2.19
+  - @devtools/plugin-code-coverage@0.1.7
+  - @devtools/plugin-explore@0.3.10
+  - @devtools/plugin-github-actions@0.4.13
+  - @devtools/plugin-kafka@0.2.11
+  - @devtools/plugin-kubernetes@0.4.8
+  - @devtools/plugin-lighthouse@0.2.20
+  - @devtools/plugin-org@0.3.17
+  - @devtools/plugin-pagerduty@0.3.8
+  - @devtools/plugin-rollbar@0.3.9
+  - @devtools/plugin-sentry@0.3.15
+  - @devtools/plugin-todo@0.1.5
+
+## 0.2.36
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/core-components@0.1.5
+  - @devtools/plugin-pagerduty@0.3.7
+  - @devtools/plugin-catalog-import@0.5.12
+  - @devtools/plugin-explore@0.3.9
+  - @devtools/catalog-model@0.9.0
+  - @devtools/plugin-scaffolder@0.10.0
+  - @devtools/plugin-catalog@0.6.6
+  - @devtools/plugin-org@0.3.16
+  - @devtools/plugin-techdocs@0.9.9
+  - @devtools/plugin-api-docs@0.6.1
+  - @devtools/plugin-badges@0.2.4
+  - @devtools/plugin-catalog-react@0.2.6
+  - @devtools/plugin-circleci@0.2.18
+  - @devtools/plugin-cloudbuild@0.2.18
+  - @devtools/plugin-code-coverage@0.1.6
+  - @devtools/plugin-github-actions@0.4.12
+  - @devtools/plugin-jenkins@0.4.7
+  - @devtools/plugin-kafka@0.2.10
+  - @devtools/plugin-kubernetes@0.4.7
+  - @devtools/plugin-lighthouse@0.2.19
+  - @devtools/plugin-rollbar@0.3.8
+  - @devtools/plugin-search@0.4.2
+  - @devtools/plugin-sentry@0.3.14
+  - @devtools/plugin-todo@0.1.4
+
+## 0.2.34
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog@0.6.4
+  - @devtools/plugin-search@0.4.1
+  - @devtools/plugin-explore@0.3.7
+  - @devtools/core-app-api@0.1.3
+  - @devtools/core-plugin-api@0.1.3
+  - @devtools/plugin-scaffolder@0.9.9
+  - @devtools/cli@0.7.2
+  - @devtools/plugin-api-docs@0.6.0
+  - @devtools/plugin-cost-insights@0.11.0
+  - @devtools/plugin-gcp-projects@0.3.0
+  - @devtools/plugin-newrelic@0.3.0
+  - @devtools/plugin-techdocs@0.9.7
+  - @devtools/catalog-model@0.8.4
+  - @devtools/integration-react@0.1.4
+  - @devtools/plugin-badges@0.2.3
+  - @devtools/plugin-catalog-import@0.5.11
+  - @devtools/plugin-catalog-react@0.2.4
+  - @devtools/plugin-circleci@0.2.17
+  - @devtools/plugin-cloudbuild@0.2.17
+  - @devtools/plugin-code-coverage@0.1.5
+  - @devtools/plugin-github-actions@0.4.10
+  - @devtools/plugin-graphiql@0.2.12
+  - @devtools/plugin-jenkins@0.4.6
+  - @devtools/plugin-kafka@0.2.9
+  - @devtools/plugin-kubernetes@0.4.6
+  - @devtools/plugin-lighthouse@0.2.18
+  - @devtools/plugin-org@0.3.15
+  - @devtools/plugin-pagerduty@0.3.6
+  - @devtools/plugin-rollbar@0.3.7
+  - @devtools/plugin-sentry@0.3.13
+  - @devtools/plugin-shortcuts@0.1.4
+  - @devtools/plugin-tech-radar@0.4.1
+  - @devtools/plugin-todo@0.1.3
+  - @devtools/plugin-user-settings@0.2.12
+
+## 0.2.33
+
+### Patch Changes
+
+- Updated dependencies
+  - @devtools/plugin-catalog-react@0.2.3
+  - @devtools/plugin-catalog@0.6.3
+  - @devtools/cli@0.7.1
+  - @devtools/plugin-api-docs@0.5.0
+  - @devtools/plugin-jenkins@0.4.5
+  - @devtools/plugin-techdocs@0.9.6
+  - @devtools/plugin-circleci@0.2.16
+  - @devtools/plugin-catalog-import@0.5.10
+  - @devtools/plugin-sentry@0.3.12
+  - @devtools/plugin-user-settings@0.2.11
+  - @devtools/catalog-model@0.8.3
+  - @devtools/core@0.7.13
+
+## 0.2.32
+
+### Patch Changes
+
+- Updated dependencies [9cd3c533c]
+- Updated dependencies [db1c8f93b]
+- Updated dependencies [9d906c7a1]
+- Updated dependencies [9bdd2cca8]
+- Updated dependencies [27a9b503a]
+- Updated dependencies [f4e3ac5ce]
+- Updated dependencies [9b4010965]
+- Updated dependencies [7f7443308]
+- Updated dependencies [7028ee1ca]
+- Updated dependencies [70bc30c5b]
+- Updated dependencies [db1c8f93b]
+- Updated dependencies [5aff84759]
+- Updated dependencies [21e8ebef5]
+- Updated dependencies [4fbb00707]
+- Updated dependencies [d5ad47bbb]
+  - @devtools/cli@0.7.0
+  - @devtools/plugin-catalog@0.6.2
+  - @devtools/plugin-cost-insights@0.10.2
+  - @devtools/plugin-github-actions@0.4.9
+  - @devtools/catalog-model@0.8.2
+  - @devtools/plugin-scaffolder@0.9.8
+  - @devtools/integration-react@0.1.3
+  - @devtools/plugin-catalog-react@0.2.2
+  - @devtools/plugin-catalog-import@0.5.9
+  - @devtools/plugin-search@0.4.0
+
+## 0.2.31
+
+### Patch Changes
+
+- Updated dependencies [497f4ce18]
+- Updated dependencies [ee4eb5b40]
+- Updated dependencies [84160313e]
+- Updated dependencies [3772de8ba]
+- Updated dependencies [7e7c71417]
+- Updated dependencies [f430b6c6f]
+- Updated dependencies [2a942cc9e]
+- Updated dependencies [e7c5e4b30]
+- Updated dependencies [ebe802bc4]
+- Updated dependencies [1cf1d351f]
+- Updated dependencies [90a505a77]
+- Updated dependencies [76f99a1a0]
+- Updated dependencies [deaba2e13]
+- Updated dependencies [1157fa307]
+- Updated dependencies [8e919a6f8]
+- Updated dependencies [2305ab8fc]
+- Updated dependencies [054bcd029]
+- Updated dependencies [aad98c544]
+- Updated dependencies [f46a9e82d]
+  - @devtools/plugin-scaffolder@0.9.7
+  - @devtools/cli@0.6.14
+  - @devtools/plugin-catalog@0.6.1
+  - @devtools/theme@0.2.8
+  - @devtools/catalog-model@0.8.1
+  - @devtools/core@0.7.12
+  - @devtools/plugin-tech-radar@0.4.0
+  - @devtools/plugin-catalog-react@0.2.1
+  - @devtools/plugin-techdocs@0.9.5
+
+## 0.2.30
+
+### Patch Changes
+
+- Updated dependencies [41c3ec421]
+- Updated dependencies [add62a455]
+- Updated dependencies [cc592248b]
+- Updated dependencies [17c497b81]
+- Updated dependencies [1cd0cacd9]
+- Updated dependencies [4ea9df9d3]
+- Updated dependencies [7a7da5146]
+- Updated dependencies [5baf2ff0f]
+- Updated dependencies [bf805b467]
+- Updated dependencies [203ce6f6f]
+- Updated dependencies [7ab5bfe68]
+- Updated dependencies [704875e26]
+- Updated dependencies [3a181cff1]
+  - @devtools/plugin-cost-insights@0.10.1
+  - @devtools/catalog-model@0.8.0
+  - @devtools/core@0.7.11
+  - @devtools/plugin-catalog@0.6.0
+  - @devtools/plugin-catalog-react@0.2.0
+  - @devtools/cli@0.6.13
+  - @devtools/plugin-techdocs@0.9.4
+  - @devtools/plugin-jenkins@0.4.4
+  - @devtools/plugin-api-docs@0.4.15
+  - @devtools/plugin-badges@0.2.2
+  - @devtools/plugin-catalog-import@0.5.8
+  - @devtools/plugin-circleci@0.2.15
+  - @devtools/plugin-cloudbuild@0.2.16
+  - @devtools/plugin-code-coverage@0.1.4
+  - @devtools/plugin-explore@0.3.6
+  - @devtools/plugin-github-actions@0.4.8
+  - @devtools/plugin-kafka@0.2.8
+  - @devtools/plugin-kubernetes@0.4.5
+  - @devtools/plugin-lighthouse@0.2.17
+  - @devtools/plugin-org@0.3.14
+  - @devtools/plugin-pagerduty@0.3.5
+  - @devtools/plugin-rollbar@0.3.6
+  - @devtools/plugin-scaffolder@0.9.6
+  - @devtools/plugin-search@0.3.7
+  - @devtools/plugin-sentry@0.3.11
+  - @devtools/plugin-todo@0.1.2
+
+## 0.2.29
+
+### Patch Changes
+
+- Updated dependencies [7cbfcae48]
+- Updated dependencies [2bfec55a6]
+- Updated dependencies [f7f7783a3]
+- Updated dependencies [65e6c4541]
+- Updated dependencies [68fdbf014]
+- Updated dependencies [5da6a561d]
+- Updated dependencies [ca6e0ab69]
+- Updated dependencies [5914a76d5]
+- Updated dependencies [81d7b9c6f]
+- Updated dependencies [a62cfe068]
+- Updated dependencies [35e091604]
+- Updated dependencies [a53f3d603]
+- Updated dependencies [b203699e9]
+  - @devtools/plugin-cost-insights@0.10.0
+  - @devtools/cli@0.6.12
+  - @devtools/catalog-model@0.7.10
+  - @devtools/plugin-scaffolder@0.9.5
+  - @devtools/core@0.7.10
+  - @devtools/plugin-api-docs@0.4.14
+  - @devtools/plugin-cloudbuild@0.2.15
+  - @devtools/plugin-github-actions@0.4.7
+  - @devtools/plugin-techdocs@0.9.3
+  - @devtools/plugin-catalog-import@0.5.7
+  - @devtools/plugin-catalog@0.5.8
+
+## 0.2.28
+
+### Patch Changes
+
+- Updated dependencies [062bbf90f]
+- Updated dependencies [2cd70e164]
+- Updated dependencies [0b033d07b]
+- Updated dependencies [3be844496]
+- Updated dependencies [5542de095]
+- Updated dependencies [10c008a3a]
+- Updated dependencies [81ef1d57b]
+- Updated dependencies [ea21d46f0]
+- Updated dependencies [e3fc89df6]
+- Updated dependencies [f59a945b7]
+- Updated dependencies [889d89b6e]
+- Updated dependencies [16be1d093]
+- Updated dependencies [3f988cb63]
+- Updated dependencies [675a569a9]
+  - @devtools/core@0.7.9
+  - @devtools/integration-react@0.1.2
+  - @devtools/plugin-api-docs@0.4.13
+  - @devtools/plugin-badges@0.2.1
+  - @devtools/plugin-catalog@0.5.7
+  - @devtools/plugin-catalog-import@0.5.6
+  - @devtools/plugin-catalog-react@0.1.6
+  - @devtools/plugin-circleci@0.2.14
+  - @devtools/plugin-cloudbuild@0.2.14
+  - @devtools/plugin-code-coverage@0.1.3
+  - @devtools/plugin-cost-insights@0.9.1
+  - @devtools/plugin-explore@0.3.5
+  - @devtools/plugin-gcp-projects@0.2.6
+  - @devtools/plugin-github-actions@0.4.6
+  - @devtools/plugin-graphiql@0.2.11
+  - @devtools/plugin-jenkins@0.4.3
+  - @devtools/plugin-kafka@0.2.7
+  - @devtools/plugin-kubernetes@0.4.4
+  - @devtools/plugin-lighthouse@0.2.16
+  - @devtools/plugin-newrelic@0.2.7
+  - @devtools/plugin-org@0.3.13
+  - @devtools/plugin-pagerduty@0.3.4
+  - @devtools/plugin-rollbar@0.3.5
+  - @devtools/plugin-scaffolder@0.9.4
+  - @devtools/plugin-search@0.3.6
+  - @devtools/plugin-sentry@0.3.10
+  - @devtools/plugin-shortcuts@0.1.2
+  - @devtools/plugin-tech-radar@0.3.11
+  - @devtools/plugin-techdocs@0.9.2
+  - @devtools/plugin-todo@0.1.1
+  - @devtools/plugin-user-settings@0.2.10
+  - @devtools/cli@0.6.11
+  - @devtools/catalog-model@0.7.9
+
+## 0.2.27
+
+### Patch Changes
+
+- Updated dependencies [6f1b82b14]
+- Updated dependencies [38ca05168]
+- Updated dependencies [f65adcde7]
+- Updated dependencies [81c54d1f2]
+- Updated dependencies [80888659b]
+- Updated dependencies [7b8272fb7]
+- Updated dependencies [8aedbb4af]
+- Updated dependencies [fc79a6dd3]
+- Updated dependencies [f53fba29f]
+- Updated dependencies [b2e2ec753]
+- Updated dependencies [9314a8592]
+- Updated dependencies [2e05277e0]
+- Updated dependencies [4075c6367]
+- Updated dependencies [d8b81fd28]
+  - @devtools/plugin-cost-insights@0.9.0
+  - @devtools/plugin-catalog-import@0.5.5
+  - @devtools/plugin-github-actions@0.4.5
+  - @devtools/cli@0.6.10
+  - @devtools/core@0.7.8
+  - @devtools/plugin-catalog-react@0.1.5
+  - @devtools/theme@0.2.7
+  - @devtools/plugin-kubernetes@0.4.3
+  - @devtools/plugin-tech-radar@0.3.10
+  - @devtools/plugin-scaffolder@0.9.3
+  - @devtools/plugin-techdocs@0.9.1
+  - @devtools/catalog-model@0.7.8
+
+## 0.2.26
+
+### Patch Changes
+
+- Updated dependencies [1ce80ff02]
+- Updated dependencies [b98de52ae]
+- Updated dependencies [4c42ecca2]
+- Updated dependencies [c614ede9a]
+- Updated dependencies [9afcac5af]
+- Updated dependencies [07a7806c3]
+- Updated dependencies [f6efa71ee]
+- Updated dependencies [19a4dd710]
+- Updated dependencies [dcd54c7cd]
+- Updated dependencies [da546ce00]
+- Updated dependencies [e0c9ed759]
+- Updated dependencies [6fbd7beca]
+- Updated dependencies [15cbe6815]
+- Updated dependencies [39bdaa004]
+- Updated dependencies [cb8c848a3]
+- Updated dependencies [21fddf452]
+- Updated dependencies [17915e29b]
+- Updated dependencies [6eaecbd81]
+- Updated dependencies [23769512a]
+- Updated dependencies [1a142ae8a]
+  - @devtools/plugin-api-docs@0.4.12
+  - @devtools/plugin-cost-insights@0.8.5
+  - @devtools/plugin-github-actions@0.4.4
+  - @devtools/plugin-catalog-import@0.5.4
+  - @devtools/plugin-circleci@0.2.13
+  - @devtools/plugin-explore@0.3.4
+  - @devtools/plugin-graphiql@0.2.10
+  - @devtools/plugin-jenkins@0.4.2
+  - @devtools/plugin-lighthouse@0.2.15
+  - @devtools/plugin-pagerduty@0.3.3
+  - @devtools/plugin-rollbar@0.3.4
+  - @devtools/plugin-sentry@0.3.9
+  - @devtools/core@0.7.7
+  - @devtools/plugin-scaffolder@0.9.2
+  - @devtools/plugin-catalog@0.5.6
+  - @devtools/plugin-search@0.3.5
+  - @devtools/plugin-techdocs@0.9.0
+
+## 0.2.25
+
+### Patch Changes
+
+- Updated dependencies [94da20976]
+- Updated dependencies [d8cc7e67a]
+- Updated dependencies [4e5c94249]
+- Updated dependencies [99fbef232]
+- Updated dependencies [cb0206b2b]
+- Updated dependencies [1373f4f12]
+- Updated dependencies [29a7e4be8]
+- Updated dependencies [ab07d77f6]
+- Updated dependencies [96728a2af]
+- Updated dependencies [931b21a12]
+- Updated dependencies [937ed39ce]
+- Updated dependencies [87c4f59de]
+- Updated dependencies [55b2fc0c0]
+- Updated dependencies [9a9e7a42f]
+- Updated dependencies [50ce875a0]
+- Updated dependencies [ac6025f63]
+- Updated dependencies [e292e393f]
+- Updated dependencies [479b29124]
+  - @devtools/core@0.7.6
+  - @devtools/cli@0.6.9
+  - @devtools/plugin-scaffolder@0.9.1
+  - @devtools/plugin-catalog-import@0.5.3
+  - @devtools/plugin-catalog@0.5.5
+  - @devtools/theme@0.2.6
+  - @devtools/plugin-code-coverage@0.1.2
+  - @devtools/plugin-techdocs@0.8.0
+
+## 0.2.24
+
+### Patch Changes
+
+- Updated dependencies [a360f9478]
+- Updated dependencies [bb5055aee]
+- Updated dependencies [d0d1c2f7b]
+- Updated dependencies [5d0740563]
+- Updated dependencies [12390778e]
+- Updated dependencies [fef852ecd]
+- Updated dependencies [18f7345a6]
+- Updated dependencies [5cafcf452]
+- Updated dependencies [86a95ba67]
+- Updated dependencies [e27cb6c45]
+- Updated dependencies [184b02bef]
+- Updated dependencies [60ce64aa2]
+  - @devtools/plugin-scaffolder@0.9.0
+  - @devtools/catalog-model@0.7.7
+  - @devtools/core@0.7.5
+  - @devtools/plugin-catalog@0.5.4
+  - @devtools/plugin-api-docs@0.4.11
+  - @devtools/plugin-techdocs@0.7.2
+  - @devtools/plugin-tech-radar@0.3.9
+  - @devtools/cli@0.6.8
+
+## 0.2.23
+
+### Patch Changes
+
+- Updated dependencies [d0b4ebf22]
+- Updated dependencies [1279a3325]
+- Updated dependencies [4a4681b1b]
+- Updated dependencies [97b60de98]
+- Updated dependencies [3f96a9d5a]
+- Updated dependencies [b051e770c]
+- Updated dependencies [f9c75f7a9]
+- Updated dependencies [98dd5da71]
+- Updated dependencies [97d53f686]
+- Updated dependencies [64d2ce700]
+  - @devtools/plugin-badges@0.2.0
+  - @devtools/core@0.7.4
+  - @devtools/catalog-model@0.7.6
+  - @devtools/plugin-scaffolder@0.8.2
+  - @devtools/plugin-catalog-import@0.5.2
+  - @devtools/plugin-catalog@0.5.3
+  - @devtools/plugin-org@0.3.12
+  - @devtools/plugin-github-deployments@0.1.2
+  - @devtools/cli@0.6.7
+
+## 0.2.21
+
+### Patch Changes
+
+- Updated dependencies [a2a3c7803]
+- Updated dependencies [687f066e1]
+- Updated dependencies [d10ea17c9]
+- Updated dependencies [01ccef4c7]
+- Updated dependencies [4d248725e]
+- Updated dependencies [4d248725e]
+- Updated dependencies [aaeb7ecf3]
+- Updated dependencies [ea9d977e7]
+- Updated dependencies [fcc3ada24]
+- Updated dependencies [687f066e1]
+- Updated dependencies [2aab54319]
+- Updated dependencies [4618774ff]
+- Updated dependencies [3139f83af]
+- Updated dependencies [598f5bcfb]
+- Updated dependencies [4d248725e]
+- Updated dependencies [df59930b3]
+  - @devtools/plugin-kubernetes@0.4.2
+  - @devtools/plugin-badges@0.1.2
+  - @devtools/plugin-cost-insights@0.8.4
+  - @devtools/plugin-catalog-react@0.1.3
+  - @devtools/plugin-github-actions@0.4.2
+  - @devtools/plugin-jenkins@0.4.1
+  - @devtools/plugin-catalog@0.5.1
+  - @devtools/plugin-techdocs@0.7.0
+  - @devtools/core@0.7.3
+  - @devtools/theme@0.2.5
+  - @devtools/cli@0.6.6
+
+## 0.2.20
+
+### Patch Changes
+
+- Updated dependencies [633a31fec]
+- Updated dependencies [34e6bb409]
+- Updated dependencies [b56815b40]
+- Updated dependencies [09eb54e01]
+- Updated dependencies [147b4c5b1]
+- Updated dependencies [83bfc98a3]
+- Updated dependencies [7d8c4c97c]
+- Updated dependencies [e7baa0d2e]
+- Updated dependencies [1df417bd3]
+- Updated dependencies [84972540b]
+- Updated dependencies [3385b374b]
+- Updated dependencies [a0dacc184]
+- Updated dependencies [8686eb38c]
+- Updated dependencies [9ca0e4009]
+- Updated dependencies [34ff49b0f]
+- Updated dependencies [8686eb38c]
+- Updated dependencies [c8b54c370]
+- Updated dependencies [1f98a6ff8]
+- Updated dependencies [e8b2ed9cc]
+  - @devtools/plugin-catalog@0.5.0
+  - @devtools/plugin-tech-radar@0.3.8
+  - @devtools/plugin-graphiql@0.2.9
+  - @devtools/plugin-user-settings@0.2.8
+  - @devtools/plugin-techdocs@0.6.2
+  - @devtools/plugin-catalog-import@0.5.0
+  - @devtools/plugin-kubernetes@0.4.1
+  - @devtools/cli@0.6.5
+  - @devtools/plugin-scaffolder@0.8.0
+  - @devtools/core@0.7.2
+  - @devtools/plugin-api-docs@0.4.9
+  - @devtools/plugin-catalog-react@0.1.2
+  - @devtools/plugin-circleci@0.2.12
+  - @devtools/plugin-cloudbuild@0.2.13
+  - @devtools/plugin-explore@0.3.2
+  - @devtools/plugin-github-actions@0.4.1
+  - @devtools/plugin-jenkins@0.4.0
+  - @devtools/plugin-lighthouse@0.2.14
+  - @devtools/plugin-org@0.3.10
+  - @devtools/plugin-search@0.3.4
+
+## 0.2.19
+
+### Patch Changes
+
+- Updated dependencies [13fb84244]
+- Updated dependencies [4f3d0dce0]
+- Updated dependencies [8f72318fe]
+- Updated dependencies [0b42fff22]
+- Updated dependencies [0b42fff22]
+- Updated dependencies [ff4d666ab]
+- Updated dependencies [aa095e469]
+- Updated dependencies [f98f212e4]
+- Updated dependencies [9f7dc10fb]
+- Updated dependencies [eabe89d38]
+- Updated dependencies [9581ff0b4]
+- Updated dependencies [93c62c755]
+- Updated dependencies [2089de76b]
+- Updated dependencies [c9b5c1eca]
+- Updated dependencies [dc1fc92c8]
+- Updated dependencies [2089de76b]
+- Updated dependencies [868e4cdf2]
+- Updated dependencies [ca4a904f6]
+- Updated dependencies [763926bc1]
+- Updated dependencies [5ab5864f6]
+- Updated dependencies [4202807bb]
+- Updated dependencies [e2c1b3fb6]
+  - @devtools/plugin-github-actions@0.4.0
+  - @devtools/plugin-catalog@0.4.2
+  - @devtools/plugin-kafka@0.2.6
+  - @devtools/catalog-model@0.7.4
+  - @devtools/core@0.7.1
+  - @devtools/plugin-techdocs@0.6.1
+  - @devtools/plugin-scaffolder@0.7.1
+  - @devtools/plugin-kubernetes@0.4.0
+  - @devtools/theme@0.2.4
+  - @devtools/plugin-explore@0.3.1
+  - @devtools/cli@0.6.4
+
+## 0.2.18
+
+### Patch Changes
+
+- Updated dependencies [ba21797ca]
+- Updated dependencies [b2a5320a4]
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [507513fed]
+- Updated dependencies [32a003973]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [cfc83cac1]
+- Updated dependencies [bc327dc42]
+- Updated dependencies [2386de1d3]
+- Updated dependencies [42c8ebb79]
+- Updated dependencies [10362e9eb]
+- Updated dependencies [e37d2de99]
+- Updated dependencies [813c6a4f2]
+- Updated dependencies [11c6208fe]
+- Updated dependencies [8106c9528]
+- Updated dependencies [05183f202]
+- Updated dependencies [40c0fdbaa]
+- Updated dependencies [f71589800]
+- Updated dependencies [2a271d89e]
+- Updated dependencies [bece09057]
+- Updated dependencies [d4f0a1406]
+- Updated dependencies [169f48deb]
+- Updated dependencies [8a1566719]
+- Updated dependencies [9d455f69a]
+- Updated dependencies [4c049a1a1]
+- Updated dependencies [d21058c34]
+- Updated dependencies [b33e553b2]
+- Updated dependencies [04667f571]
+- Updated dependencies [b93538acc]
+- Updated dependencies [0452ba238]
+- Updated dependencies [8871e7523]
+- Updated dependencies [02816ecd7]
+- Updated dependencies [dbea11072]
+  - @devtools/plugin-kubernetes@0.3.12
+  - @devtools/plugin-circleci@0.2.11
+  - @devtools/plugin-cloudbuild@0.2.12
+  - @devtools/plugin-github-actions@0.3.5
+  - @devtools/plugin-scaffolder@0.7.0
+  - @devtools/cli@0.6.3
+  - @devtools/plugin-api-docs@0.4.8
+  - @devtools/plugin-catalog@0.4.1
+  - @devtools/catalog-model@0.7.3
+  - @devtools/plugin-explore@0.3.0
+  - @devtools/plugin-techdocs@0.6.0
+  - @devtools/plugin-catalog-import@0.4.3
+  - @devtools/core@0.7.0
+  - @devtools/plugin-catalog-react@0.1.1
+  - @devtools/plugin-pagerduty@0.3.2
+  - @devtools/plugin-jenkins@0.3.12
+  - @devtools/plugin-lighthouse@0.2.13
+  - @devtools/plugin-cost-insights@0.8.3
+  - @devtools/plugin-gcp-projects@0.2.5
+  - @devtools/plugin-gitops-profiles@0.2.6
+  - @devtools/plugin-graphiql@0.2.8
+  - @devtools/plugin-kafka@0.2.5
+  - @devtools/plugin-newrelic@0.2.6
+  - @devtools/plugin-org@0.3.9
+  - @devtools/plugin-register-component@0.2.12
+  - @devtools/plugin-rollbar@0.3.3
+  - @devtools/plugin-search@0.3.3
+  - @devtools/plugin-sentry@0.3.8
+  - @devtools/plugin-tech-radar@0.3.7
+  - @devtools/plugin-user-settings@0.2.7
+
+## 0.2.17
+
+### Patch Changes
+
+- Updated dependencies [3a58084b6]
+- Updated dependencies [a5f42cf66]
+- Updated dependencies [38205492a]
+- Updated dependencies [e488f0502]
+- Updated dependencies [e799e74d4]
+- Updated dependencies [e3bc5aad7]
+- Updated dependencies [a5f42cf66]
+- Updated dependencies [a8953a9c9]
+- Updated dependencies [f37992797]
+- Updated dependencies [347137ccf]
+- Updated dependencies [d0760ecdf]
+- Updated dependencies [1407b34c6]
+- Updated dependencies [88f1f1b60]
+- Updated dependencies [d6593abe6]
+- Updated dependencies [bad21a085]
+- Updated dependencies [e8e35fb5f]
+- Updated dependencies [9615e68fb]
+- Updated dependencies [e780e119c]
+- Updated dependencies [437bac549]
+- Updated dependencies [9f2b3a26e]
+- Updated dependencies [49f9b7346]
+- Updated dependencies [5c2e2863f]
+- Updated dependencies [968b588f7]
+- Updated dependencies [3a58084b6]
+- Updated dependencies [2499f6cde]
+- Updated dependencies [5469a9761]
+- Updated dependencies [60d1bc3e7]
+- Updated dependencies [2c1f2a7c2]
+- Updated dependencies [6266ddd11]
+  - @devtools/core@0.6.3
+  - @devtools/plugin-scaffolder@0.6.0
+  - @devtools/plugin-cost-insights@0.8.2
+  - @devtools/plugin-org@0.3.8
+  - @devtools/plugin-catalog@0.4.0
+  - @devtools/plugin-catalog-import@0.4.2
+  - @devtools/plugin-techdocs@0.5.8
+  - @devtools/plugin-explore@0.2.7
+  - @devtools/plugin-catalog-react@0.1.0
+  - @devtools/plugin-api-docs@0.4.7
+  - @devtools/catalog-model@0.7.2
+  - @devtools/cli@0.6.2
+  - @devtools/plugin-tech-radar@0.3.6
+  - @devtools/plugin-circleci@0.2.10
+  - @devtools/plugin-cloudbuild@0.2.11
+  - @devtools/plugin-github-actions@0.3.4
+  - @devtools/plugin-jenkins@0.3.11
+  - @devtools/plugin-kafka@0.2.4
+  - @devtools/plugin-kubernetes@0.3.11
+  - @devtools/plugin-lighthouse@0.2.12
+  - @devtools/plugin-pagerduty@0.3.1
+  - @devtools/plugin-register-component@0.2.11
+  - @devtools/plugin-rollbar@0.3.2
+  - @devtools/plugin-search@0.3.2
+  - @devtools/plugin-sentry@0.3.7
+
+## 0.2.16
+
+### Patch Changes
+
+- Updated dependencies [6c4a76c59]
+- Updated dependencies [32a950409]
+- Updated dependencies [f10950bd2]
+- Updated dependencies [914c89b13]
+- Updated dependencies [fd3f2a8c0]
+- Updated dependencies [257a753ff]
+- Updated dependencies [d872f662d]
+- Updated dependencies [9337f509d]
+- Updated dependencies [d34d26125]
+- Updated dependencies [0af242b6d]
+- Updated dependencies [f4c2bcf54]
+- Updated dependencies [e8692df4a]
+- Updated dependencies [53b69236d]
+- Updated dependencies [549a859ac]
+- Updated dependencies [10a0124e0]
+- Updated dependencies [07e226872]
+- Updated dependencies [f62e7abe5]
+- Updated dependencies [96f378d10]
+- Updated dependencies [532bc0ec0]
+- Updated dependencies [688b73110]
+  - @devtools/plugin-scaffolder@0.5.1
+  - @devtools/plugin-catalog@0.3.2
+  - @devtools/core@0.6.2
+  - @devtools/cli@0.6.1
+  - @devtools/plugin-user-settings@0.2.6
+  - @devtools/plugin-catalog-react@0.0.4
+  - @devtools/plugin-api-docs@0.4.6
+  - @devtools/plugin-catalog-import@0.4.1
+  - @devtools/plugin-github-actions@0.3.3
+  - @devtools/plugin-jenkins@0.3.10
+  - @devtools/plugin-lighthouse@0.2.11
+  - @devtools/plugin-org@0.3.7
+  - @devtools/plugin-sentry@0.3.6
+  - @devtools/plugin-pagerduty@0.3.0
+  - @devtools/plugin-circleci@0.2.9
+  - @devtools/plugin-cloudbuild@0.2.10
+  - @devtools/plugin-explore@0.2.6
+  - @devtools/plugin-kafka@0.2.3
+  - @devtools/plugin-kubernetes@0.3.10
+  - @devtools/plugin-register-component@0.2.10
+  - @devtools/plugin-rollbar@0.3.1
+  - @devtools/plugin-search@0.3.1
+  - @devtools/plugin-techdocs@0.5.7
+
+## 0.2.15
+
+### Patch Changes
+
+- 07bafa248: Add configurable `scope` for oauth2 auth provider.
+
+  Some OAuth2 providers require certain scopes to facilitate a user sign-in using the Authorization Code flow.
+  This change adds the optional `scope` key to auth.providers.oauth2. An example is:
+
+  ```yaml
+  auth:
+    providers:
+      oauth2:
+        development:
+          clientId:
+            $env: DEV_OAUTH2_CLIENT_ID
+          clientSecret:
+            $env: DEV_OAUTH2_CLIENT_SECRET
+          authorizationUrl:
+            $env: DEV_OAUTH2_AUTH_URL
+          tokenUrl:
+            $env: DEV_OAUTH2_TOKEN_URL
+          scope: saml-login-selector openid profile email
+  ```
+
+  This tells the OAuth 2.0 AS to perform a SAML login and return OIDC information include the `profile`
+  and `email` claims as part of the ID Token.
+
+- Updated dependencies [753bb4c40]
+- Updated dependencies [6ed2b47d6]
+- Updated dependencies [b33fa4cf4]
+- Updated dependencies [d36660721]
+- Updated dependencies [6b26c9f41]
+- Updated dependencies [b3f0c3811]
+- Updated dependencies [302795d10]
+- Updated dependencies [9ec66c345]
+- Updated dependencies [53d3e2d62]
+- Updated dependencies [ca559171b]
+- Updated dependencies [53348f0af]
+- Updated dependencies [f5e564cd6]
+- Updated dependencies [68dd79d83]
+- Updated dependencies [29a138636]
+- Updated dependencies [14aef4b94]
+- Updated dependencies [41af18227]
+- Updated dependencies [1df75733e]
+- Updated dependencies [02d6803e8]
+- Updated dependencies [b288a291e]
+- Updated dependencies [025c0c7bf]
+- Updated dependencies [e5da858d7]
+- Updated dependencies [9230d07e7]
+- Updated dependencies [f5f45744e]
+- Updated dependencies [0fe8ff5be]
+- Updated dependencies [c5ab91ce3]
+- Updated dependencies [64b9efac2]
+- Updated dependencies [19d354c78]
+- Updated dependencies [7716d1d70]
+- Updated dependencies [8f3443427]
+- Updated dependencies [b51ee6ece]
+- Updated dependencies [accdfeb30]
+- Updated dependencies [804502a5c]
+  - @devtools/plugin-catalog-import@0.4.0
+  - @devtools/plugin-catalog@0.3.1
+  - @devtools/plugin-kubernetes@0.3.9
+  - @devtools/plugin-rollbar@0.3.0
+  - @devtools/plugin-scaffolder@0.5.0
+  - @devtools/plugin-cost-insights@0.8.1
+  - @devtools/plugin-circleci@0.2.8
+  - @devtools/plugin-search@0.3.0
+  - @devtools/plugin-cloudbuild@0.2.9
+  - @devtools/plugin-register-component@0.2.9
+  - @devtools/plugin-sentry@0.3.5
+  - @devtools/plugin-jenkins@0.3.9
+  - @devtools/plugin-api-docs@0.4.5
+  - @devtools/plugin-lighthouse@0.2.10
+  - @devtools/plugin-techdocs@0.5.6
+  - @devtools/plugin-pagerduty@0.2.8
+  - @devtools/plugin-org@0.3.6
+  - @devtools/plugin-github-actions@0.3.2
+  - @devtools/plugin-explore@0.2.5
+  - @devtools/plugin-newrelic@0.2.5
+  - @devtools/plugin-catalog-react@0.0.3
+  - @devtools/plugin-kafka@0.2.2
+  - @devtools/core@0.6.1
+  - @devtools/plugin-gitops-profiles@0.2.5
+  - @devtools/plugin-tech-radar@0.3.5
+
+## 0.2.14
+
+### Patch Changes
+
+- 9d6ef14bc: Migrated to new composability API, exporting the plugin instance as `rollbarPlugin`, the entity page content as `EntityRollbarContent`, and entity conditional as `isRollbarAvailable`. Updated the `EntityPage` for the `example-app` to include a composite `ErrorsSwitcher` component that works with both `Sentry` & `Rollbar`. Also removed the unused and undocumented `RollbarHome` related components.
+- Updated dependencies [ceef4dd89]
+- Updated dependencies [720149854]
+- Updated dependencies [19172f5a9]
+- Updated dependencies [4c6a6dddd]
+- Updated dependencies [398e1f83e]
+- Updated dependencies [87b189d00]
+- Updated dependencies [12ece98cd]
+- Updated dependencies [d82246867]
+- Updated dependencies [7fc89bae2]
+- Updated dependencies [c810082ae]
+- Updated dependencies [b712841d6]
+- Updated dependencies [a5628df40]
+- Updated dependencies [5fa3bdb55]
+- Updated dependencies [bc5082a00]
+- Updated dependencies [6e612ce25]
+- Updated dependencies [e44925723]
+- Updated dependencies [b37501a3d]
+- Updated dependencies [9d6ef14bc]
+- Updated dependencies [025e122c3]
+- Updated dependencies [e9aab60c7]
+- Updated dependencies [21e624ba9]
+- Updated dependencies [0269f4fd9]
+- Updated dependencies [19fe61c27]
+- Updated dependencies [da9f53c60]
+- Updated dependencies [a08c4b0b0]
+- Updated dependencies [bc5082a00]
+- Updated dependencies [bc5082a00]
+- Updated dependencies [b37501a3d]
+- Updated dependencies [90c8f20b9]
+- Updated dependencies [32c95605f]
+- Updated dependencies [7881f2117]
+- Updated dependencies [8dfdec613]
+- Updated dependencies [54c7d02f7]
+- Updated dependencies [de98c32ed]
+- Updated dependencies [806929fe2]
+- Updated dependencies [019fe39a0]
+- Updated dependencies [019fe39a0]
+- Updated dependencies [11cb5ef94]
+  - @devtools/plugin-catalog-import@0.3.7
+  - @devtools/plugin-scaffolder@0.4.2
+  - @devtools/plugin-cost-insights@0.8.0
+  - @devtools/cli@0.6.0
+  - @devtools/plugin-graphiql@0.2.7
+  - @devtools/core@0.6.0
+  - @devtools/plugin-api-docs@0.4.4
+  - @devtools/plugin-catalog@0.3.0
+  - @devtools/plugin-catalog-react@0.0.2
+  - @devtools/plugin-org@0.3.5
+  - @devtools/theme@0.2.3
+  - @devtools/plugin-lighthouse@0.2.9
+  - @devtools/plugin-techdocs@0.5.5
+  - @devtools/plugin-user-settings@0.2.5
+  - @devtools/catalog-model@0.7.1
+  - @devtools/plugin-rollbar@0.2.9
+  - @devtools/plugin-gcp-projects@0.2.4
+  - @devtools/plugin-tech-radar@0.3.4
+  - @devtools/plugin-welcome@0.2.5
+  - @devtools/plugin-explore@0.2.4
+  - @devtools/plugin-circleci@0.2.7
+  - @devtools/plugin-cloudbuild@0.2.8
+  - @devtools/plugin-github-actions@0.3.1
+  - @devtools/plugin-jenkins@0.3.8
+  - @devtools/plugin-kafka@0.2.1
+  - @devtools/plugin-register-component@0.2.8
+  - @devtools/plugin-search@0.2.7
+  - @devtools/plugin-sentry@0.3.4
+  - @devtools/plugin-gitops-profiles@0.2.4
+  - @devtools/plugin-kubernetes@0.3.8
+  - @devtools/plugin-newrelic@0.2.4
+  - @devtools/plugin-pagerduty@0.2.7
+
+## 0.2.13
+
+### Patch Changes
+
+- Updated dependencies [681111228]
+- Updated dependencies [12a56cdfe]
+- Updated dependencies [8b7ef9f8b]
+- Updated dependencies [fac91bcc5]
+- Updated dependencies [9dd057662]
+- Updated dependencies [234e7d985]
+- Updated dependencies [ef7957be4]
+- Updated dependencies [0b1182346]
+- Updated dependencies [a6e3b9596]
+  - @devtools/plugin-kubernetes@0.3.7
+  - @devtools/cli@0.5.0
+  - @devtools/plugin-cost-insights@0.6.0
+  - @devtools/plugin-catalog@0.2.14
+  - @devtools/plugin-catalog-import@0.3.6
+  - @devtools/plugin-scaffolder@0.4.1
+  - @devtools/plugin-kafka@0.2.0
+
+## 0.2.12
+
+### Patch Changes
+
+- Updated dependencies [def2307f3]
+- Updated dependencies [46bba09ea]
+- Updated dependencies [efd6ef753]
+- Updated dependencies [593632f07]
+- Updated dependencies [8c2437c15]
+- Updated dependencies [2b514d532]
+- Updated dependencies [33846acfc]
+- Updated dependencies [b604a9d41]
+- Updated dependencies [d014185db]
+- Updated dependencies [a187b8ad0]
+- Updated dependencies [8855f61f6]
+- Updated dependencies [ed6baab66]
+- Updated dependencies [f04db53d7]
+- Updated dependencies [a5e27d5c1]
+- Updated dependencies [debf359b5]
+- Updated dependencies [a93f42213]
+  - @devtools/catalog-model@0.7.0
+  - @devtools/plugin-github-actions@0.3.0
+  - @devtools/core@0.5.0
+  - @devtools/plugin-catalog@0.2.12
+  - @devtools/plugin-cost-insights@0.5.7
+  - @devtools/plugin-catalog-import@0.3.5
+  - @devtools/cli@0.4.7
+  - @devtools/plugin-kubernetes@0.3.6
+  - @devtools/plugin-api-docs@0.4.3
+  - @devtools/plugin-scaffolder@0.4.0
+  - @devtools/plugin-techdocs@0.5.4
+  - @devtools/plugin-lighthouse@0.2.8
+  - @devtools/plugin-circleci@0.2.6
+  - @devtools/plugin-cloudbuild@0.2.7
+  - @devtools/plugin-jenkins@0.3.6
+  - @devtools/plugin-kafka@0.1.1
+  - @devtools/plugin-org@0.3.4
+  - @devtools/plugin-pagerduty@0.2.6
+  - @devtools/plugin-register-component@0.2.7
+  - @devtools/plugin-rollbar@0.2.8
+  - @devtools/plugin-search@0.2.6
+  - @devtools/plugin-sentry@0.3.3
+  - @devtools/plugin-explore@0.2.3
+  - @devtools/plugin-gcp-projects@0.2.3
+  - @devtools/plugin-gitops-profiles@0.2.3
+  - @devtools/plugin-graphiql@0.2.6
+  - @devtools/plugin-newrelic@0.2.3
+  - @devtools/plugin-tech-radar@0.3.3
+  - @devtools/plugin-user-settings@0.2.4
+  - @devtools/plugin-welcome@0.2.4
+
+## 0.2.9
+
+### Patch Changes
+
+- Updated dependencies [ab0892358]
+- Updated dependencies [37a7d26c4]
+- Updated dependencies [8e083f41f]
+- Updated dependencies [88da267cc]
+- Updated dependencies [9c09a364f]
+- Updated dependencies [01707438b]
+- Updated dependencies [edb7d0775]
+- Updated dependencies [818d45e94]
+- Updated dependencies [0588be01f]
+- Updated dependencies [b8abdda57]
+- Updated dependencies [b7a124883]
+- Updated dependencies [bc909178d]
+- Updated dependencies [947d3c269]
+  - @devtools/plugin-cost-insights@0.5.5
+  - @devtools/plugin-tech-radar@0.3.2
+  - @devtools/cli@0.4.5
+  - @devtools/plugin-scaffolder@0.3.6
+  - @devtools/plugin-sentry@0.3.2
+  - @devtools/plugin-catalog@0.2.10
+  - @devtools/plugin-search@0.2.5
+  - @devtools/plugin-catalog-import@0.3.3
+  - @devtools/plugin-pagerduty@0.2.5
+
+## 0.2.8
+
+### Patch Changes
+
+- Updated dependencies [19554f6d6]
+- Updated dependencies [1dc445e89]
+- Updated dependencies [342270e4d]
+- Updated dependencies [7d72f9b09]
+  - @devtools/cli@0.4.3
+  - @devtools/plugin-github-actions@0.2.6
+  - @devtools/plugin-scaffolder@0.3.5
+  - @devtools/core@0.4.2
+  - @devtools/test-utils@0.1.6
+  - @devtools/plugin-graphiql@0.2.3
+  - @devtools/plugin-catalog@0.2.8
+  - @devtools/plugin-pagerduty@0.2.4
+  - @devtools/plugin-techdocs@0.5.1
+
+## 0.2.7
+
+### Patch Changes
+
+- Updated dependencies [c0fac6163]
+- Updated dependencies [48c305e69]
+- Updated dependencies [c911061b7]
+- Updated dependencies [ab805860a]
+- Updated dependencies [dae4f3983]
+- Updated dependencies [8ef71ed32]
+- Updated dependencies [0e6298f7e]
+- Updated dependencies [f3e75508d]
+- Updated dependencies [3b50f833d]
+- Updated dependencies [c36a01b4c]
+- Updated dependencies [c5297baeb]
+- Updated dependencies [ac3560b42]
+- Updated dependencies [962d1ad66]
+  - @devtools/plugin-org@0.3.2
+  - @devtools/plugin-cost-insights@0.5.2
+  - @devtools/catalog-model@0.6.0
+  - @devtools/plugin-techdocs@0.5.0
+  - @devtools/core@0.4.1
+  - @devtools/plugin-catalog-import@0.3.2
+  - @devtools/plugin-pagerduty@0.2.3
+  - @devtools/cli@0.4.2
+  - @devtools/plugin-sentry@0.3.1
+  - @devtools/plugin-api-docs@0.4.1
+  - @devtools/plugin-catalog@0.2.7
+  - @devtools/plugin-circleci@0.2.5
+  - @devtools/plugin-cloudbuild@0.2.5
+  - @devtools/plugin-github-actions@0.2.5
+  - @devtools/plugin-jenkins@0.3.4
+  - @devtools/plugin-kubernetes@0.3.3
+  - @devtools/plugin-lighthouse@0.2.6
+  - @devtools/plugin-register-component@0.2.5
+  - @devtools/plugin-rollbar@0.2.7
+  - @devtools/plugin-scaffolder@0.3.4
+  - @devtools/plugin-search@0.2.4
+
+## 0.2.6
+
+### Patch Changes
+
+- Updated dependencies [b2a07d2dc]
+- Updated dependencies [075d3dc5a]
+- Updated dependencies [e3071a0d4]
+- Updated dependencies [d6e8099ed]
+- Updated dependencies [88ef11b45]
+- Updated dependencies [06dbe707b]
+- Updated dependencies [2527628e1]
+- Updated dependencies [011708102]
+- Updated dependencies [04efbbdd2]
+- Updated dependencies [90458fed6]
+- Updated dependencies [6011b7d3e]
+- Updated dependencies [79418ddb6]
+- Updated dependencies [d2938af4c]
+- Updated dependencies [61897fb2c]
+- Updated dependencies [e1f4e24ef]
+- Updated dependencies [6a0d7a9fb]
+- Updated dependencies [0f8877168]
+- Updated dependencies [1c69d4716]
+- Updated dependencies [246799c7f]
+- Updated dependencies [83b6e0c1f]
+- Updated dependencies [87a33d2fe]
+- Updated dependencies [1665ae8bb]
+- Updated dependencies [04f26f88d]
+- Updated dependencies [ff243ce96]
+- Updated dependencies [2b71db211]
+  - @devtools/plugin-jenkins@0.3.3
+  - @devtools/plugin-sentry@0.3.0
+  - @devtools/plugin-cost-insights@0.5.0
+  - @devtools/cli@0.4.1
+  - @devtools/core@0.4.0
+  - @devtools/plugin-circleci@0.2.4
+  - @devtools/plugin-catalog@0.2.6
+  - @devtools/plugin-pagerduty@0.2.2
+  - @devtools/plugin-catalog-import@0.3.1
+  - @devtools/test-utils@0.1.5
+  - @devtools/plugin-search@0.2.3
+  - @devtools/plugin-api-docs@0.4.0
+  - @devtools/catalog-model@0.5.0
+  - @devtools/plugin-techdocs@0.4.0
+  - @devtools/theme@0.2.2
+  - @devtools/plugin-org@0.3.1
+  - @devtools/plugin-cloudbuild@0.2.4
+  - @devtools/plugin-explore@0.2.2
+  - @devtools/plugin-gcp-projects@0.2.2
+  - @devtools/plugin-github-actions@0.2.4
+  - @devtools/plugin-gitops-profiles@0.2.2
+  - @devtools/plugin-graphiql@0.2.2
+  - @devtools/plugin-kubernetes@0.3.2
+  - @devtools/plugin-lighthouse@0.2.5
+  - @devtools/plugin-newrelic@0.2.2
+  - @devtools/plugin-register-component@0.2.4
+  - @devtools/plugin-rollbar@0.2.6
+  - @devtools/plugin-scaffolder@0.3.3
+  - @devtools/plugin-tech-radar@0.3.1
+  - @devtools/plugin-user-settings@0.2.3
+  - @devtools/plugin-welcome@0.2.3
+
+## 0.2.5
+
+### Patch Changes
+
+- Updated dependencies [7eb8bfe4a]
+- Updated dependencies [fe7257ff0]
+- Updated dependencies [a2cfa311a]
+- Updated dependencies [69f38457f]
+- Updated dependencies [bec334b33]
+- Updated dependencies [303c5ea17]
+- Updated dependencies [b4488ddb0]
+- Updated dependencies [4a655c89d]
+- Updated dependencies [08835a61d]
+- Updated dependencies [a9fd599f7]
+- Updated dependencies [8a16e8af8]
+- Updated dependencies [bcc211a08]
+- Updated dependencies [00670a96e]
+- Updated dependencies [da2ad65cb]
+- Updated dependencies [ebf37bbae]
+  - @devtools/plugin-api-docs@0.3.1
+  - @devtools/plugin-cost-insights@0.4.2
+  - @devtools/plugin-sentry@0.2.4
+  - @devtools/plugin-welcome@0.2.2
+  - @devtools/cli@0.4.0
+  - @devtools/catalog-model@0.4.0
+  - @devtools/plugin-catalog-import@0.3.0
+  - @devtools/plugin-scaffolder@0.3.2
+  - @devtools/plugin-kubernetes@0.3.1
+  - @devtools/plugin-techdocs@0.3.1
+  - @devtools/plugin-catalog@0.2.5
+  - @devtools/test-utils@0.1.4
+  - @devtools/plugin-circleci@0.2.3
+  - @devtools/plugin-cloudbuild@0.2.3
+  - @devtools/plugin-github-actions@0.2.3
+  - @devtools/plugin-jenkins@0.3.2
+  - @devtools/plugin-lighthouse@0.2.4
+  - @devtools/plugin-register-component@0.2.3
+  - @devtools/plugin-rollbar@0.2.5
+  - @devtools/plugin-search@0.2.2
+
+## 0.2.4
+
+### Patch Changes
+
+- Updated dependencies [294295453]
+- Updated dependencies [f3bb55ee3]
+- Updated dependencies [4b53294a6]
+- Updated dependencies [6f70ed7a9]
+- Updated dependencies [ab94c9542]
+- Updated dependencies [3a201c5d5]
+- Updated dependencies [f538e2c56]
+- Updated dependencies [2daf18e80]
+- Updated dependencies [069cda35f]
+- Updated dependencies [8697dea5b]
+- Updated dependencies [b623cc275]
+  - @devtools/cli@0.3.2
+  - @devtools/plugin-api-docs@0.3.0
+  - @devtools/plugin-techdocs@0.3.0
+  - @devtools/plugin-catalog@0.2.4
+  - @devtools/catalog-model@0.3.1
+  - @devtools/plugin-rollbar@0.2.4
+
+## 0.2.3
+
+### Patch Changes
+
+- 475fc0aaa: Using the search field in the sidebar now navigates to the search result page.
+- Updated dependencies [475fc0aaa]
+- Updated dependencies [1166fcc36]
+- Updated dependencies [29a0ccab2]
+- Updated dependencies [8e6728e25]
+- Updated dependencies [c93a14b49]
+- Updated dependencies [ef2831dde]
+- Updated dependencies [2a71f4bab]
+- Updated dependencies [1185919f3]
+- Updated dependencies [a8de7f554]
+- Updated dependencies [faf311c26]
+- Updated dependencies [31d8b6979]
+- Updated dependencies [991345969]
+- Updated dependencies [475fc0aaa]
+  - @devtools/core@0.3.2
+  - @devtools/catalog-model@0.3.0
+  - @devtools/plugin-kubernetes@0.3.0
+  - @devtools/cli@0.3.1
+  - @devtools/plugin-cost-insights@0.4.1
+  - @devtools/plugin-scaffolder@0.3.1
+  - @devtools/plugin-register-component@0.2.2
+  - @devtools/plugin-circleci@0.2.2
+  - @devtools/plugin-search@0.2.1
+  - @devtools/plugin-api-docs@0.2.2
+  - @devtools/plugin-catalog@0.2.3
+  - @devtools/plugin-cloudbuild@0.2.2
+  - @devtools/plugin-github-actions@0.2.2
+  - @devtools/plugin-jenkins@0.3.1
+  - @devtools/plugin-lighthouse@0.2.3
+  - @devtools/plugin-rollbar@0.2.3
+  - @devtools/plugin-sentry@0.2.3
+  - @devtools/plugin-techdocs@0.2.3
+
+## 0.2.2
+
+### Patch Changes
+
+- 3efd03c0e: Removed obsolete CircleCI proxy config from example-app
+- Updated dependencies [1722cb53c]
+- Updated dependencies [1722cb53c]
+- Updated dependencies [17a9f48f6]
+- Updated dependencies [4040d4fcb]
+- Updated dependencies [f360395d0]
+- Updated dependencies [259d848ee]
+- Updated dependencies [8b7737d0b]
+- Updated dependencies [902340451]
+  - @devtools/cli@0.3.0
+  - @devtools/core@0.3.1
+  - @devtools/plugin-cost-insights@0.4.0
+  - @devtools/plugin-lighthouse@0.2.2
+  - @devtools/plugin-rollbar@0.2.2
+  - @devtools/plugin-sentry@0.2.2
+  - @devtools/plugin-techdocs@0.2.2
+  - @devtools/plugin-user-settings@0.2.2
+  - @devtools/plugin-catalog@0.2.2
+  - @devtools/test-utils@0.1.3
+
+## 0.2.1
+
+### Patch Changes
+
+- Updated dependencies [7b37d65fd]
+- Updated dependencies [4aca74e08]
+- Updated dependencies [a41730c6e]
+- Updated dependencies [9a294574c]
+- Updated dependencies [0703edee0]
+- Updated dependencies [e8f69ba93]
+- Updated dependencies [0c0798f08]
+- Updated dependencies [5a2705de2]
+- Updated dependencies [0c0798f08]
+- Updated dependencies [84b654d5d]
+- Updated dependencies [0c0798f08]
+- Updated dependencies [199237d2f]
+- Updated dependencies [6627b626f]
+- Updated dependencies [3f05616bf]
+- Updated dependencies [803527bd3]
+- Updated dependencies [4577e377b]
+- Updated dependencies [2d0bd1be7]
+- Updated dependencies [59166e5ec]
+- Updated dependencies [a906f20e7]
+  - @devtools/core@0.3.0
+  - @devtools/plugin-jenkins@0.3.0
+  - @devtools/plugin-cost-insights@0.3.0
+  - @devtools/plugin-user-settings@0.2.1
+  - @devtools/plugin-api-docs@0.2.1
+  - @devtools/plugin-tech-radar@0.3.0
+  - @devtools/theme@0.2.1
+  - @devtools/plugin-catalog@0.2.1
+  - @devtools/plugin-scaffolder@0.3.0
+  - @devtools/plugin-circleci@0.2.1
+  - @devtools/plugin-cloudbuild@0.2.1
+  - @devtools/plugin-explore@0.2.1
+  - @devtools/plugin-gcp-projects@0.2.1
+  - @devtools/plugin-github-actions@0.2.1
+  - @devtools/plugin-gitops-profiles@0.2.1
+  - @devtools/plugin-graphiql@0.2.1
+  - @devtools/plugin-kubernetes@0.2.1
+  - @devtools/plugin-lighthouse@0.2.1
+  - @devtools/plugin-newrelic@0.2.1
+  - @devtools/plugin-register-component@0.2.1
+  - @devtools/plugin-rollbar@0.2.1
+  - @devtools/plugin-sentry@0.2.1
+  - @devtools/plugin-techdocs@0.2.1
+  - @devtools/plugin-welcome@0.2.1
+
+## 0.2.0
+
+### Minor Changes
+
+- 6d97d2d6f: The InfoCard variant `'height100'` is deprecated. Use variant `'gridItem'` instead.
+
+  When the InfoCard is displayed as a grid item within a grid, you may want items to have the same height for all items.
+  Set to the `'gridItem'` variant to display the InfoCard with full height suitable for Grid:
+  `<InfoCard variant="gridItem">...</InfoCard>`
+
+  Changed the InfoCards in '@devtools/plugin-github-actions', '@devtools/plugin-jenkins', '@devtools/plugin-lighthouse'
+  to pass an optional variant to the corresponding card of the plugin.
+
+  As a result the overview content of the EntityPage shows cards with full height suitable for Grid.
+
+### Patch Changes
+
+- 65d722455: Add Pull Request tab to components view.
+- 26e69ab1a: Remove cost insights example client from demo app and export from plugin
+  Create cost insights dev plugin using example client
+  Make PluginConfig and dependent types public
+- e7f5471fd: cleaning up because external plugins have already implemented new api for creating
+- Updated dependencies [28edd7d29]
+- Updated dependencies [819a70229]
+- Updated dependencies [2846ef95c]
+- Updated dependencies [3a4236570]
+- Updated dependencies [ae5983387]
+- Updated dependencies [0d4459c08]
+- Updated dependencies [d67c529ab]
+- Updated dependencies [482b6313d]
+- Updated dependencies [e0be86b6f]
+- Updated dependencies [f70a52868]
+- Updated dependencies [12b5fe940]
+- Updated dependencies [8351ad79b]
+- Updated dependencies [30dd11122]
+- Updated dependencies [1297dcb3a]
+- Updated dependencies [368fd8243]
+- Updated dependencies [fb74f1db6]
+- Updated dependencies [3472c8be7]
+- Updated dependencies [cab473771]
+- Updated dependencies [1d0aec70f]
+- Updated dependencies [1c60f716e]
+- Updated dependencies [a73979d45]
+- Updated dependencies [144c66d50]
+- Updated dependencies [a768a07fb]
+- Updated dependencies [a3840bed2]
+- Updated dependencies [339668995]
+- Updated dependencies [b79017fd3]
+- Updated dependencies [6d97d2d6f]
+- Updated dependencies [5adfc005e]
+- Updated dependencies [f0aa01bcc]
+- Updated dependencies [8d1360aa9]
+- Updated dependencies [72f6cda35]
+- Updated dependencies [0ee9e9f66]
+- Updated dependencies [5c70f3d35]
+- Updated dependencies [bb48b9833]
+- Updated dependencies [fd8384d7e]
+- Updated dependencies [8c2b76e45]
+- Updated dependencies [0aecfded0]
+- Updated dependencies [93a3fa3ae]
+- Updated dependencies [782f3b354]
+- Updated dependencies [c5ef12926]
+- Updated dependencies [8b9c8196f]
+- Updated dependencies [2713f28f4]
+- Updated dependencies [6a84cb072]
+- Updated dependencies [406015b0d]
+- Updated dependencies [82759d3e4]
+- Updated dependencies [60d40892c]
+- Updated dependencies [cba4e4d97]
+- Updated dependencies [ac8d5d5c7]
+- Updated dependencies [2ebcfac8d]
+- Updated dependencies [4fc1d440e]
+- Updated dependencies [fa56f4615]
+- Updated dependencies [8afce088a]
+- Updated dependencies [4512b9967]
+- Updated dependencies [ebca83d48]
+- Updated dependencies [aca79334f]
+- Updated dependencies [c0d5242a0]
+- Updated dependencies [b3d57961c]
+- Updated dependencies [9a3b3dbf1]
+- Updated dependencies [e7d4ac7ce]
+- Updated dependencies [0b956f21b]
+- Updated dependencies [1c8c43756]
+- Updated dependencies [0e67c6b40]
+- Updated dependencies [26e69ab1a]
+- Updated dependencies [97c2cb19b]
+- Updated dependencies [02c60b5f8]
+- Updated dependencies [3beb5c9fc]
+- Updated dependencies [754e31db5]
+- Updated dependencies [57b54c8ed]
+- Updated dependencies [1611c6dbc]
+- Updated dependencies [7bbeb049f]
+  - @devtools/cli@0.2.0
+  - @devtools/plugin-api-docs@0.2.0
+  - @devtools/plugin-catalog@0.2.0
+  - @devtools/plugin-circleci@0.2.0
+  - @devtools/plugin-explore@0.2.0
+  - @devtools/plugin-gcp-projects@0.2.0
+  - @devtools/plugin-github-actions@0.2.0
+  - @devtools/plugin-gitops-profiles@0.2.0
+  - @devtools/plugin-graphiql@0.2.0
+  - @devtools/plugin-jenkins@0.2.0
+  - @devtools/plugin-kubernetes@0.2.0
+  - @devtools/plugin-lighthouse@0.2.0
+  - @devtools/plugin-newrelic@0.2.0
+  - @devtools/plugin-register-component@0.2.0
+  - @devtools/plugin-rollbar@0.2.0
+  - @devtools/plugin-scaffolder@0.2.0
+  - @devtools/plugin-sentry@0.2.0
+  - @devtools/plugin-tech-radar@0.2.0
+  - @devtools/plugin-techdocs@0.2.0
+  - @devtools/plugin-welcome@0.2.0
+  - @devtools/core@0.2.0
+  - @devtools/plugin-cloudbuild@0.2.0
+  - @devtools/catalog-model@0.2.0
+  - @devtools/theme@0.2.0
+  - @devtools/plugin-cost-insights@0.2.0
+  - @devtools/plugin-user-settings@0.2.0
+  - @devtools/test-utils@0.1.2

@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-techdocs-addons-test-utils
+  title: '@devtools/plugin-techdocs-addons-test-utils'
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: techdocs-maintainers

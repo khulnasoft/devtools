@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-kubernetes-common
+  title: '@devtools/plugin-kubernetes-common'
+  description: >-
+    Common functionalities for kubernetes, to be shared between kubernetes and
+    kubernetes-backend plugin
+spec:
+  lifecycle: experimental
+  type: devtools-common-library
+  owner: kubernetes-maintainers

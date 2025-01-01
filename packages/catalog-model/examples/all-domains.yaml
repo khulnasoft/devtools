@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Location
+metadata:
+  name: example-domains
+  description: A collection of all Devtools example domains
+spec:
+  targets:
+    - ./domains/audio-domain.yaml
+    - ./domains/artists-domain.yaml
+    - ./domains/playback-domain.yaml

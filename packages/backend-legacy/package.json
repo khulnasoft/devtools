@@ -1,0 +1,89 @@
+{
+  "name": "example-backend-legacy",
+  "version": "0.2.106-next.1",
+  "devtools": {
+    "role": "backend"
+  },
+  "private": true,
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/backend-legacy"
+  },
+  "license": "Apache-2.0",
+  "main": "dist/index.cjs.js",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-client": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/integration": "workspace:^",
+    "@devtools/plugin-app-backend": "workspace:^",
+    "@devtools/plugin-auth-backend": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "@devtools/plugin-catalog-backend": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-scaffolder-entity-model": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-unprocessed": "workspace:^",
+    "@devtools/plugin-catalog-node": "workspace:^",
+    "@devtools/plugin-events-backend": "workspace:^",
+    "@devtools/plugin-events-node": "workspace:^",
+    "@devtools/plugin-kubernetes-backend": "workspace:^",
+    "@devtools/plugin-permission-backend": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-permission-node": "workspace:^",
+    "@devtools/plugin-proxy-backend": "workspace:^",
+    "@devtools/plugin-scaffolder-backend": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-confluence-to-markdown": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-gitlab": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-rails": "workspace:^",
+    "@devtools/plugin-search-backend": "workspace:^",
+    "@devtools/plugin-search-backend-module-catalog": "workspace:^",
+    "@devtools/plugin-search-backend-module-elasticsearch": "workspace:^",
+    "@devtools/plugin-search-backend-module-explore": "workspace:^",
+    "@devtools/plugin-search-backend-module-pg": "workspace:^",
+    "@devtools/plugin-search-backend-module-techdocs": "workspace:^",
+    "@devtools/plugin-search-backend-node": "workspace:^",
+    "@devtools/plugin-signals-backend": "workspace:^",
+    "@devtools/plugin-signals-node": "workspace:^",
+    "@devtools/plugin-techdocs-backend": "workspace:^",
+    "@gitbeaker/node": "^35.1.0",
+    "@octokit/rest": "^19.0.3",
+    "azure-devops-node-api": "^14.0.0",
+    "better-sqlite3": "^11.0.0",
+    "dockerode": "^4.0.0",
+    "example-app": "link:../app",
+    "express": "^4.17.1",
+    "express-prom-bundle": "^7.0.0",
+    "express-promise-router": "^4.1.0",
+    "luxon": "^3.0.0",
+    "mysql2": "^3.0.0",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.3.0",
+    "prom-client": "^15.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@types/dockerode": "^3.3.0",
+    "@types/express": "^4.17.6",
+    "@types/express-serve-static-core": "^4.17.5",
+    "@types/luxon": "^3.0.0"
+  }
+}

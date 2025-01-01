@@ -1,0 +1,87 @@
+{
+  "name": "@devtools/plugin-devtools",
+  "version": "0.1.22",
+  "devtools": {
+    "role": "frontend-plugin",
+    "pluginId": "devtools",
+    "pluginPackages": [
+      "@devtools/plugin-devtools",
+      "@devtools/plugin-devtools-backend",
+      "@devtools/plugin-devtools-common"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/devtools"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/core-compat-api": "workspace:^",
+    "@devtools/core-components": "workspace:^",
+    "@devtools/core-plugin-api": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/frontend-plugin-api": "workspace:^",
+    "@devtools/plugin-devtools-common": "workspace:^",
+    "@devtools/plugin-permission-react": "workspace:^",
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "react-json-view": "^1.21.3",
+    "react-use": "^17.2.4"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@devtools/dev-utils": "workspace:^",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.13.1 || ^17.0.0 || ^18.0.0",
+    "react": "^16.13.1 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.13.1 || ^17.0.0 || ^18.0.0",
+    "react-router-dom": "6.0.0-beta.0 || ^6.3.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  }
+}

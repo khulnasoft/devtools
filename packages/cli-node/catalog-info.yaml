@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-cli-node
+  title: '@devtools/cli-node'
+  description: Node.js library for Devtools CLIs
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

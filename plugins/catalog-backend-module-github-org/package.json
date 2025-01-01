@@ -1,0 +1,47 @@
+{
+  "name": "@devtools/plugin-catalog-backend-module-github-org",
+  "version": "0.3.6-next.0",
+  "description": "The github-org backend module for the catalog plugin.",
+  "devtools": {
+    "role": "backend-plugin-module",
+    "pluginId": "catalog",
+    "pluginPackage": "@devtools/plugin-catalog-backend"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/catalog-backend-module-github-org"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-github": "workspace:^",
+    "@devtools/plugin-catalog-node": "workspace:^",
+    "@devtools/plugin-events-node": "workspace:^"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "luxon": "^3.0.0"
+  }
+}

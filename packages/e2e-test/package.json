@@ -1,0 +1,53 @@
+{
+  "name": "e2e-test",
+  "version": "0.2.24-next.1",
+  "description": "E2E test for verifying Devtools packages",
+  "devtools": {
+    "role": "cli"
+  },
+  "private": true,
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/e2e-test"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "bin": "bin/e2e-test",
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "start": "yarn nodemon --",
+    "test": "devtools-cli package test",
+    "test:e2e": "yarn start"
+  },
+  "nodemonConfig": {
+    "exec": "bin/e2e-test",
+    "ext": "ts",
+    "watch": "./src"
+  },
+  "dependencies": {
+    "@devtools/cli-common": "workspace:^",
+    "@devtools/create-app": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "chalk": "^4.0.0",
+    "commander": "^12.0.0",
+    "cross-fetch": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.3",
+    "mysql2": "^3.0.0",
+    "pgtools": "^1.0.0",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@types/fs-extra": "^11.0.0",
+    "@types/node": "^20.16.0",
+    "nodemon": "^3.0.1"
+  }
+}

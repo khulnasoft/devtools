@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-auth-backend-module-auth0-provider
+  title: '@devtools/plugin-auth-backend-module-auth0-provider'
+  description: The auth0-provider backend module for the auth plugin.
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

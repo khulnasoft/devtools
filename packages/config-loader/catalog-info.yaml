@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-config-loader
+  title: '@devtools/config-loader'
+  description: Config loading functionality used by Devtools backend, and CLI
+spec:
+  lifecycle: production
+  type: devtools-node-library
+  owner: maintainers

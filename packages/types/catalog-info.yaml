@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-types
+  title: '@devtools/types'
+  description: Common TypeScript types used within Devtools
+spec:
+  lifecycle: production
+  type: devtools-common-library
+  owner: maintainers

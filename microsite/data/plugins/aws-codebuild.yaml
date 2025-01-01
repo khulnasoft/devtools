@@ -1,0 +1,10 @@
+---
+title: AWS CodeBuild
+author: Amazon Web Services
+authorUrl: https://aws.amazon.com/
+category: CI/CD
+description: View resources related to AWS CodeBuild for your components in Devtools.
+documentation: https://github.com/awslabs/devtools-plugins-for-aws/tree/main/plugins/codebuild#readme
+iconUrl: https://raw.githubusercontent.com/awslabs/devtools-plugins-for-aws/main/docs/images/logos/aws-codebuild-logo.png
+npmPackageName: 'https://www.npmjs.com/package/@aws/aws-codebuild-plugin-for-devtools'
+addedDate: '2024-04-22'

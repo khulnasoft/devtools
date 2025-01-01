@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-repo-tools
+  title: '@devtools/repo-tools'
+  description: 'CLI for Devtools repo tooling '
+spec:
+  lifecycle: experimental
+  type: devtools-cli
+  owner: maintainers

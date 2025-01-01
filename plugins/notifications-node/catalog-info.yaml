@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-notifications-node
+  title: '@devtools/plugin-notifications-node'
+  description: Node.js library for the notifications plugin
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

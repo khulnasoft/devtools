@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-techdocs-node
+  title: '@devtools/plugin-techdocs-node'
+  description: >-
+    Common node.js functionalities for TechDocs, to be shared between
+    techdocs-backend plugin and techdocs-cli
+spec:
+  lifecycle: production
+  type: devtools-node-library
+  owner: techdocs-maintainers

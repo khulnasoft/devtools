@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: example-app-next
+  title: example-app-next
+spec:
+  lifecycle: experimental
+  type: devtools-frontend
+  owner: maintainers

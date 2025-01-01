@@ -1,0 +1,9 @@
+---
+title: LaunchDarkly
+author: roadie.io
+authorUrl: https://roadie.io
+category: CI/CD
+description: View LaunchDarkly feature flags for your entities in Devtools.
+documentation: https://github.com/RoadieHQ/roadie-devtools-plugins/blob/launchdarkly/plugins/frontend/devtools-plugin-launchdarkly/README.md
+npmPackageName: '@roadiehq/devtools-plugin-launchdarkly'
+addedDate: '2024-07-27'

@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search-react
+  title: '@devtools/plugin-search-react'
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: search-maintainers

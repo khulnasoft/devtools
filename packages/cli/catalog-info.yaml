@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-cli
+  title: '@devtools/cli'
+  description: CLI for developing Devtools plugins and apps
+spec:
+  lifecycle: experimental
+  type: devtools-cli
+  owner: maintainers

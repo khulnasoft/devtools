@@ -1,0 +1,106 @@
+{
+  "name": "example-app",
+  "version": "0.2.105-next.1",
+  "devtools": {
+    "role": "frontend"
+  },
+  "private": true,
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/app"
+  },
+  "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "start": "cross-env EXPERIMENTAL_LAZY_COMPILATION=1 devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@devtools/app-defaults": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/core-app-api": "workspace:^",
+    "@devtools/core-components": "workspace:^",
+    "@devtools/core-plugin-api": "workspace:^",
+    "@devtools/frontend-app-api": "workspace:^",
+    "@devtools/integration-react": "workspace:^",
+    "@devtools/plugin-api-docs": "workspace:^",
+    "@devtools/plugin-auth-react": "workspace:^",
+    "@devtools/plugin-catalog": "workspace:^",
+    "@devtools/plugin-catalog-common": "workspace:^",
+    "@devtools/plugin-catalog-graph": "workspace:^",
+    "@devtools/plugin-catalog-import": "workspace:^",
+    "@devtools/plugin-catalog-react": "workspace:^",
+    "@devtools/plugin-catalog-unprocessed-entities": "workspace:^",
+    "@devtools/plugin-devtools": "workspace:^",
+    "@devtools/plugin-home": "workspace:^",
+    "@devtools/plugin-kubernetes": "workspace:^",
+    "@devtools/plugin-kubernetes-cluster": "workspace:^",
+    "@devtools/plugin-notifications": "workspace:^",
+    "@devtools/plugin-org": "workspace:^",
+    "@devtools/plugin-permission-react": "workspace:^",
+    "@devtools/plugin-scaffolder": "workspace:^",
+    "@devtools/plugin-scaffolder-react": "workspace:^",
+    "@devtools/plugin-search": "workspace:^",
+    "@devtools/plugin-search-common": "workspace:^",
+    "@devtools/plugin-search-react": "workspace:^",
+    "@devtools/plugin-signals": "workspace:^",
+    "@devtools/plugin-techdocs": "workspace:^",
+    "@devtools/plugin-techdocs-module-addons-contrib": "workspace:^",
+    "@devtools/plugin-techdocs-react": "workspace:^",
+    "@devtools/plugin-user-settings": "workspace:^",
+    "@devtools/theme": "workspace:^",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.61",
+    "@modyfi/vite-plugin-yaml": "^1.1.0",
+    "@octokit/rest": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "history": "^5.0.0",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-use": "^17.2.4",
+    "vite": "^5.0.0",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "zen-observable": "^0.10.0"
+  },
+  "devDependencies": {
+    "@devtools/test-utils": "workspace:^",
+    "@playwright/test": "^1.32.3",
+    "@testing-library/dom": "^10.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/jquery": "^3.3.34",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/zen-observable": "^0.8.0",
+    "axios": "^1.7.7",
+    "cross-env": "^7.0.0",
+    "msw": "^1.0.0"
+  },
+  "bundled": true
+}

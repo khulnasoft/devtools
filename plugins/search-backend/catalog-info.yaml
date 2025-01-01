@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search-backend
+  title: '@devtools/plugin-search-backend'
+  description: The Devtools backend plugin that provides your devtools app with search
+spec:
+  lifecycle: production
+  type: devtools-backend-plugin
+  owner: search-maintainers

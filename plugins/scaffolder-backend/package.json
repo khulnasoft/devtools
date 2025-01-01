@@ -1,0 +1,134 @@
+{
+  "name": "@devtools/plugin-scaffolder-backend",
+  "version": "1.29.0-next.1",
+  "description": "The Devtools backend plugin that helps you create new things",
+  "devtools": {
+    "role": "backend-plugin",
+    "pluginId": "scaffolder",
+    "pluginPackages": [
+      "@devtools/plugin-scaffolder",
+      "@devtools/plugin-scaffolder-backend",
+      "@devtools/plugin-scaffolder-common",
+      "@devtools/plugin-scaffolder-node",
+      "@devtools/plugin-scaffolder-node-test-utils",
+      "@devtools/plugin-scaffolder-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/scaffolder-backend"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "migrations",
+    "config.d.ts",
+    "assets"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "build:assets": "node scripts/build-nunjucks.js",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-client": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/integration": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "@devtools/plugin-bitbucket-cloud-common": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-scaffolder-entity-model": "workspace:^",
+    "@devtools/plugin-catalog-node": "workspace:^",
+    "@devtools/plugin-events-node": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-permission-node": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-azure": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-bitbucket": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-bitbucket-cloud": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-bitbucket-server": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-gerrit": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-gitea": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-github": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-gitlab": "workspace:^",
+    "@devtools/plugin-scaffolder-common": "workspace:^",
+    "@devtools/plugin-scaffolder-node": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@opentelemetry/api": "^1.9.0",
+    "@types/express": "^4.17.6",
+    "@types/luxon": "^3.0.0",
+    "concat-stream": "^2.0.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "fs-extra": "^11.2.0",
+    "globby": "^11.0.0",
+    "isbinaryfile": "^5.0.0",
+    "isolated-vm": "^5.0.1",
+    "jsonschema": "^1.2.6",
+    "knex": "^3.0.0",
+    "lodash": "^4.17.21",
+    "logform": "^2.3.2",
+    "luxon": "^3.0.0",
+    "nunjucks": "^3.2.3",
+    "p-limit": "^3.1.0",
+    "p-queue": "^6.6.2",
+    "prom-client": "^15.0.0",
+    "tar": "^6.1.12",
+    "triple-beam": "^1.4.1",
+    "uuid": "^11.0.0",
+    "winston": "^3.2.1",
+    "winston-transport": "^4.7.0",
+    "yaml": "^2.0.0",
+    "zen-observable": "^0.10.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@devtools/backend-app-api": "workspace:^",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/plugin-scaffolder-node-test-utils": "workspace:^",
+    "@types/fs-extra": "^11.0.0",
+    "@types/nunjucks": "^3.1.4",
+    "@types/supertest": "^2.0.8",
+    "@types/zen-observable": "^0.8.0",
+    "esbuild": "^0.24.0",
+    "strip-ansi": "^7.1.0",
+    "supertest": "^7.0.0",
+    "wait-for-expect": "^3.0.2"
+  },
+  "configSchema": "config.d.ts"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "@devtools/plugin-catalog-backend",
+  "version": "1.30.0-next.0",
+  "description": "The Devtools backend plugin that provides the Devtools catalog",
+  "devtools": {
+    "role": "backend-plugin",
+    "pluginId": "catalog",
+    "pluginPackages": [
+      "@devtools/plugin-catalog",
+      "@devtools/plugin-catalog-backend",
+      "@devtools/plugin-catalog-common",
+      "@devtools/plugin-catalog-node",
+      "@devtools/plugin-catalog-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/catalog-backend"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "migrations/**/*.{js,d.ts}",
+    "config.d.ts"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "diff": "devtools-repo-tools package schema openapi diff",
+    "fuzz": "devtools-repo-tools package schema openapi fuzz --exclude-checks response_schema_conformance",
+    "generate": "devtools-repo-tools package schema openapi generate --server --client-package packages/catalog-client",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-openapi-utils": "workspace:^",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-client": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/integration": "workspace:^",
+    "@devtools/plugin-catalog-common": "workspace:^",
+    "@devtools/plugin-catalog-node": "workspace:^",
+    "@devtools/plugin-events-node": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-permission-node": "workspace:^",
+    "@devtools/plugin-search-backend-module-catalog": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@opentelemetry/api": "^1.9.0",
+    "@types/express": "^4.17.6",
+    "codeowners-utils": "^1.0.2",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "fast-json-stable-stringify": "^2.1.0",
+    "fs-extra": "^11.2.0",
+    "git-url-parse": "^15.0.0",
+    "glob": "^7.1.6",
+    "knex": "^3.0.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.0.0",
+    "minimatch": "^9.0.0",
+    "p-limit": "^3.0.2",
+    "prom-client": "^15.0.0",
+    "uuid": "^11.0.0",
+    "yaml": "^2.0.0",
+    "yn": "^4.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/repo-tools": "workspace:^",
+    "@types/core-js": "^2.5.4",
+    "@types/git-url-parse": "^9.0.0",
+    "@types/glob": "^8.0.0",
+    "@types/lodash": "^4.14.151",
+    "@types/supertest": "^2.0.8",
+    "better-sqlite3": "^11.0.0",
+    "luxon": "^3.0.0",
+    "msw": "^1.0.0",
+    "supertest": "^7.0.0",
+    "wait-for-expect": "^3.0.2",
+    "winston": "^3.13.0"
+  },
+  "configSchema": "config.d.ts"
+}

@@ -1,0 +1,9 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - about: 'Use the Devtools Community Discord for questions & discussions'
+    name: Questions
+    url: 'https://discord.gg/devtools-687207715902193673'
+  - about: 'Please check the FAQ before filing new issues'
+    name: 'Devtools FAQ'
+    url: 'https://devtools.khulnasoft.com/docs/FAQ'

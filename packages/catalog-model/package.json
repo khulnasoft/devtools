@@ -1,0 +1,62 @@
+{
+  "name": "@devtools/catalog-model",
+  "version": "1.7.2",
+  "description": "Types and validators that help describe the model of a Devtools Catalog",
+  "devtools": {
+    "role": "common-library"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/catalog-model"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/errors": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "ajv": "^8.10.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@types/json-schema": "^7.0.5",
+    "@types/lodash": "^4.14.151",
+    "yaml": "^2.0.0"
+  }
+}

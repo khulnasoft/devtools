@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-create-app
+  title: '@devtools/create-app'
+  description: A CLI that helps you create your own Devtools app
+spec:
+  lifecycle: experimental
+  type: devtools-cli
+  owner: maintainers

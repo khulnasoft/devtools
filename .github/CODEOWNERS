@@ -1,0 +1,55 @@
+# This file registers ownership for certain parts of the devtools code.
+# Review from a member of the corresponding code owner is required to merge pull requests.
+#
+# The last matching pattern takes precedence.
+# https://help.github.com/articles/about-codeowners/
+
+*                                                 @devtools/maintainers @devtools/reviewers
+yarn.lock                                         @devtools/maintainers @devtools-service
+*/yarn.lock                                       @devtools/maintainers @devtools-service
+/.changeset/*.md
+/beps/0001-notifications-system                   @devtools/maintainers @devtools/notifications-maintainers
+/docs                                             @devtools/maintainers @devtools/documentation-maintainers
+/docs/assets/search                               @devtools/search-maintainers
+/docs/features/search                             @devtools/search-maintainers
+/docs/dls                                         @devtools/design-system-maintainers
+/docs/features/techdocs                           @devtools/techdocs-maintainers
+/docs/plugins/integrating-search-into-plugins.md  @devtools/search-maintainers
+/packages/cli/src/commands/onboard                @devtools/sharks
+/packages/backend-openapi-utils                   @devtools/maintainers @devtools/reviewers @devtools/openapi-tooling-maintainers
+/packages/canon                                   @devtools/design-system-maintainers
+/packages/techdocs-cli                            @devtools/techdocs-maintainers
+/packages/techdocs-cli-embedded-app               @devtools/techdocs-maintainers
+/plugins/api-docs                                 @devtools/maintainers @devtools/reviewers @devtools/sda-se-reviewers
+/plugins/bitbucket-cloud-common                   @devtools/maintainers @devtools/reviewers @pjungermann
+/plugins/catalog                                  @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers
+/plugins/catalog-*                                @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers
+/plugins/catalog-backend-module-aws               @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers @pjungermann
+/plugins/catalog-backend-module-bitbucket-cloud   @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers @pjungermann
+/plugins/catalog-backend-module-devtools-openapi      @devtools/maintainers @devtools/reviewers @devtools/openapi-tooling-maintainers
+/plugins/catalog-backend-module-msgraph           @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers @pjungermann
+/plugins/catalog-backend-module-puppetdb          @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers
+/plugins/catalog-graph                            @devtools/maintainers @devtools/reviewers @devtools/catalog-maintainers @devtools/sda-se-reviewers
+/plugins/devtools                                 @devtools/maintainers @devtools/reviewers @awanlin
+/plugins/devtools-backend                         @devtools/maintainers @devtools/reviewers @awanlin
+/plugins/devtools-common                          @devtools/maintainers @devtools/reviewers @awanlin
+/plugins/events-*                                 @devtools/maintainers @devtools/reviewers @devtools/events-maintainers
+/plugins/home                                     @devtools/home-maintainers
+/plugins/home-*                                   @devtools/home-maintainers
+/plugins/kubernetes                               @devtools/kubernetes-maintainers
+/plugins/kubernetes-*                             @devtools/kubernetes-maintainers
+/plugins/notifications                            @devtools/maintainers @devtools/notifications-maintainers
+/plugins/notifications-*                          @devtools/maintainers @devtools/notifications-maintainers
+/plugins/scaffolder-backend-module-notifications  @devtools/maintainers @devtools/notifications-maintainers
+/plugins/permission-*                             @devtools/permission-maintainers
+/plugins/scaffolder                               @devtools/maintainers @devtools/reviewers @devtools/scaffolder-maintainers
+/plugins/scaffolder-*                             @devtools/maintainers @devtools/reviewers @devtools/scaffolder-maintainers
+/plugins/search                                   @devtools/search-maintainers
+/plugins/search-*                                 @devtools/search-maintainers
+/plugins/signals                                  @devtools/maintainers @devtools/notifications-maintainers
+/plugins/signals-*                                @devtools/maintainers @devtools/notifications-maintainers
+/plugins/techdocs                                 @devtools/techdocs-maintainers
+/plugins/techdocs-*                               @devtools/techdocs-maintainers
+/plugins/user-settings                            @devtools/maintainers @devtools/reviewers @devtools/sda-se-reviewers
+/plugins/user-settings-backend                    @devtools/maintainers @devtools/reviewers @devtools/sda-se-reviewers
+/plugins/user-settings-common                     @devtools/maintainers @devtools/reviewers @devtools/sda-se-reviewers

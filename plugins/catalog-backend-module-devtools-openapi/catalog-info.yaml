@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-devtools-openapi
+  title: '@devtools/plugin-catalog-backend-module-devtools-openapi'
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: openapi-tooling-maintainers

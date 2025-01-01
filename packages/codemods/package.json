@@ -1,0 +1,57 @@
+{
+  "name": "@devtools/codemods",
+  "version": "0.1.52",
+  "description": "A collection of codemods for Devtools projects",
+  "devtools": {
+    "role": "cli"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/codemods"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "bin": {
+    "devtools-codemods": "bin/devtools-codemods"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "transforms"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "nodemon --",
+    "test": "devtools-cli package test"
+  },
+  "nodemonConfig": {
+    "exec": "bin/devtools-codemods",
+    "ext": "ts",
+    "watch": "./src"
+  },
+  "dependencies": {
+    "@devtools/cli-common": "workspace:^",
+    "chalk": "^4.0.0",
+    "commander": "^12.0.0",
+    "jscodeshift": "^0.16.0",
+    "jscodeshift-add-imports": "^1.0.10"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@types/jscodeshift": "^0.12.0",
+    "@types/node": "^20.16.0"
+  }
+}

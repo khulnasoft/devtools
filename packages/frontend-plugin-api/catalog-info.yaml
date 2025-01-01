@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-frontend-plugin-api
+  title: '@devtools/frontend-plugin-api'
+spec:
+  lifecycle: experimental
+  type: devtools-web-library
+  owner: maintainers

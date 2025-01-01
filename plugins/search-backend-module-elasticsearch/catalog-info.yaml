@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search-backend-module-elasticsearch
+  title: '@devtools/plugin-search-backend-module-elasticsearch'
+  description: A module for the search backend that implements search using ElasticSearch
+spec:
+  lifecycle: production
+  type: devtools-backend-plugin-module
+  owner: search-maintainers

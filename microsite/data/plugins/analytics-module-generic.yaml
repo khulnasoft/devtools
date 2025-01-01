@@ -1,0 +1,9 @@
+---
+title: 'Analytics Module: Generic HTTP'
+author: Josephine Pfeiffer
+authorUrl: https://josie.lol
+category: Monitoring
+description: Track usage of your Devtools instance using generic POST endpoints.
+documentation: https://github.com/pfeifferj/devtools-plugin-analytics-generic/blob/main/README.md
+npmPackageName: '@pfeifferj/devtools-plugin-analytics-generic'
+addedDate: '2024-08-23'

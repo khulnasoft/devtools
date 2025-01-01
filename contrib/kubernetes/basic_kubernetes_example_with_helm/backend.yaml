@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devtools-backend
+  labels:
+    app: devtools
+    component: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devtools
+      component: backend
+  template:
+    metadata:
+      labels:
+        app: devtools
+        component: backend
+    spec:
+      containers:
+        - name: backend
+          image: spotify/devtools-backend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 7007
+              name: backend
+              protocol: TCP

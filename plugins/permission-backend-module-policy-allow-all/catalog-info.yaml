@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-permission-backend-module-allow-all-policy
+  title: '@devtools/plugin-permission-backend-module-allow-all-policy'
+  description: Allow all policy backend module for the permission plugin.
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: permission-maintainers

@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: internal-plugin-todo-list
+  title: '@internal/plugin-todo-list'
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: maintainers

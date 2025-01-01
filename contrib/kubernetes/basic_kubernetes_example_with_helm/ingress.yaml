@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: devtools
+  labels:
+    app: devtools
+    component: ingress
+spec:
+  rules:
+    - host: <HOSTNAME>
+      http:
+        paths:
+          - backend:
+              serviceName: devtools
+              servicePort: frontend
+            path: /
+          - backend:
+              serviceName: devtools-backend
+              servicePort: backend
+            path: /backend

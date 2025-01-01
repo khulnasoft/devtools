@@ -1,0 +1,86 @@
+{
+  "name": "@devtools/plugin-search-backend",
+  "version": "1.8.1-next.0",
+  "description": "The Devtools backend plugin that provides your devtools app with search",
+  "devtools": {
+    "role": "backend-plugin",
+    "pluginId": "search",
+    "pluginPackages": [
+      "@devtools/plugin-search",
+      "@devtools/plugin-search-backend",
+      "@devtools/plugin-search-backend-node",
+      "@devtools/plugin-search-common",
+      "@devtools/plugin-search-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/search-backend"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "config.d.ts"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "fuzz": "devtools-repo-tools package schema openapi fuzz",
+    "generate": "devtools-repo-tools package schema openapi generate --server",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-openapi-utils": "workspace:^",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-permission-node": "workspace:^",
+    "@devtools/plugin-search-backend-node": "workspace:^",
+    "@devtools/plugin-search-common": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@types/express": "^4.17.6",
+    "dataloader": "^2.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "qs": "^6.10.1",
+    "yn": "^4.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/repo-tools": "workspace:^",
+    "@types/supertest": "^2.0.8",
+    "supertest": "^7.0.0"
+  },
+  "configSchema": "config.d.ts"
+}

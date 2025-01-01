@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-events-backend-module-github
+  title: '@devtools/plugin-events-backend-module-github'
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

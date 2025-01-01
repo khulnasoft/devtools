@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-gitlab-org
+  title: '@devtools/plugin-catalog-backend-module-gitlab-org'
+  description: The gitlab-org backend module for the catalog plugin.
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

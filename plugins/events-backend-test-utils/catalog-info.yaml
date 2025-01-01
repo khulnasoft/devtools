@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-events-backend-test-utils
+  title: '@devtools/plugin-events-backend-test-utils'
+  description: The plugin-events-backend-test-utils for @devtools/plugin-events-node
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

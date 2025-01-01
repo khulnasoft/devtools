@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-config
+  title: '@devtools/config'
+  description: Config API used by Devtools core, backend, and CLI
+spec:
+  lifecycle: production
+  type: devtools-common-library
+  owner: maintainers

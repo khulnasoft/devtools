@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search-backend-module-explore
+  title: '@devtools/plugin-search-backend-module-explore'
+  description: A module for the search backend that exports explore modules
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: search-maintainers

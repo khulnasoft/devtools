@@ -1,0 +1,14 @@
+---
+title: Azure Storage Explorer
+author: Deepankumar
+authorUrl: https://github.com/deepan10
+category: Infrastructure
+description: Explore Azure Storage Blobs in Devtools.
+documentation: https://github.com/khulnasoft/community-plugins/tree/main/workspaces/azure-storage-explorer/plugins/azure-storage
+iconUrl: /img/azure-storage-folder.png
+npmPackageName: '@devtools-community/plugin-azure-storage-explorer'
+tags:
+  - Azure
+  - Azure Storage
+  - Infrastructure
+addedDate: '2023-12-01'

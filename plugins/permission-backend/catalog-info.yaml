@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-permission-backend
+  title: '@devtools/plugin-permission-backend'
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: permission-maintainers

@@ -1,0 +1,73 @@
+{
+  "name": "example-backend",
+  "version": "0.0.34-next.1",
+  "devtools": {
+    "role": "backend"
+  },
+  "private": true,
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/backend"
+  },
+  "license": "Apache-2.0",
+  "main": "dist/index.cjs.js",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "build-image": "docker build ../.. -f Dockerfile --tag example-backend",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "start": "devtools-cli package start --require ./src/instrumentation.js",
+    "start:prometheus": "docker run --mount type=bind,source=./prometheus.yml,destination=/etc/prometheus/prometheus.yml --publish published=9090,target=9090,protocol=tcp prom/prometheus",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/plugin-app-backend": "workspace:^",
+    "@devtools/plugin-auth-backend": "workspace:^",
+    "@devtools/plugin-auth-backend-module-github-provider": "workspace:^",
+    "@devtools/plugin-auth-backend-module-guest-provider": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "@devtools/plugin-catalog-backend": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-devtools-openapi": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-openapi": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-scaffolder-entity-model": "workspace:^",
+    "@devtools/plugin-catalog-backend-module-unprocessed": "workspace:^",
+    "@devtools/plugin-devtools-backend": "workspace:^",
+    "@devtools/plugin-events-backend": "workspace:^",
+    "@devtools/plugin-kubernetes-backend": "workspace:^",
+    "@devtools/plugin-notifications-backend": "workspace:^",
+    "@devtools/plugin-permission-backend": "workspace:^",
+    "@devtools/plugin-permission-backend-module-allow-all-policy": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-permission-node": "workspace:^",
+    "@devtools/plugin-proxy-backend": "workspace:^",
+    "@devtools/plugin-scaffolder-backend": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-github": "workspace:^",
+    "@devtools/plugin-scaffolder-backend-module-notifications": "workspace:^",
+    "@devtools/plugin-search-backend": "workspace:^",
+    "@devtools/plugin-search-backend-module-catalog": "workspace:^",
+    "@devtools/plugin-search-backend-module-explore": "workspace:^",
+    "@devtools/plugin-search-backend-module-techdocs": "workspace:^",
+    "@devtools/plugin-search-backend-node": "workspace:^",
+    "@devtools/plugin-signals-backend": "workspace:^",
+    "@devtools/plugin-techdocs-backend": "workspace:^",
+    "@opentelemetry/auto-instrumentations-node": "^0.54.0",
+    "@opentelemetry/exporter-prometheus": "^0.54.0",
+    "@opentelemetry/sdk-node": "^0.54.0",
+    "example-app": "link:../app"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^"
+  }
+}

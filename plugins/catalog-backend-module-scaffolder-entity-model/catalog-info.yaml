@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-scaffolder-entity-model
+  title: '@devtools/plugin-catalog-backend-module-scaffolder-entity-model'
+  description: >-
+    Adds support for the scaffolder specific entity model (e.g. the Template
+    kind) to the catalog backend plugin.
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

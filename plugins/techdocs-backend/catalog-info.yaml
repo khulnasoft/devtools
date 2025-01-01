@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-techdocs-backend
+  title: '@devtools/plugin-techdocs-backend'
+  description: >-
+    The Devtools backend plugin that renders technical documentation for your
+    components
+spec:
+  lifecycle: production
+  type: devtools-backend-plugin
+  owner: techdocs-maintainers

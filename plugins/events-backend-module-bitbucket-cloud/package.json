@@ -1,0 +1,57 @@
+{
+  "name": "@devtools/plugin-events-backend-module-bitbucket-cloud",
+  "version": "0.2.16-next.0",
+  "devtools": {
+    "role": "backend-plugin-module",
+    "pluginId": "events",
+    "pluginPackage": "@devtools/plugin-events-backend"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/events-backend-module-bitbucket-cloud"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/plugin-events-node": "workspace:^"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/plugin-events-backend-test-utils": "workspace:^"
+  }
+}

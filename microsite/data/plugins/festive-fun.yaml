@@ -1,0 +1,10 @@
+---
+title: Festive Fun
+author: benjmac
+authorUrl: https://github.com/benjmac
+category: Humor
+description: Festive, seasonal, animations to spice up your instance of Devtools!
+documentation: https://github.com/benjmac/devtools-plugin-festive-fun/
+iconUrl: https://raw.githubusercontent.com/benjmac/devtools-plugin-festive-fun/main/docs/festive-fun-logo.png
+npmPackageName: 'devtools-plugin-festive-fun'
+addedDate: '2023-11-20'

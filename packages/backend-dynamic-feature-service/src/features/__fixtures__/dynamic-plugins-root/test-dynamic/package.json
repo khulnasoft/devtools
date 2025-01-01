@@ -1,0 +1,20 @@
+{
+  "name": "plugin-test-dynamic",
+  "version": "0.0.0",
+  "description": "A test dynamic, module-federation-based, Devtools frontend plugin that does nothing",
+  "devtools": {
+    "role": "frontend-dynamic-container",
+    "pluginId": "test",
+    "pluginPackages": [
+      "plugin-test"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools",
+    "dynamic"
+  ],
+  "main": "remote-entry.js"
+}

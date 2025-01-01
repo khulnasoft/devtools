@@ -1,0 +1,10 @@
+---
+title: xkcd comic
+author: Vity
+authorUrl: https://github.com/Vity01
+category: Humor
+description: xkcd comic within Devtools
+documentation: https://github.com/Vity01/devtools-xkcd/
+iconUrl: https://raw.githubusercontent.com/Vity01/devtools-xkcd/main/docs/xkcd.svg
+npmPackageName: 'devtools-plugin-xkcd'
+addedDate: '2023-05-05'

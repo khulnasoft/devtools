@@ -1,0 +1,80 @@
+{
+  "name": "@devtools/plugin-scaffolder-node",
+  "version": "0.6.3-next.0",
+  "description": "The plugin-scaffolder-node module for @devtools/plugin-scaffolder-backend",
+  "devtools": {
+    "role": "node-library",
+    "pluginId": "scaffolder",
+    "pluginPackages": [
+      "@devtools/plugin-scaffolder",
+      "@devtools/plugin-scaffolder-backend",
+      "@devtools/plugin-scaffolder-common",
+      "@devtools/plugin-scaffolder-node",
+      "@devtools/plugin-scaffolder-node-test-utils",
+      "@devtools/plugin-scaffolder-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/scaffolder-node"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/integration": "workspace:^",
+    "@devtools/plugin-scaffolder-common": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "concat-stream": "^2.0.0",
+    "fs-extra": "^11.2.0",
+    "globby": "^11.0.0",
+    "isomorphic-git": "^1.23.0",
+    "jsonschema": "^1.2.6",
+    "p-limit": "^3.1.0",
+    "tar": "^6.1.12",
+    "winston": "^3.2.1",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.20.4"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/config": "workspace:^"
+  }
+}

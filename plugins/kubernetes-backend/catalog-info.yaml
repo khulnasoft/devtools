@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-kubernetes-backend
+  title: '@devtools/plugin-kubernetes-backend'
+  description: A Devtools backend plugin that integrates towards Kubernetes
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: kubernetes-maintainers

@@ -1,0 +1,48 @@
+{
+  "name": "@internal/plugin-todo-list-common",
+  "version": "1.0.23",
+  "devtools": {
+    "role": "common-library",
+    "pluginId": "todo-list",
+    "pluginPackages": [
+      "@internal/plugin-todo-list",
+      "@internal/plugin-todo-list-backend",
+      "@internal/plugin-todo-list-common"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
+  },
+  "private": true,
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/example-todo-list-common"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/plugin-permission-common": "workspace:^"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^"
+  }
+}

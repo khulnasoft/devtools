@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-incremental-ingestion
+  title: '@devtools/plugin-catalog-backend-module-incremental-ingestion'
+  description: An entity provider for streaming large asset sources into the catalog
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: catalog-maintainers

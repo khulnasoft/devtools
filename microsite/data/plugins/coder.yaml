@@ -1,0 +1,10 @@
+---
+title: Coder
+author: Coder
+authorUrl: https://www.coder.com
+category: Development
+description: Create and manage Coder workspaces from Devtools!
+documentation: https://github.com/coder/devtools-plugins/blob/main/plugins/devtools-plugin-coder/README.md
+iconUrl: /img/coder.png
+npmPackageName: '@coder/devtools-plugin-coder'
+addedDate: '2024-03-15'

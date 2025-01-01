@@ -1,0 +1,54 @@
+{
+  "name": "@devtools/plugin-auth-backend-module-google-provider",
+  "version": "0.2.4-next.0",
+  "description": "A Google auth provider module for the Devtools auth backend",
+  "devtools": {
+    "role": "backend-plugin-module",
+    "pluginId": "auth",
+    "pluginPackage": "@devtools/plugin-auth-backend"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/auth-backend-module-google-provider"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist",
+    "config.d.ts"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "google-auth-library": "^9.0.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/plugin-auth-backend": "workspace:^",
+    "@types/passport-google-oauth20": "^2.0.3",
+    "supertest": "^7.0.0"
+  },
+  "configSchema": "config.d.ts"
+}

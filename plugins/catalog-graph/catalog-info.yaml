@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-graph
+  title: '@devtools/plugin-catalog-graph'
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: sda-se-reviewers

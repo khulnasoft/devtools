@@ -1,0 +1,66 @@
+{
+  "name": "@devtools/plugin-kubernetes-common",
+  "version": "0.9.1",
+  "description": "Common functionalities for kubernetes, to be shared between kubernetes and kubernetes-backend plugin",
+  "devtools": {
+    "role": "common-library",
+    "pluginId": "kubernetes",
+    "pluginPackages": [
+      "@devtools/plugin-kubernetes",
+      "@devtools/plugin-kubernetes-backend",
+      "@devtools/plugin-kubernetes-common",
+      "@devtools/plugin-kubernetes-node",
+      "@devtools/plugin-kubernetes-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
+  },
+  "keywords": [
+    "kubernetes"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "bugs": {
+    "url": "https://github.com/khulnasoft/devtools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/kubernetes-common"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "jest": {
+    "roots": [
+      ".."
+    ]
+  },
+  "dependencies": {
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@kubernetes/client-node": "1.0.0-rc7",
+    "kubernetes-models": "^4.3.1",
+    "lodash": "^4.17.21",
+    "luxon": "^3.0.0"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^"
+  }
+}

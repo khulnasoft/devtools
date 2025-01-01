@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-api-docs-module-protoc-gen-doc
+  title: '@devtools/plugin-api-docs-module-protoc-gen-doc'
+  description: >-
+    Additional functionalities for the api-docs plugin that renders the output
+    of the protoc-gen-doc
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin-module
+  owner: maintainers

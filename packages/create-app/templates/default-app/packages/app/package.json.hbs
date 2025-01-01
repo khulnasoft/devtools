@@ -1,0 +1,73 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "bundled": true,
+  "devtools": {
+    "role": "frontend"
+  },
+  "scripts": {
+    "start": "devtools-cli package start",
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "test": "devtools-cli package test",
+    "lint": "devtools-cli package lint"
+  },
+  "dependencies": {
+    "@devtools/app-defaults": "^{{version '@devtools/app-defaults'}}",
+    "@devtools/catalog-model": "^{{version '@devtools/catalog-model'}}",
+    "@devtools/cli": "^{{version '@devtools/cli'}}",
+    "@devtools/core-app-api": "^{{version '@devtools/core-app-api'}}",
+    "@devtools/core-components": "^{{version '@devtools/core-components'}}",
+    "@devtools/core-plugin-api": "^{{version '@devtools/core-plugin-api'}}",
+    "@devtools/integration-react": "^{{version '@devtools/integration-react'}}",
+    "@devtools/plugin-api-docs": "^{{version '@devtools/plugin-api-docs'}}",
+    "@devtools/plugin-catalog": "^{{version '@devtools/plugin-catalog'}}",
+    "@devtools/plugin-catalog-common": "^{{version '@devtools/plugin-catalog-common'}}",
+    "@devtools/plugin-catalog-graph": "^{{version '@devtools/plugin-catalog-graph'}}",
+    "@devtools/plugin-catalog-import": "^{{version '@devtools/plugin-catalog-import'}}",
+    "@devtools/plugin-catalog-react": "^{{version '@devtools/plugin-catalog-react'}}",
+    "@devtools/plugin-kubernetes": "^{{version '@devtools/plugin-kubernetes'}}",
+    "@devtools/plugin-org": "^{{version '@devtools/plugin-org'}}",
+    "@devtools/plugin-permission-react": "^{{version '@devtools/plugin-permission-react'}}",
+    "@devtools/plugin-scaffolder": "^{{version '@devtools/plugin-scaffolder'}}",
+    "@devtools/plugin-search": "^{{version '@devtools/plugin-search'}}",
+    "@devtools/plugin-search-react": "^{{version '@devtools/plugin-search-react'}}",
+    "@devtools/plugin-techdocs": "^{{version '@devtools/plugin-techdocs'}}",
+    "@devtools/plugin-techdocs-module-addons-contrib": "^{{version '@devtools/plugin-techdocs-module-addons-contrib'}}",
+    "@devtools/plugin-techdocs-react": "^{{version '@devtools/plugin-techdocs-react'}}",
+    "@devtools/plugin-user-settings": "^{{version '@devtools/plugin-user-settings'}}",
+    "@devtools/theme": "^{{version '@devtools/theme'}}",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@devtools/test-utils": "^{{version '@devtools/test-utils'}}",
+    "@playwright/test": "^1.32.3",
+    "@testing-library/dom": "^9.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/react-dom": "*",
+    "cross-env": "^7.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "files": [
+    "dist"
+  ]
+}

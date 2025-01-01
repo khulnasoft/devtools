@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-app-node
+  title: '@devtools/plugin-app-node'
+  description: Node.js library for the app plugin
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

@@ -1,0 +1,11 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-kubernetes-react
+  title: '@devtools/plugin-kubernetes-react'
+  description: >-
+    Shared frontend utilities for Kubernetes plugins
+spec:
+  lifecycle: experimental
+  type: devtools-web-library
+  owner: kubernetes-maintainers

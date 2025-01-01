@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-scaffolder-backend-module-bitbucket
+  title: '@devtools/plugin-scaffolder-backend-module-bitbucket'
+  description: The bitbucket module for @devtools/plugin-scaffolder-backend
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

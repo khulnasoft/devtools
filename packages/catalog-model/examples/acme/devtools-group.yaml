@@ -1,0 +1,13 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Group
+metadata:
+  name: devtools
+  description: The devtools sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Devtools
+    email: devtools@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundColor=ffdfbf
+  parent: infrastructure
+  children: [team-a, team-b]

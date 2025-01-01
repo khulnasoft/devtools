@@ -1,0 +1,71 @@
+{
+  "name": "@devtools/plugin-search-backend-module-techdocs",
+  "version": "0.3.5-next.0",
+  "description": "A module for the search backend that exports techdocs modules",
+  "devtools": {
+    "role": "backend-plugin-module",
+    "pluginId": "search",
+    "pluginPackage": "@devtools/plugin-search-backend"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/search-backend-module-techdocs"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "config.d.ts"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-client": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/plugin-catalog-common": "workspace:^",
+    "@devtools/plugin-catalog-node": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-search-backend-node": "workspace:^",
+    "@devtools/plugin-search-common": "workspace:^",
+    "@devtools/plugin-techdocs-node": "workspace:^",
+    "lodash": "^4.17.21",
+    "p-limit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "msw": "^1.0.0"
+  },
+  "configSchema": "config.d.ts"
+}

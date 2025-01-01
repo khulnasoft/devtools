@@ -1,0 +1,12 @@
+title: Microsoft Forms
+author: ZcMander
+authorUrl: https://github.com/zcmander
+category: Productivity
+description: Embed a form into the entity page with ease!
+documentation: https://github.com/zcmander/devtools-plugin-msforms
+iconUrl: /img/microsoft-forms.png
+npmPackageName: '@zcmander/devtools-plugin-msforms'
+tags:
+  - Microsoft
+  - forms
+addedDate: '2023-04-11'

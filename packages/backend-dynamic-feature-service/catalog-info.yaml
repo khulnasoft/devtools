@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-backend-dynamic-feature-service
+  title: '@devtools/backend-dynamic-feature-service'
+  description: Devtools backend service to handle dynamic features
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

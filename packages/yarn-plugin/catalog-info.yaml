@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: yarn-plugin-devtools
+  title: yarn-plugin-devtools
+  description: Yarn plugin for working with Devtools monorepos
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

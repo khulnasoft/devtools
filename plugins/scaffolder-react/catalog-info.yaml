@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-scaffolder-react
+  title: '@devtools/plugin-scaffolder-react'
+  description: >-
+    A frontend library that helps other Devtools plugins interact with the
+    Scaffolder
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: maintainers

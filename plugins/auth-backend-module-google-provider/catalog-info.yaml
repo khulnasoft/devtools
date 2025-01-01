@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-auth-backend-module-google-provider
+  title: '@devtools/plugin-auth-backend-module-google-provider'
+  description: A Google auth provider module for the Devtools auth backend
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

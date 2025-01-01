@@ -1,0 +1,11 @@
+---
+title: Devtools Search
+author: Spotify
+authorUrl: https://github.com/spotify
+category: Core Feature
+description: A composable and extensible search platform built to fit your organization’s needs and find information quickly.
+documentation: https://devtools.khulnasoft.com/docs/features/search/
+iconUrl: /img/devtools-search-platform.svg
+npmPackageName: '@devtools/plugin-search'
+order: 5
+addedDate: '2022-09-07'

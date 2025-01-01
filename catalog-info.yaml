@@ -1,0 +1,23 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools
+  description: |
+    Devtools is an open-source developer portal that puts the developer experience first.
+  links:
+    - title: Website
+      url: http://devtools.khulnasoft.com
+    - title: Documentation
+      url: https://devtools.khulnasoft.com/docs
+    - title: Storybook
+      url: https://devtools.khulnasoft.com/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: khulnasoft/devtools
+    devtools.khulnasoft.com/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://devtools.khulnasoft.com
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: production

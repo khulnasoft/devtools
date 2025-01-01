@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-scaffolder-node
+  title: '@devtools/plugin-scaffolder-node'
+  description: The plugin-scaffolder-node module for @devtools/plugin-scaffolder-backend
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-scaffolder-backend-module-rails
+  title: '@devtools/plugin-scaffolder-backend-module-rails'
+  description: >-
+    A module for the scaffolder backend that lets you template projects using
+    Rails
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

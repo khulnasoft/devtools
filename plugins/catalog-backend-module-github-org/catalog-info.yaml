@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-github-org
+  title: '@devtools/plugin-catalog-backend-module-github-org'
+  description: A Devtools catalog backend module that ingests users and teams from multiple Github organizations
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: catalog-maintainers

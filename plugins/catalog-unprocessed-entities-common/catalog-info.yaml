@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-unprocessed-entities-common
+  title: '@devtools/plugin-catalog-unprocessed-entities-common'
+spec:
+  lifecycle: experimental
+  type: devtools-common-library
+  owner: catalog-maintainers

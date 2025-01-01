@@ -1,0 +1,70 @@
+{
+  "name": "@devtools/plugin-scaffolder-common",
+  "version": "1.5.8",
+  "description": "Common functionalities for the scaffolder, to be shared between scaffolder and scaffolder-backend plugin",
+  "devtools": {
+    "role": "common-library",
+    "pluginId": "scaffolder",
+    "pluginPackages": [
+      "@devtools/plugin-scaffolder",
+      "@devtools/plugin-scaffolder-backend",
+      "@devtools/plugin-scaffolder-common",
+      "@devtools/plugin-scaffolder-node",
+      "@devtools/plugin-scaffolder-node-test-utils",
+      "@devtools/plugin-scaffolder-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "scaffolder"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "bugs": {
+    "url": "https://github.com/khulnasoft/devtools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/scaffolder-common"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/types": "workspace:^"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^"
+  }
+}

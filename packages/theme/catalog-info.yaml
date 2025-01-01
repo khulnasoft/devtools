@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-theme
+  title: '@devtools/theme'
+  description: material-ui theme for use with Devtools.
+spec:
+  lifecycle: experimental
+  type: devtools-web-library
+  owner: maintainers

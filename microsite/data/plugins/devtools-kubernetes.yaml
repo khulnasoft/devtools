@@ -1,0 +1,11 @@
+---
+title: Devtools Kubernetes
+author: Spotify
+authorUrl: https://github.com/spotify
+category: Core Feature
+description: Monitor all your service's deployments at a glance, even across clusters.
+documentation: https://devtools.khulnasoft.com/docs/features/kubernetes/
+iconUrl: /img/devtools-k8s.svg
+npmPackageName: '@devtools/plugin-kubernetes'
+order: 4
+addedDate: '2021-03-29'

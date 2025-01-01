@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-kubernetes-cluster
+  title: '@devtools/plugin-kubernetes-cluster'
+  description: A Devtools plugin that integrates towards Kubernetes clusters
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: kubernetes-maintainers

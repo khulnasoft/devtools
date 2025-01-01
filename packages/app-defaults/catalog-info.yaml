@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-app-defaults
+  title: '@devtools/app-defaults'
+  description: Provides the default wiring of a Devtools App
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-node
+  title: '@devtools/plugin-catalog-node'
+  description: The plugin-catalog-node module for @devtools/plugin-catalog-backend
+spec:
+  lifecycle: production
+  type: devtools-node-library
+  owner: catalog-maintainers

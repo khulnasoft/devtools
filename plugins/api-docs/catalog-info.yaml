@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-api-docs
+  title: '@devtools/plugin-api-docs'
+  description: A Devtools plugin that helps represent API entities in the frontend
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: sda-se-reviewers

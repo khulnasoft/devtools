@@ -1,0 +1,61 @@
+{
+  "name": "@devtools/plugin-search-common",
+  "version": "1.2.16",
+  "description": "Common functionalities for Search, to be shared between various search-enabled plugins",
+  "devtools": {
+    "role": "common-library",
+    "pluginId": "search",
+    "pluginPackages": [
+      "@devtools/plugin-search",
+      "@devtools/plugin-search-backend",
+      "@devtools/plugin-search-backend-node",
+      "@devtools/plugin-search-common",
+      "@devtools/plugin-search-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "keywords": [
+    "devtools",
+    "search"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "bugs": {
+    "url": "https://github.com/khulnasoft/devtools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/search-common"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "jest": {
+    "roots": [
+      ".."
+    ]
+  },
+  "dependencies": {
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/types": "workspace:^"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^"
+  }
+}

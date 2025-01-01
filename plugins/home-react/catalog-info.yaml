@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-home-react
+  title: '@devtools/plugin-home-react'
+  description: >-
+    A Devtools plugin that contains react components helps you build a home
+    page
+spec:
+  lifecycle: experimental
+  type: devtools-web-library
+  owner: home-maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-techdocs-react
+  title: '@devtools/plugin-techdocs-react'
+  description: Shared frontend utilities for TechDocs and Addons
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: techdocs-maintainers

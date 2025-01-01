@@ -1,0 +1,13 @@
+---
+title: Harness CI/CD
+author: harness.io
+authorUrl: https://github.com/harness/devtools-plugins
+category: CI/CD
+description: This plugin lets you view Harness pipeline execution details inside Devtools.
+documentation: https://github.com/harness/devtools-plugins/tree/main/plugins/harness-ci-cd
+iconUrl: https://static.harness.io/ng-static/images/favicon.png
+npmPackageName: '@harnessio/devtools-plugin-ci-cd'
+tags:
+  - ci
+  - cd
+addedDate: '2022-12-08'

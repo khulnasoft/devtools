@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-kubernetes-node
+  title: '@devtools/plugin-kubernetes-node'
+  description: Node.js library for the kubernetes plugin
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: kubernetes-maintainers

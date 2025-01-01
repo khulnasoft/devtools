@@ -1,0 +1,10 @@
+---
+title: OpenDORA
+author: Devoteam
+authorUrl: https://www.devoteam.com/
+category: Monitoring
+description: View DORA metrics within Devtools using DevLake.
+documentation: https://github.com/DevoteamNL/opendora/tree/main/devtools-plugin/plugins/open-dora#readme
+iconUrl: /img/open-dora-icon.png
+npmPackageName: '@devoteam-nl/open-dora-devtools-plugin'
+addedDate: '2023-11-29'

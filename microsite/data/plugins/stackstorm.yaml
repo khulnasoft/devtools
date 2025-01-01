@@ -1,0 +1,14 @@
+---
+title: StackStorm
+author: ExpediaGroup
+authorUrl: https://github.com/ExpediaGroup
+category: Automation
+description: Manage StackStorm workflow executions from within Devtools.
+documentation: https://github.com/khulnasoft/community-plugins/tree/main/workspaces/stackstorm/plugins/stackstorm
+iconUrl: /img/stackstorm.png
+npmPackageName: '@devtools-community/plugin-stackstorm'
+tags:
+  - stackstorm
+  - st2
+  - automation
+  - workflow

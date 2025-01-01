@@ -1,0 +1,84 @@
+{
+  "name": "@devtools/backend-test-utils",
+  "version": "1.2.1-next.0",
+  "description": "Test helpers library for Devtools backends",
+  "devtools": {
+    "role": "node-library"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools",
+    "test"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/backend-test-utils"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-app-api": "workspace:^",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "@devtools/plugin-events-node": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@keyv/memcache": "^2.0.1",
+    "@keyv/redis": "^4.0.1",
+    "@types/express": "^4.17.6",
+    "@types/express-serve-static-core": "^4.17.5",
+    "@types/keyv": "^4.2.0",
+    "@types/qs": "^6.9.6",
+    "better-sqlite3": "^11.0.0",
+    "cookie": "^0.7.0",
+    "express": "^4.17.1",
+    "fs-extra": "^11.0.0",
+    "keyv": "^5.2.1",
+    "knex": "^3.0.0",
+    "mysql2": "^3.0.0",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.3.0",
+    "testcontainers": "^10.0.0",
+    "textextensions": "^5.16.0",
+    "uuid": "^11.0.0",
+    "yn": "^4.0.0"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@types/supertest": "^2.0.8",
+    "supertest": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@types/jest": "*"
+  }
+}

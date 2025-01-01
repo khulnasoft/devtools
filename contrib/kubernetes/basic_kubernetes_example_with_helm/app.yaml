@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devtools
+  labels:
+    app: devtools
+    component: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devtools
+      component: frontend
+  template:
+    metadata:
+      labels:
+        app: devtools
+        component: frontend
+    spec:
+      containers:
+        - name: app
+          image: spotify/devtools:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+              name: app
+              protocol: TCP

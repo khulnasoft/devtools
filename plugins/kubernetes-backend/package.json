@@ -1,0 +1,113 @@
+{
+  "name": "@devtools/plugin-kubernetes-backend",
+  "version": "0.19.2-next.0",
+  "description": "A Devtools backend plugin that integrates towards Kubernetes",
+  "devtools": {
+    "role": "backend-plugin",
+    "pluginId": "kubernetes",
+    "pluginPackages": [
+      "@devtools/plugin-kubernetes",
+      "@devtools/plugin-kubernetes-backend",
+      "@devtools/plugin-kubernetes-common",
+      "@devtools/plugin-kubernetes-node",
+      "@devtools/plugin-kubernetes-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools",
+    "kubernetes"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/kubernetes-backend"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "config.d.ts"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.0.0",
+    "@aws-sdk/credential-providers": "^3.350.0",
+    "@aws-sdk/signature-v4": "^3.347.0",
+    "@azure/identity": "^4.0.0",
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-client": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/integration-aws-node": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "@devtools/plugin-catalog-node": "workspace:^",
+    "@devtools/plugin-kubernetes-common": "workspace:^",
+    "@devtools/plugin-kubernetes-node": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-permission-node": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@google-cloud/container": "^5.0.0",
+    "@jest-mock/express": "^2.0.1",
+    "@kubernetes/client-node": "1.0.0-rc7",
+    "@types/express": "^4.17.6",
+    "@types/http-proxy-middleware": "^1.0.0",
+    "@types/luxon": "^3.0.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "fs-extra": "^11.2.0",
+    "helmet": "^6.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "lodash": "^4.17.21",
+    "luxon": "^3.0.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.7.0",
+    "stream-buffers": "^3.0.2",
+    "winston": "^3.2.1",
+    "yn": "^4.0.0"
+  },
+  "devDependencies": {
+    "@devtools/backend-app-api": "workspace:^",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/plugin-permission-backend": "workspace:^",
+    "@devtools/plugin-permission-backend-module-allow-all-policy": "workspace:^",
+    "@types/aws4": "^1.5.1",
+    "msw": "^1.0.0",
+    "supertest": "^7.0.0",
+    "ws": "^8.18.0"
+  },
+  "configSchema": "config.d.ts"
+}

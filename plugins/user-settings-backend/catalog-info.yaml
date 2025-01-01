@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-user-settings-backend
+  title: '@devtools/plugin-user-settings-backend'
+  description: The Devtools backend plugin to manage user settings
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: sda-se-reviewers

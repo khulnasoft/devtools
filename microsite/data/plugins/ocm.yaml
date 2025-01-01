@@ -1,0 +1,10 @@
+---
+title: Multi Cluster View with OCM
+author: Red Hat
+authorUrl: https://redhat.com
+category: Infrastructure
+description: View clusters from OCM's MultiClusterHub and MultiCluster Engine in Devtools.
+documentation: https://github.com/khulnasoft/community-plugins/blob/main/workspaces/ocm/plugins/ocm/README.md
+iconUrl: /img/ocm.svg
+npmPackageName: '@devtools-community/plugin-ocm'
+addedDate: '2023-05-15'

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog
+  title: '@devtools/plugin-catalog'
+  description: The Devtools plugin for browsing the Devtools catalog
+spec:
+  lifecycle: production
+  type: devtools-frontend-plugin
+  owner: catalog-maintainers

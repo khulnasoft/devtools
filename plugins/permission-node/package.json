@@ -1,0 +1,79 @@
+{
+  "name": "@devtools/plugin-permission-node",
+  "version": "0.8.7-next.0",
+  "description": "Common permission and authorization utilities for backend plugins",
+  "devtools": {
+    "role": "node-library",
+    "pluginId": "permission",
+    "pluginPackages": [
+      "@devtools/plugin-permission-backend",
+      "@devtools/plugin-permission-common",
+      "@devtools/plugin-permission-node",
+      "@devtools/plugin-permission-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools",
+    "permissions"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/permission-node"
+  },
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "@devtools/errors": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.20.4"
+  },
+  "devDependencies": {
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@types/supertest": "^2.0.8",
+    "msw": "^1.0.0",
+    "supertest": "^7.0.0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "@devtools/plugin-auth-backend-module-oidc-provider",
+  "version": "0.3.4-next.0",
+  "description": "The oidc-provider backend module for the auth plugin.",
+  "devtools": {
+    "role": "backend-plugin-module",
+    "pluginId": "auth",
+    "pluginPackage": "@devtools/plugin-auth-backend"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/auth-backend-module-oidc-provider"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist",
+    "config.d.ts"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/plugin-auth-backend": "workspace:^",
+    "@devtools/plugin-auth-node": "workspace:^",
+    "express": "^4.18.2",
+    "openid-client": "^5.5.0",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/config": "workspace:^",
+    "cookie-parser": "^1.4.6",
+    "express-promise-router": "^4.1.1",
+    "express-session": "^1.17.3",
+    "jose": "^5.0.0",
+    "msw": "^1.3.1",
+    "supertest": "^7.0.0"
+  },
+  "configSchema": "config.d.ts"
+}

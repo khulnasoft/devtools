@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-notifications-backend-module-email
+  title: '@devtools/plugin-notifications-backend-module-email'
+  description: >-
+    The email-notification-processor backend module for the notifications
+    plugin.
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

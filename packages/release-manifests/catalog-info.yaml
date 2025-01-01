@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-release-manifests
+  title: '@devtools/release-manifests'
+  description: Helper library for receiving release manifests
+spec:
+  lifecycle: experimental
+  type: devtools-common-library
+  owner: maintainers

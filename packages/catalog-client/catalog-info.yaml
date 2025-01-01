@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-catalog-client
+  title: '@devtools/catalog-client'
+  description: An isomorphic client for the catalog backend
+spec:
+  lifecycle: production
+  type: devtools-common-library
+  owner: maintainers

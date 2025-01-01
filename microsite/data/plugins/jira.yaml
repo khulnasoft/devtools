@@ -1,0 +1,10 @@
+---
+title: Jira
+author: roadie.io
+authorUrl: https://roadie.io/?utm_source=devtools.khulnasoft.com&utm_medium=marketplace&utm_campaign=jira
+category: Agile Planning
+description: View Jira summary for your projects in Devtools.
+documentation: https://roadie.io/devtools/plugins/jira/?utm_source=devtools.khulnasoft.com&utm_medium=marketplace&utm_campaign=jira
+iconUrl: https://roadie.io/images/logos/jira.png
+npmPackageName: '@roadiehq/devtools-plugin-jira'
+addedDate: '2021-04-20'

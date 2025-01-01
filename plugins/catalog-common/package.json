@@ -1,0 +1,66 @@
+{
+  "name": "@devtools/plugin-catalog-common",
+  "version": "1.1.2",
+  "description": "Common functionalities for the catalog plugin",
+  "devtools": {
+    "role": "common-library",
+    "pluginId": "catalog",
+    "pluginPackages": [
+      "@devtools/plugin-catalog",
+      "@devtools/plugin-catalog-backend",
+      "@devtools/plugin-catalog-common",
+      "@devtools/plugin-catalog-node",
+      "@devtools/plugin-catalog-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/catalog-common"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.ts"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/plugin-permission-common": "workspace:^",
+    "@devtools/plugin-search-common": "workspace:^"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^"
+  }
+}

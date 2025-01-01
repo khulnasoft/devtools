@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-import
+  title: '@devtools/plugin-catalog-import'
+  description: A Devtools plugin the helps you import entities into your catalog
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: catalog-maintainers

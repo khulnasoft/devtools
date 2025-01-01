@@ -1,0 +1,59 @@
+{
+  "name": "@devtools/plugin-kubernetes-node",
+  "version": "0.2.2-next.0",
+  "description": "Node.js library for the kubernetes plugin",
+  "devtools": {
+    "role": "node-library",
+    "pluginId": "kubernetes",
+    "pluginPackages": [
+      "@devtools/plugin-kubernetes",
+      "@devtools/plugin-kubernetes-backend",
+      "@devtools/plugin-kubernetes-common",
+      "@devtools/plugin-kubernetes-node",
+      "@devtools/plugin-kubernetes-react"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/kubernetes-node"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/backend-plugin-api": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/plugin-kubernetes-common": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@kubernetes/client-node": "1.0.0-rc7",
+    "node-fetch": "^2.7.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@devtools/backend-app-api": "workspace:^",
+    "@devtools/backend-common": "npm: backstage/backend-common@0.25.0",
+    "@devtools/backend-defaults": "workspace:^",
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@devtools/plugin-kubernetes-backend": "workspace:^",
+    "msw": "^1.3.1",
+    "supertest": "^7.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search
+  title: '@devtools/plugin-search'
+  description: The Devtools plugin that provides your devtools app with search
+spec:
+  lifecycle: production
+  type: devtools-frontend-plugin
+  owner: search-maintainers

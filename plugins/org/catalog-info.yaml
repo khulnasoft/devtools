@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-org
+  title: '@devtools/plugin-org'
+  description: A Devtools plugin that helps you create entity pages for your organization
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: maintainers

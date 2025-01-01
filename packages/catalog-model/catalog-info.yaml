@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-catalog-model
+  title: '@devtools/catalog-model'
+  description: Types and validators that help describe the model of a Devtools Catalog
+spec:
+  lifecycle: production
+  type: devtools-common-library
+  owner: maintainers

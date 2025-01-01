@@ -1,0 +1,10 @@
+---
+title: Dev Containers
+author: Coder
+authorUrl: https://www.coder.com
+category: Development
+description: Automatically launch fully-contained dev environments with Dev Containers, right from Devtools!
+documentation: https://github.com/coder/devtools-plugins/blob/main/plugins/devtools-plugin-devcontainers-react/README.md
+iconUrl: /img/devcontainers.png
+npmPackageName: '@coder/devtools-plugin-devcontainers-react'
+addedDate: '2024-03-15'

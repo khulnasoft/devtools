@@ -1,0 +1,17 @@
+---
+# https://devtools.khulnasoft.com/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: User
+metadata:
+  name: guest
+spec:
+  memberOf: [guests]
+---
+# https://devtools.khulnasoft.com/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Group
+metadata:
+  name: guests
+spec:
+  type: team
+  children: []

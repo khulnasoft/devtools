@@ -1,0 +1,11 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-techdocs-common
+  title: '@devtools/plugin-techdocs-common'
+  description: >-
+    Common functionality for TechDocs
+spec:
+  lifecycle: production
+  type: devtools-common-library
+  owner: techdocs-maintainers

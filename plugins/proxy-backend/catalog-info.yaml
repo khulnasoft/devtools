@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-proxy-backend
+  title: '@devtools/plugin-proxy-backend'
+  description: >-
+    A Devtools backend plugin that helps you set up proxy endpoints in the
+    backend
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: maintainers

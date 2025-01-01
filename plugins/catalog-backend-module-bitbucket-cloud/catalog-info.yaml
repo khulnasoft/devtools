@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-bitbucket-cloud
+  title: '@devtools/plugin-catalog-backend-module-bitbucket-cloud'
+  description: >-
+    A Devtools catalog backend module that helps integrate towards Bitbucket
+    Cloud
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: pjungermann

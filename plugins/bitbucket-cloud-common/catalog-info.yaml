@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-bitbucket-cloud-common
+  title: '@devtools/plugin-bitbucket-cloud-common'
+  description: Common functionalities for bitbucket-cloud plugins
+spec:
+  lifecycle: experimental
+  type: devtools-common-library
+  owner: pjungermann

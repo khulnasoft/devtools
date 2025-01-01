@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-backend-dev-utils
+  title: '@devtools/backend-dev-utils'
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

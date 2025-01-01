@@ -1,0 +1,10 @@
+---
+title: Datadog
+author: roadie.io
+authorUrl: https://roadie.io/?utm_source=devtools.khulnasoft.com&utm_medium=marketplace&utm_campaign=datadog
+category: Monitoring
+description: Embed Datadog graphs and dashboards in Devtools.
+documentation: https://roadie.io/devtools/plugins/datadog/?utm_source=devtools.khulnasoft.com&utm_medium=marketplace&utm_campaign=datadog
+iconUrl: https://roadie.io/images/logos/datadog-white-background.png
+npmPackageName: '@roadiehq/devtools-plugin-datadog'
+addedDate: '2021-04-20'

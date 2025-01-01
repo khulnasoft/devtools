@@ -1,0 +1,30 @@
+{
+  "name": "@internal/opaque",
+  "version": "0.0.1",
+  "devtools": {
+    "role": "common-library",
+    "inline": true
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/opaque-internal"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "devtools-cli package lint",
+    "test": "devtools-cli package test"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^16.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-auth-backend
+  title: '@devtools/plugin-auth-backend'
+  description: A Devtools backend plugin that handles authentication
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: maintainers

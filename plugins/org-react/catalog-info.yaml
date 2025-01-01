@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-org-react
+  title: '@devtools/plugin-org-react'
+spec:
+  lifecycle: experimental
+  type: devtools-web-library
+  owner: maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-user-settings
+  title: '@devtools/plugin-user-settings'
+  description: A Devtools plugin that provides a settings page
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: app-next-example-plugin
+  title: app-next-example-plugin
+  description: Devtools internal example plugin
+spec:
+  lifecycle: experimental
+  type: devtools-frontend-plugin
+  owner: maintainers

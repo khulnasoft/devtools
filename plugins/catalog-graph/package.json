@@ -1,0 +1,95 @@
+{
+  "name": "@devtools/plugin-catalog-graph",
+  "version": "0.4.15-next.0",
+  "devtools": {
+    "role": "frontend-plugin",
+    "pluginId": "catalog-graph",
+    "pluginPackages": [
+      "@devtools/plugin-catalog-graph"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "plugins/catalog-graph"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./alpha": "./src/alpha.tsx",
+    "./package.json": "./package.json"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "typesVersions": {
+    "*": {
+      "alpha": [
+        "src/alpha.tsx"
+      ],
+      "package.json": [
+        "package.json"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "start": "devtools-cli package start",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/catalog-client": "workspace:^",
+    "@devtools/catalog-model": "workspace:^",
+    "@devtools/core-compat-api": "workspace:^",
+    "@devtools/core-components": "workspace:^",
+    "@devtools/core-plugin-api": "workspace:^",
+    "@devtools/frontend-plugin-api": "workspace:^",
+    "@devtools/plugin-catalog-react": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.61",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.15",
+    "p-limit": "^3.1.0",
+    "qs": "^6.9.4",
+    "react-use": "^17.2.4"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@devtools/core-app-api": "workspace:^",
+    "@devtools/dev-utils": "workspace:^",
+    "@devtools/plugin-catalog": "workspace:^",
+    "@devtools/test-utils": "workspace:^",
+    "@testing-library/dom": "^10.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.13.1 || ^17.0.0 || ^18.0.0",
+    "react": "^16.13.1 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.13.1 || ^17.0.0 || ^18.0.0",
+    "react-router-dom": "6.0.0-beta.0 || ^6.3.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-gcp
+  title: '@devtools/plugin-catalog-backend-module-gcp'
+  description: A Devtools catalog backend module that helps integrate towards GCP
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: catalog-maintainers

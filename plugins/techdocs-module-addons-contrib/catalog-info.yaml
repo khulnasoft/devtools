@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-techdocs-module-addons-contrib
+  title: '@devtools/plugin-techdocs-module-addons-contrib'
+  description: Plugin module for contributed TechDocs Addons
+spec:
+  lifecycle: production
+  type: devtools-frontend-plugin-module
+  owner: techdocs-maintainers

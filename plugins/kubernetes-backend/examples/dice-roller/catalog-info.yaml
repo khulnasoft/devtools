@@ -1,0 +1,13 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: dice-roller
+  description: It rolls dice
+  tags:
+    - go
+  annotations:
+    'devtools.khulnasoft.com/kubernetes-id': dice-roller
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest

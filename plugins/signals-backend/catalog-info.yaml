@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-signals-backend
+  title: '@devtools/plugin-signals-backend'
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: maintainers

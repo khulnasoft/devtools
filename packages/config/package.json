@@ -1,0 +1,47 @@
+{
+  "name": "@devtools/config",
+  "version": "1.3.1",
+  "description": "Config API used by Devtools core, backend, and CLI",
+  "devtools": {
+    "role": "common-library"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
+  },
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/config"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "devtools-cli package build",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack",
+    "test": "devtools-cli package test"
+  },
+  "dependencies": {
+    "@devtools/errors": "workspace:^",
+    "@devtools/types": "workspace:^",
+    "ms": "^2.1.3"
+  },
+  "devDependencies": {
+    "@devtools/cli": "workspace:^",
+    "@devtools/test-utils": "workspace:^"
+  }
+}

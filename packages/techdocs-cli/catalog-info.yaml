@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-cli
+  title: '@techdocs/cli'
+  description: Utility CLI for managing TechDocs sites in Devtools.
+spec:
+  lifecycle: production
+  type: devtools-cli
+  owner: techdocs-maintainers

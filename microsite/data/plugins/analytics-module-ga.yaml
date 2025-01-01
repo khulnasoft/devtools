@@ -1,0 +1,10 @@
+---
+title: 'Analytics Module: Google Analytics'
+author: Spotify
+authorUrl: https://github.com/spotify
+category: Monitoring
+description: Track usage of your Devtools instance using Google Analytics.
+documentation: https://github.com/khulnasoft/community-plugins/blob/main/workspaces/analytics/plugins/analytics-module-ga/README.md
+iconUrl: /img/ga-icon.png
+npmPackageName: '@devtools/plugin-analytics-module-ga'
+addedDate: '2021-10-07'

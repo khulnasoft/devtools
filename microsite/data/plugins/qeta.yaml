@@ -1,0 +1,10 @@
+---
+title: Q&A
+author: drodil
+authorUrl: https://github.com/drodil
+category: Services
+description: Ask and answer questions within Devtools
+documentation: https://github.com/drodil/devtools-plugin-qeta
+iconUrl: /img/qeta-logo.png
+npmPackageName: '@drodil/devtools-plugin-qeta'
+addedDate: '2022-12-21'

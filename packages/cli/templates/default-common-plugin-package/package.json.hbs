@@ -1,0 +1,38 @@
+{
+  "name": "{{name}}",
+  "description": "Common functionalities for the {{id}} plugin",
+  "version": "{{pluginVersion}}",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "{{license}}",
+{{#if privatePackage}}
+  "private": {{privatePackage}},
+{{/if}}
+  "publishConfig": {
+{{#if npmRegistry}}
+    "registry": "{{npmRegistry}}",
+{{/if}}
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
+  },
+  "devtools": {
+    "role": "common-library"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "devtools-cli package build",
+    "lint": "devtools-cli package lint",
+    "test": "devtools-cli package test",
+    "clean": "devtools-cli package clean",
+    "prepack": "devtools-cli package prepack",
+    "postpack": "devtools-cli package postpack"
+  },
+  "devDependencies": {
+    "@devtools/cli": "{{versionQuery '@devtools/cli'}}"
+  },
+  "files": [
+    "dist"
+  ]
+}

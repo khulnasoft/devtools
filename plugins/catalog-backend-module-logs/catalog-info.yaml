@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-backend-module-logs
+  title: '@devtools/plugin-catalog-backend-module-logs'
+  description: A module that subscribes to catalog releated events and logs them.
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin-module
+  owner: maintainers

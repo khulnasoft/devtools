@@ -1,0 +1,47 @@
+{
+  "name": "yarn-plugin-devtools",
+  "version": "0.0.4",
+  "description": "Yarn plugin for working with Devtools monorepos",
+  "devtools": {
+    "role": "node-library"
+  },
+  "private": true,
+  "keywords": [
+    "devtools"
+  ],
+  "homepage": "https://devtools.khulnasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools",
+    "directory": "packages/yarn-plugin"
+  },
+  "license": "Apache-2.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "builder build plugin",
+    "clean": "devtools-cli package clean",
+    "lint": "devtools-cli package lint",
+    "start": "nodemon --",
+    "test": "devtools-cli package test"
+  },
+  "nodemonConfig": {
+    "exec": "builder build plugin",
+    "ext": "ts",
+    "watch": "./src"
+  },
+  "dependencies": {
+    "@devtools/cli-common": "workspace:^",
+    "@devtools/release-manifests": "workspace:^",
+    "@yarnpkg/core": "^4.0.3",
+    "@yarnpkg/fslib": "^3.0.2",
+    "@yarnpkg/plugin-pack": "^4.0.0",
+    "semver": "^7.6.0"
+  },
+  "devDependencies": {
+    "@devtools/backend-test-utils": "workspace:^",
+    "@devtools/cli": "workspace:^",
+    "@yarnpkg/builder": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.0.1"
+  }
+}

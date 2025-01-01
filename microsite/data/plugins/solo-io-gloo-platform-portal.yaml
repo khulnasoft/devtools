@@ -1,0 +1,10 @@
+---
+title: Solo.io Gloo Platform Portal
+author: Solo.io
+authorUrl: https://solo.io
+category: Infrastructure
+description: View, test, and manage your Gloo Platform Portal APIs through our Devtools plugin.
+documentation: https://github.com/solo-io/devtools-plugins-overview#readme
+iconUrl: /img/solo-io-glooy-circle.png.webp
+npmPackageName: '@solo.io/dev-portal-devtools-plugin'
+addedDate: '2023-05-19'

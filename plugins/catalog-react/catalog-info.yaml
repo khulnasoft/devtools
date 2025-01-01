@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-catalog-react
+  title: '@devtools/plugin-catalog-react'
+  description: >-
+    A frontend library that helps other Devtools plugins interact with the
+    catalog
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: catalog-maintainers

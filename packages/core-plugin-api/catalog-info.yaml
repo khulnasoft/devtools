@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-core-plugin-api
+  title: '@devtools/core-plugin-api'
+  description: Core API used by Devtools plugins
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: maintainers

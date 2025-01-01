@@ -1,0 +1,10 @@
+---
+title: 'DevTools'
+author: Keyloop
+authorUrl: https://keyloop.com/
+category: Tools
+description: Tools for helping with the Ops side of running a Devtools instance
+documentation: https://github.com/khulnasoft/devtools/blob/master/plugins/devtools/README.md
+iconUrl: /img/devtools.svg
+npmPackageName: '@devtools/plugin-devtools'
+addedDate: '2023-06-17'

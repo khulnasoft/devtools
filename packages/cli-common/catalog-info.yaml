@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-cli-common
+  title: '@devtools/cli-common'
+  description: Common functionality used by cli, backend, and create-app
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-scaffolder-backend
+  title: '@devtools/plugin-scaffolder-backend'
+  description: The Devtools backend plugin that helps you create new things
+spec:
+  lifecycle: production
+  type: devtools-backend-plugin
+  owner: maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-backend-openapi-utils
+  title: '@devtools/backend-openapi-utils'
+  description: OpenAPI typescript support.
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: openapi-tooling-maintainers

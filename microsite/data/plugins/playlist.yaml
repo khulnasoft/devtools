@@ -1,0 +1,10 @@
+---
+title: Playlist
+author: Phil Kuang
+authorUrl: https://github.com/kuangp
+category: Discovery
+description: Create, share, and follow custom collections of entities available in the Devtools catalog.
+documentation: https://github.com/khulnasoft/community-plugins/tree/main/workspaces/playlist/plugins/playlist
+iconUrl: /img/playlist-logo.png
+npmPackageName: '@devtools-community/plugin-playlist'
+addedDate: '2022-07-02'

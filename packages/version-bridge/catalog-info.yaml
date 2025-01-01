@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-version-bridge
+  title: '@devtools/version-bridge'
+  description: >-
+    Utilities used by @devtools packages to support multiple concurrent
+    versions
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: maintainers

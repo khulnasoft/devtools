@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-core-app-api
+  title: '@devtools/core-app-api'
+  description: Core app API used by Devtools apps
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: maintainers

@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-e2e-test-utils
+  title: '@devtools/e2e-test-utils'
+  description: Shared end-to-end test utilities Devtools
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

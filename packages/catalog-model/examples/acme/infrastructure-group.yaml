@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Group
+metadata:
+  name: infrastructure
+  description: The infra department
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: acme-corp
+  children: [devtools, boxoffice]

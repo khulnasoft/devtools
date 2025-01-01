@@ -1,0 +1,11 @@
+---
+title: Devtools TechDocs
+author: Spotify
+authorUrl: https://github.com/spotify
+category: Core Feature
+description: A docs-like-code solution to technical documentation. Write your docs right alongside your code.
+documentation: https://devtools.khulnasoft.com/docs/features/techdocs/
+iconUrl: /img/devtools-techdocs.svg
+npmPackageName: '@devtools/plugin-techdocs'
+order: 3
+addedDate: '2021-03-29'

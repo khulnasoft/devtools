@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-integration-react
+  title: '@devtools/integration-react'
+  description: Frontend package for managing integrations towards external systems
+spec:
+  lifecycle: production
+  type: devtools-web-library
+  owner: maintainers

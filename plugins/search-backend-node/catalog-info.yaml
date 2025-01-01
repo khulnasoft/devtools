@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search-backend-node
+  title: '@devtools/plugin-search-backend-node'
+  description: >-
+    A library for Devtools backend plugins that want to interact with the
+    search backend plugin
+spec:
+  lifecycle: production
+  type: devtools-node-library
+  owner: search-maintainers

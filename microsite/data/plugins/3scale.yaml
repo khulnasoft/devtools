@@ -1,0 +1,10 @@
+---
+title: APIs with 3scale
+author: Red Hat
+authorUrl: https://redhat.com
+category: Discovery
+description: Synchronize 3scale content into the Devtools catalog.
+documentation: https://github.com/khulnasoft/community-plugins/blob/main/workspaces/3scale/plugins/3scale-backend/README.md
+iconUrl: /img/3scale.svg
+npmPackageName: '@devtools-community/plugin-3scale-backend'
+addedDate: '2023-05-15'

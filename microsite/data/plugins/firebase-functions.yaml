@@ -1,0 +1,10 @@
+---
+title: Firebase Functions
+author: roadie.io
+authorUrl: https://roadie.io/?utm_source=devtools.khulnasoft.com&utm_medium=marketplace&utm_campaign=firebase-functions
+category: Infrastructure
+description: View Firebase Functions details for your service in Devtools.
+documentation: https://roadie.io/devtools/plugins/firebase-functions/?utm_source=devtools.khulnasoft.com&utm_medium=marketplace&utm_campaign=firebase-functions
+iconUrl: https://roadie.io/images/logos/firebase.png
+npmPackageName: '@roadiehq/devtools-plugin-firebase-functions'
+addedDate: '2021-04-20'

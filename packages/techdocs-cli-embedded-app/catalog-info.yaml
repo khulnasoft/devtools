@@ -1,0 +1,9 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-cli-embedded-app
+  title: techdocs-cli-embedded-app
+spec:
+  lifecycle: production
+  type: devtools-frontend
+  owner: techdocs-maintainers

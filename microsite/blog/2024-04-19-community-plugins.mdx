@@ -1,0 +1,280 @@
+---
+# prettier-ignore
+title: "Introducing the Devtools Community Plugins Repository"
+author: Ben Lambert, Spotify
+authorURL: https://github.com/benjdlambert
+authorImageURL: https://avatars.githubusercontent.com/u/3645856?v=4
+---
+
+**tl;dr**: We've set up the new [community plugins repository](https://github.com/khulnasoft/community-plugins), and have migrated most of the packages in the `plugins` directory of the main Devtools repository to their new home!
+
+For those who depended on these plugins, migrating is as simple as `yarn devtools-cli versions:bump` then `yarn devtools-cli versions:migrate`. If you're already on `1.26.1`, then be sure to run `yarn devtools-cli versions:bump --skip-migrate` then `yarn devtools-cli versions:migrate` to take advantage of the code reference replacement helpers.
+
+{/* truncate */}
+
+## The community plugins repo
+
+Some of you who have been around a while, or have seen our [Maintainer Track talks](https://www.youtube.com/watch?v=ONMBYnhxnNU) at KubeCon, might have seen [this RFC](https://github.com/khulnasoft/devtools/issues/20266) which outlines some issues with the scale of the `khulnasoft/devtools` monorepo, and us as maintainers being the de facto owners of all plugins without a [project area](https://github.com/khulnasoft/community/blob/main/GOVERNANCE.md#project-area) or [plugin maintainer](https://github.com/khulnasoft/community/blob/main/GOVERNANCE.md#project-area-maintainer).
+
+There was some great discussion in this issue, and some great ideas. One of the ideas was to create a dedicated home for community plugins, with all the burden of release tooling and workspace tooling already set up, which is a pretty big barrier for people wanting to create plugins for Devtools in their own organization or personal account. These plugins would then have the ability to release independently of the main monorepo, and have their own release cadence, which is something that we've been looking at exploring for a while.
+
+With Red Hat wanting to join forces and help get this set up, this is the path that we picked, and the last few months have been a lot of hard work from both sides getting this repository in shape and coming up with a deprecation plan for these plugins in the main repository.
+
+Would also like to give a shoutout to all the [Community Plugins project area](https://github.com/khulnasoft/devtools/blob/master/OWNERS.md#community-plugins) maintainers, who have been helping get us to this state! [@vinzscam](https://github.com/vinzscam) [@tudi2d](https://github.com/tudi2d) [@bethgriggs](https://github.com/BethGriggs) [@kadel](https://github.com/kadel) [@awanlin](https://github.com/awanlin) 👏
+
+And now with the release of `1.26.3` there's a large amount of plugins from the main monorepo that have been migrated over to the new [community plugins repository](https://github.com/khulnasoft/community-plugins). :tada:
+
+## The migration
+
+With the moving of these plugins, we thought it would also be a good time to move the `npm` scope, so that end users can differentiate between Devtools packages, and community-maintained packages. So the `@devtools-community` namespace was born!
+
+This makes migration a little tricky for end users, as there's going to be code references and `package.json` dependencies pointing to the older packages which are no longer going to be published.
+
+We've added some tooling into the `@devtools/cli` which is going to smooth the transition here. The last versions which are published under the `@devtools/` scope from the monorepo, will have a special field in the `package.json` with a hint to the CLI as to what this package is now called.
+
+The CLI will then be able to replace these references inside the `./src` folder of your codebase, and update your `package.json` dependencies to the new `@devtools-community` scope.
+
+You can migrate today by running the following:
+
+```bash
+# < 1.26.1
+yarn devtools-cli versions:bump
+yarn devtools-cli versions:migrate
+
+# 1.26.1
+yarn devtools-cli versions:bump --skip-migrate
+yarn devtools-cli versions:migrate
+```
+
+From this latest `1.26.3` release and onwards, the `devtools-cli versions:bump` command will automatically check for moved packages, so you shouldn't have to worry about running this every time.
+
+## Help! My plugin has been moved!
+
+No stress! If you were a `CODEOWNER` of the code in the monorepo, these permissions will be migrated over to the [community plugins repository](https://github.com/khulnasoft/community-plugins) so you should still have access to the code. And now you're in charge of releasing your own plugin! 🚀 You can do that by following the same flow from the monorepo, with changesets and merging the `Version Packages (My Plugin)` PR.
+
+Please reach out to us on [Discord](https://discord.com/invite/devtools-687207715902193673) if you have any issues! We're looking forward to working together in the new space!
+
+## What's moved?
+
+We've taken a pretty big chunk of the plugins from the main monorepo and moved them over to the new repository. There could be more plugins over time that are moved, or even ones that we promote back to the main monorepo.
+
+<details>
+  <summary>
+    Here's a list of plugins that have been moved with this release
+  </summary>
+
+- `@devtools/plugin-adr-backend`
+
+- `@devtools/plugin-adr-common`
+
+- `@devtools/plugin-adr`
+
+- `@devtools/plugin-airbrake-backend`
+
+- `@devtools/plugin-airbrake`
+
+- `@devtools/plugin-allure`
+
+- `@devtools/plugin-analytics-module-ga`
+
+- `@devtools/plugin-analytics-module-ga4`
+
+- `@devtools/plugin-analytics-module-newrelic-browser`
+
+- `@devtools/plugin-apache-airflow`
+
+- `@devtools/plugin-apollo-explorer`
+
+- `@devtools/plugin-azure-devops-backend`
+
+- `@devtools/plugin-azure-devops-common`
+
+- `@devtools/plugin-azure-devops`
+
+- `@devtools/plugin-azure-sites-backend`
+
+- `@devtools/plugin-azure-sites-common`
+
+- `@devtools/plugin-azure-sites`
+
+- `@devtools/plugin-badges-backend`
+
+- `@devtools/plugin-badges`
+
+- `@devtools/plugin-bazaar-backend`
+
+- `@devtools/plugin-bazaar`
+
+- `@devtools/plugin-bitrise`
+
+- `@devtools/plugin-cicd-statistics-module-gitlab`
+
+- `@devtools/plugin-cicd-statistics`
+
+- `@devtools/plugin-circleci`
+
+- `@devtools/plugin-cloudbuild`
+
+- `@devtools/plugin-code-climate`
+
+- `@devtools/plugin-code-coverage-backend`
+
+- `@devtools/plugin-code-coverage`
+
+- `@devtools/plugin-codescene`
+
+- `@devtools/plugin-cost-insights-common`
+
+- `@devtools/plugin-cost-insights`
+
+- `@devtools/plugin-dynatrace`
+
+- `@devtools/plugin-entity-feedback-backend`
+
+- `@devtools/plugin-entity-feedback-common`
+
+- `@devtools/plugin-entity-feedback`
+
+- `@devtools/plugin-entity-validation`
+
+- `@devtools/plugin-explore-backend`
+
+- `@devtools/plugin-explore-common`
+
+- `@devtools/plugin-explore-react`
+
+- `@devtools/plugin-explore`
+
+- `@devtools/plugin-firehydrant`
+
+- `@devtools/plugin-fossa`
+
+- `@devtools/plugin-gcalendar`
+
+- `@devtools/plugin-gcp-projects`
+
+- `@devtools/plugin-git-release-manager`
+
+- `@devtools/plugin-github-actions`
+
+- `@devtools/plugin-github-deployments`
+
+- `@devtools/plugin-github-issues`
+
+- `@devtools/plugin-github-pull-requests-board`
+
+- `@devtools/plugin-gitops-profiles`
+
+- `@devtools/plugin-gocd`
+
+- `@devtools/plugin-graphiql`
+
+- `@devtools/plugin-graphql-voyager`
+
+- `@devtools/plugin-ilert`
+
+- `@devtools/plugin-jenkins-backend`
+
+- `@devtools/plugin-jenkins-common`
+
+- `@devtools/plugin-jenkins`
+
+- `@devtools/plugin-kafka-backend`
+
+- `@devtools/plugin-kafka`
+
+- `@devtools/plugin-lighthouse-backend`
+
+- `@devtools/plugin-lighthouse-common`
+
+- `@devtools/plugin-lighthouse`
+
+- `@devtools/plugin-linguist`
+
+- `@devtools/plugin-linguist-common`
+
+- `@devtools/plugin-linguist-backend`
+
+- `@devtools/plugin-microsoft-calendar`
+
+- `@devtools/plugin-newrelic-dashboard`
+
+- `@devtools/plugin-newrelic`
+
+- `@devtools/plugin-nomad`
+
+- `@devtools/plugin-nomad-backend`
+
+- `@devtools/plugin-octopus-deploy`
+
+- `@devtools/plugin-opencost`
+
+- `@devtools/plugin-periskop-backend`
+
+- `@devtools/plugin-periskop`
+
+- `@devtools/plugin-playlist-backend`
+
+- `@devtools/plugin-playlist-common`
+
+- `@devtools/plugin-playlist`
+
+- `@devtools/plugin-puppetdb`
+
+- `@devtools/plugin-rollbar-backend`
+
+- `@devtools/plugin-rollbar`
+
+- `@devtools/plugin-sentry`
+
+- `@devtools/plugin-shortcuts`
+
+- `@devtools/plugin-sonarqube-backend`
+
+- `@devtools/plugin-sonarqube-react`
+
+- `@devtools/plugin-sonarqube`
+
+- `@devtools/plugin-splunk-on-call`
+
+- `@devtools/plugin-stack-overflow-backend`
+
+- `@devtools/plugin-stack-overflow`
+
+- `@devtools/plugin-stackstorm`
+
+- `@devtools/plugin-tech-insights-backend-module-jsonfc`
+
+- `@devtools/plugin-tech-insights-backend`
+
+- `@devtools/plugin-tech-insights-common`
+
+- `@devtools/plugin-tech-insights-node`
+
+- `@devtools/plugin-tech-insights`
+
+- `@devtools/plugin-tech-radar`
+
+- `@devtools/plugin-vault-backend`
+
+- `@devtools/plugin-vault-node`
+
+- `@devtools/plugin-vault`
+
+- `@devtools/plugin-xcmetrics`
+
+</details>
+
+## What's next?
+
+There's going to be a little bit of time now in this migration period where there's going to be issues and pull requests not in the right place, and we're going to do our best to transfer issues to the community plugins repository instead. We will shortly be removing the code for these plugins from the main monorepo as it now has a new home in the community plugins repository.
+
+We're also going to be looking at bringing in some more of the great tooling from the `khulnasoft/devtools` monorepo into the community plugins repository to help out with more automation for dependency bumps, etc.
+
+## How can I get involved?
+
+If you're interested in getting involved with the community and helping us maintain this repository, please reach out either on [Discord](https://discord.com/invite/devtools-687207715902193673) or in an issue on the [community repository](https://github.com/khulnasoft/community).
+
+If you're wanting to contribute some plugins to Devtools, the community plugin repository is open for business :tada: and we're looking forward to seeing what you come up with! Head over to the [community plugins docs](https://github.com/khulnasoft/community-plugins/tree/main/README.md) to get started creating your own workspace!
+
+Thanks!

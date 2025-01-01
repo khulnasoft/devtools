@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-backend-app-api
+  title: '@devtools/backend-app-api'
+  description: Core API used by Devtools backend apps
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: maintainers

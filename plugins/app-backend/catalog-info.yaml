@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-app-backend
+  title: '@devtools/plugin-app-backend'
+  description: A Devtools backend plugin that serves the Devtools frontend app
+spec:
+  lifecycle: experimental
+  type: devtools-backend-plugin
+  owner: maintainers

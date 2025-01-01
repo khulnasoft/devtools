@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-codemods
+  title: '@devtools/codemods'
+  description: A collection of codemods for Devtools projects
+spec:
+  lifecycle: experimental
+  type: devtools-cli
+  owner: maintainers

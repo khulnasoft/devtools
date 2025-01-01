@@ -1,0 +1,10 @@
+---
+title: Rootly
+author: Rootly
+authorUrl: https://rootly.com/
+category: Monitoring
+description: Import your Devtools entities into Rootly services and view incidents & analytics.
+documentation: https://github.com/rootlyhq/devtools-plugin/blob/master/README.md
+iconUrl: https://raw.githubusercontent.com/rootlyhq/devtools-plugin/master/docs/logo.png
+npmPackageName: '@rootly/devtools-plugin'
+addedDate: '2022-06-16'

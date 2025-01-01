@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-permission-node
+  title: '@devtools/plugin-permission-node'
+  description: Common permission and authorization utilities for backend plugins
+spec:
+  lifecycle: experimental
+  type: devtools-node-library
+  owner: permission-maintainers

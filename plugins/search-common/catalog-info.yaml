@@ -1,0 +1,12 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-search-common
+  title: '@devtools/plugin-search-common'
+  description: >-
+    Common functionalities for Search, to be shared between various
+    search-enabled plugins
+spec:
+  lifecycle: production
+  type: devtools-common-library
+  owner: search-maintainers

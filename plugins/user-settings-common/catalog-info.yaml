@@ -1,0 +1,10 @@
+apiVersion: devtools.khulnasoft.com/v1alpha1
+kind: Component
+metadata:
+  name: devtools-plugin-user-settings-common
+  title: '@devtools/plugin-user-settings-common'
+  description: The Devtools common plugin to manage user settings
+spec:
+  lifecycle: experimental
+  type: devtools-common-library
+  owner: maintainers
