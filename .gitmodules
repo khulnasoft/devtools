@@ -1,0 +1,8 @@
+[submodule "backstage"]
+	path = backstage
+	url = https://github.com/khulnasoft/devtools
+	branch = backstage
+[submodule "etools"]
+	path = etools
+	url = https://github.com/khulnasoft/devtools
+	branch = etools
