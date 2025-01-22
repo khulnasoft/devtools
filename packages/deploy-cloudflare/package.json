@@ -1,6 +1,6 @@
 {
   "name": "@khulnasoft.com/deploy-cloudflare",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "description": "Deploy scripts for Cloudflare Pages",
   "packageManager": "pnpm@9.15.0",
   "license": "Apache-2.0",

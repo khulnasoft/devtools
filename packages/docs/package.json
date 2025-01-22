@@ -1,7 +1,7 @@
 {
   "name": "@khulnasoft.com/enclosed-docs",
   "type": "module",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "packageManager": "pnpm@9.15.0",
   "description": "Documentation website for Enclosed.",
   "author": "Md Sulaiman <dev.sulaiman@icloud.com> (https://khulnasoft.com)",
