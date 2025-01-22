@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - enclosed
 
 jobs:
   run-e2es:
