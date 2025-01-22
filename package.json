@@ -1,0 +1,33 @@
+{
+  "name": "@khulnasoft.com/root",
+  "version": "1.14.0",
+  "description": "Send private and secure note",
+  "packageManager": "pnpm@9.15.0",
+  "license": "Apache-2.0",
+  "author": "Md Sulaiman <dev.sulaiman@icloud.com> (https://khulnasoft.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "release": "bumpp --commit --tag --push --recursive",
+    "docker:build": "docker build -t enclosed .",
+    "docker:run": "docker run -d -p 8788:8787 enclosed"
+  },
+  "keywords": [
+    "note",
+    "secure",
+    "private",
+    "end-to-end",
+    "encryption",
+    "password",
+    "manager",
+    "expiration"
+  ],
+  "devDependencies": {
+    "bumpp": "^9.5.2"
+  }
+}
