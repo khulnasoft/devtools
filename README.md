@@ -56,7 +56,7 @@ A live instance is available at [enclosed.khulnasoft.com](https://enclosed.khuln
 You can quickly run the application using Docker.
 
 ```bash
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 corentinth/enclosed
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 khulnasoft/enclosed
 ```
 
 ### To go further
