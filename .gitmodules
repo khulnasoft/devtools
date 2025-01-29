@@ -6,3 +6,7 @@
 	path = etools
 	url = https://github.com/khulnasoft/devtools
 	branch = etools
+[submodule "devdocs"]
+	path = devdocs
+	url = https://github.com/khulnasoft/devtools
+	branch = devdocs
