@@ -6,7 +6,10 @@ import { createI18n } from 'vue-i18n';
 const i18n = createI18n({
   legacy: false,
   locale: 'en',
-  messages,
+  messages: {
+    ...messages,
+    bn: () => import('../locales/bn.yml'),
+  },
 });
 
 export const i18nPlugin: Plugin = {
