@@ -109,6 +109,16 @@ import { tool as changelogGenerator } from './changelog-generator';
 import { tool as documentationGenerator } from './documentation-generator';
 import { tool as taskSchedulerHelper } from './task-scheduler-helper';
 
+// Cheatsheet tools
+import { tool as javascriptCheatsheet } from './javascript-cheatsheet';
+import { tool as reactCheatsheet } from './react-cheatsheet';
+import { tool as cssCheatsheet } from './css-cheatsheet';
+import { tool as gitCheatsheet } from './git-cheatsheet';
+import { tool as sqlCheatsheet } from './sql-cheatsheet';
+import { tool as bashCheatsheet } from './bash-cheatsheet';
+import { tool as dockerCheatsheet } from './docker-cheatsheet';
+import { tool as vueCheatsheet } from './vue-cheatsheet';
+
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Crypto',
@@ -228,6 +238,19 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Utilities',
     components: [changelogGenerator, taskSchedulerHelper],
+  },
+  {
+    name: 'Cheatsheets',
+    components: [
+      javascriptCheatsheet,
+      reactCheatsheet,
+      cssCheatsheet,
+      vueCheatsheet,
+      gitCheatsheet,
+      sqlCheatsheet,
+      bashCheatsheet,
+      dockerCheatsheet,
+    ],
   },
 ];
 
