@@ -21,13 +21,13 @@ Self host solutions for your homelab
 **From docker hub:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 khulnasoft/devtools:latest
+docker run -d --name devtools --restart unless-stopped -p 8080:80 khulnasoft/devtools:latest
 ```
 
 **From github packages:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/khulnasoft/devtools:latest
+docker run -d --name devtools --restart unless-stopped -p 8080:80 ghcr.io/khulnasoft/devtools:latest
 ```
 
 **Other solutions:**
@@ -119,7 +119,7 @@ Big thanks to all the people who have already contributed!
 
 ## Credits
 
-Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
+Coded with ❤️ by [Md Sulaiman](https://khulnasoft.com?utm_source=devtools&utm_medium=readme).
 
 This project is continuously deployed using [vercel.com](https://vercel.com).
 
