@@ -1,0 +1,15 @@
+{
+  "name": "@khulnasoft.com/deploy-cloudflare",
+  "version": "1.14.1",
+  "description": "Deploy scripts for Cloudflare Pages",
+  "packageManager": "pnpm@9.15.0",
+  "license": "Apache-2.0",
+  "author": "Md Sulaiman <dev.sulaiman@icloud.com> (https://khulnasoft.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/devtools"
+  },
+  "scripts": {
+    "build": "./build.sh"
+  }
+}
