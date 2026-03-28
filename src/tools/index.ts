@@ -88,6 +88,27 @@ import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 
+// New advanced tools
+import { tool as apiRequestBuilder } from './api-request-builder';
+import { tool as databaseQueryBuilder } from './database-query-builder';
+import { tool as containerRegistryInspector } from './container-registry-inspector';
+import { tool as cicdValidator } from './cicd-validator';
+import { tool as environmentManager } from './environment-manager';
+import { tool as diffMergeTool } from './diff-merge-tool';
+import { tool as sslParser } from './ssl-parser';
+import { tool as owaspChecker } from './owasp-checker';
+import { tool as graphqlExplorer } from './graphql-explorer';
+import { tool as websocketTester } from './websocket-tester';
+import { tool as csvAnalyzer } from './csv-analyzer';
+import { tool as dataNormalizer } from './data-normalizer';
+import { tool as hashVerifier } from './hash-verifier';
+import { tool as headerGenerator } from './header-generator';
+import { tool as responseAnalyzer } from './response-analyzer';
+import { tool as projectGenerator } from './project-generator';
+import { tool as changelogGenerator } from './changelog-generator';
+import { tool as documentationGenerator } from './documentation-generator';
+import { tool as taskSchedulerHelper } from './task-scheduler-helper';
+
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Crypto',
@@ -160,6 +181,16 @@ export const toolsByCategory: ToolCategory[] = [
       emailNormalizer,
       regexTester,
       regexMemo,
+      apiRequestBuilder,
+      databaseQueryBuilder,
+      containerRegistryInspector,
+      cicdValidator,
+      environmentManager,
+      diffMergeTool,
+      graphqlExplorer,
+      websocketTester,
+      projectGenerator,
+      documentationGenerator,
     ],
   },
   {
@@ -188,7 +219,15 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Data',
-    components: [phoneParserAndFormatter, ibanValidatorAndParser],
+    components: [phoneParserAndFormatter, ibanValidatorAndParser, csvAnalyzer, dataNormalizer],
+  },
+  {
+    name: 'Security',
+    components: [sslParser, owaspChecker, hashVerifier, headerGenerator, responseAnalyzer],
+  },
+  {
+    name: 'Utilities',
+    components: [changelogGenerator, taskSchedulerHelper],
   },
 ];
 
