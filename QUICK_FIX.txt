@@ -1,0 +1,90 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                    ELOOP ERROR - QUICK FIX GUIDE                          ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+ERROR:
+  Error: ELOOP: too many symbolic links encountered, 
+  stat '/vercel/share/v0-next-shadcn/enclosed/packages/deploy-cloudflare/.nvmrc'
+
+ROOT CAUSES:
+  1. Circular symlinks in 'enclosed' directory
+  2. Missing @khulnasoft.com/tools-bip39 dist build  
+  3. @unhead/vue and @vueuse/shared version mismatch
+
+───────────────────────────────────────────────────────────────────────────
+
+FASTEST FIX (Automated):
+
+  python3 /vercel/share/v0-project/fix_eloop_error.py
+
+Then:
+
+  cd /vercel/share/v0-next-shadcn
+  npm run dev
+
+───────────────────────────────────────────────────────────────────────────
+
+MANUAL FIX (5 steps):
+
+1. Remove problematic directory:
+   rm -rf /vercel/share/v0-next-shadcn/enclosed
+
+2. Build workspace package:
+   cd /vercel/share/v0-next-shadcn/packages/tools-bip39
+   npm run build
+   cd ../..
+
+3. Update package.json dependencies:
+   "@unhead/vue": "^1.3.0",
+   "@vueuse/core": "^10.3.0",
+   "@vueuse/shared": "^10.3.0"
+
+4. Reinstall:
+   pnpm install
+
+5. Start dev:
+   npm run dev
+
+───────────────────────────────────────────────────────────────────────────
+
+CONFIGURATION FIX (Alternative):
+
+Edit: /vercel/share/v0-next-shadcn/vite.config.ts
+
+Add after 'define' property:
+
+  server: {
+    watch: {
+      ignored: [
+        '**/enclosed/**',
+        '**/node_modules/**',
+        '**/.git/**',
+      ],
+    },
+  },
+
+Then run: pnpm install && npm run dev
+
+───────────────────────────────────────────────────────────────────────────
+
+VERIFICATION:
+
+After fix, you should see:
+  ✓ vite v4.4.9 building for development...
+  ➜  Local:   http://localhost:5173/
+
+If still failing:
+  1. rm -rf node_modules/.vite
+  2. pnpm install --force
+  3. npm run dev
+
+───────────────────────────────────────────────────────────────────────────
+
+DOCUMENTATION:
+
+For detailed explanations, see:
+  - ERROR_RESOLUTION_SUMMARY.md (full context)
+  - VITE_CONFIG_FIX.md (config changes)
+  - ELOOP_ERROR_FIXES.md (technical details)
+
+╚═══════════════════════════════════════════════════════════════════════════╝
