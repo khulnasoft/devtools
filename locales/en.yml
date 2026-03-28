@@ -72,6 +72,7 @@ tools:
     data: Data
     security: Security
     utilities: Utilities
+    cheatsheets: Cheatsheets
 
   password-strength-analyser:
     title: Password strength analyser
@@ -470,3 +471,35 @@ tools:
   task-scheduler-helper:
     title: Task Scheduler Helper
     description: Generate cron expressions and task scheduling code for various languages.
+
+  javascript-cheatsheet:
+    title: JavaScript Cheatsheet
+    description: Quick reference for JavaScript methods, array operations, and string manipulation.
+
+  react-cheatsheet:
+    title: React Cheatsheet
+    description: Essential React hooks, component patterns, and event handling reference.
+
+  css-cheatsheet:
+    title: CSS Cheatsheet
+    description: Quick reference for Flexbox, Grid, positioning, and CSS properties.
+
+  git-cheatsheet:
+    title: Git Cheatsheet
+    description: Common Git commands for version control and branch management.
+
+  sql-cheatsheet:
+    title: SQL Cheatsheet
+    description: SQL query reference including SELECT, JOINs, and aggregate functions.
+
+  bash-cheatsheet:
+    title: Bash Cheatsheet
+    description: Essential Linux/Bash commands for file operations and system management.
+
+  docker-cheatsheet:
+    title: Docker Cheatsheet
+    description: Docker commands for managing images, containers, and Docker Compose.
+
+  vue-cheatsheet:
+    title: Vue Cheatsheet
+    description: Vue 3 template syntax, Composition API, and lifecycle hooks reference.
