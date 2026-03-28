@@ -4,11 +4,9 @@
     <img src="./.github/logo-dark.png" alt="logo">
 </picture>
 
-Useful tools for developer and people working in IT. [Have a look !](https://devtools.khulnasoft.com).
-
-## Sponsors
-
-[![Renderize banner](./.github/sponsor-banner.svg)](https://renderize.tech?utm_source=it-tools&utm_medium=readme)
+<p align="center">
+Useful tools for developer and people working in IT. <a href="https://tools.khulnasoft.com">Try it!</a>
+</p>
 
 ## Functionalities and roadmap
 
@@ -121,7 +119,7 @@ Big thanks to all the people who have already contributed!
 
 ## Credits
 
-Coded with ❤️ by [Corentin Thomasset](https://khulnasoft.com?utm_source=it-tools&utm_medium=readme).
+Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
 
 This project is continuously deployed using [vercel.com](https://vercel.com).
 
