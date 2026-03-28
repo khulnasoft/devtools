@@ -37,7 +37,7 @@
     "release": "node ./scripts/release.mjs"
   },
   "dependencies": {
-    "@khulnasoft.com/tools-bip39": "^0.0.4",
+    "@khulnasoft.com/tools-bip39": "workspace:*",
     "@it-tools/oggen": "^1.3.0",
     "@regexper/render": "^1.0.0",
     "@sindresorhus/slugify": "^2.2.1",
