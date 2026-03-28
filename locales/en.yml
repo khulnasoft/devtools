@@ -8,36 +8,36 @@ home:
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
-  support: 'Support IT-Tools development'
+  support: 'Support DevTools development'
   buyMeACoffee: 'Buy me a coffee'
   follow:
-    title: 'You like it-tools?'
+    title: 'You like devtools?'
     p1: 'Give us a star on'
-    githubRepository: 'IT-Tools GitHub repository'
+    githubRepository: 'DevTools GitHub repository'
     p2: 'or follow us on'
-    twitterXAccount: 'IT-Tools X account'
+    twitterXAccount: 'DevTools X account'
     thankYou: 'Thank you!'
   nav:
     github: 'GitHub repository'
-    githubRepository: 'IT-Tools GitHub repository'
+    githubRepository: 'DevTools GitHub repository'
     twitterX: 'X account'
-    twitterXAccount: 'IT Tools X account'
-    about: 'About  IT-Tools'
+    twitterXAccount: 'KhulnaSoft DevTools X account'
+    about: 'About  DevTools'
     aboutLabel: 'About'
     darkMode: 'Dark mode'
     lightMode: 'Light mode'
     mode: 'Toggle dark/light mode'
 about:
   content: >
-    # About IT-Tools
+    # About DevTools
 
-    This wonderful website, made with ❤ by [Corentin Thomasset](https://khulnasoft.com?utm_source=it-tools&utm_medium=about) , aggregates useful tools for developer and people working in IT. If you find it useful, please feel free to share it to people you think may find it useful too and don't forget to bookmark it in your shortcut bar!
+    This wonderful website, made with ❤ by [Md Sulaiman](https://khulnasoft.com?utm_source=devtools&utm_medium=about) , aggregates useful tools for developer and people working in IT. If you find it useful, please feel free to share it to people you think may find it useful too and don't forget to bookmark it in your shortcut bar!
 
-    IT Tools is open-source (under the GPL-3.0 license) and free, and will always be, but it costs me money to host and renew the domain name. If you want to support my work, and encourage me to add more tools, please consider supporting by [sponsoring me](https://www.buymeacoffee.com/cthmsst).
+    KhulnaSoft DevTools is open-source (under the GPL-3.0 license) and free, and will always be, but it costs me money to host and renew the domain name. If you want to support my work, and encourage me to add more tools, please consider supporting by [sponsoring me](https://www.buymeacoffee.com/cthmsst).
 
     ## Technologies
 
-    IT Tools is made in Vue.js (Vue 3) with the the Naive UI component library and is hosted and continuously deployed by Vercel. Third-party open-source libraries are used in some tools, you may find the complete list in the [package.json](https://github.com/khulnasoft/devtools/blob/main/package.json) file of the repository.
+    KhulnaSoft DevTools is made in Vue.js (Vue 3) with the the Naive UI component library and is hosted and continuously deployed by Vercel. Third-party open-source libraries are used in some tools, you may find the complete list in the [package.json](https://github.com/khulnasoft/devtools/blob/main/package.json) file of the repository.
 
     ## Found a bug? A tool is missing?
 
@@ -70,6 +70,8 @@ tools:
     measurement: Measurement
     text: Text
     data: Data
+    security: Security
+    utilities: Utilities
 
   password-strength-analyser:
     title: Password strength analyser
@@ -392,3 +394,79 @@ tools:
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
+
+  api-request-builder:
+    title: API Request Builder
+    description: Build, test, and debug HTTP API requests with custom headers and request bodies.
+
+  database-query-builder:
+    title: Database Query Builder
+    description: Generate SQL queries visually for SELECT, INSERT, UPDATE, and DELETE operations.
+
+  container-registry-inspector:
+    title: Container Registry Inspector
+    description: Inspect Docker images and fetch available tags from container registries.
+
+  cicd-validator:
+    title: CI/CD Pipeline Validator
+    description: Validate GitHub Actions, GitLab CI, and Jenkins pipeline configurations.
+
+  environment-manager:
+    title: Environment Manager
+    description: Manage and validate environment variables for development and production setups.
+
+  diff-merge-tool:
+    title: Diff & Merge Tool
+    description: Compare files side-by-side and generate unified diffs and patch files.
+
+  ssl-parser:
+    title: SSL/TLS Certificate Parser
+    description: Parse and analyze SSL/TLS certificates in PEM format with expiry checking.
+
+  owasp-checker:
+    title: OWASP Security Checker
+    description: Check code for OWASP Top 10 vulnerabilities and security issues.
+
+  graphql-explorer:
+    title: GraphQL Explorer
+    description: Build and test GraphQL queries against your API endpoint with variables support.
+
+  websocket-tester:
+    title: WebSocket Tester
+    description: Test WebSocket connections and send/receive real-time messages.
+
+  csv-analyzer:
+    title: CSV Analyzer
+    description: Analyze CSV data with statistics, preview, and conversion to JSON.
+
+  data-normalizer:
+    title: Data Normalizer
+    description: Clean and normalize text data with whitespace removal and case conversion.
+
+  hash-verifier:
+    title: Hash Verifier
+    description: Verify file integrity by comparing calculated hashes.
+
+  header-generator:
+    title: HTTP Header Generator
+    description: Generate security, CORS, caching, and optimization HTTP headers.
+
+  response-analyzer:
+    title: HTTP Response Analyzer
+    description: Analyze HTTP responses for status, headers, size, and performance metrics.
+
+  project-generator:
+    title: Project Generator
+    description: Generate project scaffolds and boilerplate structure for various frameworks.
+
+  changelog-generator:
+    title: Changelog Generator
+    description: Generate CHANGELOG.md files following Keep a Changelog format.
+
+  documentation-generator:
+    title: Documentation Generator
+    description: Generate project documentation templates including README and API docs.
+
+  task-scheduler-helper:
+    title: Task Scheduler Helper
+    description: Generate cron expressions and task scheduling code for various languages.

@@ -61,7 +61,7 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            DevTools
 
             <c-link target="_blank" rel="noopener" :href="`https://github.com/khulnasoft/devtools/tree/v${version}`">
               v{{ version }}
@@ -81,8 +81,8 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://khulnasoft.com?utm_source=it-tools&utm_medium=footer">
-              Corentin Thomasset
+            <c-link target="_blank" rel="noopener" href="https://khulnasoft.com?utm_source=devtools&utm_medium=footer">
+              Md Sulaiman
             </c-link>
           </div>
         </div>

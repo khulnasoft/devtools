@@ -9,7 +9,7 @@ const errorCorrectionLevel = ref<QRCodeErrorCorrectionLevel>('medium');
 
 const errorCorrectionLevels = ['low', 'medium', 'quartile', 'high'];
 
-const text = ref('https://devtools.khulnasoft.com');
+const text = ref('https://tools.khulnasoft.com');
 const { qrcode } = useQRCode({
   text,
   color: {

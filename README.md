@@ -4,11 +4,9 @@
     <img src="./.github/logo-dark.png" alt="logo">
 </picture>
 
-Useful tools for developer and people working in IT. [Have a look !](https://devtools.khulnasoft.com).
-
-## Sponsors
-
-[![Renderize banner](./.github/sponsor-banner.svg)](https://renderize.tech?utm_source=it-tools&utm_medium=readme)
+<p align="center">
+Useful tools for developer and people working in IT. <a href="https://tools.khulnasoft.com">Try it!</a>
+</p>
 
 ## Functionalities and roadmap
 
@@ -23,13 +21,13 @@ Self host solutions for your homelab
 **From docker hub:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 khulnasoft/devtools:latest
+docker run -d --name devtools --restart unless-stopped -p 8080:80 khulnasoft/devtools:latest
 ```
 
 **From github packages:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/khulnasoft/devtools:latest
+docker run -d --name devtools --restart unless-stopped -p 8080:80 ghcr.io/khulnasoft/devtools:latest
 ```
 
 **Other solutions:**
@@ -121,7 +119,7 @@ Big thanks to all the people who have already contributed!
 
 ## Credits
 
-Coded with ❤️ by [Corentin Thomasset](https://khulnasoft.com?utm_source=it-tools&utm_medium=readme).
+Coded with ❤️ by [Md Sulaiman](https://khulnasoft.com?utm_source=devtools&utm_medium=readme).
 
 This project is continuously deployed using [vercel.com](https://vercel.com).
 

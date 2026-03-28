@@ -8,36 +8,36 @@ home:
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
-  support: 'Apoyar el desarrollo de IT-Tools'
+  support: 'Apoyar el desarrollo de DevTools'
   buyMeACoffee: 'Buy me a coffee'
   follow:
-    title: 'Te gustan las it-tools?'
+    title: 'Te gustan las devtools?'
     p1: 'Danos una estrella en'
-    githubRepository: 'Repositorio de IT-Tools en GitHub'
+    githubRepository: 'Repositorio de DevTools en GitHub'
     p2: 'o síguenos en'
-    twitterXAccount: 'Cuenta de X de IT-Tools'
+    twitterXAccount: 'Cuenta de X de DevTools'
     thankYou: 'Muchas gracias!'
   nav:
     github: 'Repositorio en github'
-    githubRepository: 'IT-Tools GitHub repository'
+    githubRepository: 'DevTools GitHub repository'
     twitterX: 'Cuenta de X'
-    twitterXAccount: 'Cuenta de X de IT Tools'
-    about: 'Sobre  IT-Tools'
+    twitterXAccount: 'Cuenta de X de KhulnaSoft DevTools'
+    about: 'Sobre  DevTools'
     aboutLabel: 'Sobre'
     darkMode: 'Modo obscuro'
     lightMode: 'Modo claro'
     mode: 'Alternar modo oscuro/claro'
 about:
   content: >
-    # Sobre IT-Tools
+    # Sobre DevTools
 
-    Este maravilloso sitio web, hecho con ❤ por [Corentin Thomasset](https://khulnasoft.com?utm_source=it-tools&utm_medium=about) , agrega herramientas útiles para desarrolladores y personas que trabajan en IT. Si lo encuentra útil, no dude en compartirlo con las personas que crea que también pueden encontrarlo útil y ¡no olvide marcarlo como favorito en su barra de accesos directos!
+    Este maravilloso sitio web, hecho con ❤ por [Md Sulaiman](https://khulnasoft.com?utm_source=devtools&utm_medium=about) , agrega herramientas útiles para desarrolladores y personas que trabajan en IT. Si lo encuentra útil, no dude en compartirlo con las personas que crea que también pueden encontrarlo útil y ¡no olvide marcarlo como favorito en su barra de accesos directos!
 
-    IT Tools es de código abierto (under the GPL-3.0 license) y gratis, y siempre lo será, pero me cuesta dinero alojar y renovar el nombre de dominio. Si desea apoyar mi trabajo y animarme a agregar más herramientas, considere apoyarme a través de[sponsoring me](https://www.buymeacoffee.com/cthmsst).
+    KhulnaSoft DevTools es de código abierto (under the GPL-3.0 license) y gratis, y siempre lo será, pero me cuesta dinero alojar y renovar el nombre de dominio. Si desea apoyar mi trabajo y animarme a agregar más herramientas, considere apoyarme a través de[sponsoring me](https://www.buymeacoffee.com/cthmsst).
 
     ## Tecnologías
 
-    IT Tools está creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de código abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/khulnasoft/devtools/blob/main/package.json) archivo del repositorio.
+    KhulnaSoft DevTools está creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de código abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/khulnasoft/devtools/blob/main/package.json) archivo del repositorio.
 
     ## ¿Encontraste un error? ¿Falta una herramienta?
 

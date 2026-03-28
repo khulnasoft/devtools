@@ -2,7 +2,7 @@ name: 🐞 Bug Report
 description: File a bug report.
 labels: ['bug', 'triage']
 assignees:
-  - CorentinTh
+  - khulnasoft
 body:
   - type: markdown
     attributes:
@@ -41,7 +41,7 @@ body:
     attributes:
       label: Where did you encounter the bug?
       options:
-        - Public app (devtools.khulnasoft.com)
+        - Public app (tools.khulnasoft.com)
         - A self hosted
         - Other (installations, docker, etc.)
     validations:
