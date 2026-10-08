@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { SHA1 } from 'crypto-js';
+import { SHA256 } from 'crypto-js';
 import InputCopyable from '@/components/InputCopyable.vue';
 import { macAddressValidation } from '@/utils/macAddress';
 
 const macAddress = ref('20:37:06:12:34:56');
 const calculatedSections = computed(() => {
   const timestamp = new Date().getTime();
-  const hex40bit = SHA1(timestamp + macAddress.value)
+  const hex40bit = SHA256(timestamp + macAddress.value)
     .toString()
     .substring(30);
 

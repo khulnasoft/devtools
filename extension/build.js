@@ -6,7 +6,7 @@
  */
 
 import { execSync } from 'child_process';
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, cpSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -19,9 +19,7 @@ console.log('🔨 Building Dev Tools Browser Extension...\n');
 
 // Clean dist directory
 console.log('🧹 Cleaning dist directory...');
-if (existsSync(distDir)) {
-  execSync(`rm -rf ${distDir}`);
-}
+rmSync(distDir, { recursive: true, force: true });
 mkdirSync(distDir, { recursive: true });
 
 // Copy extension files
@@ -50,7 +48,7 @@ filesToCopy.forEach((file) => {
 
 // Copy icons directory
 console.log('📦 Copying icons...');
-execSync(`cp -r ${join(extensionDir, 'icons')} ${distDir}`);
+cpSync(join(extensionDir, 'icons'), join(distDir, 'icons'), { recursive: true });
 console.log('  ✓ icons/');
 
 // Update manifest version from package.json

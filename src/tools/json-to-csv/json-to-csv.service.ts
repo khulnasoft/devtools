@@ -17,7 +17,7 @@ function serializeValue(value: unknown): string {
     return '';
   }
 
-  const valueAsString = String(value).replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/"/g, '\\"');
+  const valueAsString = String(value).replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/"/g, '\\"');
 
   if (valueAsString.includes(',')) {
     return `"${valueAsString}"`;
