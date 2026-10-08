@@ -6,6 +6,16 @@ const browserAPI = typeof browser !== 'undefined' ? browser : chrome;
 // Tool categories and their tools (subset of main devtools)
 const toolsByCategory = [
   {
+    name: 'AI generation',
+    tools: [
+      { name: 'Generate Image', icon: 'IMG', url: 'https://devtools.khulnasoft.com/generate-image' },
+      { name: 'Generate Object', icon: '{}', url: 'https://devtools.khulnasoft.com/generate-object' },
+      { name: 'Generate Speech', icon: 'S', url: 'https://devtools.khulnasoft.com/generate-speech' },
+      { name: 'Generate Text', icon: 'T', url: 'https://devtools.khulnasoft.com/generate-text' },
+      { name: 'Generate Video', icon: 'VID', url: 'https://devtools.khulnasoft.com/generate-video' },
+    ],
+  },
+  {
     name: 'Crypto',
     tools: [
       { name: 'Token Generator', icon: '🔑', url: 'https://devtools.khulnasoft.com/token-generator' },

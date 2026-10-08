@@ -158,7 +158,7 @@ function getSelector(element) {
 // Inject toolbar
 function injectToolbar() {
   // Check if toolbar already exists
-  if (document.getElementById('it-toolbar')) {
+  if (document.getElementById('it-toolbar-iframe')) {
     return;
   }
   
@@ -174,14 +174,16 @@ function injectToolbar() {
     height: 100%;
     border: none;
     z-index: 999999;
-    pointer-events: none;
+    pointer-events: auto;
   `;
   
   document.body.appendChild(iframe);
   
-  // Allow pointer events only on the toolbar itself
+  // The iframe is transparent outside the toolbar; its document disables pointer events there.
   iframe.onload = () => {
-    iframe.style.pointerEvents = 'none';
+    iframe.contentDocument.documentElement.style.pointerEvents = 'none';
+    const toolbar = iframe.contentDocument.getElementById('toolbar');
+    if (toolbar) toolbar.style.pointerEvents = 'auto';
   };
 }
 
