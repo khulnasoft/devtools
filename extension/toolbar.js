@@ -12,6 +12,13 @@ const tools = [
     { id: 'inspect', label: 'Inspect element', description: 'Pick an element on this page', icon: '↗' },
     { id: 'screenshot', label: 'Capture screenshot', description: 'Save the current page view', icon: '▣' },
   ]},
+  { category: 'AI generation', items: [
+    { label: 'Generate Image', description: 'Create images with AI', icon: 'IMG', path: 'generate-image' },
+    { label: 'Generate Object', description: 'Generate structured data with AI', icon: '{}', path: 'generate-object' },
+    { label: 'Generate Speech', description: 'Turn text into natural speech', icon: 'S', path: 'generate-speech' },
+    { label: 'Generate Text', description: 'Write and transform text with AI', icon: 'T', path: 'generate-text' },
+    { label: 'Generate Video', description: 'Create videos with AI', icon: 'VID', path: 'generate-video' },
+  ]},
   { category: 'Popular tools', items: [
     { label: 'JSON Viewer', description: 'Format and explore JSON', icon: '{}' , path: 'json-viewer' },
     { label: 'Base64 Converter', description: 'Encode and decode Base64', icon: '64', path: 'base64-string-converter' },
