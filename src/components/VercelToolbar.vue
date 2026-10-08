@@ -1,151 +1,112 @@
 <script setup lang="ts">
-import { useEventListener, useStorage } from '@vueuse/core';
+import { computed, ref } from 'vue';
+import { useRouter } from 'vue-router';
+import { tools } from '@/tools';
 
-interface ToolbarTool {
-  id: string;
-  name: string;
-  icon: string;
-  action: () => void;
-}
+const router = useRouter();
+const isOpen = ref(false);
+const query = ref('');
 
-const emit = defineEmits<{ (e: 'tool', id: string): void }>();
-
-const tools: ToolbarTool[] = [
-  { id: 'comments', name: 'Comments', icon: 'i-mdi-comment-outline', action: () => emit('tool', 'comments') },
-  { id: 'insights', name: 'Web Insights', icon: 'i-mdi-chart-bar', action: () => emit('tool', 'insights') },
-  { id: 'a11y', name: 'Accessibility', icon: 'i-mdi-human', action: () => emit('tool', 'a11y') },
-  { id: 'deploy', name: 'Deployments', icon: 'i-mdi-rocket-launch', action: () => emit('tool', 'deploy') },
+const aiTools = [
+  { path: '/generate-image', label: 'Generate image', glyph: 'IMG' },
+  { path: '/generate-object', label: 'Generate object', glyph: '{}' },
+  { path: '/generate-speech', label: 'Generate speech', glyph: 'A' },
+  { path: '/generate-text', label: 'Generate text', glyph: 'T' },
+  { path: '/generate-video', label: 'Generate video', glyph: 'VID' },
 ];
 
-const hidden = useStorage('vercel-toolbar-hidden', false);
-const active = ref(false);
-const menuOpen = ref(false);
-const lastTool = ref<ToolbarTool | null>(null);
-const dragging = ref(false);
-const showDropX = ref(false);
-const offset = ref({ x: 0, y: 0 });
-const pos = useStorage('vercel-toolbar-pos', { x: 0, y: 0 });
-const moved = ref(false);
-const el = ref<HTMLElement | null>(null);
+const filteredTools = computed(() => {
+  const normalizedQuery = query.value.trim().toLowerCase();
+  const matches = tools.filter(tool => {
+    const label = String(tool.name ?? '').toLowerCase();
+    const path = String(tool.path ?? '').toLowerCase();
+    return !normalizedQuery || label.includes(normalizedQuery) || path.includes(normalizedQuery);
+  });
 
-useEventListener(window, 'keydown', (e: KeyboardEvent) => {
-  if (e.key === '.' && !e.ctrlKey && !e.metaKey && !(e.target as HTMLElement)?.matches?.('input,textarea,[contenteditable]')) {
-    hidden.value = !hidden.value;
-    if (!hidden.value) active.value = false;
-  }
+  return matches.slice(0, 12);
 });
 
+function navigate(path: string) {
+  isOpen.value = false;
+  query.value = '';
+  router.push(path);
+}
+
 function toggle() {
-  if (moved.value) { moved.value = false; return; }
-  active.value = !active.value;
-  if (!active.value) menuOpen.value = false;
+  isOpen.value = !isOpen.value;
 }
 
-function pickTool(t: ToolbarTool) {
-  lastTool.value = t;
-  t.action();
-  menuOpen.value = false;
-}
-
-function startDrag(e: PointerEvent) {
-  dragging.value = true;
-  moved.value = false;
-  showDropX.value = true;
-  offset.value = { x: e.clientX - pos.value.x, y: e.clientY - pos.value.y };
-  (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
-}
-
-function onDrag(e: PointerEvent) {
-  if (!dragging.value) return;
-  const nx = e.clientX - offset.value.x;
-  const ny = e.clientY - offset.value.y;
-  if (Math.abs(nx - pos.value.x) > 3 || Math.abs(ny - pos.value.y) > 3) moved.value = true;
-  pos.value = { x: nx, y: ny };
-}
-
-function endDrag(e: PointerEvent) {
-  if (!dragging.value) return;
-  dragging.value = false;
-  showDropX.value = false;
-  const dropped = e.clientY > window.innerHeight - 90 && Math.abs(e.clientX - window.innerWidth / 2) < 60;
-  if (dropped) { hidden.value = true; active.value = false; }
+function onKeydown(event: KeyboardEvent) {
+  if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+    event.preventDefault();
+    isOpen.value = true;
+  }
+  if (event.key === 'Escape') isOpen.value = false;
 }
 </script>
 
 <template>
-  <Teleport to="body">
-    <div v-if="showDropX" class="fixed bottom-6 left-1/2 z-[9999] h-12 w-12 -translate-x-1/2 flex items-center justify-center rounded-full bg-red-500/90 text-white text-xl">
-      ✕
-    </div>
+  <div class="vercel-toolbar" @keydown="onKeydown">
+    <button class="toolbar-trigger" type="button" aria-label="Open DevTools toolbar" :aria-expanded="isOpen" @click="toggle">
+      <span class="toolbar-logo" aria-hidden="true">▲</span>
+      <span class="toolbar-rule" aria-hidden="true" />
+      <span class="toolbar-menu-icon" aria-hidden="true"><i /><i /><i /></span>
+    </button>
 
-    <div
-      v-if="!hidden"
-      ref="el"
-      class="fixed z-[9998]"
-      :style="{ left: '50%', bottom: '24px', transform: `translate(calc(-50% + ${pos.x}px), ${pos.y}px)` }"
-    >
-      <Transition name="vt">
-        <div v-if="menuOpen" class="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 min-w-44 overflow-hidden rounded-xl border border-white/10 bg-[#111111] p-1 shadow-2xl">
-          <button
-            v-for="t in tools"
-            :key="t.id"
-            class="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-sm text-white/80 hover:bg-white/10"
-            @click="pickTool(t)"
-          >
-            <span :class="[t.icon, 'text-base']" />
-            {{ t.name }}
-          </button>
-          <div class="my-1 border-t border-white/10" />
-          <button class="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-left text-sm text-white/80 hover:bg-white/10" @click="hidden = true; active = false">
-            <span class="i-mdi-eye-off text-base" />
-            Disable for Session
-          </button>
-        </div>
-      </Transition>
-
-      <div
-        class="flex items-center gap-1 rounded-full bg-[#111111] p-1.5 shadow-2xl ring-1 ring-white/10 transition-all"
-        @pointerdown="startDrag"
-        @pointermove="onDrag"
-        @pointerup="endDrag"
-      >
-        <button
-          class="relative flex h-9 w-9 items-center justify-center rounded-full text-white transition hover:bg-white/10"
-          :title="active ? 'Collapse' : 'Open toolbar'"
-          @click.stop="toggle"
-        >
-          <span :class="active ? 'i-mdi-close' : 'i-mdi-menu'" class="text-lg" />
-          <span v-if="!active" class="absolute -right-0.5 -top-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-white text-[8px] font-bold text-black">▲</span>
-        </button>
-
-        <template v-if="active">
-          <div class="h-5 w-px bg-white/15" />
-          <button
-            v-if="lastTool"
-            class="flex h-9 w-9 items-center justify-center rounded-full text-white/90 transition hover:bg-white/10"
-            :title="lastTool.name"
-            @click.stop="lastTool.action()"
-          >
-            <span :class="lastTool.icon" class="text-lg" />
-          </button>
-          <button
-            class="flex h-9 w-9 items-center justify-center rounded-full text-white transition hover:bg-white/10"
-            title="Tools"
-            @click.stop="menuOpen = !menuOpen"
-          >
-            <span class="i-mdi-view-grid text-lg" />
-          </button>
-          <div class="h-5 w-px bg-white/15" />
-          <button class="flex h-9 w-9 items-center justify-center rounded-full text-white/70 transition hover:bg-white/10" title="Hide" @click.stop="hidden = true">
-            <span class="i-mdi-eye-off text-lg" />
-          </button>
-        </template>
+    <section v-if="isOpen" class="toolbar-panel" aria-label="DevTools toolbar menu">
+      <div class="panel-search">
+        <input v-model="query" autofocus type="search" placeholder="What do you need?" aria-label="Search tools" />
+        <kbd>Esc</kbd>
       </div>
-    </div>
-  </Teleport>
+
+      <div class="workspace">
+        <span class="presence-dot" />
+        <div>
+          <strong>devtools <span>#80624</span></strong>
+          <code>khulnasoft/devtools</code>
+        </div>
+        <div class="avatars" aria-label="Collaborators"><span>J</span><span>M</span><span>K</span></div>
+      </div>
+
+      <div class="section-label">Shortcuts</div>
+      <div class="shortcut-row">
+        <button type="button" class="shortcut" aria-label="Search all tools" @click="isOpen = true; query = ''"><span class="glyph">⌕</span></button>
+        <button type="button" class="shortcut" aria-label="Open home" @click="navigate('/')"><span class="glyph">⌂</span></button>
+        <button v-for="tool in aiTools" :key="tool.path" type="button" class="shortcut shortcut-text" :aria-label="tool.label" @click="navigate(tool.path)">{{ tool.glyph }}</button>
+        <button type="button" class="shortcut" aria-label="Open all tools" @click="query = ''"><span class="glyph">⠿</span></button>
+      </div>
+
+      <div class="section-label">Tools</div>
+      <div v-if="filteredTools.length" class="tool-list">
+        <button v-for="tool in filteredTools" :key="tool.path" type="button" class="tool-item" @click="navigate(tool.path)">
+          <span class="tool-icon">{{ String(tool.name ?? '?').slice(0, 1).toUpperCase() }}</span>
+          <span class="tool-name">{{ tool.name }}</span>
+          <span v-if="tool.path" class="tool-arrow">↗</span>
+        </button>
+      </div>
+      <div v-else class="empty">No tools found</div>
+    </section>
+  </div>
 </template>
 
 <style scoped>
-.vt-enter-active, .vt-leave-active { transition: all .15s ease; transform-origin: bottom; }
-.vt-enter-from, .vt-leave-to { opacity: 0; transform: translateY(6px) scale(.95); }
+.vercel-toolbar { position: fixed; z-index: 1000; left: 14px; bottom: 16px; color: #ededed; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.toolbar-trigger { display: flex; width: 34px; min-height: 66px; padding: 7px 5px; flex-direction: column; align-items: center; justify-content: space-between; border: 1px solid #303030; border-radius: 18px; background: #171717; color: #d7d7d7; box-shadow: 0 8px 28px #0009; cursor: pointer; }
+.toolbar-trigger:hover { background: #222; }
+.toolbar-logo { color: #fff; font-size: 13px; line-height: 1; }
+.toolbar-rule { width: 13px; height: 1px; background: #474747; }
+.toolbar-menu-icon { display: flex; flex-direction: column; gap: 3px; }
+.toolbar-menu-icon i { display: block; width: 15px; height: 1px; background: currentColor; }
+.toolbar-panel { position: absolute; left: 46px; bottom: 0; width: min(618px, calc(100vw - 76px)); max-height: min(650px, calc(100vh - 30px)); overflow: auto; padding: 0 12px 14px; border: 1px solid #292929; border-radius: 12px; background: #050505; box-shadow: 0 24px 70px #000b; }
+.panel-search { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 10px; padding: 13px 1px 11px; border-bottom: 1px solid #292929; background: #050505; }
+.panel-search input { min-width: 0; flex: 1; border: 0; outline: 0; background: transparent; color: #ededed; font-size: 18px; }
+.panel-search input::placeholder { color: #888; }
+kbd { padding: 3px 5px; border: 1px solid #333; border-radius: 4px; color: #aaa; font-size: 11px; }
+.workspace { display: flex; align-items: center; gap: 12px; padding: 15px 4px 12px; border-bottom: 1px solid #181818; font-size: 13px; }
+.presence-dot { width: 8px; height: 8px; flex: none; border-radius: 50%; background: #00d084; }
+.workspace strong { font-weight: 500; }.workspace strong span { color: #666; font-weight: 400; }.workspace code { display: block; margin-top: 5px; color: #d2d2d2; font-size: 12px; }
+.avatars { display: flex; margin-left: auto; }.avatars span { display: grid; place-items: center; width: 21px; height: 21px; margin-left: -4px; border: 2px solid #050505; border-radius: 50%; background: #555; font-size: 8px; }.avatars span:nth-child(2) { background: #8b5e4c; }.avatars span:nth-child(3) { background: #31728c; }
+.section-label { padding: 13px 4px 7px; color: #777; font-size: 12px; }.shortcut-row { display: flex; gap: 8px; padding: 0 4px 7px; overflow-x: auto; }.shortcut { display: grid; place-items: center; width: 48px; height: 48px; flex: 0 0 auto; border: 1px solid #292929; border-radius: 50%; background: #090909; color: #d0d0d0; cursor: pointer; }.shortcut:hover { border-color: #5a5a5a; background: #151515; color: #fff; }.glyph { font-size: 22px; }.shortcut-text { font-family: ui-monospace, monospace; font-size: 9px; }
+.tool-list { display: flex; flex-direction: column; gap: 2px; }.tool-item { display: flex; align-items: center; gap: 12px; width: 100%; padding: 8px 4px; border: 0; border-radius: 6px; background: transparent; color: #ededed; text-align: left; cursor: pointer; }.tool-item:hover { background: #111; }.tool-icon { display: grid; place-items: center; width: 24px; height: 24px; border: 1px solid #272727; border-radius: 50%; background: #0d0d0d; color: #d4d4d4; font-size: 10px; }.tool-name { flex: 1; font-size: 14px; }.tool-arrow { color: #777; font-size: 13px; }.empty { padding: 24px 8px; color: #8b8b8b; text-align: center; font-size: 12px; }
+@media (max-width: 600px) { .vercel-toolbar { left: 10px; bottom: 10px; }.toolbar-panel { left: 42px; width: calc(100vw - 58px); } }
 </style>
