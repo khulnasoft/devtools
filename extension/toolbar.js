@@ -64,8 +64,8 @@ document.getElementById('inspectBtn').addEventListener('click', () => sendMessag
 document.getElementById('screenshotBtn').addEventListener('click', () => sendMessage('takeScreenshot'));
 document.getElementById('hideBtn').addEventListener('click', hideToolbar);
 menuSearch.addEventListener('input', (event) => renderTools(event.target.value));
-toolSections.addEventListener('click', (event) => {
-  const item = event.target.closest('.menu-item');
+function handleToolClick(event) {
+  const item = event.target.closest('[data-path], [data-id]');
   if (!item) return;
   const id = item.dataset.id;
   if (id === 'search') return openMenu(true);
@@ -74,8 +74,10 @@ toolSections.addEventListener('click', (event) => {
   if (id === 'hide') return hideToolbar();
   if (id === 'preferences') return browserAPI.runtime.sendMessage({ action: 'openOptions' });
   if (item.dataset.path !== '') openTool(item.dataset.path);
-  else openTool('');
-});
+}
+
+toolSections.addEventListener('click', handleToolClick);
+document.querySelector('.shortcut-row').addEventListener('click', handleToolClick);
 document.addEventListener('click', (event) => { if (!toolbar.contains(event.target)) closeMenu(); });
 document.addEventListener('keydown', (event) => {
   const key = event.key.toLowerCase();
