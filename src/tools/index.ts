@@ -95,6 +95,11 @@ import { tool as jsonSchemaGenerator } from './json-schema-generator';
 import { tool as regexGenerator } from './regex-generator';
 import { tool as sqlQueryGenerator } from './sql-query-generator';
 import { tool as aiChat } from './ai-chat';
+import { tool as generateText } from './generate-text';
+import { tool as generateObject } from './generate-object';
+import { tool as generateImage } from './generate-image';
+import { tool as generateSpeech } from './generate-speech';
+import { tool as generateVideo } from './generate-video';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -221,7 +226,19 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'AI',
-    components: [tokenCounter, promptOptimizer, jsonSchemaGenerator, regexGenerator, sqlQueryGenerator, aiChat],
+    components: [
+      tokenCounter,
+      promptOptimizer,
+      jsonSchemaGenerator,
+      regexGenerator,
+      sqlQueryGenerator,
+      aiChat,
+      generateText,
+      generateObject,
+      generateImage,
+      generateSpeech,
+      generateVideo,
+    ],
   },
 ];
 
