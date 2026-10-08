@@ -36,7 +36,7 @@ const results = computed(() => {
       const ratioWithBestMean = bestMean === 0 ? '∞' : round(mean / bestMean);
 
       const comparisonValues: string
-        = (index !== 0 && bestMean !== mean) ? ` (+${round(deltaWithBestMean)}${cleanUnit} ; x${ratioWithBestMean})` : '';
+        = index !== 0 && bestMean !== mean ? ` (+${round(deltaWithBestMean)}${cleanUnit} ; x${ratioWithBestMean})` : '';
 
       return {
         position: index + 1,

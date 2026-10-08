@@ -5,10 +5,18 @@ defineOptions({
   inheritAttrs: false,
 });
 
-const props = withDefaults(defineProps<{ open?: boolean; centered?: boolean }>(), {
-  open: false,
-  centered: true,
-});
+const props = withDefaults(
+  defineProps<{
+    /** Whether the modal is open */
+    open?: boolean
+    /** Whether the modal is centered on screen */
+    centered?: boolean
+  }>(),
+  {
+    open: false,
+    centered: true,
+  },
+);
 
 const emit = defineEmits(['update:open']);
 
@@ -47,7 +55,20 @@ onClickOutside(modal, () => {
 
 <template>
   <transition>
-    <div v-if="isOpen" class="c-modal--overlay" fixed left-0 top-0 z-10 h-full w-full flex justify-center px-2 :class="{ 'items-center': centered }">
+    <div
+      v-if="isOpen"
+      class="c-modal--overlay"
+      fixed
+      left-0
+      top-0
+      z-10
+      h-full
+      w-full
+      flex
+      justify-center
+      px-2
+      :class="{ 'items-center': centered }"
+    >
       <div ref="modal" class="c-modal--container" v-bind="$attrs" max-w-xl w-full flex-grow rounded-md pa-24px>
         <slot />
       </div>

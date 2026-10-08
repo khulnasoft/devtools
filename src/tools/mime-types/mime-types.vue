@@ -35,9 +35,11 @@ const mimeTypeFound = computed(() => (selectedExtension.value ? extensionToMimeT
     />
 
     <div v-if="extensionsFound.length > 0">
-      Extensions of files with the <n-tag round :bordered="false">
+      Extensions of files with the
+      <n-tag round :bordered="false">
         {{ selectedMimeType }}
-      </n-tag> mime-type:
+      </n-tag>
+      mime-type:
       <div style="margin-top: 10px">
         <n-tag
           v-for="extension of extensionsFound"
@@ -69,10 +71,11 @@ const mimeTypeFound = computed(() => (selectedExtension.value ? extensionToMimeT
     />
 
     <div v-if="selectedExtension">
-      Mime type associated to the extension <n-tag round :bordered="false">
+      Mime type associated to the extension
+      <n-tag round :bordered="false">
         {{ selectedExtension }}
-      </n-tag> file
-      extension:
+      </n-tag>
+      file extension:
       <div style="margin-top: 10px">
         <n-tag round :bordered="false" type="primary" style="margin-right: 10px">
           {{ mimeTypeFound }}

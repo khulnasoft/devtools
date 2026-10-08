@@ -4,8 +4,10 @@ import _ from 'lodash';
 
 export {
   getMimeTypeFromBase64,
-  getMimeTypeFromExtension, getExtensionFromMimeType,
-  useDownloadFileFromBase64, useDownloadFileFromBase64Refs,
+  getMimeTypeFromExtension,
+  getExtensionFromMimeType,
+  useDownloadFileFromBase64,
+  useDownloadFileFromBase64Refs,
   previewImageFromBase64,
 };
 
@@ -18,13 +20,15 @@ const commonMimeTypesSignatures = {
 };
 
 function getMimeTypeFromBase64({ base64String }: { base64String: string }) {
-  const [,mimeTypeFromBase64] = base64String.match(/data:(.*?);base64/i) ?? [];
+  const [, mimeTypeFromBase64] = base64String.match(/data:(.*?);base64/i) ?? [];
 
   if (mimeTypeFromBase64) {
     return { mimeType: mimeTypeFromBase64 };
   }
 
-  const inferredMimeType = _.find(commonMimeTypesSignatures, (_mimeType, signature) => base64String.startsWith(signature));
+  const inferredMimeType = _.find(commonMimeTypesSignatures, (_mimeType, signature) =>
+    base64String.startsWith(signature),
+  );
 
   if (inferredMimeType) {
     return { mimeType: inferredMimeType };
@@ -47,8 +51,17 @@ function getFileExtensionFromMimeType({
   return defaultExtension;
 }
 
-function downloadFromBase64({ sourceValue, filename, extension, fileMimeType }:
-{ sourceValue: string; filename?: string; extension?: string; fileMimeType?: string }) {
+function downloadFromBase64({
+  sourceValue,
+  filename,
+  extension,
+  fileMimeType,
+}: {
+  sourceValue: string
+  filename?: string
+  extension?: string
+  fileMimeType?: string
+}) {
   if (sourceValue === '') {
     throw new Error('Base64 string is empty');
   }
@@ -61,8 +74,7 @@ function downloadFromBase64({ sourceValue, filename, extension, fileMimeType }:
     base64String = `data:${targetMimeType};base64,${sourceValue}`;
   }
 
-  const cleanExtension = extension ?? getFileExtensionFromMimeType(
-    { mimeType, defaultExtension });
+  const cleanExtension = extension ?? getFileExtensionFromMimeType({ mimeType, defaultExtension });
   let cleanFileName = filename ?? `file.${cleanExtension}`;
   if (extension && !cleanFileName.endsWith(`.${extension}`)) {
     cleanFileName = `${cleanFileName}.${cleanExtension}`;
@@ -74,9 +86,17 @@ function downloadFromBase64({ sourceValue, filename, extension, fileMimeType }:
   a.click();
 }
 
-function useDownloadFileFromBase64(
-  { source, filename, extension, fileMimeType }:
-  { source: Ref<string>; filename?: string; extension?: string; fileMimeType?: string }) {
+function useDownloadFileFromBase64({
+  source,
+  filename,
+  extension,
+  fileMimeType,
+}: {
+  source: Ref<string>
+  filename?: string
+  extension?: string
+  fileMimeType?: string
+}) {
   return {
     download() {
       downloadFromBase64({ sourceValue: source.value, filename, extension, fileMimeType });
@@ -84,9 +104,15 @@ function useDownloadFileFromBase64(
   };
 }
 
-function useDownloadFileFromBase64Refs(
-  { source, filename, extension }:
-  { source: Ref<string>; filename?: Ref<string>; extension?: Ref<string> }) {
+function useDownloadFileFromBase64Refs({
+  source,
+  filename,
+  extension,
+}: {
+  source: Ref<string>
+  filename?: Ref<string>
+  extension?: Ref<string>
+}) {
   return {
     download() {
       downloadFromBase64({ sourceValue: source.value, filename: filename?.value, extension: extension?.value });

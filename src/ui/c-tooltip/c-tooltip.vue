@@ -1,9 +1,21 @@
 <script setup lang="ts">
-const props = withDefaults(defineProps<{ tooltip?: string; position?: 'top' | 'bottom' | 'left' | 'right' }>(), {
-  tooltip: undefined,
-  position: 'top',
-});
+import { useTheme } from './c-tooltip.theme';
+
+const props = withDefaults(
+  defineProps<{
+    /** Tooltip text content (can also use slot) */
+    tooltip?: string
+    /** Position of the tooltip relative to the target element */
+    position?: 'top' | 'bottom' | 'left' | 'right'
+  }>(),
+  {
+    tooltip: undefined,
+    position: 'top',
+  },
+);
 const { tooltip, position } = toRefs(props);
+
+const theme = useTheme();
 
 const targetRef = ref();
 const isTargetHovered = useElementHover(targetRef);
@@ -17,20 +29,28 @@ const isTargetHovered = useElementHover(targetRef);
 
     <div
       v-if="tooltip || $slots.tooltip"
-      class="absolute z-10 whitespace-nowrap rounded bg-black px-12px py-6px text-sm text-white shadow-lg transition transition transition-duration-0.2s"
+      class="absolute z-10 whitespace-nowrap text-sm shadow-lg transition transition transition-duration-0.2s"
+      :style="{
+        backgroundColor: theme.value.backgroundColor,
+        color: theme.value.textColor,
+        padding: theme.value.padding,
+        borderRadius: theme.value.borderRadius,
+        boxShadow: theme.value.shadow,
+        ...(position === 'top' ? { marginBottom: theme.value.offset } : {}),
+        ...(position === 'bottom' ? { marginTop: theme.value.offset } : {}),
+        ...(position === 'left' ? { marginRight: theme.value.offset } : {}),
+        ...(position === 'right' ? { marginLeft: theme.value.offset } : {}),
+      }"
       :class="{
         'op-0 scale-0': isTargetHovered === false,
         'op-100 scale-100': isTargetHovered,
-        'bottom-100% left-50% -translate-x-1/2 mb-5px': position === 'top',
-        'top-100% left-50% -translate-x-1/2 mt-5px': position === 'bottom',
-        'right-100% top-50% -translate-y-1/2 mr-5px': position === 'left',
-        'left-100% top-50% -translate-y-1/2 ml-5px': position === 'right',
+        'bottom-100% left-50% -translate-x-1/2': position === 'top',
+        'top-100% left-50% -translate-x-1/2': position === 'bottom',
+        'right-100% top-50% -translate-y-1/2': position === 'left',
+        'left-100% top-50% -translate-y-1/2': position === 'right',
       }"
     >
-      <slot
-        v-if="isTargetHovered"
-        name="tooltip"
-      >
+      <slot v-if="isTargetHovered" name="tooltip">
         {{ tooltip }}
       </slot>
     </div>

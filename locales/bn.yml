@@ -1,0 +1,394 @@
+home:
+  categories:
+    newestTools: নতুন টুলস
+    favoriteTools: 'আপনার প্রিয় টুলস'
+    allTools: 'সব টুলস'
+    favoritesDndToolTip: 'প্রিয়গুলি পুনর্বিন্যাস করতে টেনে ছেড়ে দিন'
+  subtitle: 'ডেভেলপারদের জন্য দরকারী টুলস'
+  toggleMenu: 'মেনু টগল করুন'
+  home: হোম
+  uiLib: 'UI লাইব্রেরি'
+  support: 'devtools ডেভেলপমেন্ট সাপোর্ট করুন'
+  buyMeACoffee: 'আমাকে একটি কফি কিনুন'
+  follow:
+    title: 'devtools পছন্দ করেন?'
+    p1: 'আমাদের একটি স্টার দিন'
+    githubRepository: 'devtools GitHub রিপোজিটরি'
+    p2: 'অথবা আমাদের ফলো করুন'
+    twitterXAccount: 'devtools X অ্যাকাউন্ট'
+    thankYou: 'ধন্যবাদ!'
+  nav:
+    github: 'GitHub রিপোজিটরি'
+    githubRepository: 'devtools GitHub রিপোজিটরি'
+    twitterX: 'X অ্যাকাউন্ট'
+    twitterXAccount: 'Dev Tools X অ্যাকাউন্ট'
+    about: 'devtools সম্পর্কে'
+    aboutLabel: 'সম্পর্কে'
+    darkMode: 'ডার্ক মোড'
+    lightMode: 'লাইট মোড'
+    mode: 'ডার্ক/লাইট মোড টগল করুন'
+about:
+  content: |
+    # devtools সম্পর্কে
+
+    এই চমৎকার ওয়েবসাইটটি [KhulnaSoft](https://devtools.khulnasoft.com?utm_source=devtools&utm_medium=about) দ্বারা ❤ দিয়ে তৈরি করা হয়েছে, এটি ডেভেলপার এবং IT-এ কাজ করা মানুষদের জন্য দরকারী টুলস সংগ্রহ করে। আপনি যদি এটি দরকারী মনে করেন, তবে এটি এমন মানুষদের সাথে শেয়ার করতে দ্বিধা করবেন না যারা এটি দরকারী মনে করতে পারে এবং এটি আপনার শর্টকাট বারে বুকমার্ক করতে ভুলবেন না!
+
+    Dev Tools ওপেন-সোর্স (GPL-3.0 লাইসেন্সের অধীনে) এবং ফ্রি, এবং সবসময় থাকবে, কিন্তু এটি হোস্ট করতে এবং ডোমেইন নাম নবায়ন করতে আমার টাকা খরচ হয়। আপনি যদি আমার কাজ সাপোর্ট করতে চান এবং আরও টুলস যোগ করতে উৎসাহিত করতে চান, তবে [sponsoring me](https://www.buymeacoffee.com/khulnasoft) এর মাধ্যমে সাপোর্ট করার কথা বিবেচনা করুন।
+
+    ## প্রযুক্তি
+
+    Dev Tools Vue.js (Vue 3) দিয়ে তৈরি এবং Naive UI কম্পোনেন্ট লাইব্রেরি ব্যবহার করে এবং Vercel দ্বারা হোস্ট এবং কন্টিনিউয়াসলি ডিপ্লয় করা হয়। কিছু টুলসে থার্ড-পার্টি ওপেন-সোর্স লাইব্রেরি ব্যবহার করা হয়, আপনি সম্পূর্ণ তালিকা রিপোজিটরির [package.json](https://github.com/khulnasoft/devtools/blob/main/package.json) ফাইলে পেতে পারেন।
+
+    ## বাগ পেয়েছেন? কোনো টুল মিসিং?
+
+    আপনার যদি এমন কোনো টুল দরকার হয় যা বর্তমানে এখানে নেই এবং আপনি মনে করেন এটি দরকারী হতে পারে, তবে আপনি GitHub রিপোজিটরির [issues section](https://github.com/khulnasoft/devtools/issues/new/choose) এ একটি ফিচার রিকোয়েস্ট জমা দিতে স্বাগত।
+
+    এবং আপনি যদি কোনো বাগ পান, অথবা কিছু আশা মতো কাজ না করে, তবে GitHub রিপোজিটরির [issues section](https://github.com/khulnasoft/devtools/issues/new/choose) এ একটি বাগ রিপোর্ট ফাইল করুন।
+
+404:
+  notFound: '404 পাওয়া যায়নি'
+  sorry: 'দুঃখিত, এই পেজটি মনে হয় নেই'
+  maybe: 'হয়তো ক্যাশে কিছু সমস্যা হচ্ছে, ফোর্স-রিফ্রেশ চেষ্টা করুন?'
+  backHome: 'হোমে ফিরুন'
+favoriteButton:
+  remove: 'প্রিয় থেকে সরান'
+  add: 'প্রিয়ে যোগ করুন'
+toolCard:
+  new: নতুন
+search:
+  label: অনুসন্ধান
+tools:
+  categories:
+    favorite-tools: 'আপনার প্রিয় টুলস'
+    crypto: ক্রিপ্টো
+    converter: কনভার্টার
+    web: ওয়েব
+    images and videos: 'ছবি এবং ভিডিও'
+    development: ডেভেলপমেন্ট
+    network: নেটওয়ার্ক
+    math: গণিত
+    measurement: পরিমাপ
+    text: টেক্সট
+    data: ডেটা
+
+  password-strength-analyser:
+    title: পাসওয়ার্ড শক্তি বিশ্লেষক
+    description: এই ক্লায়েন্ট-সাইড-অনলি পাসওয়ার্ড শক্তি বিশ্লেষক এবং ক্র্যাক টাইম এস্টিমেশন টুল দিয়ে আপনার পাসওয়ার্ডের শক্তি আবিষ্কার করুন।
+
+  chronometer:
+    title: ক্রোনোমিটার
+    description: কিছুর সময়কাল পর্যবেক্ষণ করুন। মূলত সাধারণ ক্রোনোমিটার ফিচার সহ একটি ক্রোনোমিটার।
+
+  token-generator:
+    title: টোকেন জেনারেটর
+    description: আপনি যে অক্ষরগুলি চান তার সাথে র্যান্ডম স্ট্রিং জেনারেট করুন, বড় হাতের বা ছোট হাতের অক্ষর, সংখ্যা এবং/অথবা প্রতীক।
+
+    uppercase: বড় হাতের অক্ষর (ABC...)
+    lowercase: ছোট হাতের অক্ষর (abc...)
+    numbers: সংখ্যা (123...)
+    symbols: প্রতীক (!-;...)
+    length: দৈর্ঘ্য
+    tokenPlaceholder: 'টোকেন...'
+    copied: টোকেন ক্লিপবোর্ডে কপি হয়েছে
+    button:
+      copy: কপি
+      refresh: রিফ্রেশ
+  percentage-calculator:
+    title: শতাংশ ক্যালপুলেটর
+    description: একটি মান থেকে অন্য মানে শতাংশ সহজেই গণনা করুন, অথবা একটি শতাংশ থেকে একটি মানে।
+
+  svg-placeholder-generator:
+    title: SVG প্লেসহোল্ডার জেনারেটর
+    description: আপনার অ্যাপ্লিকেশনে প্লেসহোল্ডার হিসেবে ব্যবহার করার জন্য svg ছবি জেনারেট করুন।
+
+  json-to-csv:
+    title: JSON থেকে CSV
+    description: স্বয়ংক্রিয় হেডার ডিটেকশন সহ JSON কে CSV তে কনভার্ট করুন।
+
+  camera-recorder:
+    title: ক্যামেরা রেকর্ডার
+    description: আপনার ওয়েবক্যাম বা ক্যামেরা থেকে ছবি তুলুন বা ভিডিও রেকর্ড করুন।
+
+  keycode-info:
+    title: কিকোড তথ্য
+    description: যেকোনো চাপা কি এর জাভাস্ক্রিপ্ট কিকোড, কোড, লোকেশন এবং মডিফায়ার খুঁজুন।
+
+  emoji-picker:
+    title: ইমোজি পিকার
+    description: সহজেই ইমোজি কপি এবং পেস্ট করুন এবং প্রতিটি ইমোজির ইউনিকোড এবং কোড পয়েন্ট মান পান।
+
+  color-converter:
+    title: কালার কনভার্টার
+    description: বিভিন্ন ফরম্যাটের মধ্যে কালার কনভার্ট করুন (hex, rgb, hsl এবং css নাম)
+
+  bcrypt:
+    title: Bcrypt
+    description: bcrypt ব্যবহার করে টেক্সট স্ট্রিং হ্যাশ এবং তুলনা করুন। Bcrypt হল ব্লোফিশ সাইফার ভিত্তিক একটি পাসওয়ার্ড-হ্যাশিং ফাংশন।
+
+  crontab-generator:
+    title: Crontab জেনারেটর
+    description: Crontab যাচাই করুন এবং জেনারেট করুন এবং ক্রন স্কেডিউলের মানুষের পঠনযোগ্য বর্ণনা পান।
+
+  http-status-codes:
+    title: HTTP স্ট্যাটাস কোড
+    description: সব HTTP স্ট্যাটাস কোডের তালিকা, তাদের নাম এবং অর্থ।
+
+  sql-prettify:
+    title: SQL সুন্দর করা এবং ফরম্যাট
+    description: আপনার SQL কোয়েরি অনলাইনে ফরম্যাট এবং সুন্দর করুন (এটি বিভিন্ন SQL ডায়ালেক্ট সাপোর্ট করে)।
+
+  benchmark-builder:
+    title: বেঞ্চমার্ক বিল্ডার
+    description: এই খুব সাধারণ অনলাইন বেঞ্চমার্ক বিল্ডার দিয়ে টাস্কের এক্সিকিউশন টাইম সহজেই তুলনা করুন।
+
+  git-memo:
+    title: Git চিটশিং
+    description: Git হল একটি বিকেন্দ্রীভূত ভার্সন ম্যানেজমেন্ট সফটওয়্যার। এই চিটশিং দিয়ে, আপনি সবচেয়ে সাধারণ git কমান্ডের দ্রুত অ্যাক্সেস পাবেন।
+
+  slugify-string:
+    title: Slugify স্ট্রিং
+    description: একটি স্ট্রিংকে url, ফাইলনেম এবং id নিরাপদ করুন।
+
+  encryption:
+    title: টেক্সট এনক্রিপ্ট / ডিক্রিপ্ট
+    description: AES, TripleDES, Rabbit বা RC4 এর মতো ক্রিপ্টো অ্যালগরিদম ব্যবহার করে ক্লিয়ার টেক্সট এনক্রিপ্ট এবং সাইফারটেক্সট ডিক্রিপ্ট করুন।
+
+  random-port-generator:
+    title: র্যান্ডম পোর্ট জেনারেটর
+    description: পরিচিত পোর্টের রেঞ্জের বাইরে (0-1023) র্যান্ডম পোর্ট নম্বর জেনারেট করুন।
+
+  yaml-prettify:
+    title: YAML সুন্দর করা এবং ফরম্যাট
+    description: আপনার YAML স্ট্রিংকে একটি বন্ধুত্বপূর্ণ, মানুষের পঠনযোগ্য ফরম্যাটে সুন্দর করুন।
+
+  eta-calculator:
+    title: ETA ক্যালপুলেটর
+    description: একটি ETA (Estimated Time of Arrival) ক্যালপুলেটর যা একটি টাস্কের আনুমানিক শেষ সময় নির্ধারণ করে, উদাহরণস্বরূপ, একটি ফাইল ডাউনলোডের শেষ সময় এবং সময়কাল।
+
+  roman-numeral-converter:
+    title: রোমান সংখ্যা কনভার্টার
+    description: রোমান সংখ্যাকে সংখ্যায় এবং সংখ্যাকে রোমান সংখ্যায় কনভার্ট করুন।
+
+  hmac-generator:
+    title: Hmac জেনারেটর
+    description: একটি সিক্রেট কি এবং আপনার প্রিয় হ্যাশিং ফাংশন ব্যবহার করে একটি হ্যাশ-ভিত্তিক মেসেজ অথেন্টিকেশন কোড (HMAC) গণনা করে।
+
+  bip39-generator:
+    title: BIP39 পাসফ্রেজ জেনারেটর
+    description: একটি বিদ্যমান বা র্যান্ডম মনেমোনিক থেকে একটি BIP39 পাসফ্রেজ জেনারেট করুন, অথবা পাসফ্রেজ থেকে মনেমোনিক পান।
+
+  base64-file-converter:
+    title: Base64 ফাইল কনভার্টার
+    description: একটি স্ট্রিং, ফাইল, বা ছবিকে তার base64 উপস্থাপনায় কনভার্ট করুন।
+
+  list-converter:
+    title: লিস্ট কনভার্টার
+    description: এই টুলটি কলাম-ভিত্তিক ডেটা প্রসেস করতে পারে এবং প্রতিটি সারিতে বিভিন্ন পরিবর্তন (ট্রান্সপোজ, প্রিফিক্স এবং সাফিক্স যোগ করা, লিস্ট রিভার্স করা, লিস্ট সর্ট করা, ছোট হাতের মান, মান ট্রাঙ্কেট করা) প্রয়োগ করতে পারে।
+
+  base64-string-converter:
+    title: Base64 স্ট্রিং এনকোডার/ডিকোডার
+    description: সহজেই স্ট্রিংগুলিকে তাদের base64 উপস্থাপনায় এনকোড এবং ডিকোড করুন।
+
+  toml-to-yaml:
+    title: TOML থেকে YAML
+    description: TOML পার্স করুন এবং YAML এ কনভার্ট করুন।
+
+  math-evaluator:
+    title: গণিত ইভালুয়েটর
+    description: গাণিতিক এক্সপ্রেশন মূল্যায়ন করার জন্য একটি ক্যালকুলেটর। আপনি sqrt, cos, sin, abs ইত্যাদি ফাংশন ব্যবহার করতে পারেন।
+
+  json-to-yaml-converter:
+    title: JSON থেকে YAML কনভার্টার
+    description: এই অনলাইন লাইভ কনভার্টার দিয়ে সহজেই JSON কে YAML এ কনভার্ট করুন।
+
+  url-parser:
+    title: URL পার্সার
+    description: একটি URL কে তার আলাদা অংশে পার্স করুন (protocol, origin, params, port, username-password, ...)
+
+  iban-validator-and-parser:
+    title: IBAN ভ্যালিডেটর এবং পার্সার
+    description: IBAN নম্বর যাচাই করুন এবং পার্স করুন। একটি IBAN বৈধ কিনা তা পরীক্ষা করুন এবং দেশ, BBAN, এটি একটি QR-IBAN কিনা এবং IBAN বন্ধুত্বপূর্ণ ফরম্যাট পান।
+
+  user-agent-parser:
+    title: ইউজার-এজেন্ট পার্সার
+    description: একটি ইউজার-এজেন্ট স্ট্রিং থেকে ব্রাউজার, ইঞ্জিন, OS, CPU, এবং ডিভাইস টাইপ/মডেল সনাক্ত এবং পার্স করুন।
+
+  numeronym-generator:
+    title: নিউমেরোনিম জেনারেটর
+    description: একটি নিউমেরোনিম হল একটি শব্দ যেখানে একটি সংখ্যা ব্যবহার করা হয় একটি সংক্ষিপ্ত রূপ তৈরি করতে। উদাহরণস্বরূপ, "i18n" হল "internationalization" এর একটি নিউমেরোনিম যেখানে 18 শব্দের প্রথম i এবং শেষ n এর মধ্যে অক্ষরের সংখ্যা নির্দেশ করে।
+
+  case-converter:
+    title: কেস কনভার্টার
+    description: একটি স্ট্রিংয়ের কেস রূপান্তর করুন এবং বিভিন্ন ফরম্যাটের মধ্যে চয়ন করুন
+
+  html-entities:
+    title: HTML এন্টিটি এস্কেপ
+    description: HTML এন্টিটি এস্কেপ বা আন-এস্কেপ করুন (অক্ষর যেমন <,>, &, " এবং \' তাদের HTML ভার্সন দিয়ে প্রতিস্থাপন করুন)
+
+  json-prettify:
+    title: JSON সুন্দর করা এবং ফরম্যাট
+    description: আপনার JSON স্ট্রিংকে একটি বন্ধুত্বপূর্ণ, মানুষের পঠনযোগ্য ফরম্যাটে সুন্দর করুন।
+
+  docker-run-to-docker-compose-converter:
+    title: Docker run থেকে Docker compose কনভার্টার
+    description: docker run কমান্ডগুলিকে docker-compose ফাইলে রূপান্তর করে!
+
+  mac-address-lookup:
+    title: MAC অ্যাড্রেস লুকআপ
+    description: একটি MAC অ্যাড্রেস দ্বারা একটি ডিভাইসের ভেন্ডর এবং ম্যানুফ্যাকচারার খুঁজুন।
+
+  mime-types:
+    title: MIME টাইপ
+    description: MIME টাইপকে ফাইল এক্সটেনশনে এবং উল্টোদিকে কনভার্ট করুন।
+
+  toml-to-json:
+    title: TOML থেকে JSON
+    description: TOML পার্স করুন এবং JSON এ কনভার্ট করুন।
+
+  lorem-ipsum-generator:
+    title: Lorem ipsum জেনারেটর
+    description: Lorem ipsum হল একটি প্লেসহোল্ডার টেক্সট যা সাধারণত একটি ডকুমেন্ট বা টাইপফেসের ভিজ্যুয়াল ফর্ম প্রদর্শন করতে ব্যবহৃত হয় অর্থপূর্ণ কন্টেন্টের উপর নির্ভর না করে
+
+  qrcode-generator:
+    title: QR কোড জেনারেটর
+    description: একটি URL (বা সাধারণ টেক্সট) এর জন্য একটি QR কোড জেনারেট এবং ডাউনলোড করুন এবং ব্যাকগ্রাউন্ড এবং ফোরগ্রাউন্ড কালার কাস্টমাইজ করুন।
+
+  wifi-qrcode-generator:
+    title: WiFi QR কোড জেনারেটর
+    description: WiFi নেটওয়ার্কে দ্রুত সংযোগের জন্য QR কোড জেনারেট এবং ডাউনলোড করুন।
+
+  xml-formatter:
+    title: XML ফরম্যাটার
+    description: আপনার XML স্ট্রিংকে একটি বন্ধুত্বপূর্ণ, মানুষের পঠনযোগ্য ফরম্যাটে সুন্দর করুন।
+
+  temperature-converter:
+    title: তাপমাত্রা কনভার্টার
+    description: কেলভিন, সেলসিয়াস, ফারেনহাইট, র্যাঙ্কাইন, ডেলিসল, নিউটন, রিয়ামুর, এবং রোমারের জন্য ডিগ্রি তাপমাত্রা কনভারশন।
+
+  chmod-calculator:
+    title: Chmod ক্যালপুলেটর
+    description: এই অনলাইন chmod ক্যালকুলেটর দিয়ে আপনার chmod পারমিশন এবং কমান্ড গণনা করুন।
+
+  rsa-key-pair-generator:
+    title: RSA কি পেয়ার জেনারেটর
+    description: একটি নতুন র্যান্ডম RSA প্রাইভেট এবং পাবলিক pem সার্টিফিকেট কি পেয়ার জেনারেট করুন।
+
+  html-wysiwyg-editor:
+    title: HTML WYSIWYG এডিটর
+    description: অনলাইন, ফিচার-রিচ WYSIWYG HTML এডিটর যা কন্টেন্টের সোর্স কোড অবিলম্বে জেনারেট করে।
+
+  yaml-to-toml:
+    title: YAML থেকে TOML
+    description: YAML পার্স করুন এবং TOML এ কনভার্ট করুন।
+
+  mac-address-generator:
+    title: MAC অ্যাড্রেস জেনারেটর
+    description: পরিমাণ এবং প্রিফিক্স লিখুন। MAC অ্যাড্রেসগুলি আপনার নির্বাচিত কেসে (বড় হাতের বা ছোট হাতের) জেনারেট করা হবে
+
+  json-diff:
+    title: JSON ডিফ
+    description: দুটি JSON অবজেক্ট তুলনা করুন এবং তাদের মধ্যে পার্থক্য পান।
+
+  jwt-parser:
+    title: JWT পার্সার
+    description: আপনার JSON Web Token (jwt) পার্স এবং ডিকোড করুন এবং এর কন্টেন্ট প্রদর্শন করুন।
+
+  date-converter:
+    title: তারিখ-সময় কনভার্টার
+    description: তারিখ এবং সময়কে বিভিন্ন বিভিন্ন ফরম্যাটে কনভার্ট করুন
+
+  phone-parser-and-formatter:
+    title: ফোন পার্সার এবং ফরম্যাটার
+    description: ফোন নম্বর পার্স, যাচাই এবং ফরম্যাট করুন। ফোন নম্বর সম্পর্কে তথ্য পান, যেমন কান্ট্রি কোড, টাইপ, ইত্যাদি।
+
+  ipv4-subnet-calculator:
+    title: IPv4 সাবনেট ক্যালপুলেটর
+    description: আপনার IPv4 CIDR ব্লক পার্স করুন এবং আপনার সাবনেট সম্পর্কে সব তথ্য পান।
+
+  og-meta-generator:
+    title: ওপেন গ্রাফ মেটা জেনারেটর
+    description: আপনার ওয়েবসাইটের জন্য ওপেন-গ্রাফ এবং সোশ্যাল HTML মেটা ট্যাগ জেনারেট করুন।
+
+  ipv6-ula-generator:
+    title: IPv6 ULA জেনারেটর
+    description: RFC4193 অনুযায়ী আপনার নেটওয়ার্কের জন্য আপনার নিজস্ব লোকাল, নন-রাউটেবল IP অ্যাড্রেস জেনারেট করুন।
+
+  hash-text:
+    title: হ্যাশ টেক্সট
+    description: 'আপনার প্রয়োজনীয় ফাংশন ব্যবহার করে একটি টেক্সট স্ট্রিং হ্যাশ করুন : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 বা RIPEMD160'
+
+  json-to-toml:
+    title: JSON থেকে TOML
+    description: JSON পার্স করুন এবং TOML এ কনভার্ট করুন।
+
+  device-information:
+    title: ডিভাইস তথ্য
+    description: আপনার বর্তমান ডিভাইস সম্পর্কে তথ্য পান (স্ক্রিন সাইজ, পিক্সেল-রেশিও, ইউজার এজেন্ট, ...)
+
+  pdf-signature-checker:
+    title: PDF সিগনেচার চেকার
+    description: একটি PDF ফাইলের সিগনেচার যাচাই করুন। একটি সাইনড PDF ফাইলে এক বা একাধিক সিগনেচার থাকে যা ফাইলটি সাইন করার পরে ফাইলের কন্টেন্ট পরিবর্তন করা হয়েছে কিনা তা নির্ধারণ করতে ব্যবহার করা যেতে পারে।
+
+  json-minify:
+    title: JSON মিনিফাই
+    description: অপ্রয়োজনীয় হোয়াইটস্পেস সরিয়ে আপনার JSON মিনিফাই এবং কমপ্রেস করুন।
+
+  ulid-generator:
+    title: ULID জেনারেটর
+    description: র্যান্ডম Universally Unique Lexicographically Sortable Identifier (ULID) জেনারেট করুন।
+
+  string-obfuscator:
+    title: স্ট্রিং অবফাসকেটর
+    description: একটি স্ট্রিং (যেমন একটি সিক্রেট, একটি IBAN, বা একটি টোকেন) অবফাসকেট করুন যাতে এটি শেয়ারযোগ্য এবং শনাক্তযোগ্য হয় তবে এর কন্টেন্ট প্রকাশ না করে।
+
+  base-converter:
+    title: ইন্টিজার বেস কনভার্টার
+    description: বিভিন্ন বেসের মধ্যে একটি সংখ্যা কনভার্ট করুন (ডেসিমাল, হেক্সাডেসিমাল, বাইনারি, অক্টাল, base64, ...)
+
+  yaml-to-json-converter:
+    title: YAML থেকে JSON কনভার্টার
+    description: এই অনলাইন লাইভ কনভার্টার দিয়ে সহজেই YAML কে JSON এ কনভার্ট করুন।
+
+  uuid-generator:
+    title: UUID জেনারেটর
+    description: একটি Universally Unique Identifier (UUID) হল একটি 128-বিট সংখ্যা যা কম্পিউটার সিস্টেমে তথ্য শনাক্ত করতে ব্যবহৃত হয়। সম্ভাব্য UUID এর সংখ্যা হল 16^32, যা 2^128 বা প্রায় 3.4x10^38 (যা অনেক!)।
+
+  ipv4-address-converter:
+    title: IPv4 অ্যাড্রেস কনভার্টার
+    description: একটি IP অ্যাড্রেসকে ডেসিমাল, বাইনারি, হেক্সাডেসিমাল, বা এমনকি এর একটি IPv6 উপস্থাপনায় কনভার্ট করুন।
+
+  text-statistics:
+    title: টেক্সট পরিসংখ্যান
+    description: একটি টেক্সট সম্পর্কে তথ্য পান, অক্ষরের সংখ্যা, শব্দের সংখ্যা, বাইটে আকার, ...
+
+  text-to-nato-alphabet:
+    title: টেক্সট থেকে NATO বর্ণমালা
+    description: মৌখিক ট্রান্সমিশনের জন্য টেক্সটকে NATO ফোনেটিক বর্ণমালায় রূপান্তর করুন।
+
+  basic-auth-generator:
+    title: বেসিক অথ জেনারেটর
+    description: একটি ইউজারনেম এবং পাসওয়ার্ড থেকে একটি base64 বেসিক অথ হেডার জেনারেট করুন।
+
+  text-to-unicode:
+    title: টেক্সট থেকে ইউনিকোড
+    description: টেক্সট পার্স এবং ইউনিকোডে কনভার্ট করুন এবং উল্টোদিকে
+
+  ipv4-range-expander:
+    title: IPv4 রেঞ্জ এক্সপ্যান্ডার
+    description: একটি শুরু এবং শেষ IPv4 অ্যাড্রেস দেওয়া হলে, এই টুলটি একটি বৈধ IPv4 সাবনেট এবং তার CIDR নোটেশন সহ গণনা করে।
+
+  text-diff:
+    title: টেক্সট ডিফ
+    description: দুটি টেক্সট তুলনা করুন এবং তাদের মধ্যে পার্থক্য দেখুন।
+
+  otp-generator:
+    title: OTP কোড জেনারেটর
+    description: মাল্টি-ফ্যাক্টর অথেন্টিকেশনের জন্য টাইম-ভিত্তিক OTP (ওয়ান টাইম পাসওয়ার্ড) জেনারেট এবং যাচাই করুন।
+
+  url-encoder:
+    title: এনকোড/ডিকোড URL-ফরম্যাটেড স্ট্রিং
+    description: টেক্সটকে URL-এনকোডেড ফরম্যাটে (যা "পারসেন্ট-এনকোডেড" নামেও পরিচিত) এনকোড করুন, অথবা তা থেকে ডিকোড করুন।
+
+  text-to-binary:
+    title: টেক্সট থেকে ASCII বাইনারি
+    description: টেক্সটকে তার ASCII বাইনারি উপস্থাপনায় কনভার্ট করুন এবং উল্টোদিকে।

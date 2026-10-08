@@ -85,7 +85,13 @@ const countriesOptions = getCountries().map(code => ({
 
 <template>
   <div>
-    <c-select v-model:value="defaultCountryCode" label="Default country code:" :options="countriesOptions" searchable mb-5 />
+    <c-select
+      v-model:value="defaultCountryCode"
+      label="Default country code:"
+      :options="countriesOptions"
+      searchable
+      mb-5
+    />
 
     <c-input-text
       v-model:value="rawPhone"
@@ -103,9 +109,7 @@ const countriesOptions = getCountries().map(code => ({
           </td>
           <td>
             <span-copyable v-if="value" :value="value" />
-            <span v-else op-70>
-              Unknown
-            </span>
+            <span v-else op-70> Unknown </span>
           </td>
         </tr>
       </tbody>

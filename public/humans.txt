@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
-Twitter: @cthmsst
+Developer: KhulnaSoft
+Site: https://github.com/khulnasoft
+Twitter: @khulnasoft

@@ -32,7 +32,9 @@ function base32toHex(base32: string) {
     .map(value => base32Chars.indexOf(value).toString(2).padStart(5, '0'))
     .join('');
 
-  const hex = (bits.match(/.{1,8}/g) ?? []).map(chunk => Number.parseInt(chunk, 2).toString(16).padStart(2, '0')).join('');
+  const hex = (bits.match(/.{1,8}/g) ?? [])
+    .map(chunk => Number.parseInt(chunk, 2).toString(16).padStart(2, '0'))
+    .join('');
 
   return hex;
 }
@@ -107,7 +109,7 @@ function verifyTOTP({
 
 function buildKeyUri({
   secret,
-  app = 'IT-Tools',
+  app = 'devtools',
   account = 'demo-user',
   algorithm = 'SHA1',
   digits = 6,

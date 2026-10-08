@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Tools - Preferences</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #18a058;
+    }
+    
+    .section {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border: 1px solid #e2e8f0;
+    }
+    
+    .section h2 {
+      font-size: 16px;
+      margin-bottom: 16px;
+      color: #334155;
+    }
+    
+    .option {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    
+    .option:last-child {
+      border-bottom: none;
+    }
+    
+    .option-label {
+      font-size: 14px;
+      color: #475569;
+    }
+    
+    .option-description {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 4px;
+    }
+    
+    .toggle {
+      position: relative;
+      width: 44px;
+      height: 24px;
+    }
+    
+    .toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #cbd5e1;
+      transition: 0.3s;
+      border-radius: 24px;
+    }
+    
+    .toggle-slider:before {
+      position: absolute;
+      content: '';
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: 0.3s;
+      border-radius: 50%;
+    }
+    
+    .toggle input:checked + .toggle-slider {
+      background-color: #18a058;
+    }
+    
+    .toggle input:checked + .toggle-slider:before {
+      transform: translateX(20px);
+    }
+    
+    select {
+      padding: 8px 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      font-size: 14px;
+      background: white;
+      cursor: pointer;
+    }
+    
+    .save-btn {
+      background: #18a058;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 16px;
+      transition: background 0.2s;
+    }
+    
+    .save-btn:hover {
+      background: #16b875;
+    }
+    
+    .saved-message {
+      color: #18a058;
+      font-size: 14px;
+      margin-left: 12px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .saved-message.show {
+      opacity: 1;
+    }
+    
+    .shortcut-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    
+    .shortcut-item:last-child {
+      border-bottom: none;
+    }
+    
+    .shortcut-label {
+      font-size: 14px;
+      color: #475569;
+    }
+    
+    .shortcut-input {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .shortcut-key {
+      min-width: 120px;
+      padding: 8px 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      font-size: 13px;
+      font-family: monospace;
+      background: #f8fafc;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .shortcut-key:hover {
+      border-color: #18a058;
+      background: #f0fdf4;
+    }
+    
+    .shortcut-key.recording {
+      border-color: #18a058;
+      background: #f0fdf4;
+      animation: pulse 1s infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    
+    .shortcut-btn {
+      padding: 6px 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.2s;
+    }
+    
+    .shortcut-btn:hover {
+      border-color: #18a058;
+      color: #18a058;
+    }
+    
+    .shortcut-btn.clear {
+      color: #ef4444;
+    }
+    
+    .shortcut-btn.clear:hover {
+      border-color: #ef4444;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚙️ Dev Tools Preferences</h1>
+  
+  <div class="section">
+    <h2>General Settings</h2>
+    
+    <div class="option">
+      <div>
+        <div class="option-label">Always Activate</div>
+        <div class="option-description">Show toolbar button on all pages</div>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="alwaysActivate">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+    
+    <div class="option">
+      <div>
+        <div class="option-label">Start Hidden</div>
+        <div class="option-description">Hide toolbar button by default</div>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="startHidden">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+  </div>
+  
+  <div class="section">
+    <h2>Appearance</h2>
+    
+    <div class="option">
+      <div>
+        <div class="option-label">Theme</div>
+        <div class="option-description">Choose your preferred color theme</div>
+      </div>
+      <select id="theme">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="section">
+    <h2>Keyboard Shortcuts</h2>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Open Toolbar Menu</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-menu" data-action="menu">Ctrl</span>
+        <button class="shortcut-btn" onclick="recordShortcut('menu')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('menu')">Clear</button>
+      </div>
+    </div>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Search Tools</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-search" data-action="search">/</span>
+        <button class="shortcut-btn" onclick="recordShortcut('search')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('search')">Clear</button>
+      </div>
+    </div>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Inspect Element</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-inspect" data-action="inspect">Not set</span>
+        <button class="shortcut-btn" onclick="recordShortcut('inspect')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('inspect')">Clear</button>
+      </div>
+    </div>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Take Screenshot</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-screenshot" data-action="screenshot">Not set</span>
+        <button class="shortcut-btn" onclick="recordShortcut('screenshot')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('screenshot')">Clear</button>
+      </div>
+    </div>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Hide Toolbar</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-hide" data-action="hide">Escape</span>
+        <button class="shortcut-btn" onclick="recordShortcut('hide')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('hide')">Clear</button>
+      </div>
+    </div>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Open JSON Viewer</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-json" data-action="json">Not set</span>
+        <button class="shortcut-btn" onclick="recordShortcut('json')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('json')">Clear</button>
+      </div>
+    </div>
+    
+    <div class="shortcut-item">
+      <div class="shortcut-label">Open Base64 Converter</div>
+      <div class="shortcut-input">
+        <span class="shortcut-key" id="shortcut-base64" data-action="base64">Not set</span>
+        <button class="shortcut-btn" onclick="recordShortcut('base64')">Record</button>
+        <button class="shortcut-btn clear" onclick="clearShortcut('base64')">Clear</button>
+      </div>
+    </div>
+  </div>
+  
+  <button class="save-btn" id="saveBtn">Save Preferences</button>
+  <span class="saved-message" id="savedMessage">Saved!</span>
+  
+  <script src="options.js"></script>
+</body>
+</html>

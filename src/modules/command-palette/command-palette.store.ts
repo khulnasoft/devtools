@@ -50,13 +50,13 @@ export const useCommandPaletteStore = defineStore('command-palette', () => {
       name: 'Github repository',
       href: 'https://github.com/khulnasoft/devtools',
       category: 'External',
-      description: 'View the source code of it-tools on Github.',
+      description: 'View the source code of devtools on Github.',
       keywords: ['github', 'repo', 'repository', 'source', 'code'],
       icon: GithubIcon,
     },
     {
       name: 'Report a bug or an issue',
-      description: 'Report a bug or an issue to help improve it-tools.',
+      description: 'Report a bug or an issue to help improve devtools.',
       href: 'https://github.com/khulnasoft/devtools/issues/new/choose',
       category: 'Actions',
       keywords: ['report', 'issue', 'bug', 'problem', 'error'],
@@ -64,7 +64,7 @@ export const useCommandPaletteStore = defineStore('command-palette', () => {
     },
     {
       name: 'About',
-      description: 'Learn more about IT-Tools.',
+      description: 'Learn more about devtools.',
       to: '/about',
       category: 'Pages',
       keywords: ['about', 'learn', 'more', 'info', 'information'],
@@ -82,7 +82,11 @@ export const useCommandPaletteStore = defineStore('command-palette', () => {
   });
 
   const filteredSearchResult = computed(() =>
-    _.chain(searchResult.value).groupBy('category').mapValues(categoryOptions => _.take(categoryOptions, 5)).value());
+    _.chain(searchResult.value)
+      .groupBy('category')
+      .mapValues(categoryOptions => _.take(categoryOptions, 5))
+      .value(),
+  );
 
   return {
     filteredSearchResult,

@@ -1,9 +1,18 @@
 <script lang="ts" setup>
 import { toRefs } from 'vue';
 import type { CLabelProps } from './c-label.types';
+import { useTheme } from './c-label.theme';
 
-const props = withDefaults(defineProps<CLabelProps>(), { label: undefined, labelAlign: 'left', labelFor: undefined, labelPosition: 'top', labelWidth: 'auto' });
+const props = withDefaults(defineProps<CLabelProps>(), {
+  label: undefined,
+  labelAlign: 'left',
+  labelFor: undefined,
+  labelPosition: 'top',
+  labelWidth: 'auto',
+});
 const { label, labelAlign, labelFor, labelPosition, labelWidth } = toRefs(props);
+
+const theme = useTheme();
 </script>
 
 <template>
@@ -16,9 +25,14 @@ const { label, labelAlign, labelFor, labelPosition, labelWidth } = toRefs(props)
     items-baseline
   >
     <label
-      v-if="label" :for="labelFor" :style="{ flex: `0 0 ${labelWidth}` }"
-      mb-5px
-      pr-12px
+      v-if="label"
+      :for="labelFor"
+      :style="{
+        flex: `0 0 ${labelWidth}`,
+        color: theme.value.textColor,
+        marginBottom: labelPosition === 'top' ? theme.value.labelSpacing : '0',
+        paddingRight: labelPosition === 'left' ? theme.value.labelPaddingRight : '0',
+      }"
       :class="{
         'text-left': labelAlign === 'left',
         'text-center': labelAlign === 'center',

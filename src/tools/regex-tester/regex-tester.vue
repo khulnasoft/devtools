@@ -68,26 +68,23 @@ const sample = computed(() => {
   }
 });
 
-watchEffect(
-  async () => {
-    const regexValue = regex.value;
-    // shadow root is required:
-    // @regexper/render append a <defs><style> that broke svg transparency of icons in the whole site
-    const visualizer = visualizerSVG.value?.shadow_root;
-    if (visualizer) {
-      while (visualizer.lastChild) {
-        visualizer.removeChild(visualizer.lastChild);
-      }
-      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-      try {
-        await render(regexValue, svg);
-      }
-      catch (_) {
-      }
-      visualizer.appendChild(svg);
+watchEffect(async () => {
+  const regexValue = regex.value;
+  // shadow root is required:
+  // @regexper/render append a <defs><style> that broke svg transparency of icons in the whole site
+  const visualizer = visualizerSVG.value?.shadow_root;
+  if (visualizer) {
+    while (visualizer.lastChild) {
+      visualizer.removeChild(visualizer.lastChild);
     }
-  },
-);
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    try {
+      await render(regexValue, svg);
+    }
+    catch (_) {}
+    visualizer.appendChild(svg);
+  }
+});
 </script>
 
 <template>
@@ -181,10 +178,10 @@ watchEffect(
     </c-card>
 
     <c-card title="Sample matching text" mt-3>
-      <pre style="white-space: pre-wrap; word-break: break-all;">{{ sample }}</pre>
+      <pre style="white-space: pre-wrap; word-break: break-all">{{ sample }}</pre>
     </c-card>
 
-    <c-card title="Regex Diagram" style="overflow-x: scroll;" mt-3>
+    <c-card title="Regex Diagram" style="overflow-x: scroll" mt-3>
       <shadow-root ref="visualizerSVG">
 &#xa0;
       </shadow-root>

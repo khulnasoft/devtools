@@ -3,7 +3,9 @@ import { type RouteLocationRaw, RouterLink } from 'vue-router';
 import { useTheme } from './c-link.theme';
 
 const props = defineProps<{
+  /** URL for external link (renders as anchor tag) */
   href?: string
+  /** Vue Router route for internal navigation (renders as router-link) */
   to?: RouteLocationRaw
 }>();
 

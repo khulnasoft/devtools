@@ -14,10 +14,13 @@ function sortObjectKeys<T>(obj: T): T {
 
   return Object.keys(obj)
     .sort((a, b) => a.localeCompare(b))
-    .reduce((sortedObj, key) => {
-      sortedObj[key] = sortObjectKeys((obj as Record<string, unknown>)[key]);
-      return sortedObj;
-    }, {} as Record<string, unknown>) as T;
+    .reduce(
+      (sortedObj, key) => {
+        sortedObj[key] = sortObjectKeys((obj as Record<string, unknown>)[key]);
+        return sortedObj;
+      },
+      {} as Record<string, unknown>,
+    ) as T;
 }
 
 function formatJson({

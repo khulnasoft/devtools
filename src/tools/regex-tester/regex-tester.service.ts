@@ -12,7 +12,7 @@ interface GroupCapture {
   value: string
   start: number
   end: number
-};
+}
 
 export function matchRegex(regex: string, text: string, flags: string) {
   // if (regex === '' || text === '') {

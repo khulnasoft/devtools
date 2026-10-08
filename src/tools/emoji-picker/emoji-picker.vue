@@ -6,8 +6,15 @@ import type { EmojiInfo } from './emoji.types';
 import { useFuzzySearch } from '@/composable/fuzzySearch';
 import useDebouncedRef from '@/composable/debouncedref';
 
-const escapeUnicode = ({ emoji }: { emoji: string }) => emoji.split('').map(unit => `\\u${unit.charCodeAt(0).toString(16).padStart(4, '0')}`).join('');
-const getEmojiCodePoints = ({ emoji }: { emoji: string }) => emoji.codePointAt(0) ? `0x${emoji.codePointAt(0)?.toString(16)}` : undefined;
+function escapeUnicode({ emoji }: { emoji: string }) {
+  return emoji
+    .split('')
+    .map(unit => `\\u${unit.charCodeAt(0).toString(16).padStart(4, '0')}`)
+    .join('');
+}
+function getEmojiCodePoints({ emoji }: { emoji: string }) {
+  return emoji.codePointAt(0) ? `0x${emoji.codePointAt(0)?.toString(16)}` : undefined;
+}
 
 const emojis = _.map(emojiUnicodeData, (emojiInfo, emoji) => ({
   ...emojiInfo,
@@ -18,8 +25,7 @@ const emojis = _.map(emojiUnicodeData, (emojiInfo, emoji) => ({
   unicode: escapeUnicode({ emoji }),
 }));
 
-const emojisGroups: { emojiInfos: EmojiInfo[]; group: string }[] = _
-  .chain(emojis)
+const emojisGroups: { emojiInfos: EmojiInfo[]; group: string }[] = _.chain(emojis)
   .groupBy('group')
   .map((emojiInfos, group) => ({ group, emojiInfos }))
   .value();
@@ -41,11 +47,7 @@ const { searchResult } = useFuzzySearch({
 <template>
   <div mx-auto max-w-2400px important:flex-1>
     <div flex items-center gap-3>
-      <c-input-text
-        v-model:value="searchQuery"
-        placeholder="Search emojis (e.g. 'smile')..."
-        mx-auto max-w-600px
-      >
+      <c-input-text v-model:value="searchQuery" placeholder="Search emojis (e.g. 'smile')..." mx-auto max-w-600px>
         <template #prefix>
           <icon-mdi-search mr-6px color-black op-70 dark:color-white />
         </template>
@@ -53,12 +55,7 @@ const { searchResult } = useFuzzySearch({
     </div>
 
     <div v-if="searchQuery.trim().length > 0">
-      <div
-        v-if="searchResult.length === 0"
-        mt-4
-        text-20px
-        font-bold
-      >
+      <div v-if="searchResult.length === 0" mt-4 text-20px font-bold>
         No results
       </div>
 
@@ -71,11 +68,7 @@ const { searchResult } = useFuzzySearch({
       </div>
     </div>
 
-    <div
-      v-for="{ group, emojiInfos } in emojisGroups"
-      v-else
-      :key="group"
-    >
+    <div v-for="{ group, emojiInfos } in emojisGroups" v-else :key="group">
       <div mt-4 text-20px font-bold>
         {{ group }}
       </div>

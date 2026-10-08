@@ -8,6 +8,7 @@ export const useStyleStore = defineStore('style', {
     const toggleDark = useToggle(isDarkTheme);
     const isSmallScreen = useMediaQuery('(max-width: 700px)');
     const isMenuCollapsed = useStorage('isMenuCollapsed', isSmallScreen.value) as Ref<boolean>;
+    const sidebarWidth = useStorage('sidebarWidth', 240) as Ref<number>;
 
     watch(isSmallScreen, v => (isMenuCollapsed.value = v));
 
@@ -16,6 +17,7 @@ export const useStyleStore = defineStore('style', {
       toggleDark,
       isMenuCollapsed,
       isSmallScreen,
+      sidebarWidth,
     };
   },
 });

@@ -2,19 +2,23 @@
 import { useBase64 } from '@vueuse/core';
 import type { Ref } from 'vue';
 import { useCopy } from '@/composable/copy';
-import { getExtensionFromMimeType, getMimeTypeFromBase64, previewImageFromBase64, useDownloadFileFromBase64Refs } from '@/composable/downloadBase64';
+import {
+  getExtensionFromMimeType,
+  getMimeTypeFromBase64,
+  previewImageFromBase64,
+  useDownloadFileFromBase64Refs,
+} from '@/composable/downloadBase64';
 import { useValidation } from '@/composable/validation';
 import { isValidBase64 } from '@/utils/base64';
 
 const fileName = ref('file');
 const fileExtension = ref('');
 const base64Input = ref('');
-const { download } = useDownloadFileFromBase64Refs(
-  {
-    source: base64Input,
-    filename: fileName,
-    extension: fileExtension,
-  });
+const { download } = useDownloadFileFromBase64Refs({
+  source: base64Input,
+  filename: fileName,
+  extension: fileExtension,
+});
 const base64InputValidation = useValidation({
   source: base64Input,
   rules: [
@@ -25,15 +29,12 @@ const base64InputValidation = useValidation({
   ],
 });
 
-watch(
-  base64Input,
-  (newValue, _) => {
-    const { mimeType } = getMimeTypeFromBase64({ base64String: newValue });
-    if (mimeType) {
-      fileExtension.value = getExtensionFromMimeType(mimeType) || fileExtension.value;
-    }
-  },
-);
+watch(base64Input, (newValue, _) => {
+  const { mimeType } = getMimeTypeFromBase64({ base64String: newValue });
+  if (mimeType) {
+    fileExtension.value = getExtensionFromMimeType(mimeType) || fileExtension.value;
+  }
+});
 
 function previewImage() {
   if (!base64InputValidation.isValid) {
@@ -82,20 +83,10 @@ async function onUpload(file: File) {
   <c-card title="Base64 to file">
     <n-grid cols="3" x-gap="12">
       <n-gi span="2">
-        <c-input-text
-          v-model:value="fileName"
-          label="File Name"
-          placeholder="Download filename"
-          mb-2
-        />
+        <c-input-text v-model:value="fileName" label="File Name" placeholder="Download filename" mb-2 />
       </n-gi>
       <n-gi>
-        <c-input-text
-          v-model:value="fileExtension"
-          label="Extension"
-          placeholder="Extension"
-          mb-2
-        />
+        <c-input-text v-model:value="fileExtension" label="Extension" placeholder="Extension" mb-2 />
       </n-gi>
     </n-grid>
     <c-input-text

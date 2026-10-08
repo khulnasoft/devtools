@@ -2,13 +2,19 @@
 import _ from 'lodash';
 import type { CLabelProps } from '../c-label/c-label.types';
 import type { CButtonSelectOption } from './c-buttons-select.types';
+import { useTheme } from './c-buttons-select.theme';
 
 const props = withDefaults(
-  defineProps<{
-    options?: CButtonSelectOption<T>[] | string[] | Record<string, T>
-    value?: T
-    size?: 'small' | 'medium' | 'large'
-  } & CLabelProps >(),
+  defineProps<
+    {
+      /** Select options - can be array of objects, strings, or record */
+      options?: CButtonSelectOption<T>[] | string[] | Record<string, T>
+      /** Selected value */
+      value?: T
+      /** Button size */
+      size?: 'small' | 'medium' | 'large'
+    } & CLabelProps
+  >(),
   {
     options: () => [],
     value: undefined,
@@ -20,6 +26,8 @@ const props = withDefaults(
 const emits = defineEmits(['update:value']);
 
 const { options: rawOptions, size } = toRefs(props);
+
+const theme = useTheme();
 
 const options = computed<CButtonSelectOption<T>[]>(() => {
   if (_.isArray(rawOptions.value)) {
@@ -45,11 +53,8 @@ function selectOption(option: CButtonSelectOption<T>) {
 
 <template>
   <c-label v-bind="props">
-    <div class="flex gap-2">
-      <c-tooltip
-        v-for="option in options" :key="option.value"
-        :tooltip="option.tooltip"
-      >
+    <div class="flex" :style="{ gap: theme.value.buttonGap }">
+      <c-tooltip v-for="option in options" :key="option.value" :tooltip="option.tooltip">
         <c-button
           :test-id="option.value"
           :size="size"

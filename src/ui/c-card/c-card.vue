@@ -2,6 +2,7 @@
 import { useTheme } from './c-card.theme';
 
 const props = defineProps<{
+  /** Optional title for the card */
   title?: string
 }>();
 

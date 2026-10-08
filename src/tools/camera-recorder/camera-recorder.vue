@@ -3,7 +3,11 @@ import _ from 'lodash';
 
 import { useMediaRecorder } from './useMediaRecorder';
 
-interface Media { type: 'image' | 'video'; value: string; createdAt: Date }
+interface Media {
+  type: 'image' | 'video'
+  value: string
+  createdAt: Date
+}
 
 const {
   videoInputs: cameras,

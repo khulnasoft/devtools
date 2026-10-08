@@ -1,14 +1,23 @@
 <script setup lang="ts">
 import { marked } from 'marked';
 import DomPurify from 'dompurify';
+import { useTheme } from './c-markdown.theme';
 
-const props = withDefaults(defineProps<{ markdown?: string }>(), { markdown: '' });
+const props = withDefaults(
+  defineProps<{
+    /** Markdown content to render */
+    markdown?: string
+  }>(),
+  { markdown: '' },
+);
 const { markdown } = toRefs(props);
+
+const theme = useTheme();
 
 marked.use({
   renderer: {
     link(href, title, text) {
-      return `<a class="text-primary transition decoration-none hover:underline" href="${href}" target="_blank" rel="noopener">${text}</a>`;
+      return `<a style="color: ${theme.value.linkColor}" class="transition decoration-none hover:underline" href="${href}" target="_blank" rel="noopener">${text}</a>`;
     },
   },
 });

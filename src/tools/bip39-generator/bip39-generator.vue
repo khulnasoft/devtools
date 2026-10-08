@@ -13,7 +13,7 @@ import {
   mnemonicToEntropy,
   portugueseWordList,
   spanishWordList,
-} from '@it-tools/bip39';
+} from 'entropy-mnemonic';
 import { Copy, Refresh } from '@vicons/tabler';
 
 import { useCopy } from '@/composable/copy';
@@ -84,12 +84,7 @@ const { copy: copyPassphrase } = useCopy({ source: passphrase, text: 'Passphrase
   <div>
     <n-grid cols="3" x-gap="12">
       <n-gi span="1">
-        <c-select
-          v-model:value="language"
-          searchable
-          label="Language:"
-          :options="Object.keys(languages)"
-        />
+        <c-select v-model:value="language" searchable label="Language:" :options="Object.keys(languages)" />
       </n-gi>
       <n-gi span="2">
         <n-form-item

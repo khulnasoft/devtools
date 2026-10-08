@@ -41,10 +41,14 @@ const [macAddresses, refreshMacAddresses] = computedRefreshable(() => {
     return '';
   }
 
-  const ids = _.times(amount.value, () => caseTransformer.value(generateRandomMacAddress({
-    prefix: macAddressPrefix.value,
-    separator: separator.value,
-  })));
+  const ids = _.times(amount.value, () =>
+    caseTransformer.value(
+      generateRandomMacAddress({
+        prefix: macAddressPrefix.value,
+        separator: separator.value,
+      }),
+    ),
+  );
   return ids.join('\n');
 });
 

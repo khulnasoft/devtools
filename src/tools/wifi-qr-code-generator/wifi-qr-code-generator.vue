@@ -1,9 +1,5 @@
 <script setup lang="ts">
-import {
-  EAPMethods,
-  EAPPhase2Methods,
-  useWifiQRCode,
-} from './useQRCode';
+import { EAPMethods, EAPPhase2Methods, useWifiQRCode } from './useQRCode';
 import { useDownloadFileFromBase64 } from '@/composable/downloadBase64';
 
 const foreground = ref('#000000ff');
@@ -103,7 +99,8 @@ const { download } = useDownloadFileFromBase64({ source: qrcode, filename: 'qr-c
           label-width="130px"
           label-align="right"
           :options="EAPMethods.map((method) => ({ label: method, value: method }))"
-          searchable mb-4
+          searchable
+          mb-4
         />
         <div v-if="encryption === 'WPA2-EAP'" class="mb-6 flex flex-row items-center gap-2">
           <c-input-text
@@ -129,7 +126,8 @@ const { download } = useDownloadFileFromBase64({ source: qrcode, filename: 'qr-c
           label-width="130px"
           label-align="right"
           :options="EAPPhase2Methods.map((method) => ({ label: method, value: method }))"
-          searchable mb-4
+          searchable
+          mb-4
         />
         <n-form label-width="130" label-placement="left">
           <n-form-item label="Foreground color:">

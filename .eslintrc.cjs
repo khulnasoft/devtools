@@ -3,7 +3,7 @@
  */
 module.exports = {
   root: true,
-  extends: ['@antfu', './.eslintrc-auto-import.json', '@unocss'],
+  extends: ['@antfu', './.eslintrc-auto-import.json', '@unocss', 'plugin:storybook/recommended'],
 
   rules: {
     'curly': ['error', 'all'],
@@ -17,5 +17,7 @@ module.exports = {
         message: 'Please use local useCopy from src/composable/copy.ts instead of useClipboard.',
       }],
     }],
+    // TODO: Add custom rule to enforce design token usage over hardcoded colors
+    // TODO: Add rule to require Storybook stories for all c-* components
   },
 };

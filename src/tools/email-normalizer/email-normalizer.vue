@@ -17,7 +17,11 @@ const normalizedEmails = computed(() => {
     .join('\n');
 });
 
-const { copy } = useCopy({ source: normalizedEmails, text: 'Normalized emails copied to the clipboard', createToast: true });
+const { copy } = useCopy({
+  source: normalizedEmails,
+  text: 'Normalized emails copied to the clipboard',
+  createToast: true,
+});
 </script>
 
 <template>

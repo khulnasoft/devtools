@@ -26,14 +26,7 @@ const { copy: copyUnescaped } = useCopy({ source: unescapeOutput });
     </n-form-item>
 
     <n-form-item label="Your string escaped :">
-      <c-input-text
-        multiline
-        readonly
-        placeholder="Your string escaped"
-        :value="escapeOutput"
-        rows="3"
-        autosize
-      />
+      <c-input-text multiline readonly placeholder="Your string escaped" :value="escapeOutput" rows="3" autosize />
     </n-form-item>
 
     <div flex justify-center>
@@ -55,14 +48,7 @@ const { copy: copyUnescaped } = useCopy({ source: unescapeOutput });
     </n-form-item>
 
     <n-form-item label="Your string unescaped :">
-      <c-input-text
-        :value="unescapeOutput"
-        multiline
-        readonly
-        placeholder="Your string unescaped"
-        rows="3"
-        autosize
-      />
+      <c-input-text :value="unescapeOutput" multiline readonly placeholder="Your string unescaped" rows="3" autosize />
     </n-form-item>
 
     <div flex justify-center>

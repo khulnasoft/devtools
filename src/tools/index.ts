@@ -2,6 +2,7 @@ import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
 import { tool as emailNormalizer } from './email-normalizer';
+import { tool as dnsQuery } from './dns-query';
 
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 
@@ -66,6 +67,7 @@ import { tool as htmlEntities } from './html-entities';
 import { tool as baseConverter } from './integer-base-converter';
 import { tool as jsonViewer } from './json-viewer';
 import { tool as jwtParser } from './jwt-parser';
+import { tool as jwtGenerator } from './jwt-generator';
 import { tool as loremIpsumGenerator } from './lorem-ipsum-generator';
 import { tool as mathEvaluator } from './math-evaluator';
 import { tool as metaTagGenerator } from './meta-tag-generator';
@@ -87,11 +89,30 @@ import { tool as uuidGenerator } from './uuid-generator';
 import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
+import { tool as tokenCounter } from './token-counter';
+import { tool as promptOptimizer } from './prompt-optimizer';
+import { tool as jsonSchemaGenerator } from './json-schema-generator';
+import { tool as regexGenerator } from './regex-generator';
+import { tool as sqlQueryGenerator } from './sql-query-generator';
+import { tool as aiChat } from './ai-chat';
 
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Crypto',
-    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
+    components: [
+      tokenGenerator,
+      hashText,
+      bcrypt,
+      uuidGenerator,
+      ulidGenerator,
+      cypher,
+      bip39,
+      hmacGenerator,
+      jwtGenerator,
+      rsaKeyPairGenerator,
+      passwordStrengthAnalyser,
+      pdfSignatureChecker,
+    ],
   },
   {
     name: 'Converter',
@@ -157,6 +178,7 @@ export const toolsByCategory: ToolCategory[] = [
       dockerRunToDockerComposeConverter,
       xmlFormatter,
       yamlViewer,
+      dnsQuery,
       emailNormalizer,
       regexTester,
       regexMemo,
@@ -164,7 +186,14 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
+    components: [
+      ipv4SubnetCalculator,
+      ipv4AddressConverter,
+      ipv4RangeExpander,
+      macAddressLookup,
+      macAddressGenerator,
+      ipv6UlaGenerator,
+    ],
   },
   {
     name: 'Math',
@@ -189,6 +218,10 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Data',
     components: [phoneParserAndFormatter, ibanValidatorAndParser],
+  },
+  {
+    name: 'AI',
+    components: [tokenCounter, promptOptimizer, jsonSchemaGenerator, regexGenerator, sqlQueryGenerator, aiChat],
   },
 ];
 

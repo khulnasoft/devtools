@@ -5,8 +5,7 @@ import { byOrder } from '@/utils/array';
 export { convert };
 
 function whenever<T, R>(condition: boolean, fn: (value: T) => R) {
-  return (value: T) =>
-    condition ? fn(value) : value;
+  return (value: T) => (condition ? fn(value) : value);
 }
 
 function convert(list: string, options: ConvertOptions): string {

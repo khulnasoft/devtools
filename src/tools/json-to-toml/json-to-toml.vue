@@ -6,7 +6,9 @@ import type { UseValidationRule } from '@/composable/validation';
 
 const convertJsonToToml = (value: string) => [stringifyToml(JSON5.parse(value))].flat().join('\n').trim();
 
-const transformer = (value: string) => value.trim() === '' ? '' : withDefaultOnError(() => convertJsonToToml(value), '');
+function transformer(value: string) {
+  return value.trim() === '' ? '' : withDefaultOnError(() => convertJsonToToml(value), '');
+}
 
 const rules: UseValidationRule<string>[] = [
   {

@@ -1,3 +1,4 @@
+import { borderRadius, shadows, spacing, transitions, typography } from '../tokens';
 import { defineThemes } from './theme.models';
 
 export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
@@ -36,6 +37,11 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: '#ab1f3f',
       colorFaded: '#d030502a',
     },
+    spacing,
+    typography,
+    shadows,
+    borderRadius,
+    transitions,
   },
   dark: {
     background: '#1e1e1e',
@@ -72,5 +78,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: '#e57272',
       colorFaded: '#e8808029',
     },
+    spacing,
+    typography,
+    shadows,
+    borderRadius,
+    transitions,
   },
 });

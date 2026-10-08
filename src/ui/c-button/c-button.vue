@@ -5,13 +5,21 @@ import { useTheme } from './c-button.theme';
 
 const props = withDefaults(
   defineProps<{
+    /** Button type variant for styling */
     type?: 'default' | 'primary' | 'warning' | 'error'
+    /** Button visual variant */
     variant?: 'basic' | 'text'
+    /** Whether the button is disabled */
     disabled?: boolean
+    /** Whether the button has rounded corners */
     round?: boolean
+    /** Whether the button is circular (icon button) */
     circle?: boolean
+    /** URL for link button (renders as anchor tag) */
     href?: string
+    /** Vue Router route for navigation (renders as router-link) */
     to?: RouteLocationRaw
+    /** Button size */
     size?: 'small' | 'medium' | 'large'
   }>(),
   {

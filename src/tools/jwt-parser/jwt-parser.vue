@@ -30,7 +30,17 @@ const validation = useValidation({
 
 <template>
   <c-card>
-    <c-input-text v-model:value="rawJwt" label="JWT to decode" :validation="validation" placeholder="Put your token here..." rows="5" multiline raw-text autofocus mb-3 />
+    <c-input-text
+      v-model:value="rawJwt"
+      label="JWT to decode"
+      :validation="validation"
+      placeholder="Put your token here..."
+      rows="5"
+      multiline
+      raw-text
+      autofocus
+      mb-3
+    />
 
     <n-table v-if="validation.isValid">
       <tbody>
@@ -39,19 +49,15 @@ const validation = useValidation({
             {{ section.title }}
           </th>
           <tr v-for="{ claim, claimDescription, friendlyValue, value } in decodedJWT[section.key]" :key="claim + value">
-            <td class="claims" style="vertical-align: top;">
+            <td class="claims" style="vertical-align: top">
               <span font-bold>
                 {{ claim }}
               </span>
-              <span v-if="claimDescription" ml-2 op-70>
-                ({{ claimDescription }})
-              </span>
+              <span v-if="claimDescription" ml-2 op-70> ({{ claimDescription }}) </span>
             </td>
-            <td style="word-wrap: break-word;word-break: break-all;">
+            <td style="word-wrap: break-word; word-break: break-all">
               <span>{{ value }}</span>
-              <span v-if="friendlyValue" ml-2 op-70>
-                ({{ friendlyValue }})
-              </span>
+              <span v-if="friendlyValue" ml-2 op-70> ({{ friendlyValue }}) </span>
             </td>
           </tr>
         </template>

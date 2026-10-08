@@ -1,10 +1,10 @@
 {
-  "name": "it-tools",
+  "name": "devtools",
   "type": "module",
   "version": "2024.10.22-7ca5933",
   "packageManager": "pnpm@9.11.0",
   "description": "Collection of handy online tools for developers, with great UX. ",
-  "author": "Corentin Th <corentin.thomasset74+it-tools@gmail.com> (https://khulnasoft.com)",
+  "author": "khulnasoft <info@khulnasoft.com> (https://devtools.khulnasoft.com)",
   "license": "GNU GPLv3",
   "repository": {
     "type": "git",
@@ -34,10 +34,13 @@
     "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
     "script:create:tool": "node scripts/create-tool.mjs",
     "script:create:ui": "hygen generator ui-component",
-    "release": "node ./scripts/release.mjs"
+    "release": "node ./scripts/release.mjs",
+    "build:extension": "node extension/build.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@it-tools/bip39": "^0.0.4",
+    "entropy-mnemonic": "^1.2.1",
     "@it-tools/oggen": "^1.3.0",
     "@regexper/render": "^1.0.0",
     "@sindresorhus/slugify": "^2.2.1",
@@ -105,12 +108,21 @@
     "xml-js": "^1.6.11",
     "yaml": "^2.2.1"
   },
+  "pnpm": {
+    "overrides": {
+      "@vueuse/shared": "10.3.0"
+    }
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.41.0",
     "@iconify-json/mdi": "^1.1.50",
     "@intlify/unplugin-vue-i18n": "^2.0.0",
-    "@playwright/test": "^1.32.3",
+    "@playwright/test": "^1.62.1",
     "@rushstack/eslint-patch": "^1.2.0",
+    "@storybook/addon-a11y": "^10.6.1",
+    "@storybook/addon-docs": "^10.6.1",
+    "@storybook/addon-themes": "^10.6.1",
+    "@storybook/vue3-vite": "^10.6.1",
     "@tsconfig/node18": "^18.2.0",
     "@types/bcryptjs": "^2.4.2",
     "@types/crypto-js": "^4.1.1",
@@ -133,20 +145,23 @@
     "@vue/tsconfig": "^0.4.0",
     "consola": "^3.0.2",
     "eslint": "^8.47.0",
+    "eslint-plugin-storybook": "^10.6.1",
     "hygen": "^6.2.11",
     "jsdom": "^22.0.0",
     "less": "^4.1.3",
     "prettier": "^3.0.0",
+    "storybook": "^10.6.1",
     "typescript": "~5.2.0",
     "unocss": "^0.65.1",
     "unocss-preset-scrollbar": "^0.2.1",
     "unplugin-icons": "^0.17.0",
     "unplugin-vue-components": "^0.25.0",
-    "vite": "^4.4.9",
+    "vite": "^5.0.0",
     "vite-plugin-pwa": "^0.16.0",
     "vite-plugin-vue-markdown": "^0.23.5",
     "vite-svg-loader": "^4.0.0",
-    "vitest": "^0.34.0",
+    "vitest": "^3.0.0",
+    "vue-component-meta": "^3.3.12",
     "workbox-window": "^7.0.0",
     "zx": "^7.2.1"
   }

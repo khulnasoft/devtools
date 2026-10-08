@@ -32,7 +32,7 @@ whenever(keys.meta_k, open);
 whenever(keys.escape, close);
 
 function open() {
-  return isModalOpen.value = true;
+  return (isModalOpen.value = true);
 }
 
 function close() {
@@ -58,11 +58,7 @@ function handleKeydown(event: KeyboardEvent) {
   }
 
   if (isEnterPressed) {
-    const option = _.chain(filteredSearchResult.value)
-      .values()
-      .flatten()
-      .nth(selectedOptionIndex.value)
-      .value();
+    const option = _.chain(filteredSearchResult.value).values().flatten().nth(selectedOptionIndex.value).value();
 
     activateOption(option);
   }
@@ -114,7 +110,6 @@ function activateOption(option: PaletteOption) {
   <div flex-1>
     <c-button w-full important:justify-start @click="isModalOpen = true">
       <span flex items-center gap-3 op-40>
-
         <icon-mdi-search />
         {{ $t('search.label') }}
 
@@ -124,14 +119,34 @@ function activateOption(option: PaletteOption) {
       </span>
     </c-button>
 
-    <c-modal v-model:open="isModalOpen" class="palette-modal" shadow-xl important:max-w-650px important:pa-12px @keydown="handleKeydown">
-      <c-input-text ref="inputRef" v-model:value="searchPrompt" raw-text placeholder="Type to search a tool or a command..." autofocus clearable />
+    <c-modal
+      v-model:open="isModalOpen"
+      class="palette-modal"
+      shadow-xl
+      important:max-w-650px
+      important:pa-12px
+      @keydown="handleKeydown"
+    >
+      <c-input-text
+        ref="inputRef"
+        v-model:value="searchPrompt"
+        raw-text
+        placeholder="Type to search a tool or a command..."
+        autofocus
+        clearable
+      />
 
       <div v-for="(options, category) in filteredSearchResult" :key="category">
-        <div ml-3 mt-3 text-sm font-bold text-primary op-60>
+        <div ml-3 mt-3 text-sm text-primary font-bold op-60>
           {{ category }}
         </div>
-        <command-palette-option v-for="option in options" :key="option.name" :option="option" :selected="selectedOptionIndex === getOptionIndex(option)" @activated="activateOption" />
+        <command-palette-option
+          v-for="option in options"
+          :key="option.name"
+          :option="option"
+          :selected="selectedOptionIndex === getOptionIndex(option)"
+          @activated="activateOption"
+        />
       </div>
     </c-modal>
   </div>
@@ -142,8 +157,8 @@ function activateOption(option: PaletteOption) {
   font-size: 18px;
 
   ::v-deep(.input-wrapper) {
-      padding: 4px;
-      padding-left: 18px;
+    padding: 4px;
+    padding-left: 18px;
   }
 }
 

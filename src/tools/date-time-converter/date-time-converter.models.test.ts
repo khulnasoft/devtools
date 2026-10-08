@@ -1,16 +1,19 @@
 import { describe, expect, test } from 'vitest';
 import {
   dateToExcelFormat,
+  dateToMicroseconds,
   excelFormatToDate,
   isExcelFormat,
   isISO8601DateTimeString,
   isISO9075DateString,
+  isMicrosecondTimestamp,
   isMongoObjectId,
   isRFC3339DateString,
   isRFC7231DateString,
   isTimestamp,
   isUTCDateString,
   isUnixTimestamp,
+  microsecondsToDate,
 } from './date-time-converter.models';
 
 describe('date-time-converter models', () => {
@@ -112,6 +115,39 @@ describe('date-time-converter models', () => {
     test('should return false for invalid Unix timestamps in milliseconds', () => {
       expect(isTimestamp('foo')).toBe(false);
       expect(isTimestamp('')).toBe(false);
+    });
+  });
+
+  describe('isMicrosecondTimestamp', () => {
+    test('should return true for valid Unix timestamps in microseconds', () => {
+      expect(isMicrosecondTimestamp('1649792026123456')).toBe(true);
+      expect(isMicrosecondTimestamp('1234567890123456')).toBe(true);
+      expect(isMicrosecondTimestamp('1649792026123000')).toBe(true);
+    });
+
+    test('should return false for values that are not microsecond timestamps', () => {
+      expect(isMicrosecondTimestamp('foo')).toBe(false);
+      expect(isMicrosecondTimestamp('')).toBe(false);
+      expect(isMicrosecondTimestamp('16497920261234.56')).toBe(false);
+      expect(isMicrosecondTimestamp('1649792026123456789')).toBe(false);
+    });
+  });
+
+  describe('dateToMicroseconds', () => {
+    test('a date is expressed as the number of microseconds since the Unix epoch', () => {
+      expect(dateToMicroseconds(new Date('1970-01-01T00:00:00.000Z'))).toBe('0');
+      expect(dateToMicroseconds(new Date('2022-04-12T19:33:46.123Z'))).toBe('1649792026123000');
+    });
+  });
+
+  describe('microsecondsToDate', () => {
+    test('a date is expressed as the number of microseconds since the Unix epoch', () => {
+      expect(microsecondsToDate('0')).toEqual(new Date('1970-01-01T00:00:00.000Z'));
+      expect(microsecondsToDate('1649792026123000')).toEqual(new Date('2022-04-12T19:33:46.123Z'));
+    });
+
+    test('sub-millisecond precision is truncated since a date only holds milliseconds', () => {
+      expect(microsecondsToDate('1649792026123456')).toEqual(new Date('2022-04-12T19:33:46.123Z'));
     });
   });
 

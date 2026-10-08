@@ -22,7 +22,8 @@ function printHtml() {
   <div>
     <c-input-text
       v-model:value="inputMarkdown"
-      multiline raw-text
+      multiline
+      raw-text
       placeholder="Your Markdown content..."
       rows="8"
       autofocus

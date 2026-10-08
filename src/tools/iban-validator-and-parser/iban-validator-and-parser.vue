@@ -17,7 +17,6 @@ const ibanInfo = computed<CKeyValueListItems>(() => {
   const errors = getFriendlyErrors(errorCodes);
 
   return [
-
     {
       label: 'Is IBAN valid ?',
       value: isIbanValid,
@@ -49,11 +48,7 @@ const ibanInfo = computed<CKeyValueListItems>(() => {
   ];
 });
 
-const ibanExamples = [
-  'FR7630006000011234567890189',
-  'DE89370400440532013000',
-  'GB29NWBK60161331926819',
-];
+const ibanExamples = ['FR7630006000011234567890189', 'DE89370400440532013000', 'GB29NWBK60161331926819'];
 </script>
 
 <template>

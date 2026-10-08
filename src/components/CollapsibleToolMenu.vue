@@ -12,6 +12,21 @@ const route = useRoute();
 const makeLabel = (tool: Tool) => () => h(RouterLink, { to: tool.path }, { default: () => tool.name });
 const makeIcon = (tool: Tool) => () => h(MenuIconItem, { tool });
 
+const categoryIcons: Record<string, any> = {
+  'Crypto': 'icon-mdi-lock',
+  'Converter': 'icon-mdi-swap-horizontal',
+  'Web': 'icon-mdi-web',
+  'Images and videos': 'icon-mdi-image',
+  'Development': 'icon-mdi-code-tags',
+  'Network': 'icon-mdi-lan',
+  'Math': 'icon-mdi-calculator',
+  'Measurement': 'icon-mdi-ruler',
+  'Text': 'icon-mdi-text',
+  'Data': 'icon-mdi-database',
+};
+
+const getCategoryIcon = (name: string) => categoryIcons[name] || 'icon-mdi-folder';
+
 const collapsedCategories = useStorage<Record<string, boolean>>(
   'menu-tool-option:collapsed-categories',
   {},
@@ -51,7 +66,11 @@ const themeVars = useThemeVars();
         <icon-mdi-chevron-right />
       </span>
 
-      <span ml-8px text-13px>
+      <span ml-8px mr-6px text-14px op-70>
+        <component :is="getCategoryIcon(name)" />
+      </span>
+
+      <span text-13px>
         {{ name }}
       </span>
     </div>

@@ -74,7 +74,10 @@ export function useValidation<T>({
         if (isFalsyOrHasThrown(() => rule.validator(source.value))) {
           if (rule.getErrorMessage) {
             const getErrorMessage = rule.getErrorMessage;
-            state.message = rule.message.replace('{0}', getErrorMessageOrThrown(() => getErrorMessage(source.value)));
+            state.message = rule.message.replace(
+              '{0}',
+              getErrorMessageOrThrown(() => getErrorMessage(source.value)),
+            );
           }
           else {
             state.message = rule.message;

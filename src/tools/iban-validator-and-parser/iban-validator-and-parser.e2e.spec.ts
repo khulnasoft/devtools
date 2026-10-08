@@ -1,13 +1,12 @@
 import { type Page, expect, test } from '@playwright/test';
 
 async function extractIbanInfo({ page }: { page: Page }) {
-  const itemsLines = await page
-    .locator('.c-key-value-list__item').all();
+  const itemsLines = await page.locator('.c-key-value-list__item').all();
 
   return await Promise.all(
     itemsLines.map(async item => [
-      (await item.locator('.c-key-value-list__key').textContent() ?? '').trim(),
-      (await item.locator('.c-key-value-list__value').textContent() ?? '').trim(),
+      ((await item.locator('.c-key-value-list__key').textContent()) ?? '').trim(),
+      ((await item.locator('.c-key-value-list__value').textContent()) ?? '').trim(),
     ]),
   );
 }
@@ -18,7 +17,7 @@ test.describe('Tool - Iban validator and parser', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('IBAN validator and parser - IT Tools');
+    await expect(page).toHaveTitle('IBAN validator and parser - Dev Tools');
   });
 
   test('iban info are extracted from a valid iban', async ({ page }) => {

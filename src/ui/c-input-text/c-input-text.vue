@@ -6,30 +6,55 @@ import { type UseValidationRule, useValidation } from '@/composable/validation';
 
 const props = withDefaults(
   defineProps<{
+    /** Input value */
     value?: string
+    /** Unique ID for the input element */
     id?: string
+    /** Placeholder text */
     placeholder?: string
+    /** Label for the input */
     label?: string
+    /** Whether the input is read-only */
     readonly?: boolean
+    /** Whether the input is disabled */
     disabled?: boolean
+    /** Validation rules for the input */
     validationRules?: UseValidationRule<string>[]
+    /** Reactive values to watch for validation */
     validationWatch?: Ref<unknown>[]
+    /** Validation instance (if using external validation) */
     validation?: ReturnType<typeof useValidation>
+    /** Position of the label relative to the input */
     labelPosition?: 'top' | 'left'
+    /** Width of the label when positioned to the left */
     labelWidth?: string
+    /** Alignment of the label text */
     labelAlign?: 'left' | 'right'
+    /** Whether to show a clear button */
     clearable?: boolean
+    /** Test ID for testing purposes */
     testId?: string
+    /** Autocapitalize attribute */
     autocapitalize?: 'none' | 'sentences' | 'words' | 'characters' | 'on' | 'off' | string
+    /** Autocomplete attribute */
     autocomplete?: 'on' | 'off' | string
+    /** Autocorrect attribute */
     autocorrect?: 'on' | 'off' | string
+    /** Spellcheck attribute */
     spellcheck?: 'true' | 'false' | boolean
+    /** Whether to display raw text without formatting */
     rawText?: boolean
+    /** Input type (text or password) */
     type?: 'text' | 'password'
+    /** Whether the input is multiline (textarea) */
     multiline?: boolean
+    /** Number of rows for multiline input */
     rows?: number | string
+    /** Whether to auto-size the textarea */
     autosize?: boolean
+    /** Whether to autofocus the input on mount */
     autofocus?: boolean
+    /** Whether to use monospace font */
     monospace?: boolean
   }>(),
   {
@@ -64,7 +89,25 @@ const emit = defineEmits(['update:value']);
 const value = useVModel(props, 'value', emit);
 const showPassword = ref(false);
 
-const { id, placeholder, label, validationRules, labelPosition, labelWidth, labelAlign, autosize, readonly, disabled, clearable, type, multiline, rows, rawText, autofocus, monospace } = toRefs(props);
+const {
+  id,
+  placeholder,
+  label,
+  validationRules,
+  labelPosition,
+  labelWidth,
+  labelAlign,
+  autosize,
+  readonly,
+  disabled,
+  clearable,
+  type,
+  multiline,
+  rows,
+  rawText,
+  autofocus,
+  monospace,
+} = toRefs(props);
 
 const validation
   = props.validation
@@ -83,11 +126,12 @@ const inputWrapperRef = ref<HTMLElement>();
 
 watch(
   [value, autosize, multiline, inputWrapperRef, textareaRef],
-  () => nextTick(() => {
-    if (props.multiline && autosize.value) {
-      resizeTextarea();
-    }
-  }),
+  () =>
+    nextTick(() => {
+      if (props.multiline && autosize.value) {
+        resizeTextarea();
+      }
+    }),
   { immediate: true },
 );
 

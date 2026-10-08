@@ -15,16 +15,19 @@ import {
 import type { DateFormat, ToDateMapper } from './date-time-converter.types';
 import {
   dateToExcelFormat,
+  dateToMicroseconds,
   excelFormatToDate,
   isExcelFormat,
   isISO8601DateTimeString,
   isISO9075DateString,
+  isMicrosecondTimestamp,
   isMongoObjectId,
   isRFC3339DateString,
   isRFC7231DateString,
   isTimestamp,
   isUTCDateString,
   isUnixTimestamp,
+  microsecondsToDate,
 } from './date-time-converter.models';
 import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
@@ -75,6 +78,12 @@ const formats: DateFormat[] = [
     fromDate: date => String(getTime(date)),
     toDate: ms => parseJSON(+ms),
     formatMatcher: date => isTimestamp(date),
+  },
+  {
+    name: 'Microseconds',
+    fromDate: dateToMicroseconds,
+    toDate: microsecondsToDate,
+    formatMatcher: date => isMicrosecondTimestamp(date),
   },
   {
     name: 'UTC format',

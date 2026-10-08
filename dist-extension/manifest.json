@@ -1,0 +1,75 @@
+{
+  "manifest_version": 3,
+  "name": "Dev Tools - Developer Tools Extension",
+  "version": "2024.10.22-7ca5933",
+  "description": "Quick access to developer tools from any webpage. Base64 converters, JSON tools, regex testers, and more.",
+  "author": "KhulnaSoft",
+  "homepage_url": "https://github.com/khulnasoft/devtools",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Dev Tools"
+  },
+  "background": {
+    "scripts": [
+      "browser-polyfill.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "browser-polyfill.js",
+        "content-script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+I",
+        "mac": "Command+Shift+I"
+      },
+      "description": "Open Dev Tools popup"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "toolbar.html",
+        "toolbar.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "it-tools@khulnasoft.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}

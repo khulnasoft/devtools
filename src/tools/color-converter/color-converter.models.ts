@@ -37,16 +37,16 @@ function buildColorFormat({
       rules: [
         {
           message: invalidMessage,
-          validator: v => withDefaultOnError(() => {
-            if (v === '') {
-              return true;
-            }
+          validator: v =>
+            withDefaultOnError(() => {
+              if (v === '') {
+                return true;
+              }
 
-            return parse(v).isValid();
-          }, false),
+              return parse(v).isValid();
+            }, false),
         },
       ],
     }),
-
   };
 }

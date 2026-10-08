@@ -23,11 +23,7 @@ const codesByCategoryFiltered = computed(() => {
 
 <template>
   <div>
-    <c-input-text
-      v-model:value="search"
-      placeholder="Search http status..."
-      autofocus raw-text mb-10
-    />
+    <c-input-text v-model:value="search" placeholder="Search http status..." autofocus raw-text mb-10 />
 
     <div v-for="{ codes, category } of codesByCategoryFiltered" :key="category" mb-8>
       <div mb-2 text-xl>

@@ -45,7 +45,7 @@ const details = computed(() => [
       </div>
     </c-card>
     <c-card>
-      <div v-for="({ label, value }) of details" :key="label" flex gap-3>
+      <div v-for="{ label, value } of details" :key="label" flex gap-3>
         <div flex-1 text-right op-60>
           {{ label }}
         </div>
@@ -56,7 +56,8 @@ const details = computed(() => [
     </c-card>
     <div op-70>
       <span font-bold>Note: </span>
-      The computed strength is based on the time it would take to crack the password using a brute force approach, it does not take into account the possibility of a dictionary attack.
+      The computed strength is based on the time it would take to crack the password using a brute force approach, it
+      does not take into account the possibility of a dictionary attack.
     </div>
   </div>
 </template>

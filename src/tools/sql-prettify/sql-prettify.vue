@@ -41,7 +41,8 @@ const prettySQL = computed(() => formatSQL(rawSQL.value, config));
         ]"
       />
       <c-select
-        v-model:value="config.keywordCase" label="Keyword case"
+        v-model:value="config.keywordCase"
+        label="Keyword case"
         flex-1
         :options="[
           { label: 'UPPERCASE', value: 'upper' },
@@ -50,7 +51,8 @@ const prettySQL = computed(() => formatSQL(rawSQL.value, config));
         ]"
       />
       <c-select
-        v-model:value="config.indentStyle" label="Indent style"
+        v-model:value="config.indentStyle"
+        label="Indent style"
         flex-1
         :options="[
           { label: 'Standard', value: 'standard' },

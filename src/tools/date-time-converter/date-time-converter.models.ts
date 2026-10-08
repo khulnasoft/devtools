@@ -7,10 +7,13 @@ export {
   isRFC7231DateString,
   isUnixTimestamp,
   isTimestamp,
+  isMicrosecondTimestamp,
   isUTCDateString,
   isMongoObjectId,
   dateToExcelFormat,
   excelFormatToDate,
+  dateToMicroseconds,
+  microsecondsToDate,
   isExcelFormat,
 };
 
@@ -36,6 +39,7 @@ const isRFC3339DateString = createRegexMatcher(RFC3339_REGEX);
 const isRFC7231DateString = createRegexMatcher(RFC7231_REGEX);
 const isUnixTimestamp = createRegexMatcher(/^[0-9]{1,10}$/);
 const isTimestamp = createRegexMatcher(/^[0-9]{1,13}$/);
+const isMicrosecondTimestamp = createRegexMatcher(/^[0-9]{14,16}$/);
 const isMongoObjectId = createRegexMatcher(/^[0-9a-fA-F]{24}$/);
 
 const isExcelFormat = createRegexMatcher(EXCEL_FORMAT_REGEX);
@@ -54,9 +58,17 @@ function isUTCDateString(date?: string) {
 }
 
 function dateToExcelFormat(date: Date) {
-  return String(((date.getTime()) / (1000 * 60 * 60 * 24)) + 25569);
+  return String(date.getTime() / (1000 * 60 * 60 * 24) + 25569);
 }
 
 function excelFormatToDate(excelFormat: string | number) {
   return new Date((Number(excelFormat) - 25569) * 86400 * 1000);
+}
+
+function dateToMicroseconds(date: Date) {
+  return String(date.getTime() * 1000);
+}
+
+function microsecondsToDate(microseconds: string | number) {
+  return new Date(Number(microseconds) / 1000);
 }

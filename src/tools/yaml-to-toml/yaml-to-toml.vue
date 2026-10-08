@@ -6,7 +6,9 @@ import type { UseValidationRule } from '@/composable/validation';
 
 const convertYamlToToml = (value: string) => [stringifyToml(parseYaml(value))].flat().join('\n').trim();
 
-const transformer = (value: string) => value.trim() === '' ? '' : withDefaultOnError(() => convertYamlToToml(value), '');
+function transformer(value: string) {
+  return value.trim() === '' ? '' : withDefaultOnError(() => convertYamlToToml(value), '');
+}
 
 const rules: UseValidationRule<string>[] = [
   {
