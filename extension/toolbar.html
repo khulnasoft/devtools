@@ -5,36 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DevTools toolbar</title>
   <style>
-    :root { color-scheme: light dark; --panel: #1d1d1f; --panel-hover: #2b2b2e; --panel-active: #343438; --text: #f5f5f5; --muted: #a1a1aa; --border: rgba(255,255,255,.16); }
+    :root { color-scheme: dark; --panel: #050505; --panel-soft: #0b0b0b; --panel-hover: #151515; --text: #ededed; --muted: #8b8b8b; --faint: #5d5d5d; --border: #292929; --blue: #0070f3; }
     * { box-sizing: border-box; }
     html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     body { background: transparent; color: var(--text); pointer-events: none; }
     button, input { font: inherit; }
-    .it-toolbar { position: fixed; right: 16px; bottom: 16px; display: flex; align-items: center; gap: 2px; min-height: 42px; padding: 4px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); box-shadow: 0 8px 30px rgba(0,0,0,.24), 0 2px 8px rgba(0,0,0,.16); z-index: 2; pointer-events: auto; }
-    .it-toolbar::before { content: ""; width: 18px; height: 18px; margin: 0 5px 0 4px; background: currentColor; clip-path: polygon(50% 0, 100% 100%, 0 100%); color: var(--text); }
-    .toolbar-btn { position: relative; display: grid; place-items: center; width: 32px; height: 32px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); cursor: pointer; transition: background .14s, color .14s, transform .14s; }
-    .toolbar-btn:hover, .toolbar-btn.active { background: var(--panel-hover); color: var(--text); }
+    .it-toolbar { position: fixed; left: 12px; bottom: 14px; display: flex; flex-direction: column; align-items: center; gap: 2px; width: 34px; padding: 4px 3px; border: 1px solid #303030; border-radius: 17px; background: #171717; box-shadow: 0 8px 28px rgba(0,0,0,.45); z-index: 2; pointer-events: auto; }
+    .it-toolbar::before { content: ""; width: 19px; height: 19px; margin: 1px 0 4px; background: #f5f5f5; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+    .toolbar-btn { position: relative; display: grid; place-items: center; width: 26px; height: 26px; border: 0; border-radius: 50%; background: transparent; color: #bdbdbd; cursor: pointer; transition: background .14s, color .14s, transform .14s; }
+    .toolbar-btn:hover, .toolbar-btn.active { background: #2b2b2b; color: #fff; }
     .toolbar-btn:active { transform: scale(.94); }
-    .toolbar-btn svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-    .status-indicator { position: absolute; top: 5px; right: 5px; width: 5px; height: 5px; border-radius: 50%; background: #46e47b; box-shadow: 0 0 0 2px var(--panel); }
+    .toolbar-btn svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+    .status-indicator { position: absolute; top: 5px; right: 5px; width: 5px; height: 5px; border-radius: 50%; background: #46e47b; box-shadow: 0 0 0 2px #171717; }
     .status-indicator.sleeping { background: #71717a; }
-    .tooltip { position: absolute; right: 0; bottom: calc(100% + 8px); transform: translateY(4px); opacity: 0; pointer-events: none; white-space: nowrap; padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); color: var(--text); font-size: 11px; box-shadow: 0 6px 16px rgba(0,0,0,.25); transition: opacity .15s, transform .15s; }
-    .toolbar-btn:hover .tooltip { opacity: 1; transform: translateY(0); }
-    .menu-panel { position: absolute; right: 0; bottom: calc(100% + 9px); width: 318px; max-height: min(560px, calc(100vh - 32px)); overflow: hidden auto; padding: 7px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel); box-shadow: 0 18px 50px rgba(0,0,0,.36); opacity: 0; visibility: hidden; transform: translateY(7px); transition: opacity .16s, transform .16s, visibility .16s; pointer-events: none; }
+    .tooltip { position: absolute; left: 34px; bottom: 0; transform: translateX(-4px); opacity: 0; pointer-events: none; white-space: nowrap; padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; background: #171717; color: var(--text); font-size: 11px; box-shadow: 0 6px 16px rgba(0,0,0,.35); transition: opacity .15s, transform .15s; }
+    .toolbar-btn:hover .tooltip { opacity: 1; transform: translateX(0); }
+    .menu-panel { position: absolute; left: 92px; bottom: -1px; width: 618px; max-height: min(650px, calc(100vh - 78px)); overflow: hidden auto; padding: 0 10px 14px; border: 1px solid #292929; border-radius: 12px; background: #000; box-shadow: 0 24px 70px rgba(0,0,0,.7); opacity: 0; visibility: hidden; transform: translateY(7px); transition: opacity .16s, transform .16s, visibility .16s; pointer-events: none; }
     .menu-panel.open { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
-    .search-wrap { position: sticky; top: 0; padding-bottom: 7px; background: var(--panel); }
-    .menu-search { width: 100%; padding: 8px 10px 8px 30px; border: 1px solid var(--border); border-radius: 7px; outline: 0; background: var(--panel-hover); color: var(--text); font-size: 12px; }
-    .menu-search:focus { border-color: rgba(255,255,255,.45); }
-    .search-icon { position: absolute; top: 9px; left: 10px; color: var(--muted); }
-    .search-icon svg { width: 14px; height: 14px; }
-    .menu-section-title { padding: 9px 8px 5px; color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
-    .menu-item { display: flex; align-items: center; gap: 9px; width: 100%; padding: 8px; border: 0; border-radius: 7px; background: transparent; color: var(--text); text-align: left; cursor: pointer; }
-    .menu-item:hover { background: var(--panel-hover); }
-    .menu-item-icon { display: grid; place-items: center; width: 23px; height: 23px; border-radius: 5px; background: var(--panel-active); color: #d4d4d8; font-size: 11px; font-weight: 700; }
-    .menu-item-text { flex: 1; font-size: 12px; }
-    .menu-item-description { display: block; margin-top: 1px; color: var(--muted); font-size: 10px; }
-    .menu-item-shortcut { color: var(--muted); font-size: 10px; }
-    .menu-divider { height: 1px; margin: 5px 4px; background: var(--border); }
+    .search-wrap { position: sticky; top: 0; z-index: 1; padding: 12px 2px 10px; background: #000; }
+    .menu-search { width: 100%; padding: 3px 44px 8px 2px; border: 0; border-bottom: 1px solid #292929; outline: 0; background: transparent; color: var(--text); font-size: 18px; font-weight: 400; }
+    .menu-search::placeholder { color: #8a8a8a; }
+    .menu-search:focus { border-color: #555; }
+    .search-icon { display: none; }
+    .workspace-row { display: flex; align-items: center; gap: 12px; padding: 6px 4px 12px; border-bottom: 1px solid #181818; font-size: 13px; }
+    .workspace-row strong { display: block; font-weight: 500; }
+    .workspace-row code { display: block; margin-top: 5px; color: #d2d2d2; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+    .workspace-dot { width: 8px; height: 8px; flex: 0 0 auto; border-radius: 50%; background: #00d084; }
+    .workspace-id { color: #666; font-weight: 400; }
+    .avatars { display: flex; margin-left: auto; }
+    .avatars span { display: grid; place-items: center; width: 21px; height: 21px; margin-left: -4px; border: 2px solid #000; border-radius: 50%; background: #555; color: #fff; font-size: 8px; }
+    .avatars span:nth-child(2) { background: #8b5e4c; }
+    .avatars span:nth-child(3) { background: #31728c; }
+    .shortcut-label { padding: 13px 4px 6px; color: #777; font-size: 12px; }
+    .shortcut-row { display: flex; gap: 7px; padding: 0 4px 10px; }
+    .shortcut-btn { display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid #292929; border-radius: 50%; background: #090909; color: #d0d0d0; cursor: pointer; font-size: 9px; }
+    .shortcut-btn:hover { border-color: #555; background: #151515; color: #fff; }
+    .shortcut-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .menu-section-title { padding: 8px 4px 6px; color: #777; font-size: 12px; font-weight: 400; }
+    .menu-item { display: flex; align-items: center; gap: 12px; width: 100%; padding: 8px 4px; border: 0; border-radius: 6px; background: transparent; color: var(--text); text-align: left; cursor: pointer; }
+    .menu-item:hover { background: #101010; }
+    .menu-item-icon { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: #0d0d0d; border: 1px solid #272727; color: #d4d4d4; font-size: 10px; font-weight: 500; }
+    .menu-item-text { flex: 1; font-size: 14px; }
+    .menu-item-description { display: none; }
+    .menu-item-shortcut { min-width: 20px; padding: 2px 5px; border: 1px solid #333; border-radius: 4px; color: #aaa; font-size: 11px; text-align: center; }
+    .menu-divider { height: 1px; margin: 7px 4px; background: #181818; }
     .empty { padding: 24px 8px; color: var(--muted); text-align: center; font-size: 12px; }
     .drag-handle { position: absolute; inset: 0 0 auto; height: 5px; cursor: move; }
   </style>
@@ -60,6 +74,22 @@
     </button>
     <section class="menu-panel" id="menuPanel" aria-label="DevTools menu">
       <div class="search-wrap"><span class="search-icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></span><input class="menu-search" id="menuSearch" type="search" placeholder="Search all tools…" autocomplete="off" aria-label="Search all tools"></div>
+      <div class="workspace-row">
+        <span class="workspace-dot" aria-hidden="true"></span>
+        <div><strong>v0 everywhere <span class="workspace-id">#80624</span></strong><code>front/universal-v0</code></div>
+        <div class="avatars" aria-label="Collaborators"><span>J</span><span>M</span><span>K</span></div>
+      </div>
+      <div class="shortcut-label">Shortcuts</div>
+      <div class="shortcut-row" aria-label="Shortcuts">
+        <button class="shortcut-btn" type="button" data-id="search" aria-label="Search"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 16 0"/><path d="M4 12c0 4 3 7 8 7s8-3 8-7"/></svg></button>
+        <button class="shortcut-btn" type="button" data-id="inspect" aria-label="Inspect"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></button>
+        <button class="shortcut-btn" type="button" data-id="screenshot" aria-label="Screenshot"><svg viewBox="0 0 24 24"><path d="M4 8h3l2-2h6l2 2h3v10H4Z"/><circle cx="12" cy="13" r="3"/></svg></button>
+        <button class="shortcut-btn" type="button" data-path="generate-image" aria-label="Generate image">IMG</button>
+        <button class="shortcut-btn" type="button" data-path="generate-text" aria-label="Generate text">T</button>
+        <button class="shortcut-btn" type="button" data-path="json-viewer" aria-label="JSON viewer">{}</button>
+        <button class="shortcut-btn" type="button" data-path="color-converter" aria-label="Color converter">◉</button>
+        <button class="shortcut-btn" type="button" data-path="" aria-label="All tools"><svg viewBox="0 0 24 24"><path d="M5 5h2M11 5h2M17 5h2M5 12h2M11 12h2M17 12h2M5 19h2M11 19h2M17 19h2"/></svg></button>
+      </div>
       <div id="toolSections"></div>
     </section>
   </aside>

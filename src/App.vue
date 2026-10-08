@@ -4,6 +4,7 @@ import { NGlobalStyle, NMessageProvider, NNotificationProvider, darkTheme } from
 import { darkThemeOverrides, lightThemeOverrides } from './themes';
 import { layouts } from './layouts';
 import { useStyleStore } from './stores/style.store';
+import VercelToolbar from './components/VercelToolbar.vue';
 
 const route = useRoute();
 const layout = computed(() => route?.meta?.layout ?? layouts.base);
@@ -27,6 +28,7 @@ syncRef(locale, useStorage('locale', locale));
         </component>
       </NNotificationProvider>
     </NMessageProvider>
+    <VercelToolbar />
   </n-config-provider>
 </template>
 
